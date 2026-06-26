@@ -1,1 +1,48 @@
+project:
+  name: Kalaignar Digital Library
+  version: 1.0
 
+book:
+  id: nenjukku-needhi
+  title: "நெஞ்சுக்கு நீதி"
+  author: "மு. கருணாநிதி"
+
+volumes:
+
+  - id: 1
+    title: "Volume 1"
+    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_1.pdf"
+    output: "data/raw/volume1"
+
+  - id: 2
+    title: "Volume 2"
+    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_2.pdf"
+    output: "data/raw/volume2"
+
+  - id: 3
+    title: "Volume 3"
+    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_3.pdf"
+    output: "data/raw/volume3"
+
+  - id: 4
+    title: "Volume 4"
+    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_4.pdf"
+    output: "data/raw/volume4"
+
+  - id: 5
+    title: "Volume 5"
+    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_5.pdf"
+    output: "data/raw/volume5"
+
+  - id: 6
+    title: "Volume 6"
+    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_6.pdf"
+    output: "data/raw/volume6"
+
+storage:
+  extracted: data/extracted
+  markdown: volumes
+
+network:
+  timeout: 20
+  delay_seconds: 1
