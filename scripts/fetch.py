@@ -9,8 +9,11 @@ HEADERS = {
     "User-Agent": "Kalaignar Digital Library Bot/1.0"
 }
 
+ROOT = Path(__file__).resolve().parent.parent
+CONFIG = ROOT / "config.yaml"
+
 def load_config():
-    with open("config.yaml", "r", encoding="utf-8") as f:
+    with open(CONFIG, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
