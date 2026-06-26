@@ -22,32 +22,32 @@ volumes:
   - id: 1
     title: "Volume 1"
     base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_1.pdf"
-    output: "data/raw/volume1"
+    output: "data/volume1"
 
   - id: 2
     title: "Volume 2"
     base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_2.pdf"
-    output: "data/raw/volume2"
+    output: "data/volume2"
 
   - id: 3
     title: "Volume 3"
     base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_3.pdf"
-    output: "data/raw/volume3"
+    output: "data/volume3"
 
   - id: 4
     title: "Volume 4"
     base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_4.pdf"
-    output: "data/raw/volume4"
+    output: "data/volume4"
 
   - id: 5
     title: "Volume 5"
     base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_5.pdf"
-    output: "data/raw/volume5"
+    output: "data/volume5"
 
   - id: 6
     title: "Volume 6"
     base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_6.pdf"
-    output: "data/raw/volume6"
+    output: "data/volume6"
 
 storage:
   raw_html: data/raw_html
