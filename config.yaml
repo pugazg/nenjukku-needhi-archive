@@ -1,72 +1,56 @@
 project:
-  name: Kalaignar Digital Library
-  version: 1.0
-  language: ta
-  license: CC BY-SA 4.0
-  repository: https://github.com/<your-username>/nenjukku-needhi-archive
-
-book:
-  id: nenjukku-needhi
-  title: "நெஞ்சுக்கு நீதி"
-  title_en: "Nenjukku Needhi"
-  author: "மு. கருணாநிதி"
-  author_en: "M. Karunanidhi"
-  publisher: "Tamil Wikisource"
-  source: "https://ta.wikisource.org"
-  description: >
-    Digital archival edition of Nenjukku Needhi,
-    preserving page-level text, metadata and scans.
-
-volumes:
-
-  - id: 1
-    title: "Volume 1"
-    base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_1.pdf"
-    output: "data/volume1"
-
-  - id: 2
-    title: "Volume 2"
-    base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_2.pdf"
-    output: "data/volume2"
-
-  - id: 3
-    title: "Volume 3"
-    base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_3.pdf"
-    output: "data/volume3"
-
-  - id: 4
-    title: "Volume 4"
-    base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_4.pdf"
-    output: "data/volume4"
-
-  - id: 5
-    title: "Volume 5"
-    base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_5.pdf"
-    output: "data/volume5"
-
-  - id: 6
-    title: "Volume 6"
-    base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_6.pdf"
-    output: "data/volume6"
+  name: "Kalaignar Digital Library"
+  version: "1.0"
 
 storage:
-  raw_html: data/raw_html
-  raw_text: data/raw_text
-  markdown: volumes
-  json: data/json
-  scans: assets/scans
-  logs: logs
+  root: "data/books"
 
 network:
   timeout: 30
   delay_seconds: 1
   retries: 3
-  user_agent: "Kalaignar Digital Library Bot/1.0"
+  user_agent: "KalaignarDigitalLibraryBot/1.0"
 
-processing:
-  save_html: true
-  save_markdown: true
-  save_json: true
-  save_scan: false
-  resume: true
-  overwrite: false
+books:
+
+  - id: "nenjukku-needhi"
+
+    title: "நெஞ்சுக்கு நீதி"
+
+    author: "மு. கருணாநிதி"
+
+    language: "ta"
+
+    source: "wikisource"
+
+    volumes:
+
+      - id: 1
+        title: "Volume 1"
+        pages: 378
+        base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_1.pdf"
+
+      - id: 2
+        title: "Volume 2"
+        pages: 0
+        base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_2.pdf"
+
+      - id: 3
+        title: "Volume 3"
+        pages: 0
+        base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_3.pdf"
+
+      - id: 4
+        title: "Volume 4"
+        pages: 0
+        base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_4.pdf"
+
+      - id: 5
+        title: "Volume 5"
+        pages: 0
+        base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_5.pdf"
+
+      - id: 6
+        title: "Volume 6"
+        pages: 0
+        base_url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_6.pdf"
