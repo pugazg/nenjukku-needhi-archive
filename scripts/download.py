@@ -1,104 +1,236 @@
+#!/usr/bin/env python3
+"""
+Kalaignar Digital Library
+download.py
+
+Downloads every Wikisource page for each volume defined
+in config.yaml.
+
+Features
+--------
+✓ Resume support
+✓ Skip existing pages
+✓ Automatic end detection
+✓ Retry failed downloads
+✓ Logging
+✓ Multi-volume support
+
+Author:
+Kalaignar Digital Library Project
+"""
+
 import os
 import time
-import yaml
-import requests
+import logging
 from pathlib import Path
 
-# -----------------------------------------------------
-# Load Config
-# -----------------------------------------------------
+import yaml
+import requests
+from bs4 import BeautifulSoup
 
-with open("config.yaml", "r", encoding="utf-8") as f:
+CONFIG_FILE = "config.yaml"
+
+
+# --------------------------------------------------
+# Logging
+# --------------------------------------------------
+
+os.makedirs("logs", exist_ok=True)
+
+logging.basicConfig(
+    filename="logs/download.log",
+    level=logging.INFO,
+    format="%(asctime)s %(message)s"
+)
+
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+logging.getLogger("").addHandler(console)
+
+
+# --------------------------------------------------
+# Load Config
+# --------------------------------------------------
+
+with open(CONFIG_FILE, "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
-storage_root = config["storage"]["root"]
+network = config["network"]
 
-timeout = config["network"]["timeout"]
-delay = config["network"]["delay_seconds"]
-retries = config["network"]["retries"]
-user_agent = config["network"]["user_agent"]
+TIMEOUT = network.get("timeout", 20)
+DELAY = network.get("delay_seconds", 1)
+RETRIES = network.get("retries", 3)
+MAX_MISSING = network.get("max_missing_pages", 25)
 
-headers = {
-    "User-Agent": user_agent
+
+HEADERS = {
+    "User-Agent":
+        "Kalaignar-Digital-Library/2.0 "
+        "(Educational Archival Project)"
 }
 
-# -----------------------------------------------------
-# Download Function
-# -----------------------------------------------------
 
-def download_page(url, output_file):
+# --------------------------------------------------
+# Helpers
+# --------------------------------------------------
 
-    for attempt in range(retries):
+def download_page(url):
+    """
+    Download a single HTML page.
+    """
+
+    for attempt in range(RETRIES):
 
         try:
 
-            response = requests.get(
+            r = requests.get(
                 url,
-                headers=headers,
-                timeout=timeout
+                timeout=TIMEOUT,
+                headers=HEADERS
             )
 
-            if response.status_code == 200:
+            if r.status_code == 200:
+                return r.text
 
-                with open(output_file, "w", encoding="utf-8") as f:
-                    f.write(response.text)
+            if r.status_code == 404:
+                return None
 
-                print(f"✓ {output_file.name}")
+        except requests.RequestException:
 
-                return True
+            logging.warning(
+                f"Retry {attempt+1} : {url}"
+            )
 
-            else:
+            time.sleep(2)
 
-                print(f"HTTP {response.status_code}")
-
-        except Exception as e:
-
-            print(e)
-
-        time.sleep(2)
-
-    return False
+    return None
 
 
-# -----------------------------------------------------
-# Main
-# -----------------------------------------------------
+def has_wikisource_content(html):
 
-for book in config["books"]:
+    soup = BeautifulSoup(html, "html.parser")
 
-    book_id = book["id"]
+    content = soup.find("div", class_="mw-parser-output")
 
-    for volume in book["volumes"]:
+    if content is None:
+        return False
 
-        volume_id = volume["id"]
+    text = content.get_text(strip=True)
 
-        pages = volume["pages"]
+    return len(text) > 100
 
-        if pages == 0:
-            print(f"Skipping Volume {volume_id} (page count unknown)")
+
+# --------------------------------------------------
+# Download Volume
+# --------------------------------------------------
+
+def process_volume(volume):
+
+    output = Path(volume["output"])
+    output.mkdir(parents=True, exist_ok=True)
+
+    base = volume["url"]
+
+    logging.info("")
+    logging.info("=" * 60)
+    logging.info(f"Downloading {volume['title']}")
+    logging.info("=" * 60)
+
+    page = 1
+    missing = 0
+
+    while True:
+
+        filename = output / f"{page:04d}.html"
+
+        if filename.exists():
+
+            logging.info(
+                f"Page {page:04d}  ✓ Exists"
+            )
+
+            page += 1
+            missing = 0
             continue
 
-        base_url = volume["base_url"]
+        url = f"{base}/{page}"
 
-        output_folder = Path(
-            storage_root
-        ) / book_id / "raw" / f"volume{volume_id}"
+        logging.info(
+            f"Downloading page {page}"
+        )
 
-        output_folder.mkdir(parents=True, exist_ok=True)
+        html = download_page(url)
 
-        print(f"\nDownloading Volume {volume_id}")
+        if html is None:
 
-        for page in range(1, pages + 1):
+            missing += 1
 
-            url = f"{base_url}/{page}"
+            logging.info(
+                f"Missing page {page} "
+                f"({missing}/{MAX_MISSING})"
+            )
 
-            filename = output_folder / f"{page:04d}.html"
+            if missing >= MAX_MISSING:
 
-            if filename.exists():
-                continue
+                logging.info("")
+                logging.info(
+                    f"Finished {volume['title']}"
+                )
 
-            download_page(url, filename)
+                break
 
-            time.sleep(delay)
+            page += 1
+            continue
 
-print("\nDone.")
+        if not has_wikisource_content(html):
+
+            missing += 1
+
+            logging.info(
+                f"No content page {page}"
+            )
+
+            if missing >= MAX_MISSING:
+                break
+
+            page += 1
+            continue
+
+        missing = 0
+
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(html)
+
+        logging.info(
+            f"Saved {filename.name}"
+        )
+
+        time.sleep(DELAY)
+
+        page += 1
+
+
+# --------------------------------------------------
+# Main
+# --------------------------------------------------
+
+def main():
+
+    logging.info("")
+    logging.info("=" * 70)
+    logging.info("Kalaignar Digital Library")
+    logging.info("Downloader Started")
+    logging.info("=" * 70)
+
+    for volume in config["volumes"]:
+
+        process_volume(volume)
+
+    logging.info("")
+    logging.info("=" * 70)
+    logging.info("Download Complete")
+    logging.info("=" * 70)
+
+
+if __name__ == "__main__":
+    main()
