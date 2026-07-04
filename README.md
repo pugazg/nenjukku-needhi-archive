@@ -3,7 +3,9 @@
 - [x] Downloader
 - [x] Raw HTML Archive
 - [x] HTML Extractor
-- [ ] Text Cleaning
+- [x] Text Cleaning
+- [x] Volume Builder
+- [x] Analyzer  
 - [ ] Chapter Detection
 - [ ] Book Assembly
 - [ ] Search Index
