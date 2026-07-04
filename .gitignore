@@ -1,6 +1,6 @@
 # macOS
+# macOS
 .DS_Store
-**/.DS_Store
 
 # Python
 __pycache__/
@@ -8,6 +8,15 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+# Logs
+logs/*.log
+
+# Cache
+cache/
+
+# Temporary
+*.tmp
 
 # Python virtual environments
 .venv/

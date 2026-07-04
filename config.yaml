@@ -1,46 +1,46 @@
 project:
   name: Kalaignar Digital Library
-  version: 2.0
+  version: 4.0
 
 book:
   id: nenjukku-needhi
   title: "நெஞ்சுக்கு நீதி"
   author: "மு. கருணாநிதி"
 
-volumes:
-
-  - id: 1
-    title: Volume 1
-    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_1.pdf"
-    output: "data/books/nenjukku-needhi/raw/volume1"
-
-  - id: 2
-    title: Volume 2
-    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_2.pdf"
-    output: "data/books/nenjukku-needhi/raw/volume2"
-
-  - id: 3
-    title: Volume 3
-    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_3.pdf"
-    output: "data/books/nenjukku-needhi/raw/volume3"
-
-  - id: 4
-    title: Volume 4
-    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_4.pdf"
-    output: "data/books/nenjukku-needhi/raw/volume4"
-
-  - id: 5
-    title: Volume 5
-    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_5.pdf"
-    output: "data/books/nenjukku-needhi/raw/volume5"
-
-  - id: 6
-    title: Volume 6
-    url: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_6.pdf"
-    output: "data/books/nenjukku-needhi/raw/volume6"
-
 network:
   timeout: 20
   delay_seconds: 1
   retries: 3
-  max_missing_pages: 25
+  max_missing_pages: 30
+
+volumes:
+
+  - id: 1
+    title: "Volume 1"
+    output: "data/books/nenjukku-needhi/raw/volume1"
+    url_template: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_1.pdf/{page}"
+
+  - id: 2
+    title: "Volume 2"
+    output: "data/books/nenjukku-needhi/raw/volume2"
+    url_template: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_2.pdf/{page}"
+
+  - id: 3
+    title: "Volume 3"
+    output: "data/books/nenjukku-needhi/raw/volume3"
+    url_template: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_பாகம்_3.pdf/{page}"
+
+  - id: 4
+    title: "Volume 4"
+    output: "data/books/nenjukku-needhi/raw/volume4"
+    url_template: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_பாகம்_4.pdf/{page}"
+
+  - id: 5
+    title: "Volume 5"
+    output: "data/books/nenjukku-needhi/raw/volume5"
+    url_template: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_பாகம்_5.pdf/{page}"
+
+  - id: 6
+    title: "Volume 6"
+    output: "data/books/nenjukku-needhi/raw/volume6"
+    url_template: "https://ta.wikisource.org/wiki/பக்கம்:நெஞ்சுக்கு_நீதி_பாகம்_6.pdf/{page}"
