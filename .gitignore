@@ -1,5 +1,4 @@
 # macOS
-# macOS
 .DS_Store
 
 # Python
@@ -17,7 +16,3 @@ cache/
 
 # Temporary
 *.tmp
-
-# Python virtual environments
-.venv/
-env/
