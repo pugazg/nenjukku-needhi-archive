@@ -5,7 +5,7 @@
   "tamil_title": "பிறந்த ஆண்டு",
   "title": "The Year I Was Born",
   "pages": {"start": 15, "end": 21},
-  "status": "t3-english-review",
+  "status": "thought-structure-review",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -75,11 +75,11 @@
     "It was the time when Stalin—whose fervour for his leader Lenin matched the almost-mad devotion I bear my leader Anna—rose to power!",
     "Trotskyism, over-intellectualism, and a statecraft that lacked confidence in itself were all struck down in that year. As though history were declaring that the marks of firm leadership are the power of labour, unwavering loyalty to one's leader, and selfless zeal in serving the people, Stalin in that very year assumed leadership of a movement that held sway over one-third of the world.",
     "In 1924, inside the fortress prison of Bavaria, Adolf Hitler was writing his autobiography, Mein Kampf. The world knows how completely that autobiography would later turn upside down the old histories of so many countries and societies.",
-    "Nazism, fascism and communism were all rising strongly in 1924. Yet in India, in the case of Gandhiji, the masses displayed the special respect society can show an individual out of love, and the immense affection a multitude can openly express.",
+    "Nazism, fascism and communism were all rising strongly in 1924. Yet in India, through Gandhiji, the masses displayed the special respect society can show an individual out of love, and the immense affection a multitude can openly express.",
     "One may say that another idea too was beginning to sprout in that period: if Indian politics was to be conducted democratically, leaders of distinctive stature would have to emerge in the different states, just as Gandhiji had emerged for India as a whole.",
     "It was through this mingling of conflicting currents that 1924 made its way.",
     "And it was in that year that I was born.",
-    "The 1924 in which I was born was also the year in which the Cauvery water agreement was concluded between Mysore and our state. The agreement was made for fifty years. It is to be reconsidered in 1974.",
+    "The year 1924, in which I was born, was also the year in which the Cauvery water agreement was concluded between Mysore and our state. The agreement was made for fifty years. It is to be reconsidered in 1974.",
     "Tamils are concerned that the decisions taken in that reconsideration should not injure Tamil Nadu's rights.",
     "In the meantime, the Chief Minister of Mysore has ventured to proceed with the Hemavathi project despite the opposition of the Tamil Nadu Government. The Tamil Nadu Government has conveyed its emphatic opposition to the Union Government.",
     "When I was born in 1924, the year of the Mysore–Tamil Nadu agreement, who could have imagined that I would one day become Chief Minister of Tamil Nadu and stand against the Hemavathi dam project because it threatened to impair that agreement?",
@@ -97,6 +97,7 @@
     "translation_plan": "docs/TRANSLATION_PLAN.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
     "t2_review": "../reviews/v1-ch01-t2.md",
-    "next_gate": "t3-english-review"
+    "t3_review": "../reviews/v1-ch01-t3.md",
+    "next_gate": "thought-structure-review"
   }
 }
