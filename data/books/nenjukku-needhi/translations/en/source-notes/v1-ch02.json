@@ -1,0 +1,67 @@
+{
+  "id": "v1-ch02",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "path": "public/data/text/v1-ch02.json",
+    "blob_sha": "c62e9056a5a78158d8ee43fe0dd0b4eb798ecf81",
+    "authority": "read-only"
+  },
+  "tamil_title": "தந்தையின் துணிவு",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first source extraction unit begins by repeating the chapter title 'தந்தையின் துணிவு'.",
+      "translation_action": "Represent the heading in title metadata and do not translate the extraction repeat as body prose."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "The source breaks the word across extraction units as 'கேட்க-' followed by 'லாம்'.",
+      "translation_action": "Read as the continuous word 'கேட்கலாம்' in context and record the intervention rather than treating the hyphen as authorial punctuation."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "A later extraction boundary ends with 'விடு-' and continues syntactically in the following unit.",
+      "translation_action": "Reconstruct the continuous sentence before translating; preserve extraction-unit traceability in alignment."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "informational",
+      "observation": "Narrative prose, song quotations and page joins do not correspond reliably to the JSON element boundaries.",
+      "translation_action": "Reconstruct literary prose/verse units from syntax and form; record the mapping in alignment metadata."
+    },
+    {
+      "type": "verse_or_song",
+      "severity": "voice-sensitive",
+      "observation": "The chapter embeds satirical songs attributed to Muthuvelar. They function as evidence of his courage and social criticism, not as detachable decoration.",
+      "translation_action": "Translate them as verse/song, preserving speaker, attack, imagery and satire; do not flatten them into prose summary."
+    },
+    {
+      "type": "tone_shift",
+      "severity": "voice-sensitive",
+      "observation": "The chapter repeatedly moves among bereavement, village portraiture, social criticism, devotion/traditional healing, agricultural detail, family affection and humour.",
+      "translation_action": "Do not normalise the whole chapter into one solemn or academic register. Preserve the sudden tonal turns and punchlines."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "exclusion-required",
+      "observation": "The final two source extraction units are Wikisource maintenance notices stating that duplicate pages should not be proofread and linking to page 26 / page 27. They are editorial interface/source-management text, not Kalaignar's memoir.",
+      "translation_action": "Exclude both units from the literary English translation. Their exclusion remains explicitly recorded here."
+    }
+  ],
+  "non_authorial_exclusions": [
+    {
+      "source_unit": 6,
+      "reason": "Wikisource duplicate-page/proofreading maintenance notice; not authorial memoir text."
+    },
+    {
+      "source_unit": 7,
+      "reason": "Wikisource duplicate-page/proofreading maintenance notice; not authorial memoir text."
+    }
+  ],
+  "unresolved": [],
+  "status": "ready-for-t1"
+}
