@@ -193,6 +193,34 @@ A gesture unfamiliar in English need not be replaced by a more familiar gesture 
 
 In `v1-ch03`, relatives welcome Kalaignar by `உச்சிமோந்து` — smelling the crown of his head out of affection. The English keeps that gesture rather than converting it into a generic kiss. A short contextual phrase may make the affection clear, but the physical action should survive.
 
+## 28. Historical proper names may be normalised, but the normalisation must be disclosed
+
+A Tamil organisation name may have an established English proper name that is not a literal translation of the Tamil wording. When that English name is secure and materially improves scholarly traceability, use it in the translation and document the decision in source notes.
+
+`v1-ch04` provides the first production example: `தென்னிந்திய நல உரிமைச் சங்கம்` is rendered as **South Indian Liberal Federation (SILF)** rather than the literal `South Indian Welfare Rights Association`. The memoir's historical account is not being corrected; only the English proper name is being normalised.
+
+Do not use this rule to replace an author's ideological terminology with a later label. Proper-name normalisation is narrower than conceptual rewriting.
+
+## 29. Period institutions must be named by their historical structure, not by modern English habit
+
+When a memoir uses a broad Tamil institutional term such as `சட்டசபை`, determine the actual historical body from date and context before choosing English. Do not automatically use today's `Legislative Assembly` for every occurrence.
+
+In `v1-ch04`, the 1920s Madras Presidency body was the **Legislative Council**, and its presiding officer was the **President of the Legislative Council**. `முதல் மந்திரி` is retained as the period title **First Minister**, rather than being modernised to `Chief Minister`.
+
+This is institutional precision, not fact-correction of Kalaignar's historical narrative.
+
+## 30. Political categories require historical register, not modern bureaucratic substitution
+
+Terms such as `தாழ்த்தப்பட்ட`, `பிற்படுத்தப்பட்ட`, `திராவிடப் பெருங்குடி`, `சுயமரியாதை`, `பகுத்தறிவு` and `சுயாட்சி` carry historical ideological and social registers. Translate their function in Kalaignar's period rather than silently replacing them with later government classifications or contemporary activist terminology.
+
+For `v1-ch04` the working forms are `backward communities`, `depressed communities/people`, `great Dravidian community`, `Self-Respect Movement`, `rationalism`, and `self-government`/`Swaraj` according to context.
+
+## 31. Preserve the active force of `சொற்போர்`
+
+`சொற்போர்` is a conventional Tamil term for debate, but its literal force is a `war of words`. Where Kalaignar is describing a political or student debating culture, `debate` or `verbal debate` is preferable to the flatter `discussion`.
+
+`v1-ch04` therefore uses `weekly verbal debates` for Anna's participation in the student forum. The English should preserve contest and oratorical energy without inventing an English dialect or melodrama.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -214,6 +242,12 @@ Its review established durable practice for culturally specific lexical verifica
 The chapter moves from orthodox childhood rites and a comic stolen-hair-pot anecdote into caste humiliation and social revolt, then childhood theatre, intense nostalgia, remembered superstition, later rationalist reinterpretation, village humour and grief, and finally the departure for Tiruvarur schooling.
 
 Its T2 review adds durable practice for historical/dialectal forms (`நோக்கு`), minimal functional glossing of traditional formulas (`அரிநமோத்து சிந்தம்`), restoration of sarcasm (`சுகம்`), preservation of strong caste-political vocabulary, concrete period objects (`ஈயச் செம்பு`), and culturally specific affection (`உச்சிமோந்து`).
+
+### `v1-ch04` — `என்னுடைய அரசியல் அரிச்சுவடி`
+
+The chapter begins with a third-person school-admission drama and delayed self-reveal, then turns the Fifth Standard `பனகல் அரசர்` book into Kalaignar's political primer. The historical section expands through Justice Party formation, newspapers, representation, elections, ministries, labour confrontation, leadership deaths, Periyar, the Self-Respect Movement, Anna and Periyar's collaboration with the Justice Party.
+
+Its T2 review establishes durable practice for historical proper-name normalisation (`South Indian Liberal Federation`), period institutional vocabulary (`First Minister`, `President of the Legislative Council`), historical political categories (`backward communities`, `depressed communities`, `great Dravidian community`), `Self-Respect Movement`, `rationalism`, `self-government`, and preservation of `சொற்போர்` as verbal/debate energy.
 
 ## Review question
 
