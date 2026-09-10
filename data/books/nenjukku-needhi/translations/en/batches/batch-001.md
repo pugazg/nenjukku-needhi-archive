@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` THOUGHT STRUCTURE PASS / TERMINOLOGY-CULTURAL AUDIT NEXT**
+Status: **OPEN / `v1-ch05` TERMINOLOGY-CULTURAL PASS / COMPARATOR CHECK NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -22,7 +22,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **THOUGHT STRUCTURE PASS / TERMINOLOGY-CULTURAL AUDIT NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **TERMINOLOGY-CULTURAL PASS / COMPARATOR CHECK NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
@@ -63,7 +63,7 @@ Gate results:
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-## `v1-ch05` — thought structure complete
+## `v1-ch05` — terminology/cultural audit complete
 
 Durable files:
 
@@ -72,6 +72,7 @@ Durable files:
 - T2 review: `../reviews/v1-ch05-t2.md`
 - T3 review: `../reviews/v1-ch05-t3.md`
 - thought-structure audit: `../reviews/v1-ch05-structure.md`
+- terminology/cultural audit: `../reviews/v1-ch05-terminology.md`
 
 Gate state:
 
@@ -80,16 +81,15 @@ Gate state:
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
 - thought structure: **PASS / COMPLETE — 22 / 22 major movements preserved**;
+- terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
 - unresolved source holds: **0**;
 - outstanding review items: **0**;
 - existing-English comparator: **NOT CONSULTED**;
-- next gate: **terminology/cultural-consistency audit**.
+- next gate: **post-freeze comparator availability check**.
 
-The structure audit confirms that the chapter remains autobiography through political history rather than becoming a detached chronology. Justice Party history returns to Kalaignar's Fifth Standard political education; the anti-Hindi struggle is tied to his June 3 birthday; the 1924–1938 pivot uses his school age to widen into Indian and world crises; Periyar's contested public position resolves into the epithet **Leader of the Tamils**; and the chapter closes with the public emergence of Anna through a multi-speaker chorus.
+The terminology/cultural audit normalises `முனுசாமி நாயுடு` to **Munuswamy Naidu** and keeps **Gandhiji** consistent inside the linked Bose comparison. It confirms the existing period **First Minister / Premier** distinction, Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, **Leader of the Tamils**, and the culturally visible Navalar / Arignar / Perarignar / Muthamizh Kaavalar / Ammaiyar / Tamilavel epithets.
 
-Structural accounting: **22 / 22 represented; 0 reordered; 0 omitted; 0 invented**.
-
-T2/T3 controls remain in force: witnessed **In 1932** opening, authored **1936** election statement, period **First Minister / Premier** distinction, normalized Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, consistent **Leader of the Tamils**, documented `நீட்டினார்`, **Firm, forceful arguments** for `ஆணித்தரமான வாதங்கள்`, and the 15 source-checked T3 fluency revisions. Deliberately unusual source-driven phrases and the separate Anna chorus remain intact.
+The audit deliberately retains collective **The Tamil**, chapter-specific **the pride of race**, and **Tamil chindu** as source-driven historical/cultural language. `இனம்` is not globally frozen; later occurrences remain context-dependent.
 
 ## Branch consolidation
 
@@ -114,5 +114,6 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - T2 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T3 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - thought-structure complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
+- terminology/cultural complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - approved chapters: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- next chapter activity: **terminology/cultural-consistency audit for `v1-ch05`**
+- next chapter activity: **post-freeze comparator availability check for `v1-ch05`**
