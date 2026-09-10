@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch04` T2 COMPLETE**
+Status: **OPEN / `v1-ch04` APPROVED / `v1-ch05` SOURCE REVIEW NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -21,8 +21,8 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | ID | Tamil title | Pages | Source blob SHA | Current status |
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
-| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **T2 COMPLETE / T3 NEXT** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | queued for source review |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **SOURCE REVIEW NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
@@ -39,38 +39,47 @@ Durable files:
 
 Final status: **APPROVED / CLOSED** with source review, T1, T2, T3, thought structure and terminology/cultural gates passed; unresolved source holds `0`.
 
-## `v1-ch04` durable state
+## `v1-ch04` closure
 
-Source notes: `../source-notes/v1-ch04.json`
+Durable files:
 
-Fresh T1/T2 translation: `../chapters/v1-ch04.json`
-
-T2 review: `../reviews/v1-ch04-t2.md`
+- translation: `../chapters/v1-ch04.json`
+- source notes: `../source-notes/v1-ch04.json`
+- T2 review: `../reviews/v1-ch04-t2.md`
+- T3 review: `../reviews/v1-ch04-t3.md`
+- thought-structure audit: `../reviews/v1-ch04-structure.md`
+- final approval review: `../reviews/v1-ch04-approval.md`
 
 Gate results:
 
 - source review: **PASS**;
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
+- T3 English-only review: **PASS WITH MINOR REVISION / COMPLETE — 10 source-checked revisions**;
+- thought structure: **PASS — 20 / 20 major movements preserved**;
+- terminology/cultural consistency: **PASS**;
+- post-freeze existing-English comparator: **NONE at pinned ref**;
+- final approval: **PASS / APPROVED**;
 - unresolved source holds: **0**;
-- outstanding T2 review items: **0**;
-- next gate: **T3 English-only review**.
+- outstanding review items: **0**.
 
-T2 controls enforced:
+Final `v1-ch04` controls:
 
-- `தென்னிந்திய நல உரிமைச் சங்கம்` is normalised to the historically attested English proper name **South Indian Liberal Federation (SILF)**, with the intervention documented;
-- `முதல் மந்திரி` remains the period title **First Minister**, not modernised to Chief Minister;
-- `சட்டசபைத் தலைவர்` is rendered as **President of the Legislative Council**, matching the 1920s Madras Presidency institution rather than the modern Legislative Assembly;
-- Justice Party, Self-Respect Movement, rationalism, backward communities and depressed communities/people are frozen as context-sensitive historical working forms;
-- `திராவிடப் பெருங்குடி` remains **great Dravidian community**, preserving Kalaignar's collective imagery rather than replacing it with a bureaucratic non-Brahmin label;
-- `விடிவெள்ளி` is corrected from the redundant `morning star of dawn` to **morning star for the Dravidians**;
+- `தென்னிந்திய நல உரிமைச் சங்கம்` is normalised to **South Indian Liberal Federation (SILF)**, with the intervention documented;
+- `முதல் மந்திரி` remains **First Minister**;
+- `சட்டசபைத் தலைவர்` is **President of the Legislative Council** for the 1920s Madras Presidency context;
+- `இந்தியா மந்திரி` for Edwin Montagu is normalised to the official English office **Secretary of State for India**;
+- Justice Party, Self-Respect Movement, rationalism, backward communities and depressed communities/people remain context-sensitive historical working forms;
+- `திராவிடப் பெருங்குடி` remains **great Dravidian community**;
+- `விடிவெள்ளி` remains **morning star for the Dravidians**;
 - `சொற்போர்` retains oral/debate energy as **verbal debates**;
-- the `அரிச்சுவடி` → political-primer architecture remains intact;
+- `அரிச்சுவடி` remains **political primer** and continues to anchor the historical section to the school-memory frame;
+- T3 removed the unsupported translator hedge `in their view` from the Home Rule comparison and restored neutral `plans` for `திட்டங்கள்`;
 - historical assertions remain authored claims and are not silently fact-corrected.
 
 ## Branch consolidation
 
-PR #1 merged the former working branch `translation/english-memoir` into `main`. `main` is now the sole active translation work surface. Future chapter commits and control updates go directly to `main`.
+PR #1 merged the former working branch `translation/english-memoir` into `main`. `main` is the sole active translation work surface. Future chapter commits and control updates go directly to `main`.
 
 ## Opening observations for remaining batch chapters
 
@@ -93,7 +102,7 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - full source reviews complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - T1 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - T2 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- T3 complete: **1 / 5** (`v1-ch03`)
-- thought-structure complete: **1 / 5** (`v1-ch03`)
-- approved chapters: **1 / 5** (`v1-ch03`)
-- next chapter activity: **T3 English-only review for `v1-ch04`**
+- T3 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
+- thought-structure complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
+- approved chapters: **2 / 5** (`v1-ch03`, `v1-ch04`)
+- next chapter activity: **complete source review for `v1-ch05` before T1**
