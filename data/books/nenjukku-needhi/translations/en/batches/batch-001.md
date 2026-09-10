@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch03` T1 COMPLETE**
+Status: **OPEN / `v1-ch03` T2 COMPLETE**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -18,7 +18,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 
 | ID | Tamil title | Pages | Source blob SHA | Current status |
 |---|---|---:|---|---|
-| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **T1 COMPLETE / T2 NEXT** |
+| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **T2 COMPLETE / T3 NEXT** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | queued for source review |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
@@ -28,20 +28,32 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 
 Source notes: `../source-notes/v1-ch03.json`
 
-Fresh T1 translation: `../chapters/v1-ch03.json`
+Translation: `../chapters/v1-ch03.json`
 
-T1 decisions enforced:
+T2 review: `../reviews/v1-ch03-t2.md`
 
-- repeated heading represented only in metadata;
-- mantra retained as a transliterated invocation rather than doctrinally paraphrased;
-- source-unit joins reconstructed before translation;
-- long Thirukkuvalai homecoming speech rebuilt as literary/oral units while preserving repeated `இதோ` / `அதோ` movement;
-- `நாள் கூட` rendered by its clear first-person contextual function and disclosed;
-- caste humiliation and revolt remain explicit rather than softened into generic social discomfort;
-- wound/punugu, surgery and kicked-ball political images retained concretely;
-- ritual childhood, rationalist reinterpretation, nostalgia and grief remain in tension rather than being ideologically regularised;
-- humour timing preserved around the stolen hair-pot, village-pond curd, Angalamman puja and curse-soil;
-- `அரிநமோத்து சிந்தம்` provisionally retained as `Arinamothu Sindham` and remains a mandatory T2 lexical-review item before approval.
+Gate results:
+
+- source review: **PASS**;
+- T1 fresh translation: **PASS**;
+- T2 source-and-Kalaignar-voice review: **PASS WITH REVISION**;
+- unresolved source holds: **0**;
+- next gate: **T3 English-only review**.
+
+Key T2 corrections:
+
+- `அரிநமோத்து சிந்தம்` is now functionally resolved as an old education-initiation formula; English retains `Arinamothu Sindham` with only that minimal gloss;
+- Postmaster Iyer's dated Brahmin-Tamil `நோக்கு` is correctly read as `உனக்கு` (`for/to you`), changing T1's erroneous `look!` to `Mail has come for you!`;
+- `நாலு பெரிய மனிதர்கள்` is rendered as the socially pointed `the 'big men'` rather than an accidental exact count of four;
+- `கடுமையான அடிமைத்தனம்` regains stronger `bondage`/cruelty language;
+- the sarcastic `சுகம்` in walking over stones and thorns is restored as `the pleasure of it`;
+- `backward masses` is replaced by contextually appropriate `backward communities`;
+- the repeated `புறப்படு` movement of the oppressed person is restored in staccato form;
+- `ஈயச் செம்பு` is restored as a concrete `lead vessel` rather than generic metal;
+- `மூளியாக` is made source-nearer instead of the added `broken hulk` image;
+- `மாம்பழக் கதுப்பு` retains the concrete fleshy-side-of-a-mango comparison;
+- `உச்சிமோந்து` remains the specific affectionate crown-smelling gesture;
+- humour and the long `இதோ` / `அதோ` homecoming catalogue remain intact.
 
 ## Opening observations for remaining batch chapters
 
@@ -67,5 +79,6 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - source files pinned: **5 / 5**
 - full source reviews complete: **1 / 5** (`v1-ch03`)
 - T1 complete: **1 / 5** (`v1-ch03`)
+- T2 complete: **1 / 5** (`v1-ch03`)
 - approved chapters: **0 / 5**
-- next chapter activity: **T2 source-and-Kalaignar-voice review for `v1-ch03`**
+- next chapter activity: **T3 English-only review for `v1-ch03`**
