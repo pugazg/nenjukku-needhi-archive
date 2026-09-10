@@ -85,43 +85,48 @@ Pinned source ref: `5c6b5ef8901044660e607d4649238d7c66cb648d`
 
 | Chapter | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **T2 COMPLETE / T3 NEXT** |
-| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | queued for source review |
+| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **NEXT — SOURCE REVIEW** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | queued for source review |
 
-### `v1-ch03` — T2 complete
+### `v1-ch03` — approved / closed
 
 Durable files:
 
 - translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch03.json`
 - source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch03.json`
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch03-t2.md`
+- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch03-t3.md`
+- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch03-structure.md`
+- approval review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch03-approval.md`
 
-Gate state:
+Final gate state:
 
 - source review: **PASS**;
 - T1: **PASS**;
 - T2: **PASS WITH REVISION**;
+- T3: **PASS WITH MINOR REVISION**;
+- thought structure: **PASS — 24 / 24 major movements preserved**;
+- terminology/cultural consistency: **PASS**;
 - unresolved source holds: **0**;
 - lexical review items remaining: **0**;
-- next gate: **T3 English-only review**.
+- existing-English comparator: **NONE at pinned source ref**;
+- final status: **APPROVED / CLOSED**.
 
-Key T2 findings and corrections:
+Key durable findings:
 
-- `அரிநமோத்து சிந்தம்` is functionally resolved as an old education-initiation formula; retain `Arinamothu Sindham` with only that minimal gloss, without silently Sanskritising or inventing a doctrinal literal translation;
-- Postmaster Iyer's `நோக்கு` is dated Brahmin Tamil for `உனக்கு` (`for/to you`), so T1's `The mail's come, look!` was corrected to `Mail has come for you!`;
-- `நாலு பெரிய மனிதர்கள்` is treated as the colloquial/social `the 'big men'`, not a literal exact count of four;
-- `கடுமையான அடிமைத்தனம்` regains stronger `bondage` and `கொடுமை` regains `cruelty`;
-- Kalaignar's sarcastic `சுகம்` in the stones-and-thorns question is restored as `the pleasure of it`;
-- `backward masses` is corrected to `backward communities` so the historical category is not made to sound like the translator's insult;
-- the repeated `புறப்படு` cadence is restored in the oppressed-person passage;
-- `ஈயச் செம்பு` is restored as `lead vessel`;
-- `மூளியாக` is rendered nearer to its damaged/mutilated sense rather than T1's invented `broken hulk` image;
-- `மாம்பழக் கதுப்பு` retains the fleshy-side-of-a-mango comparison;
-- `உச்சிமோந்து` remains the culturally specific affectionate gesture rather than being replaced by a generic kiss;
-- humour and the long `இதோ` / `அதோ` village-memory catalogue remain intact.
+- `அரிநமோத்து சிந்தம்` is functionally resolved as an old education-initiation formula; the final English retains `Arinamothu Sindham` with only that minimal gloss;
+- Postmaster Iyer's `நோக்கு` is dated Brahmin Tamil for `உனக்கு` (`for/to you`), not `look`;
+- caste hierarchy and the wound/punugu, surgery and kicked-ball political images remain concrete and forceful;
+- the long `இதோ` / `அதோ` homecoming remains a spoken guided-memory catalogue rather than a compressed summary;
+- culture-specific `உச்சிமோந்து` remains the affectionate act of smelling the crown of the head;
+- T3 restored natural English while retaining Kalaignar's concrete rain-of-kisses image and other rhetorical beats.
+
+### Machine-readable infrastructure note
+
+`schemas/chapter.json` in the repository is currently an empty one-byte legacy placeholder. Formal JSON-Schema execution therefore cannot be claimed for `v1-ch03` or the earlier translation records. The approval review records structural consistency under the repository's currently implemented controls. A future schema implementation can validate the corpus without changing literary approval status.
 
 ## Batch 001 counters
 
@@ -129,8 +134,10 @@ Key T2 findings and corrections:
 - full source reviews complete: **1 / 5**
 - T1 complete: **1 / 5**
 - T2 complete: **1 / 5**
-- approved: **0 / 5**
+- T3 complete: **1 / 5**
+- thought-structure complete: **1 / 5**
+- approved: **1 / 5**
 
 ## Next activity
 
-Run the T3 English-only review for `v1-ch03`. Do not smooth away deliberate sarcasm, repetition, cultural gestures, the mantra/formula forms, or the spoken `Here/There` homecoming cadence merely for conventional English polish. After T3, run the thought-structure audit before approval.
+Run the complete source review for `v1-ch04` (`என்னுடைய அரசியல் அரிச்சுவடி`) before any T1 translation. Resolve or explicitly hold the damaged opening `-ம் ஆண்டு` expression; inspect the extended school-admission dialogue, Panagal Raja material, Justice Party political chronology, and any extraction/page joins or non-authorial material before translation begins.
