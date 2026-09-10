@@ -5,7 +5,7 @@
   "tamil_title": "நீதிக் கட்சியில் பல மாற்றங்கள்",
   "title": "Many Changes in the Justice Party",
   "pages": {"start": 42, "end": 45},
-  "status": "thought-structure-complete",
+  "status": "terminology-cultural-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -17,7 +17,7 @@
   "translation_notes": [
     "Fresh T1 translation was made directly from the pinned Tamil after the complete source review. No pre-existing English translation was consulted as drafting authority.",
     "The first surviving chapter extraction begins only with '-ல்'; the translation restores 'In 1932' because the direct page-42 witness explicitly supplies '1932–ல்'. The reconstruction remains disclosed in the source-note sidecar and does not alter the read-only Tamil JSON.",
-    "The source's explicit statement that the Justice Party collapsed in a general election in 1936 is translated as authored. T2/T3 do not silently correct Kalaignar's chronology from external historical summaries.",
+    "The source's explicit statement that the Justice Party collapsed in a general election in 1936 is translated as authored. Later review gates do not silently correct Kalaignar's chronology from external historical summaries.",
     "The page-42/page-43 continuation 'இந்தி எதிர்ப்புக் கிளர்ச்சி!' and the page-44/page-45 Voltaire quotation are reconstructed across extraction boundaries as continuous literary units.",
     "T2 normalises historically attested English forms including Panneerselvam, Khalifullah, Natarajan and Indian National Congress, while retaining Kalaignar's epithets and political framing.",
     "Period office vocabulary is context-sensitive: the 1932 Raja of Bobbili and the earlier P. Subbarayan government use the dyarchy title 'First Minister', while Rajaji's 1937 office is rendered as 'Premier of the Madras Presidency'.",
@@ -28,10 +28,11 @@
     "The anomalous page-45 verb 'நீட்டினார்' is translated only by its secure contextual function: Sami Chidambaranar wrote 'Leader of the Tamils' as a biography of Periyar. No unattested replacement Tamil verb is asserted.",
     "T2 removes the invented nail image from 'ஆணித்தரமான வாதங்கள்' and renders the lexicalised phrase as 'Firm, forceful arguments.'",
     "T3 completed an English-only literary read and accepted 15 minor fluency revisions only after each was rechecked against the pinned Tamil. Deliberately unusual wording carrying Kalaignar's rhetoric was retained.",
-    "The thought-structure audit passes 22/22 major movements with no omissions, reordering or invented structural turns; the independent English remains frozen for subsequent terminology/cultural review."
+    "The thought-structure audit passes 22/22 major movements with no omissions, reordering or invented structural turns; the independent English remains frozen for subsequent review.",
+    "The terminology/cultural audit passes with two minor revisions: 'Munusami Naidu' is normalised to the historically established English form 'Munuswamy Naidu', and the linked Bose/Gandhi passage retains 'Gandhiji' consistently. The audit also explicitly retains the context-sensitive historical/cultural forms 'pride of race', collective 'The Tamil', and 'Tamil chindu'."
   ],
   "paragraphs": [
-    "In 1932, a no-confidence resolution was passed against Justice Party leader Munusami Naidu. At the conference convened in Tanjore in connection with it, the Raja of Bobbili took charge as party leader and formally assumed office as First Minister.",
+    "In 1932, a no-confidence resolution was passed against Justice Party leader Munuswamy Naidu. At the conference convened in Tanjore in connection with it, the Raja of Bobbili took charge as party leader and formally assumed office as First Minister.",
     "Though this ministry was meant to last only three years, delay in the publication of the Simon Commission's report stretched the life of the ministry to seven years. During that period, the Raja of Chettinad, Muthiah Chettiar, and the Gold of Tanjore, the Lion of Tamil, Sir A. T. Panneerselvam, also took office as ministers.",
     "In the general election held in 1936 under the reforms that followed the Simon Commission's report, the Justice Party suffered a complete collapse. That very year, I was in the Fifth Standard at high school, having learnt the history of the Raja of Panagal backwards and forwards and earning my teacher's praise.",
     "It was in 1937 that a Congress ministry first assumed office in the Madras Presidency. Because the Congress Party took part directly in this general election, the Swaraj Party disappeared. The Congress ministry was formed with Rajaji as Premier.",
@@ -50,7 +51,7 @@
     "A resolution was moved at the conference: 'Public money in the government budget must not be spent on the unnecessary Hindi language.' Tamilavel Uma Maheswaran Pillai and Chidambaram N. Dandapani thundered in support of the resolution.",
     "Do you know who moved that resolution? It was Perarignar Anna! In those days: C. N. Annadurai, M.A.",
     "It was in this very year, when Tamil Nadu had become a battlefield in the language struggle, that Kemal Pasha died in Turkey! It was the year Hitler swallowed Czechoslovakia—the year the first step toward the Second World War was taken. It was also the year Stalin was carrying out a great purge in Russia and sending thousands of people to Siberia and elsewhere. It was the time when Gandhiji's principles of non-violence were locked in fierce conflict with the policies of Congress president Subhas Bose!",
-    "As Voltaire said, 'I cannot agree, letter for letter, with what you say. But I will fight, giving even my life, so that the views you have the courage to express are not obstructed in any way.' In the same way, it was a year when Subhas Chandra Bose agreed with nothing Gandhiji said, yet opposed with fierce intensity anything he saw as harming Gandhi's welfare, fame, service or honour!",
+    "As Voltaire said, 'I cannot agree, letter for letter, with what you say. But I will fight, giving even my life, so that the views you have the courage to express are not obstructed in any way.' In the same way, it was a year when Subhas Chandra Bose agreed with nothing Gandhiji said, yet opposed with fierce intensity anything he saw as harming Gandhiji's welfare, fame, service or honour!",
     "Non-violence—democracy—individual rights—self-government—secure frontiers—the pride of race—the preciousness of the mother tongue—honest politics: it was a year when all these, throughout the world, came under severe challenge!",
     "Countless views were expressed about Periyar's leadership of the anti-Hindi war. 'He has no intention of opposing Hindi for the growth and advancement of Tamil. He has no concern for Tamils. He has made the anti-Hindi agitation a weapon for fulfilling his fervent aim of destroying the Congress,' it was written. It was said.",
     "Periyar, who had become the leader of the anti-Hindi struggle, came to be accepted in that period as the Leader of the Tamils. The learned Sami Chidambaranar wrote the substantial book 'Leader of the Tamils' as a biography of Periyar.",
@@ -64,7 +65,7 @@
     "Praise like this for his speeches poured in from the educated and from ordinary people alike."
   ],
   "provenance": {
-    "method": "Fresh T1 translation directly from the pinned Tamil source after completed source review, followed by complete T2 Tamil-English source-and-Kalaignar-voice comparison, T3 English-only literary review with every accepted fluency change rechecked against Tamil, and a complete thought-structure audit. No pre-existing English translation was used as drafting authority or consulted before the structure gate.",
+    "method": "Fresh T1 translation directly from the pinned Tamil source after completed source review, followed by complete T2 Tamil-English source-and-Kalaignar-voice comparison, T3 English-only literary review with every accepted fluency change rechecked against Tamil, a complete thought-structure audit, and a terminology/cultural-consistency audit. No pre-existing English translation was used as drafting authority or consulted before completion of these independent gates.",
     "translation_plan": "docs/TRANSLATION_PLAN.md",
     "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
@@ -72,8 +73,9 @@
     "t2_review": "../reviews/v1-ch05-t2.md",
     "t3_review": "../reviews/v1-ch05-t3.md",
     "thought_structure_review": "../reviews/v1-ch05-structure.md",
+    "terminology_cultural_review": "../reviews/v1-ch05-terminology.md",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit"
+    "next_gate": "post-freeze-comparator-check"
   }
 }
