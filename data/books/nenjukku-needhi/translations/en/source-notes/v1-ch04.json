@@ -1,0 +1,166 @@
+{
+  "id": "v1-ch04",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "path": "public/data/text/v1-ch04.json",
+    "blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
+    "authority": "read-only"
+  },
+  "source_drift_check": {
+    "observed_live_main": "bb0beaa0a18f97336b52319c1e7b15e62d81d1ed",
+    "live_blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
+    "result": "chapter blob identical to Batch 001 pin; source-repository drift is unrelated to v1-ch04 and does not change batch authority"
+  },
+  "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
+  "pages": {"start": 37, "end": 41},
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit repeats the chapter heading 'என்னுடைய அரசியல் அரிச்சுவடி'.",
+      "translation_action": "Represent the heading in title metadata and do not repeat it as body prose."
+    },
+    {
+      "type": "damaged_leading_text",
+      "severity": "meaning-sensitive",
+      "observation": "Immediately after the repeated heading, both the pinned chapter extraction and retained page-37 text witness begin only with '-ம் ஆண்டு,'; the year numerals are absent from the digital text. Independent biographical sources place this exact Tiruvarur High School admission episode in 1936, consistent with Kalaignar being twelve years old as the passage states.",
+      "translation_action": "T1 may reconstruct the opening explicitly as 'In 1936' but must keep this intervention documented. Do not present the digital source as though it contained the numerals, and do not modify the read-only source."
+    },
+    {
+      "type": "name_reading",
+      "severity": "translation-sensitive",
+      "observation": "The digital source/page witness gives the headmaster's name as 'கர்ஸ்தூரி ஐயங்கார்'. Independent biographical references to the same admission episode give Kasthuri/Kasturi Iyengar.",
+      "translation_action": "Use the externally corroborated personal-name form 'Kasthuri Iyengar' in English while preserving this note about the digital-source spelling. This is a name-normalisation decision, not a source correction."
+    },
+    {
+      "type": "dialect_resolution",
+      "severity": "meaning-sensitive",
+      "observation": "Headmaster Iyengar asks 'என்ன வேணும் நோக்கு?'. As established independently in v1-ch03 for Postmaster Iyer, dated Brahmin-Tamil 'நோக்கு' functions as 'உனக்கு' ('for/to you'), not the ordinary verb 'look'.",
+      "translation_action": "Translate by function ('What do you want?') without inventing an English caste or regional accent. Record the recurring dialect form rather than mistranslating its modern surface shape."
+    },
+    {
+      "type": "period_vocabulary",
+      "severity": "translation-sensitive",
+      "observation": "The school scene includes colonial-period terms 'பங்கா' and 'பியூன்': a punkah being pulled at the doorway and the peon who tries to stop the boy.",
+      "translation_action": "Preserve the period scene. T1 may use 'punkah' / 'peon' with light contextual clarity rather than replacing the objects and role with generic modern equivalents."
+    },
+    {
+      "type": "dramatic_persona",
+      "severity": "voice-critical",
+      "observation": "Kalaignar narrates the admission episode in third-person dramatic present: a twelve-year-old boy bursts into the headmaster's room, argues for admission, threatens to jump into Kamalalayam, wins a place, celebrates with his father, and only afterward asks the reader who the boy was before revealing 'நானே தான்!'",
+      "translation_action": "Do not reveal 'I' early. Preserve the third-person dramatic present, dialogue, suspense, reader-address and delayed self-reveal. This is a rhetorical structure, not incidental grammar."
+    },
+    {
+      "type": "quotation_reconstruction",
+      "severity": "meaning-sensitive",
+      "observation": "On page 37, after the headmaster says 'அதற்கு நான் என்ன செய்வது தம்பி?', the boy's next plea begins 'உயர் நிலைப்பள்ளியில் சேராமல் ஊருக்குத் திரும்பினால்...' but the opening quotation mark is missing while a closing quotation mark remains.",
+      "translation_action": "Treat the passage as the boy's continuing direct speech and restore quotation structure in English. Record the intervention rather than treating the missing opening quote as authorial narration."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "low",
+      "observation": "Page 38 reads 'வழுக்கி விழுத்து' in the description of people slipping on the moss-covered tank steps. Context requires the ordinary falling sense represented by 'விழுந்து'.",
+      "translation_action": "Translate the secure contextual action ('slipped and fell') and retain this note; do not alter the read-only Tamil source."
+    },
+    {
+      "type": "punctuation_extraction",
+      "severity": "low",
+      "observation": "Page 38 reads 'ஐந்தாம் வகுப்பில் முதன்மையான மார்க்குகள் பெற்று அந்த ஆண்டு. அந்தப் பையன் வெற்றி பெற்றான்.' The full stop interrupts a syntactically continuous statement about the boy passing that year with leading marks.",
+      "translation_action": "Reconstruct the continuous sentence in English and disclose the punctuation intervention here."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "Page 38 contains 'அந்தக் சுட்சியின் கொள்கைகளை வெளியிடவும், பரப்பவும்' immediately after the formation of the political party. The contextual referent is unequivocally the party and its policies; 'சுட்சி' is anomalous in this digital witness.",
+      "translation_action": "Translate the contextually secure sense 'the party's policies' and retain the source form in this note. Do not silently rewrite the Tamil source."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "Page 39 gives 'சட்டசயைத் தலைவராக' in the office held by Sir P. Rajagopalachariar. The surrounding political-administrative sentence clearly requires the legislative-assembly sense 'சட்டசபைத்'.",
+      "translation_action": "Translate the contextual office as president/speaker of the legislative assembly, subject to T2 terminology review, while recording the defective digital form here."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "voice-sensitive",
+      "observation": "Page 41 says that after Nair, Thiagarayar and the Raja of Panagal died in succession, 'நீதிக்கட்சி கலகலத்து நின்றது'. Lexical evidence for 'கலகல' includes becoming shaky or losing strength, so the wording need not be treated as corrupt merely because its more familiar modern sense relates to liveliness/noise.",
+      "translation_action": "At T1 preserve the political weakening/shakiness sense; do not normalise the Tamil source or mistake the expression for celebratory liveliness."
+    },
+    {
+      "type": "political_terminology",
+      "severity": "translation-sensitive",
+      "observation": "The chapter introduces or develops historically loaded movement vocabulary including 'திராவிடப் பெருங்குடி மக்கள்', 'ஜஸ்டிஸ் கட்சி' / 'நீதிக் கட்சி', 'தாழ்த்தப்பட்ட மக்கள்', 'சுயாட்சி', 'சுயமரியாதை இயக்கம்', 'பகுத்தறிவு', and the relation between Periyar, Anna and the Justice Party.",
+      "translation_action": "T1 should remain close to Kalaignar's historical-political wording. T2 must review recurring movement terms against the living glossary before they are frozen for later chapters. Do not substitute present-day explanatory labels inside the memoir."
+    },
+    {
+      "type": "title_metaphor",
+      "severity": "voice-sensitive",
+      "observation": "The chapter title and the Panagal Raja passage use 'அரிச்சுவடி'—the alphabet/primer—as a metaphor for Kalaignar's first political education. The small school text becomes his political beginning before the narrative expands into Justice Party history.",
+      "translation_action": "Preserve the primer/alphabet metaphor in the English title and body rather than flattening it to generic 'political education'."
+    },
+    {
+      "type": "thought_structure",
+      "severity": "voice-critical",
+      "observation": "The chapter moves from the boy's dramatic fight for school admission → delayed revelation that the boy is Kalaignar → mastery of the Panagal Raja supplementary reader → that book as his political primer → formation and press organs of the Justice Party → representation claims and elections → ministries and labour confrontation → the deaths of Justice Party leaders → the Self-Respect Movement, Periyar and Anna → Periyar's eventual collaboration with the Justice Party.",
+      "translation_action": "Preserve the autobiographical-to-political expansion. The history is presented because a schoolbook became Kalaignar's political primer; do not detach it into an encyclopedic chronology."
+    },
+    {
+      "type": "historical_assertion",
+      "severity": "methodological",
+      "observation": "Pages 38–41 contain dense dates, offices, election results, movement relationships and evaluative claims about the Justice Party and Dravidian society.",
+      "translation_action": "Translate Kalaignar's historical assertions faithfully. Do not silently fact-correct or modernise them. External evidence is used here only to reconstruct the damaged 1936 opening and clarify source/dialect readings, not to rewrite his account."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No Wikisource maintenance/editorial unit or other non-authorial body text is present in the inspected pages 37–41.",
+      "translation_action": "No non-authorial body exclusion is required for v1-ch04."
+    }
+  ],
+  "secondary_witnesses": [
+    {
+      "repository": "pugazg/nenjukku-needhi-archive",
+      "ref": "main",
+      "paths": [
+        "data/books/nenjukku-needhi/cleaned/volume1/0037.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0038.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0039.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0040.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0041.md"
+      ],
+      "role": "secondary page-level text witnesses used for source-unit visibility; not authority over the pinned autobiography source"
+    }
+  ],
+  "external_contextual_evidence": [
+    {
+      "area": "damaged opening year",
+      "finding": "Independent biographical sources place Kalaignar's move/admission to Tiruvarur High School in 1936 at age twelve; this supports reconstruction of the missing numerals before '-ம் ஆண்டு'."
+    },
+    {
+      "area": "headmaster name",
+      "finding": "Independent accounts of the same episode identify the headmaster as Kasthuri/Kasturi Iyengar, supporting English name normalisation while the digital source form remains documented."
+    },
+    {
+      "area": "கலகலத்து",
+      "finding": "Lexical evidence includes 'become shaky / lose strength', fitting the Justice Party context."
+    }
+  ],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [
+    {
+      "area": "movement terminology: நீதிக் கட்சி / சுயமரியாதை / பகுத்தறிவு / திராவிடப் பெருங்குடி / தாழ்த்தப்பட்ட",
+      "kind": "terminology-and-register",
+      "blocking_t1": false,
+      "blocking_approval_until_reviewed": true
+    },
+    {
+      "area": "historical offices and period political vocabulary",
+      "kind": "terminology",
+      "blocking_t1": false,
+      "blocking_approval_until_reviewed": true
+    }
+  ],
+  "status": "ready-for-t1"
+}
