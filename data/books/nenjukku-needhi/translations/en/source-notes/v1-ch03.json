@@ -38,13 +38,13 @@
       "type": "paragraph_reconstruction",
       "severity": "voice-sensitive",
       "observation": "A long first-person journey through Thirukkuvalai is presented through extended quoted/oral recollection spanning multiple extraction units, with repeated direct demonstratives such as 'இதோ' and 'அதோ'. Source-unit boundaries and quotation marks do not define reliable literary paragraphs.",
-      "translation_action": "Reconstruct English paragraphs around the spoken journey's rhetorical units while preserving the repeated 'Here/There—look' quality and oral flow."
+      "translation_action": "Reconstruct English paragraphs around the spoken journey's rhetorical units while preserving the repeated 'Here/There' quality and oral flow."
     },
     {
       "type": "ocr_or_extraction_reading",
       "severity": "meaning-sensitive",
       "observation": "The source reads 'நாள் கூட அப்போதெல்லாம் நம்பித்தான் நடுங்கிக் கொண்டிருந்தேன்' immediately after Kalaignar explains that many still reject the natural explanation for the mysterious lights. Context strongly requires the first-person sense 'நான்கூட' ('I too') rather than literal 'நாள் கூட'.",
-      "translation_action": "T1 renders the clear contextual first-person sense ('I too, in those days...') and keeps this source form disclosed. Do not alter the read-only source."
+      "translation_action": "Render the clear contextual first-person sense ('I too, in those days...') and keep this source form disclosed. Do not alter the read-only source."
     },
     {
       "type": "ocr_or_extraction_reading",
@@ -53,22 +53,46 @@
       "translation_action": "Translate the contextual sense and retain this note rather than silently treating the extraction as clean."
     },
     {
+      "type": "lexical_resolution",
+      "severity": "translation-sensitive",
+      "observation": "The remembered school expression 'அரிநமோத்து சிந்தம்' is independently attested in Tamil descriptions of older education-initiation practice. A separate memoir places the same formula at the ceremonial beginning of learning immediately before the first letter is written in sand; the Tamil Digital Library text 'தமிழலங்காரம்' also preserves the traditional formula/near-variant in an old invocation context.",
+      "translation_action": "Retain Kalaignar's Tamilised form as 'Arinamothu Sindham' and identify it minimally as an old initiation formula. Do not silently Sanskritise it or impose a speculative word-for-word doctrinal translation."
+    },
+    {
+      "type": "dialect_resolution",
+      "severity": "meaning-sensitive",
+      "observation": "Postmaster Iyer calls across the pond: 'தபால் வந்திருக்கு நோக்கு!'. In this speaker context, 'நோக்கு' is the dated Brahmin-Tamil pronominal form of 'உனக்கு' ('for/to you'), not the ordinary verb 'look'. Tamil Lexicon records this dialectal pronoun use.",
+      "translation_action": "Correct T1's 'The mail's come, look!' to 'Mail has come for you!' Preserve the social/dialect function without inventing an English regional accent."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "voice-sensitive",
+      "observation": "In 'பாழடைந்து, நிறமிழந்து, பெரிய உருவமொன்று மூளியாக உட்கார்ந்திருக்கிறதே', Tamil Lexicon senses of 'மூளி' include deformed/defective or a thing with a part missing or broken.",
+      "translation_action": "Use a source-near damaged/mutilated description rather than T1's added image 'like a broken hulk'."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "voice-sensitive",
+      "observation": "Tamil Lexicon records 'கதுப்பு' both as cheek and as the fleshy part of a fruit beside the seed. This supports Kalaignar's concrete comparison 'மாம்பழக் கதுப்புப் போன்ற கன்னம்'.",
+      "translation_action": "Render the comparison as cheeks like the fleshy sides of a mango rather than abstracting it to generic plumpness."
+    },
+    {
       "type": "cultural_term",
       "severity": "translation-sensitive",
-      "observation": "The chapter contains ritual and social vocabulary including வைதிக, வித்யாரம்பம், காணிக்கை, விபூதி/மந்திர belief, caste-coded clothing practices, அக்கிரகாரம், village deities and local ritual customs.",
+      "observation": "The chapter contains ritual and social vocabulary including வைதிக, வித்யாரம்பம், காணிக்கை, mantra belief, caste-coded clothing practices, அக்கிரகாரம், village deities and local ritual customs.",
       "translation_action": "Translate or lightly gloss according to context without turning the prose into ethnographic explanation. Preserve Kalaignar's own later critical/rationalist stance rather than adding the translator's judgement."
     },
     {
       "type": "metaphor",
       "severity": "voice-sensitive",
       "observation": "The social-criticism passage contrasts upper-caste reform ideas with 'புனுகு' applied to an unhealed wound and revolutionary voices with surgery that can heal it; it also uses the kicked-ball image for oppressed people rising with greater force.",
-      "translation_action": "Preserve the concrete wound/perfume, surgery and kicked-ball images rather than replacing them with abstract political summary."
+      "translation_action": "Preserve the concrete wound/punugu, surgery and kicked-ball images rather than replacing them with abstract political summary."
     },
     {
-      "type": "semantic_review_item",
-      "severity": "review-required",
-      "observation": "The childhood-school passage contains the remembered writing formula 'அரிநமோத்து சிந்தம்'. Its exact conventional/lexical explanation should not be invented merely to make the English self-contained.",
-      "translation_action": "T1 preserves the expression provisionally as 'Arinamothu Sindham'. T2 must review the lexical/conventional reading before approval."
+      "type": "dialect_or_gesture",
+      "severity": "translation-sensitive",
+      "observation": "The homecoming passage says relatives 'உச்சிமோந்து' him. Tamil Lexicon defines 'உச்சிமோத்தல்' as smelling the crown of a child's head out of affection.",
+      "translation_action": "Retain the specific affectionate gesture in English rather than silently replacing it with a generic kiss."
     },
     {
       "type": "tone_shift",
@@ -86,19 +110,12 @@
       "type": "non_authorial_editorial",
       "severity": "informational",
       "observation": "No Wikisource maintenance/editorial unit comparable to the two exclusions in v1-ch02 is present in the inspected v1-ch03 source body.",
-      "translation_action": "No non-authorial body exclusion is currently required for this chapter."
+      "translation_action": "No non-authorial body exclusion is required for this chapter."
     }
   ],
   "non_authorial_exclusions": [],
   "unresolved": [],
-  "review_items": [
-    {
-      "area": "அரிநமோத்து சிந்தம்",
-      "kind": "semantic/lexical",
-      "t1_treatment": "Arinamothu Sindham",
-      "blocking_t1": false,
-      "blocking_approval_until_reviewed": true
-    }
-  ],
-  "status": "t1-complete"
+  "review_items": [],
+  "t2_review": "../reviews/v1-ch03-t2.md",
+  "status": "t3-english-review"
 }
