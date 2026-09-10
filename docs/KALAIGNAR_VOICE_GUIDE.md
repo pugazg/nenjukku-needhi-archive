@@ -165,6 +165,20 @@ Do not automatically regularise such passages into retrospective literary past. 
 
 Family dialogue should also remain immediate: colloquial turns such as `நல்ல வேளை` should not be inflated into ceremonious English when a direct phrase such as `Good thing...` carries the voice better.
 
+## 23. Distinguish a textual-reading hold from a semantic-interpretation hold
+
+A source can be textually stable and still semantically uncertain. Do not continue calling a word `unreadable` merely because its meaning is unresolved.
+
+When multiple available text witnesses agree on the same character sequence but the exact lexical/syntactic force remains uncertain:
+
+- record the character reading as stable across the available text witnesses;
+- classify the remaining problem as a `semantic_interpretation_hold`;
+- do not claim visual verification unless a page image was actually inspected;
+- allow non-source-dependent gates such as T3 readability and thought-structure review to proceed if the uncertainty is isolated and transparently delimited;
+- continue to block final approval if the unresolved meaning could affect the final wording.
+
+`v1-ch02` establishes this distinction. The available text witnesses consistently reproduce `தரகுமூட்டை` and `முந்தானையால் கூட்டியே நின்று`. Their exact interpretation remains unresolved, so the English retains provisional/conservative treatment and the chapter remains on source hold even though T3 and the structural audit can pass.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -177,7 +191,7 @@ The completed pilot also established durable practice for concrete idiom, histor
 
 The chapter combines orphaned childhood, portraiture of Muthuvelar, village songs and social criticism, religion/traditional healing, marriage and bereavement, agricultural life, longing for children, Kalaignar's birth, burglary and family humour. Tone changes are part of the composition and must not be normalised into one register.
 
-Its T2 review adds durable practice for culturally specific lexical verification, lovers' vocabulary, visible uncertainty in embedded verse, preservation of elevated praise beside earthy village detail, and dramatic-present family storytelling.
+Its T2/T3 review adds durable practice for culturally specific lexical verification, lovers' vocabulary, visible uncertainty in embedded verse, preservation of elevated praise beside earthy village detail, dramatic-present family storytelling, and the distinction between stable source text and unresolved semantic interpretation.
 
 ## Review question
 
