@@ -1,0 +1,176 @@
+{
+  "project": "Nenjukku Needhi English Translation",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "path": "public/data/text",
+    "authority": "read-only",
+    "batch_001_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "latest_observed_main": "bb0beaa0a18f97336b52319c1e7b15e62d81d1ed"
+  },
+  "destination": {
+    "repository": "pugazg/nenjukku-needhi-archive",
+    "branch": "translation/english-memoir"
+  },
+  "expected_chapters": 391,
+  "volumes": {
+    "1": 140,
+    "2": 77,
+    "3": 73,
+    "4": 22,
+    "5": 50,
+    "6": 29
+  },
+  "method": {
+    "plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "glossary": "docs/TRANSLATION_GLOSSARY.md",
+    "progress": "docs/TRANSLATION_PROGRESS.md",
+    "source_notes_required": true,
+    "existing_english_is_authority": false,
+    "accepted_scholarly_uncertainty_requires_editorial_closure": true,
+    "normal_batch_size": 5,
+    "batch_is_management_envelope": true,
+    "process_chapters_sequentially_within_batch": true
+  },
+  "pilot_phase": {
+    "status": "complete",
+    "chapters": [
+      {
+        "id": "v1-ch01",
+        "tamil_title": "பிறந்த ஆண்டு",
+        "status": "approved",
+        "translation": "chapters/v1-ch01.json",
+        "source_notes": "source-notes/v1-ch01.json",
+        "reviews": {
+          "t2": "reviews/v1-ch01-t2.md",
+          "t3": "reviews/v1-ch01-t3.md",
+          "thought_structure": "reviews/v1-ch01-structure.md",
+          "existing_english_comparison": "reviews/v1-ch01-existing-comparison.md"
+        },
+        "unresolved_source_holds": 0,
+        "accepted_scholarly_uncertainties": 0
+      },
+      {
+        "id": "v1-ch02",
+        "tamil_title": "தந்தையின் துணிவு",
+        "status": "approved",
+        "translation": "chapters/v1-ch02.json",
+        "source_notes": "source-notes/v1-ch02.json",
+        "reviews": {
+          "t2": "reviews/v1-ch02-t2.md",
+          "source_witness": "reviews/v1-ch02-source-witness.md",
+          "t3": "reviews/v1-ch02-t3.md",
+          "thought_structure": "reviews/v1-ch02-structure.md",
+          "editorial_closure": "reviews/v1-ch02-editorial-closure.md"
+        },
+        "gates": {
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass",
+          "thought_structure": "pass",
+          "editorial_closure": "pass"
+        },
+        "unresolved_source_holds": 0,
+        "accepted_scholarly_uncertainties": 2
+      }
+    ]
+  },
+  "production": {
+    "status": "open",
+    "active_batch": "batch-001",
+    "batch_control": "batches/batch-001.md",
+    "batch_chapters": [
+      {
+        "id": "v1-ch03",
+        "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
+        "pages": {"start": 30, "end": 36},
+        "source_blob_sha": "e7c0d550d68f8b30d9c48a22019e017f7034ff93",
+        "status": "approved",
+        "translation": "chapters/v1-ch03.json",
+        "source_notes": "source-notes/v1-ch03.json",
+        "reviews": {
+          "t2": "reviews/v1-ch03-t2.md",
+          "t3": "reviews/v1-ch03-t3.md",
+          "thought_structure": "reviews/v1-ch03-structure.md",
+          "approval": "reviews/v1-ch03-approval.md"
+        },
+        "gates": {
+          "source_review": "pass",
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass",
+          "approval": "pass"
+        },
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "existing_english_comparator": null
+      },
+      {
+        "id": "v1-ch04",
+        "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
+        "pages": {"start": 37, "end": 41},
+        "source_blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
+        "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+        "live_source_check": {
+          "ref": "bb0beaa0a18f97336b52319c1e7b15e62d81d1ed",
+          "blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
+          "result": "byte-identical"
+        },
+        "status": "t1-complete",
+        "translation": "chapters/v1-ch04.json",
+        "source_notes": "source-notes/v1-ch04.json",
+        "gates": {
+          "source_review": "pass",
+          "t1": "pass"
+        },
+        "unresolved_source_holds": 0,
+        "review_items": [
+          "movement terminology and historical political register",
+          "historical office vocabulary"
+        ],
+        "source_interventions": [
+          "reconstruct damaged opening year as 1936 with explicit note",
+          "normalise headmaster personal name to Kasthuri Iyengar in English with source spelling preserved in notes",
+          "restore missing opening quotation for the boy's plea",
+          "contextually interpret விழுத்து, சுட்சியின், சட்டசயைத் and interrupting punctuation without modifying source"
+        ],
+        "next_gate": "t2-source-and-voice-review"
+      },
+      {
+        "id": "v1-ch05",
+        "tamil_title": "நீதிக் கட்சியில் பல மாற்றங்கள்",
+        "pages": {"start": 42, "end": 45},
+        "source_blob_sha": "220fb5271eac48c6988057d0d464d5950fd822a3",
+        "status": "not-started"
+      },
+      {
+        "id": "v1-ch06",
+        "tamil_title": "தமிழ் காக்கும் போர் முனை",
+        "pages": {"start": 46, "end": 50},
+        "source_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
+        "status": "not-started"
+      },
+      {
+        "id": "v1-ch07",
+        "tamil_title": "\"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?\"",
+        "pages": {"start": 51, "end": 55},
+        "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
+        "status": "not-started"
+      }
+    ],
+    "source_reviews_complete": 2,
+    "translations_started": 2,
+    "t1_complete": 2,
+    "t2_complete": 1,
+    "t3_complete": 1,
+    "thought_structure_complete": 1,
+    "approved_chapters": 1,
+    "next_activity": "t2-source-and-voice-review-v1-ch04"
+  },
+  "infrastructure_notes": [
+    "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
+  ]
+}

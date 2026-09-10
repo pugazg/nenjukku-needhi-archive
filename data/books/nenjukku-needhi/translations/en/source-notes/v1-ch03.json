@@ -1,0 +1,126 @@
+{
+  "id": "v1-ch03",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "path": "public/data/text/v1-ch03.json",
+    "blob_sha": "e7c0d550d68f8b30d9c48a22019e017f7034ff93",
+    "authority": "read-only"
+  },
+  "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
+  "pages": {"start": 30, "end": 36},
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins by repeating the chapter title '\"சிவாய நம! ஓம் நமசிவாய\"'.",
+      "translation_action": "Represent the title in chapter metadata and do not duplicate the extraction heading as body prose."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "The first extraction unit ends with 'நாலு பெரிய மனிதர்கள் இருக்குமிடத்தில்' and the next begins 'சட்டை போட்டுக்கொண்டு போகமுடியாது.' The sentence is continuous across the source-unit boundary.",
+      "translation_action": "Translate continuously; do not treat the JSON boundary as authorial paragraphing."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "A later unit ends with 'அத்தகைய உணர்விலே மதிமயங்கித்' and the following unit continues 'திருக்குவளை செல்லும் வழியிலே போய்க் கொண்டிருக்கிறேன்.'",
+      "translation_action": "Reconstruct the continuous sentence/movement before translating."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "The travel-memory section contains several further extraction-boundary continuations, including 'அப்படிப்' + 'போகும்போது' and 'அடியெடுத்து வைத்ததே' + 'கிடையாதே!'.",
+      "translation_action": "Treat these as page/extraction joins, not deliberate authorial breaks; preserve traceability in alignment."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "voice-sensitive",
+      "observation": "A long first-person journey through Thirukkuvalai is presented through extended quoted/oral recollection spanning multiple extraction units, with repeated direct demonstratives such as 'இதோ' and 'அதோ'. Source-unit boundaries and quotation marks do not define reliable literary paragraphs.",
+      "translation_action": "Reconstruct English paragraphs around the spoken journey's rhetorical units while preserving the repeated 'Here/There' quality and oral flow."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "The source reads 'நாள் கூட அப்போதெல்லாம் நம்பித்தான் நடுங்கிக் கொண்டிருந்தேன்' immediately after Kalaignar explains that many still reject the natural explanation for the mysterious lights. Context strongly requires the first-person sense 'நான்கூட' ('I too') rather than literal 'நாள் கூட'.",
+      "translation_action": "Render the clear contextual first-person sense ('I too, in those days...') and keep this source form disclosed. Do not alter the read-only source."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "low",
+      "observation": "The form 'வேணடுமென்ற' occurs in the Angalamman temple passage and is evidently a transposed/defective extraction of the ordinary contextual form 'வேண்டுமென்ற'.",
+      "translation_action": "Translate the contextual sense and retain this note rather than silently treating the extraction as clean."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "translation-sensitive",
+      "observation": "The remembered school expression 'அரிநமோத்து சிந்தம்' is independently attested in Tamil descriptions of older education-initiation practice. A separate memoir places the same formula at the ceremonial beginning of learning immediately before the first letter is written in sand; the Tamil Digital Library text 'தமிழலங்காரம்' also preserves the traditional formula/near-variant in an old invocation context.",
+      "translation_action": "Retain Kalaignar's Tamilised form as 'Arinamothu Sindham' and identify it minimally as an old initiation formula. Do not silently Sanskritise it or impose a speculative word-for-word doctrinal translation."
+    },
+    {
+      "type": "dialect_resolution",
+      "severity": "meaning-sensitive",
+      "observation": "Postmaster Iyer calls across the pond: 'தபால் வந்திருக்கு நோக்கு!'. In this speaker context, 'நோக்கு' is the dated Brahmin-Tamil pronominal form of 'உனக்கு' ('for/to you'), not the ordinary verb 'look'. Tamil Lexicon records this dialectal pronoun use.",
+      "translation_action": "Correct T1's 'The mail's come, look!' to 'Mail has come for you!' Preserve the social/dialect function without inventing an English regional accent."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "voice-sensitive",
+      "observation": "In 'பாழடைந்து, நிறமிழந்து, பெரிய உருவமொன்று மூளியாக உட்கார்ந்திருக்கிறதே', Tamil Lexicon senses of 'மூளி' include deformed/defective or a thing with a part missing or broken.",
+      "translation_action": "Use a source-near damaged/mutilated description rather than T1's added image 'like a broken hulk'."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "voice-sensitive",
+      "observation": "Tamil Lexicon records 'கதுப்பு' both as cheek and as the fleshy part of a fruit beside the seed. This supports Kalaignar's concrete comparison 'மாம்பழக் கதுப்புப் போன்ற கன்னம்'.",
+      "translation_action": "Render the comparison as cheeks like the fleshy sides of a mango rather than abstracting it to generic plumpness."
+    },
+    {
+      "type": "cultural_term",
+      "severity": "translation-sensitive",
+      "observation": "The chapter contains ritual and social vocabulary including வைதிக, வித்யாரம்பம், காணிக்கை, mantra belief, caste-coded clothing practices, அக்கிரகாரம், village deities and local ritual customs.",
+      "translation_action": "Translate or lightly gloss according to context without turning the prose into ethnographic explanation. Preserve Kalaignar's own later critical/rationalist stance rather than adding the translator's judgement."
+    },
+    {
+      "type": "metaphor",
+      "severity": "voice-sensitive",
+      "observation": "The social-criticism passage contrasts upper-caste reform ideas with 'புனுகு' applied to an unhealed wound and revolutionary voices with surgery that can heal it; it also uses the kicked-ball image for oppressed people rising with greater force.",
+      "translation_action": "Preserve the concrete wound/punugu, surgery and kicked-ball images rather than replacing them with abstract political summary."
+    },
+    {
+      "type": "dialect_or_gesture",
+      "severity": "translation-sensitive",
+      "observation": "The homecoming passage says relatives 'உச்சிமோந்து' him. Tamil Lexicon defines 'உச்சிமோத்தல்' as smelling the crown of a child's head out of affection.",
+      "translation_action": "Retain the specific affectionate gesture in English rather than silently replacing it with a generic kiss."
+    },
+    {
+      "type": "tone_shift",
+      "severity": "voice-sensitive",
+      "observation": "The chapter moves rapidly among ritual childhood, comic theft, caste humiliation, social revolt, childhood theatre, nostalgia, superstition, later rationalist explanation, village humour, grief for the dead and affection for home.",
+      "translation_action": "Preserve these changes of register. Do not regularise the chapter into a single solemn rationalist or nostalgic voice."
+    },
+    {
+      "type": "humour",
+      "severity": "voice-sensitive",
+      "observation": "Several jokes depend on timing: the thief who steals the carefully preserved pot of hair thinking it is a money-box, the father's chicken appetite producing an Angalamman puja, and soil thrown to curse another family sometimes blowing back into the devotees' own eyes.",
+      "translation_action": "Preserve punchline timing and do not explain the jokes after translating them."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No Wikisource maintenance/editorial unit comparable to the two exclusions in v1-ch02 is present in the inspected v1-ch03 source body.",
+      "translation_action": "No non-authorial body exclusion is required for this chapter."
+    }
+  ],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "reviews": {
+    "t2": "../reviews/v1-ch03-t2.md",
+    "t3": "../reviews/v1-ch03-t3.md",
+    "thought_structure": "../reviews/v1-ch03-structure.md",
+    "approval": "../reviews/v1-ch03-approval.md"
+  },
+  "status": "approved"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "v1-ch01",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "path": "public/data/text/v1-ch01.json",
+    "blob_sha": "8a632274c975368cee4fc674abc3915095a90ee9",
+    "authority": "read-only"
+  },
+  "tamil_title": "பிறந்த ஆண்டு",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first source extraction unit begins by repeating the chapter title 'பிறந்த ஆண்டு'.",
+      "translation_action": "Use the title as chapter metadata; do not treat the repeated extraction heading as a separate sentence of authorial prose."
+    },
+    {
+      "type": "ocr_spacing",
+      "severity": "low",
+      "observation": "The opening contains the extracted form 'வா ழ்க்கை'.",
+      "translation_action": "Read contextually as 'வாழ்க்கை'. This interpretation is disclosed here rather than silently treated as clean source text."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "informational",
+      "observation": "The source extraction boundary after 'என் குடும்பம் செல்வச் சூழ்நிலையில் தோய்ந்திருக்கவில்லை' continues with 'யென்றாலும்' in the next unit.",
+      "translation_action": "Translate as one continuous syntactic sentence/argument; source-unit boundary is not treated as authorial paragraphing."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "informational",
+      "observation": "Several source JSON elements contain multiple rhetorical/literary units, while other sentences cross element boundaries.",
+      "translation_action": "English literary paragraphs are reconstructed from syntax, rhetorical movement and argument. Alignment metadata must preserve traceability to source extraction units."
+    },
+    {
+      "type": "idiom",
+      "severity": "voice-sensitive",
+      "observation": "Kalaignar writes 'உயிர் எமக்கு வெல்லமல்ல' while describing colonised peoples who had witnessed mass death. The sentence uses 'வெல்லம்' (jaggery) as a concrete image of sweetness/value rather than only the abstract idea that life is precious.",
+      "translation_action": "Preserve the jaggery image in the translation rather than flattening it to a purely abstract paraphrase; explain it here in the source notes rather than interrupting Kalaignar's prose."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "low",
+      "observation": "Near the Cauvery passage the extracted text reads 'நாள் பிறந்த 1924-ல்தான்'. In context, immediately after 'இத்தகு கலவையான சூழ்நிலைகளூடே வழி நடந்த 1924-ல் நான் பிறந்தேன்', the intended reading is evidently 'நான் பிறந்த 1924-ல்தான்'.",
+      "translation_action": "Translate the contextual reading as 'the year 1924, in which I was born' and disclose the intervention here. Do not alter the read-only source repository."
+    },
+    {
+      "type": "narrative_time",
+      "severity": "voice-sensitive",
+      "observation": "The Cauvery/Hemavathi passage shifts into Kalaignar's contemporary present: the agreement 'is' due for reconsideration in 1974, Tamils 'are' concerned, the Mysore Chief Minister 'has' proceeded, and the Tamil Nadu Government 'has' conveyed its opposition.",
+      "translation_action": "Retain that contemporary present-time vantage. Do not recast the passage into retrospective past merely because an English reader encounters the memoir later."
+    },
+    {
+      "type": "source_fidelity",
+      "severity": "informational",
+      "observation": "Historical and political assertions in this chapter are treated as Kalaignar's authorial claims.",
+      "translation_action": "Translate faithfully; do not silently fact-correct or replace authorial framing with external historical wording."
+    }
+  ],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "status": "approved"
+}
