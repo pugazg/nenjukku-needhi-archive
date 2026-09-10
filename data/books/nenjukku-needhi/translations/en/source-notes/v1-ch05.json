@@ -24,110 +24,110 @@
     {
       "type": "damaged_leading_text",
       "severity": "meaning-sensitive",
-      "observation": "Immediately after the repeated heading, the pinned chapter JSON and the repository's cleaned page-42 witness begin only with '-ல்'. The current Wikisource page witness for page 42 explicitly reads '1932–ல்', and independent historical sources also place the Tanjore Justice Party conference and transfer of leadership/First Ministership to the Raja of Bobbili in 1932.",
-      "translation_action": "T1 reconstructs the opening as 'In 1932' because the missing numerals are directly supplied by the page witness. The intervention remains disclosed; the read-only Tamil JSON is not altered."
+      "observation": "Immediately after the repeated heading, the pinned chapter JSON and the repository's cleaned page-42 witness begin only with '-ல்'. The direct Wikisource page witness for page 42 explicitly reads '1932–ல்', and independent historical sources also place the Tanjore Justice Party conference and transfer of leadership/First Ministership to the Raja of Bobbili in 1932.",
+      "translation_action": "The translation reconstructs the opening as 'In 1932' because the missing numerals are directly supplied by the page witness. The intervention remains disclosed; the read-only Tamil JSON is not altered."
     },
     {
       "type": "source_unit_join",
       "severity": "meaning-sensitive",
       "observation": "The page-42 extraction ends with 'இந்தி எதிர்ப்புக்' and page 43 begins 'கிளர்ச்சி!'. These form one continuous expression: 'இந்தி எதிர்ப்புக் கிளர்ச்சி!'.",
-      "translation_action": "T1 joins the units and does not translate the page boundary as a sentence break."
+      "translation_action": "The translation joins the units and does not translate the page boundary as a sentence break."
     },
     {
       "type": "source_unit_join",
       "severity": "meaning-sensitive",
       "observation": "Page 44 ends inside the Tamil rendering of the Voltaire quotation at 'தங்களின்'; page 45 continues with 'கருத்துக்கள் எந்த விதத்திலும்...'.",
-      "translation_action": "T1 reconstructs the quotation continuously across the page boundary while preserving Kalaignar's Tamil wording rather than substituting an external canonical English quotation."
+      "translation_action": "The translation reconstructs the quotation continuously across the page boundary while preserving Kalaignar's Tamil wording rather than substituting an external canonical English quotation."
     },
     {
       "type": "spacing_and_punctuation",
       "severity": "low",
       "observation": "The witnesses contain extraction/printing forms such as 'இந்திகட்டாயம்', 'வீழ்ச்சி யடைந்து', 'திரட்டி யெழுப்பும்', 'தேர்ந்தெடுக்கப் பட்டவுடன்', 'ஆயிரக் கணக்கில்', and apostrophe-style year forms such as '1938'க்கும்' and '1938'ல்தான்'.",
-      "translation_action": "T1 normalises only English spacing and date punctuation. The Tamil source is not silently rewritten."
+      "translation_action": "Only English spacing and date punctuation are normalised. The Tamil source is not silently rewritten."
     },
     {
       "type": "punctuation_or_apposition",
       "severity": "voice-sensitive",
-      "observation": "Page 42 gives the epithets 'தஞ்சைத் தங்கம், தமிழ்ச் சிங்கம். சர் ஏ.டி. பன்னீர் செல்வம்' with a full stop interrupting what contextually functions as an appositional praise sequence for Sir A. T. Pannirselvam.",
-      "translation_action": "T1 preserves the epithets as 'the Gold of Tanjore, the Lion of Tamil, Sir A. T. Pannirselvam'; T2 must review the literary English and proper-name form."
+      "observation": "Page 42 gives the epithets 'தஞ்சைத் தங்கம், தமிழ்ச் சிங்கம். சர் ஏ.டி. பன்னீர் செல்வம்' with a full stop interrupting what contextually functions as an appositional praise sequence for Sir A. T. Panneerselvam.",
+      "translation_action": "T2 preserves the epithets as 'the Gold of Tanjore, the Lion of Tamil, Sir A. T. Panneerselvam' and normalises the personal name to the historically attested English spelling Panneerselvam."
     },
     {
       "type": "historical_proper_names",
       "severity": "translation-sensitive",
-      "observation": "The chapter contains period names/titles requiring controlled English forms, including the Raja of Bobbili, Muthiah Chettiar, Sir A. T. Pannirselvam, Navalar Somasundara Bharathiar, Maraimalai Adigal, Thalamuthu, Natarasan, Khan Bahadur Khalifulla Sahib, Uma Maheswaran Pillai, Bharathidasan, Subhas Chandra Bose and others.",
-      "translation_action": "T1 remains close to the Tamil; T2 must verify historically attested English spellings/titles before freezing proper-name forms."
+      "observation": "The chapter contains period names/titles requiring controlled English forms, including the Raja of Bobbili, Muthiah Chettiar, Sir A. T. Panneerselvam, Navalar Somasundara Bharathiar, Maraimalai Adigal, Thalamuthu, Natarajan, Khan Bahadur Khalifullah Sahib, Uma Maheswaran Pillai, Bharathidasan, Subhas Chandra Bose and others.",
+      "translation_action": "T2 normalises secure English forms where useful for traceability, including Panneerselvam, Khalifullah, Natarajan and Indian National Congress, while retaining Kalaignar's epithets and forms of honour."
     },
     {
       "type": "historical_office_vocabulary",
       "severity": "translation-sensitive",
-      "observation": "The chapter alternates 'முதல் மந்திரி', 'மந்திரி சபை', 'முதல்வர்', 'முதலமைச்சர்', 'கல்வி அமைச்சர்' and 'சட்ட மன்றம்' across the 1930s Madras Presidency context.",
-      "translation_action": "T1 carries forward the period-sensitive institutional policy established in v1-ch04 without treating every office form as permanently frozen. T2 must verify each office by context."
+      "observation": "The chapter alternates 'முதல் மந்திரி', 'மந்திரி சபை', 'முதல்வர்', 'முதலமைச்சர்', 'கல்வி அமைச்சர்' and 'சட்ட மன்றம்' across changing 1930s Madras Presidency constitutional settings.",
+      "translation_action": "T2 uses period-sensitive titles by context: First Minister for the Raja of Bobbili in 1932 and for Subbarayan's 1926–1930 government, Premier for Rajaji's 1937 office, and Education Minister for Subbarayan's 1938 portfolio."
     },
     {
       "type": "historical_assertion",
       "severity": "methodological",
       "observation": "Page 42 explicitly states that a general election under reforms arising from the Simon Commission report occurred in 1936 and that the Justice Party collapsed in it, while the next sentence places the first Congress ministry in 1937. Modern historical summaries commonly date the decisive provincial election to 1937, but the source witness itself clearly reads 1936.",
-      "translation_action": "T1 translates Kalaignar's authored chronology as written. It does not silently fact-correct the year or rewrite the institutional chain."
+      "translation_action": "The translation preserves Kalaignar's authored 1936 chronology as written. It does not silently fact-correct the year or rewrite the institutional chain."
     },
     {
       "type": "quotation",
       "severity": "voice-critical",
-      "observation": "Rajaji's statement that only two people opposed Hindi is immediately answered by Pannirselvam's numerical retort that only one person is bringing Hindi, therefore the majority is on the side of opposition.",
-      "translation_action": "T1 preserves the setup, arithmetic reversal, timing and punchline as direct political dialogue rather than compressing it into historical summary."
+      "observation": "Rajaji's statement that only two people opposed Hindi is immediately answered by Panneerselvam's numerical retort that only one person is bringing Hindi, therefore the majority is on the side of opposition.",
+      "translation_action": "T2 preserves the setup, arithmetic reversal, timing and punchline as direct political dialogue rather than compressing it into historical summary."
     },
     {
       "type": "quotation",
       "severity": "voice-critical",
-      "observation": "Maraimalai Adigal's lament uses exclamatory, archaic-emotional Tamil ('அந்தோ!', 'அய்யகோ! என் செய்குவோம்') while arguing that Sanskrit and English have weakened Tamil and Hindi would destroy it.",
-      "translation_action": "T1 preserves the lamenting rhetorical register and exclamatory movement; T2 must review exact English choices such as 'the northern language', 'barely alive', and 'Ayyo'."
+      "observation": "Maraimalai Adigal's lament uses exclamatory, archaic-emotional Tamil ('அந்தோ!', 'அய்யகோ! என் செய்குவோம்') and the lexical term 'வடமொழி'. University of Madras Lexicon evidence gives 'வடமொழி' as Sanskrit in this sense.",
+      "translation_action": "T2 translates 'வடமொழி' as 'Sanskrit' and preserves the lamenting rhetorical register, including 'Alas!' and 'Ayyo! What shall we do?'"
     },
     {
-      "type": "lexical_review",
+      "type": "lexical_resolution",
       "severity": "translation-sensitive",
-      "observation": "Kalaignar says he repeatedly feels 'இறும்பூது' when reflecting that the first anti-Hindi-war mobilisation conference under Maraimalai Adigal fell on his own June 3 birthday.",
-      "translation_action": "T1 uses 'I am filled with proud wonder'. T2 must recheck the literary force of 'இறும்பூது எய்துகின்றேன்' without weakening or over-explaining it."
+      "observation": "Kalaignar says he repeatedly feels 'இறும்பூது' when reflecting that the first anti-Hindi-war mobilisation conference under Maraimalai Adigal fell on his own June 3 birthday. Tamil lexicon evidence gives the primary contextual sense as wonder/amazement.",
+      "translation_action": "T2 uses 'I am filled with wonder' and removes T1's added 'proud'. The birthday coincidence and repeated 'எண்ணி எண்ணி' carry the emotional resonance without translator-added pride."
     },
     {
       "type": "political_imagery",
       "severity": "voice-critical",
-      "observation": "The account of Thalamuthu and Natarasan culminates in the image of the Tamil language-struggle flag being dipped in the heroes' blood and flown until it touches the sky.",
-      "translation_action": "T1 retains the blood-and-flag image and its height/intensity rather than reducing it to a generic statement that they became martyrs."
+      "observation": "The account of Thalamuthu and Natarajan culminates in the image of the Tamil language-struggle flag being dipped in the heroes' blood and flown until it touches the sky.",
+      "translation_action": "T2 retains the prison-death bluntness, collective-personification 'தமிழன்', and blood-and-flag image rather than reducing the passage to a generic statement that they became martyrs."
     },
     {
       "type": "chronological_pivot",
       "severity": "voice-critical",
       "observation": "Page 44 pivots from the anti-Hindi struggle to '1924-க்கும் 1938'க்கும் இடையே 14 ஆண்டுகள்', then places the schoolboy narrator against a rapid catalogue of world and Indian political events.",
-      "translation_action": "T1 preserves the personal-age-to-world-history expansion and the repeated 'this was the year' cadence rather than reorganising events into an encyclopedia-like chronology."
+      "translation_action": "T2 preserves the personal-age-to-world-history expansion and the repeated 'this was the year' cadence rather than reorganising events into an encyclopedia-like chronology."
     },
     {
       "type": "quotation_attribution",
       "severity": "methodological",
       "observation": "The chapter attributes to Voltaire a Tamil rendering of the principle that one may disagree with another's words yet defend the right to express them. The attribution itself is part of Kalaignar's authored text.",
-      "translation_action": "T1 translates Kalaignar's Tamil quotation freshly and does not substitute a familiar canonical English maxim. T2 must compare only against the Tamil."
+      "translation_action": "T2 retains 'As Voltaire said' and translates Kalaignar's Tamil quotation freshly. It does not substitute the familiar canonical English maxim or fact-correct the attribution inside the memoir."
     },
     {
       "type": "reported_criticism",
       "severity": "voice-sensitive",
       "observation": "The text reports contemporary criticism that Periyar opposed Hindi merely as a weapon against Congress and did not care about Tamil development or Tamils, then moves to his acceptance as 'தமிழர் தலைவர்'.",
-      "translation_action": "T1 keeps the criticism explicitly framed as what was written and said and preserves the rhetorical turn into Periyar's public leadership."
+      "translation_action": "T2 keeps the criticism explicitly framed as what was written and said and preserves the rhetorical turn into Periyar's public leadership."
     },
     {
       "type": "ocr_or_extraction_reading",
       "severity": "translation-sensitive",
       "observation": "Page 45 gives 'தமிழர் தலைவர் எனும் பெரும் நூலையே பெரியார் அவர்களின் வாழ்க்கை வரலாறாகத் நீட்டினார்'. In context, the clause states that Sami Chidambaranar produced/wrote the book 'தமிழர் தலைவர்' as Periyar's biography; the surface verb 'நீட்டினார்' is anomalous for that action and may reflect a source/transcription issue.",
-      "translation_action": "T1 uses the contextually secure function 'wrote the substantial book Tamil Leader as a biography of Periyar'. T2 must recheck this treatment without asserting an unattested replacement Tamil verb."
+      "translation_action": "T2 retains only the contextually secure function that Sami Chidambaranar wrote the substantial biography. It translates both the public epithet and book title 'தமிழர் தலைவர்' consistently as 'Leader of the Tamils' and does not assert an unattested replacement Tamil verb."
     },
     {
       "type": "oratorical_catalogue",
       "severity": "voice-critical",
-      "observation": "The chapter closes with a cascade of public reactions to Anna's speaking: short quoted exclamations, physical description, rhetorical questions and metaphors including pomegranate pearls, the Courtallam waterfall and a tender Tamil sindhu.",
-      "translation_action": "T1 preserves the multi-voice oral praise, fragments, exclamations and concrete metaphors. T2 must review terms such as 'pomegranate pearls', 'sluice gate' and 'Tamil chindu' without collapsing the chorus into narrator summary."
+      "observation": "The chapter closes with a cascade of public reactions to Anna's speaking: short quoted exclamations, physical description, rhetorical questions and metaphors including pomegranate pearls, the Courtallam waterfall and a tender Tamil sindhu. The phrase 'ஆணித்தரமான வாதங்கள்' is lexicalised as firm/strong arguments rather than an explicit nail image.",
+      "translation_action": "T2 preserves the multi-voice oral praise, fragments, exclamations and concrete source metaphors, but removes T1's invented 'driven home like nails' image and uses 'Firm, forceful arguments.'"
     },
     {
       "type": "thought_structure",
       "severity": "voice-critical",
       "observation": "The chapter moves from the 1932 Justice Party leadership change and its decline -> Kalaignar's own Panagal Raja school memory -> Rajaji's compulsory-Hindi policy -> organised anti-Hindi resistance and martyrs -> the narrator's age/world-history comparison in 1938 -> Bose/Gandhi and international crises -> criticism and rise of Periyar as Tamil leader -> the emergence of Anna's name and speaking style.",
-      "translation_action": "T1 preserves this widening political-memory architecture and especially the return of the schoolboy narrator inside dense public history."
+      "translation_action": "T2 preserves this widening political-memory architecture and especially the return of the schoolboy narrator inside dense public history."
     },
     {
       "type": "non_authorial_editorial",
@@ -160,22 +160,37 @@
       "finding": "Historical accounts independently place the Tanjore Justice Party conference in October 1932 and the Raja of Bobbili's succession to Munuswamy Naidu in 1932, corroborating the direct Wikisource page reading '1932–ல்'."
     },
     {
+      "area": "period offices",
+      "finding": "Historical references distinguish the dyarchy-era title First Minister for the 1926–1932 governments from Rajagopalachari's 1937 office as Premier of the Madras Presidency."
+    },
+    {
+      "area": "proper names",
+      "finding": "Historical references support the English forms A. T. Panneerselvam, P. Khalifullah/Khalifullah Sahib, Natarajan and Indian National Congress used for T2 normalization."
+    },
+    {
+      "area": "lexical: வடமொழி",
+      "finding": "University of Madras Tamil Lexicon gives 'வடமொழி' as Sanskrit language in this established sense."
+    },
+    {
+      "area": "lexical: இறும்பூது",
+      "finding": "Tamil lexicon evidence gives 'இறும்பூது' as wonder/amazement; T2 therefore removes the extra 'proud' supplied in T1."
+    },
+    {
+      "area": "lexical: ஆணித்தரம்",
+      "finding": "Tamil lexicon evidence gives 'ஆணித்தரம்' as firmness/strength/quality; T2 removes the T1 nail-driving image from Anna's crowd-praise passage."
+    },
+    {
       "area": "historical chronology",
       "finding": "External history is used only to identify places where the memoir's dates may differ from modern historical summaries; those sources do not override Kalaignar's clear authored text."
     }
   ],
   "non_authorial_exclusions": [],
   "unresolved": [],
-  "review_items": [
-    "verify historically attested English spellings/titles for the dense 1930s political proper-name set during T2",
-    "review literary English for இறும்பூது எய்துகின்றேன் without weakening the proud-wonder register",
-    "recheck the fresh Voltaire rendering against Kalaignar's Tamil without importing canonical English wording",
-    "review period office vocabulary and political terms in full Tamil-English comparison",
-    "recheck the contextual treatment of page-45 நீட்டினார்"
-  ],
+  "review_items": [],
   "t1_translation": "../chapters/v1-ch05.json",
-  "status": "t1-complete",
-  "gate_result": "pass",
+  "t2_review": "../reviews/v1-ch05-t2.md",
+  "status": "t2-complete",
+  "gate_result": "pass-with-revision",
   "unresolved_source_holds": 0,
-  "next_gate": "t2-source-and-voice-review"
+  "next_gate": "t3-english-review"
 }
