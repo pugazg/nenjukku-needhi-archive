@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 |---|---|---:|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **SOURCE REVIEW PASS / T1 NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | not started |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
@@ -100,37 +100,52 @@ Final decisions include:
 - T3 removed translator-added `in their view` from the Home Rule comparison and changed pejorative-risk `schemes` to neutral `plans` for `திட்டங்கள்`;
 - historical claims remain authored claims; external evidence is used only for terminology/proper-name/institutional normalisation.
 
-## `v1-ch05` — source review complete
+## `v1-ch05` — T1 complete
 
-Durable source review:
+Durable files:
 
-- `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch05.json`
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch05.json`
+- fresh T1 translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch05.json`
 
 Gate state:
 
 - source review: **PASS / COMPLETE**;
-- pinned chapter blob: `220fb5271eac48c6988057d0d464d5950fd822a3`;
-- live source main check: **byte-identical** at `d6621b71256ae99b1c89b4f2091513dcc5f96626`;
+- T1: **PASS / COMPLETE**;
 - unresolved source holds: **0**;
-- next gate: **fresh T1 translation**.
+- next gate: **T2 source-and-Kalaignar-voice review**.
 
-Source-review decisions:
+T1 decisions and controls:
 
-- the first extraction unit's damaged `-ல்` is resolved from the direct page-42 witness as **`1932–ல்`**; T1 may use **In 1932** with the reconstruction disclosed;
-- page 42 → 43 `இந்தி எதிர்ப்புக்` / `கிளர்ச்சி!` is one continuous expression;
-- page 44 → 45 is one continuous Voltaire quotation;
-- the explicit source statement placing the Justice Party's collapse in a **1936** election is retained as Kalaignar's authored chronology and must not be silently fact-corrected;
-- the Voltaire quotation must be translated from Kalaignar's Tamil wording, not replaced by a canonical English maxim;
-- Rajaji/Pannirselvam dialogue, Maraimalai Adigal's lament, the blood-and-flag image for Thalamuthu and Natarasan, the 1938 world-history catalogue, reported criticism of Periyar, and the closing multi-voice praise of Anna are marked voice-critical;
-- `இறும்பூது எய்துகின்றேன்` requires literary resolution during translation without becoming a source hold;
-- page-45 `நீட்டினார்` is anomalous in the Sami Chidambaranar biography sentence; T1 may translate its secure contextual function without silently amending the Tamil;
-- dense 1930s proper names and period office vocabulary are reserved for controlled T2 verification.
+- the damaged opening is rendered **In 1932** only because the direct page-42 witness supplies `1932–ல்`;
+- the explicit source statement placing the Justice Party collapse in a **1936** election is retained as Kalaignar's authored chronology rather than silently corrected;
+- page 42 → 43 `இந்தி எதிர்ப்புக் கிளர்ச்சி!` is joined as a continuous rhetorical unit;
+- page 44 → 45 is joined inside the Voltaire quotation;
+- the Voltaire passage is freshly translated from Kalaignar's Tamil and retains his direct attribution; no canonical English wording or attribution hedge is imported;
+- Rajaji's claim that only two people oppose Hindi and Pannirselvam's one-versus-two reversal remain direct dialogue;
+- Maraimalai Adigal's lament remains exclamatory;
+- the Thalamuthu/Natarasan passage preserves both `became corpses within the prison walls` and the flag dipped in their blood and flown until it touches the sky;
+- the schoolboy narrator's fourteen-year pivot into the 1938 Indian/world-history catalogue remains in the original sequence and retains repeated emphatic year markers;
+- criticism of Periyar remains explicitly reported as contemporary writing/speech rather than narrator assertion;
+- the page-45 anomalous `நீட்டினார்` is rendered only through the secure contextual function that Sami Chidambaranar wrote `Tamil Leader` as Periyar's biography;
+- the chapter ends with separate public voices praising Anna, preserving pomegranate pearls, sluice-gate speech, Courtallam waterfall and Tamil `chindu` imagery.
+
+T2 review must now verify:
+
+- dense 1930s political proper names and titles;
+- period office vocabulary;
+- epithets including `தஞ்சைத் தங்கம்`, `தமிழ்ச் சிங்கம்`, `முத்தமிழ்க் காவலர்`, `தமிழவேள்`, `பேரறிஞர் அண்ணா`;
+- `இறும்பூது எய்துகின்றேன்` (T1: **filled with proud wonder**);
+- Maraimalai Adigal's `வடமொழி` / `குற்றுயிராக்கி` lament;
+- the fresh Voltaire rendering against Tamil only;
+- `இனத்தின் பெருமை` in the world-values list;
+- closing Anna metaphors and `கொஞ்சு தமிழ்ச் சிந்து`;
+- contextual treatment of page-45 `நீட்டினார்`.
 
 ## Batch 001 counters
 
 - source files pinned: **5 / 5**
 - full source reviews complete: **3 / 5**
-- T1 complete: **2 / 5**
+- T1 complete: **3 / 5**
 - T2 complete: **2 / 5**
 - T3 complete: **2 / 5**
 - thought-structure complete: **2 / 5**
@@ -146,4 +161,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Create the fresh T1 English translation of `v1-ch05` directly from the pinned Tamil source and the completed source notes. Do not consult any pre-existing English translation while drafting T1.
+Run the complete T2 Tamil-English source-and-Kalaignar-voice review for `v1-ch05`. Do not consult any pre-existing English translation during T2; first compare the fresh English directly against the pinned Tamil and source notes.
