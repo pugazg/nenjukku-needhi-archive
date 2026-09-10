@@ -10,7 +10,7 @@ Latest source-main drift check during `v1-ch04` review: `bb0beaa0a18f97336b52319
 
 Write repository: `pugazg/nenjukku-needhi-archive`
 
-Working branch: `translation/english-memoir`
+Working branch: `main`
 
 ## Batch rule
 
@@ -66,6 +66,10 @@ T1 controls enforced:
 - Justice Party history remains connected to the autobiographical schoolbook trigger rather than becoming detached encyclopedia prose;
 - Kalaignar's imagery remains visible: removal of fetters, Thiagarayar as the dawn-star of the Dravidians entering unending sleep in nature's lap, the country shedding tears for the Raja of Panagal, the Justice Party standing shaken, and the flame of rationalism spreading through `Kudi Arasu`;
 - movement terminology and historical-office vocabulary remain explicit T2 review items rather than being frozen at T1.
+
+## Branch consolidation
+
+PR #1 merged the former working branch `translation/english-memoir` into `main`. `main` is now the sole active translation work surface. Future chapter commits and control updates go directly to `main`.
 
 ## Opening observations for remaining batch chapters
 
