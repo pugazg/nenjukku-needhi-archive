@@ -21,49 +21,105 @@
   },
   "method": {
     "plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_review": "docs/PILOT_METHOD_REVIEW.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
     "glossary": "docs/TRANSLATION_GLOSSARY.md",
     "progress": "docs/TRANSLATION_PROGRESS.md",
     "source_notes_required": true,
-    "existing_english_is_authority": false
+    "existing_english_is_authority": false,
+    "accepted_scholarly_uncertainty_requires_editorial_closure": true,
+    "normal_batch_size": 5,
+    "batch_is_management_envelope": true,
+    "process_chapters_sequentially_within_batch": true
   },
-  "pilot": [
-    {
-      "id": "v1-ch01",
-      "tamil_title": "பிறந்த ஆண்டு",
-      "status": "approved",
-      "translation": "chapters/v1-ch01.json",
-      "source_notes": "source-notes/v1-ch01.json",
-      "reviews": {
-        "t2": "reviews/v1-ch01-t2.md",
-        "t3": "reviews/v1-ch01-t3.md",
-        "thought_structure": "reviews/v1-ch01-structure.md",
-        "existing_english_comparison": "reviews/v1-ch01-existing-comparison.md"
+  "pilot_phase": {
+    "status": "complete",
+    "chapters": [
+      {
+        "id": "v1-ch01",
+        "tamil_title": "பிறந்த ஆண்டு",
+        "status": "approved",
+        "translation": "chapters/v1-ch01.json",
+        "source_notes": "source-notes/v1-ch01.json",
+        "reviews": {
+          "t2": "reviews/v1-ch01-t2.md",
+          "t3": "reviews/v1-ch01-t3.md",
+          "thought_structure": "reviews/v1-ch01-structure.md",
+          "existing_english_comparison": "reviews/v1-ch01-existing-comparison.md"
+        },
+        "unresolved_source_holds": 0,
+        "accepted_scholarly_uncertainties": 0
       },
-      "unresolved_source_holds": 0
-    },
-    {
-      "id": "v1-ch02",
-      "tamil_title": "தந்தையின் துணிவு",
-      "status": "source-hold",
-      "translation": "chapters/v1-ch02.json",
-      "source_notes": "source-notes/v1-ch02.json",
-      "reviews": {
-        "t2": "reviews/v1-ch02-t2.md",
-        "source_witness": "reviews/v1-ch02-source-witness.md",
-        "t3": "reviews/v1-ch02-t3.md",
-        "thought_structure": "reviews/v1-ch02-structure.md"
+      {
+        "id": "v1-ch02",
+        "tamil_title": "தந்தையின் துணிவு",
+        "status": "approved",
+        "translation": "chapters/v1-ch02.json",
+        "source_notes": "source-notes/v1-ch02.json",
+        "reviews": {
+          "t2": "reviews/v1-ch02-t2.md",
+          "source_witness": "reviews/v1-ch02-source-witness.md",
+          "t3": "reviews/v1-ch02-t3.md",
+          "thought_structure": "reviews/v1-ch02-structure.md",
+          "editorial_closure": "reviews/v1-ch02-editorial-closure.md"
+        },
+        "gates": {
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass",
+          "thought_structure": "pass",
+          "editorial_closure": "pass"
+        },
+        "unresolved_source_holds": 0,
+        "accepted_scholarly_uncertainties": 2
+      }
+    ]
+  },
+  "production": {
+    "status": "open",
+    "active_batch": "batch-001",
+    "batch_control": "batches/batch-001.md",
+    "batch_chapters": [
+      {
+        "id": "v1-ch03",
+        "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
+        "pages": {"start": 30, "end": 36},
+        "source_blob_sha": "e7c0d550d68f8b30d9c48a22019e017f7034ff93",
+        "status": "ready-for-t1",
+        "source_notes": "source-notes/v1-ch03.json"
       },
-      "gates": {
-        "t1": "pass",
-        "t2": "pass-with-revision",
-        "t3": "pass",
-        "thought_structure": "pass"
+      {
+        "id": "v1-ch04",
+        "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
+        "pages": {"start": 37, "end": 41},
+        "source_blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
+        "status": "not-started"
       },
-      "unresolved_source_holds": 2,
-      "hold_kind": "semantic-interpretation",
-      "textual_readings_stable_across_available_text_witnesses": true,
-      "next_gate": "resolve-or-editorially-accept-two-semantic-interpretation-holds"
-    }
-  ]
+      {
+        "id": "v1-ch05",
+        "tamil_title": "நீதிக் கட்சியில் பல மாற்றங்கள்",
+        "pages": {"start": 42, "end": 45},
+        "source_blob_sha": "220fb5271eac48c6988057d0d464d5950fd822a3",
+        "status": "not-started"
+      },
+      {
+        "id": "v1-ch06",
+        "tamil_title": "தமிழ் காக்கும் போர் முனை",
+        "pages": {"start": 46, "end": 50},
+        "source_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
+        "status": "not-started"
+      },
+      {
+        "id": "v1-ch07",
+        "tamil_title": "\"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?\"",
+        "pages": {"start": 51, "end": 55},
+        "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
+        "status": "not-started"
+      }
+    ],
+    "source_reviews_complete": 1,
+    "translations_started": 0,
+    "approved_chapters": 0,
+    "next_activity": "fresh-t1-v1-ch03"
+  }
 }
