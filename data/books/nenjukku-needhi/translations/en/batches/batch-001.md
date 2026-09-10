@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` SOURCE REVIEW PASS / T1 NEXT**
+Status: **OPEN / `v1-ch05` T1 COMPLETE / T2 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -22,7 +22,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **SOURCE REVIEW PASS / T1 NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
@@ -77,27 +77,46 @@ Final `v1-ch04` controls:
 - T3 removed the unsupported translator hedge `in their view` from the Home Rule comparison and restored neutral `plans` for `திட்டங்கள்`;
 - historical assertions remain authored claims and are not silently fact-corrected.
 
-## `v1-ch05` source review
+## `v1-ch05` — T1 complete
 
-Durable source notes: `../source-notes/v1-ch05.json`
+Durable files:
 
-Gate result: **PASS / COMPLETE**.
+- source notes: `../source-notes/v1-ch05.json`
+- fresh T1 translation: `../chapters/v1-ch05.json`
 
-Source controls established before T1:
+Gate state:
 
-- the pinned source remains `public/data/text/v1-ch05.json` at blob `220fb5271eac48c6988057d0d464d5950fd822a3`;
-- live source `main` at `d6621b71256ae99b1c89b4f2091513dcc5f96626` has the identical chapter blob;
-- the opening JSON/cleaned witness loses the numerals and begins only `-ல்`, but the direct Wikisource page-42 witness reads **`1932–ல்`**; T1 may therefore restore **In 1932** with explicit provenance rather than guesswork;
-- the page-42 → 43 split `இந்தி எதிர்ப்புக்` / `கிளர்ச்சி!` is one continuous expression and must be joined;
-- the page-44 → 45 Voltaire quotation is one continuous quotation and must be joined;
-- the source explicitly gives a **1936** election statement before the 1937 Congress ministry; this is an authored historical claim and must not be silently corrected to modern historical chronology;
-- Rajaji/Pannirselvam dialogue, Maraimalai Adigal's lament, the Thalamuthu/Natarasan blood-and-flag image, the 1938 world-history catalogue, the reported criticism of Periyar, and the closing chorus praising Anna are all voice-critical structures that must not be compressed into summary;
-- the Voltaire quotation must be translated from Kalaignar's Tamil wording; no canonical English maxim is to be imported;
-- page-45 `நீட்டினார்` is anomalous in the biography sentence; T1 may render only the contextually secure function that Sami Chidambaranar wrote/produced `தமிழர் தலைவர்`, while preserving the source form in notes;
-- dense 1930s proper names and office titles remain flagged for T2 verification rather than premature modernisation;
-- unresolved source holds: **0**.
+- source review: **PASS / COMPLETE**;
+- fresh T1 translation: **PASS / COMPLETE**;
+- unresolved source holds: **0**;
+- next gate: **T2 source-and-Kalaignar-voice review**.
 
-Next gate for `v1-ch05`: **fresh T1 translation directly from the pinned Tamil source and completed source notes**.
+T1 controls applied:
+
+- the dropped opening numerals are restored as **In 1932** only because the direct page-42 witness supplies `1932–ல்`; the source JSON remains untouched;
+- the source's explicit **1936** election statement is translated as Kalaignar wrote it and is not silently fact-corrected;
+- the page-42 → 43 `இந்தி எதிர்ப்புக் கிளர்ச்சி!` continuation is joined;
+- the page-44 → 45 Voltaire quotation is joined and translated freshly from Kalaignar's Tamil, not replaced by a canonical English maxim;
+- Rajaji's 'two opponents' claim and Pannirselvam's one-versus-two numerical reversal remain direct dialogue with the punchline intact;
+- Maraimalai Adigal's lament remains exclamatory rather than explanatory;
+- Thalamuthu and Natarasan remain in Kalaignar's severe image as men who became corpses in prison, followed by the flag dipped in their blood and flown to the sky;
+- the personal-schoolboy pivot into the 1938 Indian/world-history catalogue is preserved in sequence;
+- criticism of Periyar is explicitly reported as what was written and said, not converted into narrator assertion;
+- the closing praise of Anna remains a chorus of short voices, rhetorical fragments and concrete metaphors rather than a prose summary;
+- page-45 `நீட்டினார்` is rendered only by its secure contextual function that Sami Chidambaranar wrote/produced `தமிழர் தலைவர்` as Periyar's biography.
+
+T2 review items:
+
+- historically attested English spellings/titles for the dense 1930s political proper-name set;
+- period office vocabulary across `முதல் மந்திரி`, `முதல்வர்`, `முதலமைச்சர்`, `கல்வி அமைச்சர்` and related institutional forms;
+- exact literary force of `இறும்பூது எய்துகின்றேன்` (T1: **filled with proud wonder**);
+- fresh Voltaire rendering against the Tamil only;
+- `தஞ்சைத் தங்கம், தமிழ்ச் சிங்கம்` and other epithets;
+- Maraimalai Adigal's `வடமொழி` / `குற்றுயிராக்கி` lament;
+- `முத்தமிழ்க் காவலர்`, `தமிழவேள்`, `பேரறிஞர் அண்ணா` and other political-cultural epithets;
+- `இனத்தின் பெருமை` in the global-values catalogue;
+- closing `மாதுளை முத்துக்கள்`, `மடை திறந்தாற்போல்`, `குற்றாலத்து அருவி`, `கொஞ்சு தமிழ்ச் சிந்து` imagery;
+- contextual treatment of page-45 `நீட்டினார்`.
 
 ## Branch consolidation
 
@@ -118,9 +137,9 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - Batch opened: **YES**
 - source files pinned: **5 / 5**
 - full source reviews complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- T1 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
+- T1 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T2 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - T3 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - thought-structure complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - approved chapters: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- next chapter activity: **fresh T1 translation for `v1-ch05`**
+- next chapter activity: **T2 source-and-Kalaignar-voice review for `v1-ch05`**
