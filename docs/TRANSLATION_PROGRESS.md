@@ -22,12 +22,12 @@
 
 - Translation plan: **COMPLETE**
 - Initial Kalaignar voice study (`v1-ch01`, `v1-ch02`): **COMPLETE**
-- Kalaignar Voice Guide: **UPDATED WITH PILOT-1 LESSONS / LIVING DOCUMENT**
+- Kalaignar Voice Guide: **UPDATED THROUGH PILOT-2 T2 / LIVING DOCUMENT**
 - Translation glossary: **INITIALISED**
 - Source-note convention: **DEFINED AND IN USE**
 - Corpus-wide source inventory: **NOT STARTED**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
-- Pilot `v1-ch02`: **T1 COMPLETE / T2 SOURCE+VOICE REVIEW NEXT**
+- Pilot `v1-ch02`: **T1 COMPLETE / T2 COMPLETE WITH SOURCE HOLD**
 - Production translation: **BLOCKED UNTIL `v1-ch02` PILOT COMPLETES AND METHOD IS REVIEWED**
 
 ## Mandatory chapter statuses
@@ -51,7 +51,7 @@ A chapter must not be called `approved` unless all required source notes are rec
 | Chapter | Tamil title | Purpose | Status |
 |---|---|---|---|
 | `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | **APPROVED / CLOSED** |
-| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | **T1 COMPLETE** |
+| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | **SOURCE HOLD — T2 COMPLETE** |
 
 ## `v1-ch01` closure
 
@@ -84,28 +84,33 @@ Key durable lessons from Pilot 1:
 - source OCR/extraction interventions must remain disclosed in source notes;
 - existing English may influence a phrase only after the fresh translation is frozen and the adoption is explicitly justified.
 
-## `v1-ch02` — T1 complete
+## `v1-ch02` — T2 complete with source hold
 
 Durable files:
 
-- fresh T1 translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch02.json`
+- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch02.json`
 - source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
+- T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-t2.md`
 
-T1 decisions already enforced:
+T2 results:
 
+- complete Tamil–English source-and-voice review: **PASS WITH REVISION**;
 - repeated heading excluded from body and represented as metadata;
-- `கேட்க-` + `லாம்` and `விடு-` + `மல்லவா?` reconstructed as source-unit joins and disclosed;
-- anomalous extracted `பார் போக்குவது?` translated contextually as the question of who will relieve the orphaned infant's hunger and explicitly noted;
-- Muthuvelar's satirical songs retained as verse blocks, not prose summaries;
-- culturally loaded terms such as `thali`, `manthirikar`, `Appa` and `Amma` retained or lightly glossed where useful;
-- the Tirukkural verse and Kalaignar's subsequent gruel/nectar image remain linked;
-- the chapter's shifts among grief, satire, religious devotion, agricultural domesticity, affection and humour are preserved rather than normalised;
-- the final two Wikisource maintenance notices are excluded as non-authorial material.
+- `கேட்க-` + `லாம்` and `விடு-` + `மல்லவா?` source-unit joins reconstructed and disclosed;
+- contextual source anomalies `பார் போக்குவது?`, `அவ்ளோ`, and `அவன்பால் விழுந்த காமுகர்கள்` explicitly documented rather than silently treated as clean source;
+- Muthuvelar's songs remain verse rather than prose summaries;
+- `போகசாலை` independently resolved as sleeping hall/bedchamber; T1's `pleasure-house` was corrected;
+- `ஊடியும்` restored to its lovers' quarrel / feigned-sulking sense before reunion rather than generic `dallied`;
+- `பச்சைச் சிசு`, `மங்கையர் திலகங்கள்`, `பழுத்த கடவுள் பக்தர்`, Anjugam's praise passage, the coconut joke, the elevated birth register, and the burglary's dramatic present/oral fragments were all revised for closer Kalaignar-voice fidelity;
+- the final two Wikisource maintenance notices remain excluded as non-authorial material.
 
-Open T2/source issue:
+### Exact unresolved source holds — 2
 
-- several lexical readings in the long `ஏலேலோ` satire (`தரகுமூட்டை`, `போகசாலை`, and the sequence around `முந்தானையால் கூட்டியே நின்று`) remain source-review items. T1 translates them conservatively but the chapter cannot be approved until they are reviewed.
+1. `தரகுமூட்டை` — the page-level witness repeats this compound, but its exact semantic force remains insufficiently secure. The provisional English now transliterates `taragu-mootai` rather than inventing a confident paraphrase.
+2. `முந்தானையால் கூட்டியே நின்று` — the words are reproduced by the page-level witness, but the exact object/syntactic force of `கூட்டியே` remains unclear. The provisional English is intentionally conservative.
+
+These two holds block chapter approval. They do **not** block the already completed T2 review.
 
 ## Next activity
 
-Run the complete T2 source-and-Kalaignar-voice review for `v1-ch02`, with special attention to the embedded songs, rural/cultural vocabulary, humour, and whether any T1 phrasing over-explains or softens Kalaignar. Resolve or explicitly hold the long-song lexical uncertainties before T3.
+Resolve the two remaining `v1-ch02` source holds using a stronger print/image witness for the long `ஏலேலோ` song. Do not guess from context alone. Once resolved—or explicitly accepted by an editorial decision if the print witness remains indeterminate—run T3 English-only review and the thought-structure audit before considering `v1-ch02` for approval.
