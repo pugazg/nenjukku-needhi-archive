@@ -221,6 +221,34 @@ For `v1-ch04` the working forms are `backward communities`, `depressed communiti
 
 `v1-ch04` therefore uses `weekly verbal debates` for Anna's participation in the student forum. The English should preserve contest and oratorical energy without inventing an English dialect or melodrama.
 
+## 32. Historical office English can change across adjacent constitutional periods
+
+Do not freeze one English office title merely because the Tamil uses related forms in neighbouring paragraphs or chapters. The constitutional setting controls the institutional English.
+
+`v1-ch05` spans more than one regime: the Raja of Bobbili in 1932 and P. Subbarayan's 1926–1930 government retain the dyarchy-era **First Minister**, while Rajaji's 1937 office is rendered as **Premier of the Madras Presidency**. This is a change in historical office structure, not inconsistency in translation.
+
+## 33. Do not manufacture imagery from a lexicalised word's visible components
+
+A word may historically contain a concrete image while functioning in ordinary usage as a settled adjective or idiom. Translate the lexicalised meaning unless the source actively reawakens the image.
+
+In `v1-ch05`, `ஆணித்தரமான வாதங்கள்` means firm/strong arguments. T1's `arguments driven home like nails` invented a nail image that Kalaignar's crowd-praise line does not explicitly activate. T2 restores **Firm, forceful arguments**.
+
+This rule complements the opposite rule in section 8: preserve imagery that is genuinely active, but do not create imagery merely from etymology or word shape.
+
+## 34. Emotional intensity must come from the source, not from sympathetic supplementation
+
+Do not add an emotion simply because the autobiographical context makes it plausible.
+
+In `v1-ch05`, `இறும்பூது` is lexically wonder/amazement. The June 3 coincidence is clearly meaningful to Kalaignar, but T1's `proud wonder` supplied `pride` rather than translating it. T2 uses **I am filled with wonder** and lets the repeated `எண்ணி எண்ணி` and birthday connection carry the feeling.
+
+The same discipline applies in the other direction: genuine grief, anger, reverence or exultation must not be toned down when the Tamil states it.
+
+## 35. A public chorus is a dramatic form, not evidence to be summarized
+
+When Kalaignar reproduces a sequence of audience voices, keep the plurality, fragments, exclamations, questions and images. Do not convert them into a narrator's list of qualities.
+
+The end of `v1-ch05` presents reactions to Anna's oratory as a chorus: music, restrained movement, pomegranate pearls, an opened sluice, firm arguments, undeniable statistics, the Courtallam waterfall and a Tamil `chindu`. Their accumulation makes the public reception audible. The English should preserve that staged chorus even if individual fragments are unconventional prose sentences.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -248,6 +276,12 @@ Its T2 review adds durable practice for historical/dialectal forms (`நோக�
 The chapter begins with a third-person school-admission drama and delayed self-reveal, then turns the Fifth Standard `பனகல் அரசர்` book into Kalaignar's political primer. The historical section expands through Justice Party formation, newspapers, representation, elections, ministries, labour confrontation, leadership deaths, Periyar, the Self-Respect Movement, Anna and Periyar's collaboration with the Justice Party.
 
 Its T2 review establishes durable practice for historical proper-name normalisation (`South Indian Liberal Federation`), period institutional vocabulary (`First Minister`, `President of the Legislative Council`), historical political categories (`backward communities`, `depressed communities`, `great Dravidian community`), `Self-Respect Movement`, `rationalism`, `self-government`, and preservation of `சொற்போர்` as verbal/debate energy.
+
+### `v1-ch05` — `நீதிக் கட்சியில் பல மாற்றங்கள்`
+
+The chapter continues Justice Party history but repeatedly returns public history to Kalaignar's own age and political awakening: the 1932 leadership change, party decline, his Panagal Raja school memory, compulsory Hindi, the first anti-Hindi struggle, martyrs, the fourteen-year 1924–1938 pivot, Indian and world crises, Periyar's emergence as `தமிழர் தலைவர்`, and the first spreading fame of Anna's oratory.
+
+Its T2 review adds durable practice for constitutional-period office changes (`First Minister` versus `Premier`), lexical `வடமொழி` → `Sanskrit`, disciplined `இறும்பூது` → `wonder` without added pride, consistent preservation of political epithets, historically useful proper-name normalisation, non-canonical handling of Kalaignar's Tamil-mediated Voltaire quotation, and refusal to invent an etymological nail image from `ஆணித்தரமான`. The closing audience chorus confirms that public reception itself can be a dramatic scene and should not be flattened into summary.
 
 ## Review question
 
