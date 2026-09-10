@@ -40,6 +40,7 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `முதல் மந்திரி` | **First Minister** in the 1920s Madras Presidency context | Period office title under dyarchy. Do not automatically modernise to `Chief Minister`; later chapters may require contextual review. |
 | `மந்திரி சபை` | **ministry** / **ministry (cabinet)** contextually | Preserve period political vocabulary; `ministry` is preferred in historical narrative unless institutional clarity requires otherwise. |
 | `சட்டசபைத் தலைவர்` | **President of the Legislative Council** in the 1920s Madras Presidency context | Historical institutional normalisation in `v1-ch04`: the relevant body was the Madras Legislative Council. Do not use modern `Legislative Assembly` for this period. |
+| `இந்தியா மந்திரி` | **Secretary of State for India** when referring to the British India Office | `v1-ch04`: Kalaignar's Tamil names Montagu by function; use the securely attested official English office title rather than the unnatural literal `India Minister`. Record the normalisation in source notes. |
 | `சுயாட்சி` | **self-government** / **Swaraj** contextually | Use `self-government` for a general institutional demand; use `Swaraj Party` when the Tamil names the historical party `சுயாட்சிக் கட்சி`. |
 | `சொற்போர்` | **debate / verbal debate** contextually | Preserve the active oral character; avoid flattening to `discussion` where the rhetorical contest matters. |
 
@@ -58,3 +59,4 @@ The following should not be permanently fixed until more chapters are read:
 - Initial glossary created from direct reading of `v1-ch01` and `v1-ch02`.
 - `v1-ch03` T2 added policies for `பிற்படுத்தப்பட்ட`, `புனுகு`, `அரிநமோத்து சிந்தம்`, dated Brahmin-Tamil `நோக்கு`, and the affectionate gesture `உச்சிமோந்து`.
 - `v1-ch04` T2 added historical proper-name normalisation for `தென்னிந்திய நல உரிமைச் சங்கம்`, `Justice Party`, `Self-Respect Movement`, `rationalism`, `depressed communities`, `First Minister`, and the 1920s Madras Legislative Council's presidential office.
+- `v1-ch04` T3 added `இந்தியா மந்திரி` → `Secretary of State for India`, preserving Kalaignar's reference while using the attested official English office title.
