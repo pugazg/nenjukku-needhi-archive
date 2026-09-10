@@ -5,7 +5,7 @@
   "tamil_title": "தந்தையின் துணிவு",
   "title": "My Father's Courage",
   "pages": {"start": 22, "end": 29},
-  "status": "source-hold",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -19,7 +19,7 @@
     "The repeated Tamil chapter heading is represented by title metadata rather than repeated as body prose; source-unit joins such as 'கேட்க-' + 'லாம்' and 'விடு-' + 'மல்லவா?' are read continuously and disclosed.",
     "The anomalous extracted forms 'பார் போக்குவது?', 'அவ்ளோ', and the gender mismatch in 'அவன்பால் விழுந்த காமுகர்கள்' are translated by clear narrative context and explicitly recorded in source notes rather than silently normalised.",
     "Muthuvelar's satirical songs remain verse. T2 independently resolved 'போகசாலை' as sleeping quarters/bedchamber and 'ஊடல்' as a lovers' quarrel/feigned sulking, correcting T1's over-interpretive wording.",
-    "Two expressions in the long song remain semantic interpretation holds: the text witnesses consistently read 'தரகுமூட்டை' and 'முந்தானையால் கூட்டியே நின்று', but their exact semantic/syntactic force is not secure. The first is provisionally transliterated and the second conservatively rendered. This blocks final approval but did not block T3 or the thought-structure audit.",
+    "Two expressions in the long song are accepted scholarly uncertainties rather than unresolved source holds. The stable text 'தரகுமூட்டை' is retained as 'taragu-mootai'; 'முந்தானையால் கூட்டியே நின்று' is rendered conservatively without supplying an unexpressed object. The editorial decision is documented separately.",
     "The final two source extraction units are Wikisource maintenance notices and are excluded from the literary translation as non-authorial material."
   ],
   "paragraphs": [
@@ -76,6 +76,9 @@
     "t2_review": "../reviews/v1-ch02-t2.md",
     "t3_review": "../reviews/v1-ch02-t3.md",
     "thought_structure_review": "../reviews/v1-ch02-structure.md",
-    "next_gate": "resolve-or-editorially-accept-two-semantic-interpretation-holds"
+    "editorial_closure": "../reviews/v1-ch02-editorial-closure.md",
+    "unresolved_source_holds": 0,
+    "accepted_scholarly_uncertainties": 2,
+    "final_gate": "approved"
   }
 }
