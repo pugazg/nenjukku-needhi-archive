@@ -119,7 +119,8 @@
           "blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
           "result": "byte-identical"
         },
-        "status": "t1-in-progress",
+        "status": "source-review",
+        "source_review_complete": true,
         "source_notes": "source-notes/v1-ch04.json",
         "gates": {
           "source_review": "pass"
