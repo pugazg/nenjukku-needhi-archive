@@ -85,8 +85,12 @@
         "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
         "pages": {"start": 30, "end": 36},
         "source_blob_sha": "e7c0d550d68f8b30d9c48a22019e017f7034ff93",
-        "status": "ready-for-t1",
-        "source_notes": "source-notes/v1-ch03.json"
+        "status": "t1-complete",
+        "translation": "chapters/v1-ch03.json",
+        "source_notes": "source-notes/v1-ch03.json",
+        "unresolved_source_holds": 0,
+        "review_items": ["அரிநமோத்து சிந்தம்"],
+        "next_gate": "t2-source-and-voice-review"
       },
       {
         "id": "v1-ch04",
@@ -118,8 +122,9 @@
       }
     ],
     "source_reviews_complete": 1,
-    "translations_started": 0,
+    "translations_started": 1,
+    "t1_complete": 1,
     "approved_chapters": 0,
-    "next_activity": "fresh-t1-v1-ch03"
+    "next_activity": "t2-source-and-voice-review-v1-ch03"
   }
 }
