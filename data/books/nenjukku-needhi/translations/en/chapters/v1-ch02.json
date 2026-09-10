@@ -19,7 +19,7 @@
     "The repeated Tamil chapter heading is represented by title metadata rather than repeated as body prose; source-unit joins such as 'கேட்க-' + 'லாம்' and 'விடு-' + 'மல்லவா?' are read continuously and disclosed.",
     "The anomalous extracted forms 'பார் போக்குவது?', 'அவ்ளோ', and the gender mismatch in 'அவன்பால் விழுந்த காமுகர்கள்' are translated by clear narrative context and explicitly recorded in source notes rather than silently normalised.",
     "Muthuvelar's satirical songs remain verse. T2 independently resolved 'போகசாலை' as sleeping quarters/bedchamber and 'ஊடல்' as a lovers' quarrel/feigned sulking, correcting T1's over-interpretive wording.",
-    "Two long-song readings remain unresolved: 'தரகுமூட்டை' and the exact syntactic force of 'முந்தானையால் கூட்டியே நின்று'. The first is provisionally transliterated rather than falsely paraphrased; the second is rendered conservatively. This source hold blocks approval.",
+    "Two expressions in the long song remain semantic interpretation holds: the text witnesses consistently read 'தரகுமூட்டை' and 'முந்தானையால் கூட்டியே நின்று', but their exact semantic/syntactic force is not secure. The first is provisionally transliterated and the second conservatively rendered. This blocks final approval but did not block T3 or the thought-structure audit.",
     "The final two source extraction units are Wikisource maintenance notices and are excluded from the literary translation as non-authorial material."
   ],
   "paragraphs": [
@@ -72,7 +72,10 @@
     "translation_plan": "docs/TRANSLATION_PLAN.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
     "source_review": "../source-notes/v1-ch02.json",
+    "source_witness_review": "../reviews/v1-ch02-source-witness.md",
     "t2_review": "../reviews/v1-ch02-t2.md",
-    "next_gate": "resolve-source-hold"
+    "t3_review": "../reviews/v1-ch02-t3.md",
+    "thought_structure_review": "../reviews/v1-ch02-structure.md",
+    "next_gate": "resolve-or-editorially-accept-two-semantic-interpretation-holds"
   }
 }
