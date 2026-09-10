@@ -22,13 +22,13 @@
 
 - Translation plan: **COMPLETE**
 - Initial Kalaignar voice study (`v1-ch01`, `v1-ch02`): **COMPLETE**
-- Kalaignar Voice Guide: **UPDATED THROUGH PILOT-2 T2 / LIVING DOCUMENT**
+- Kalaignar Voice Guide: **UPDATED THROUGH PILOT-2 / LIVING DOCUMENT**
 - Translation glossary: **INITIALISED**
 - Source-note convention: **DEFINED AND IN USE**
 - Corpus-wide source inventory: **NOT STARTED**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
-- Pilot `v1-ch02`: **T1 COMPLETE / T2 COMPLETE WITH SOURCE HOLD**
-- Production translation: **BLOCKED UNTIL `v1-ch02` PILOT COMPLETES AND METHOD IS REVIEWED**
+- Pilot `v1-ch02`: **T1 PASS / T2 PASS WITH REVISION / T3 PASS / THOUGHT-STRUCTURE PASS / SOURCE HOLD (2 SEMANTIC INTERPRETATIONS)**
+- Production translation: **BLOCKED UNTIL `v1-ch02` PILOT IS EDITORIALLY CLOSED AND METHOD IS REVIEWED**
 
 ## Mandatory chapter statuses
 
@@ -51,7 +51,7 @@ A chapter must not be called `approved` unless all required source notes are rec
 | Chapter | Tamil title | Purpose | Status |
 |---|---|---|---|
 | `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | **APPROVED / CLOSED** |
-| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | **SOURCE HOLD — T2 COMPLETE** |
+| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | **SOURCE HOLD — ALL NON-SOURCE GATES COMPLETE** |
 
 ## `v1-ch01` closure
 
@@ -74,43 +74,56 @@ Gate results:
 - unresolved source holds: **0**;
 - final status: **APPROVED**.
 
-Key durable lessons from Pilot 1:
-
-- preserve concrete idiom rather than abstracting it (`உயிர் எமக்கு வெல்லமல்ல` retains its jaggery image);
-- preserve the `பெரிய / சின்ன` contrast and ownership logic;
-- preserve foundation imagery in `கால்கோள்`;
-- preserve deliberate intensity such as `வெறித்தனமான பக்தி`;
-- preserve Kalaignar's historical present in live political passages;
-- source OCR/extraction interventions must remain disclosed in source notes;
-- existing English may influence a phrase only after the fresh translation is frozen and the adoption is explicitly justified.
-
-## `v1-ch02` — T2 complete with source hold
+## `v1-ch02` — all translation/structure gates complete; semantic source hold remains
 
 Durable files:
 
 - translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch02.json`
 - source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-t2.md`
+- source-witness decision: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-source-witness.md`
+- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-t3.md`
+- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-structure.md`
 
-T2 results:
+Gate results:
 
-- complete Tamil–English source-and-voice review: **PASS WITH REVISION**;
-- repeated heading excluded from body and represented as metadata;
-- `கேட்க-` + `லாம்` and `விடு-` + `மல்லவா?` source-unit joins reconstructed and disclosed;
-- contextual source anomalies `பார் போக்குவது?`, `அவ்ளோ`, and `அவன்பால் விழுந்த காமுகர்கள்` explicitly documented rather than silently treated as clean source;
-- Muthuvelar's songs remain verse rather than prose summaries;
-- `போகசாலை` independently resolved as sleeping hall/bedchamber; T1's `pleasure-house` was corrected;
-- `ஊடியும்` restored to its lovers' quarrel / feigned-sulking sense before reunion rather than generic `dallied`;
-- `பச்சைச் சிசு`, `மங்கையர் திலகங்கள்`, `பழுத்த கடவுள் பக்தர்`, Anjugam's praise passage, the coconut joke, the elevated birth register, and the burglary's dramatic present/oral fragments were all revised for closer Kalaignar-voice fidelity;
-- the final two Wikisource maintenance notices remain excluded as non-authorial material.
+- T1 fresh Tamil translation: **PASS**;
+- T2 complete Tamil–English source-and-voice review: **PASS WITH REVISION**;
+- non-authorial Wikisource notices: **EXCLUDED / PASS**;
+- source-unit joins and contextual extraction anomalies: **DOCUMENTED / PASS**;
+- embedded verse handling: **PASS WITH REVISION**;
+- T3 English-only read: **PASS**;
+- thought-structure audit: **PASS**;
+- structural omissions/additions: **0**;
+- final approval: **BLOCKED BY 2 SEMANTIC INTERPRETATION HOLDS**.
 
-### Exact unresolved source holds — 2
+### Resolved during T2
 
-1. `தரகுமூட்டை` — the page-level witness repeats this compound, but its exact semantic force remains insufficiently secure. The provisional English now transliterates `taragu-mootai` rather than inventing a confident paraphrase.
-2. `முந்தானையால் கூட்டியே நின்று` — the words are reproduced by the page-level witness, but the exact object/syntactic force of `கூட்டியே` remains unclear. The provisional English is intentionally conservative.
+- `போகசாலை` — independently supported as sleeping hall/bedchamber; T1's `pleasure-house` was corrected.
+- `ஊடியும் கலந்துமே வந்தேன்` — restored to its lovers' quarrel/feigned-sulking then reunion sense rather than generic `dallied`.
+- Kalaignar-voice corrections were applied across the orphan-infant, social-satire, devotion, Anjugam-praise, agricultural, birth and burglary passages.
 
-These two holds block chapter approval. They do **not** block the already completed T2 review.
+### Exact remaining holds — 2
+
+The pinned chapter extraction and the separately retained page-level text witness agree on the visible text. The remaining problem is **semantic interpretation**, not an unstable character reading.
+
+1. `தரகுமூட்டை` — exact semantic force of the stable compound remains uncertain. The English retains provisional `taragu-mootai` rather than inventing a confident paraphrase.
+2. `முந்தானையால் கூட்டியே நின்று` — exact object/syntactic force remains uncertain. The English remains conservative and supplies no unexpressed object.
+
+A trustworthy page-image rendering of the relevant printed page was not available through the interfaces used in the witness review, so no visual-glyph verification is claimed. These isolated holds did not prevent T3 or the thought-structure audit, but they continue to block `approved` status.
+
+## Pilot-2 structural result
+
+The English preserves the chapter's complete movement:
+
+`orphaned Muthuvel → human foster care → father's talents → protest/social satire → Kalaignar's self-comparison → fearless critic / intense believer → marriages and bereavement → Anjugam → working agricultural household → coconut humour → childlessness / Kural → Kalaignar's birth → burglary / thali humour → father's philosophy of theft`
 
 ## Next activity
 
-Resolve the two remaining `v1-ch02` source holds using a stronger print/image witness for the long `ஏலேலோ` song. Do not guess from context alone. Once resolved—or explicitly accepted by an editorial decision if the print witness remains indeterminate—run T3 English-only review and the thought-structure audit before considering `v1-ch02` for approval.
+Make the editorial closure decision for the two isolated semantic interpretation holds. Preferred order:
+
+1. seek any stronger visual/lexical/printed evidence if newly accessible;
+2. if none is available, decide explicitly whether documented transliteration/conservative rendering is acceptable as the final scholarly treatment;
+3. if accepted, record the editorial acceptance, clear the two holds, mark `v1-ch02` approved, review the two-pilot method, and only then open the first five-chapter production batch.
+
+Do not guess a smoother meaning merely to achieve closure.
