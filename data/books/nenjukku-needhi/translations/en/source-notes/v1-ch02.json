@@ -60,7 +60,7 @@
     {
       "type": "lexical_resolution",
       "severity": "meaning-sensitive",
-      "observation": "The long ஏலேலோ song contains 'போகசாலை'. An external Tamil Digital Library architectural source (TVA_BOK_0012940, p. 50) explicitly glosses 'போகசாலை' as 'சயன சாலை', supporting the sense sleeping hall/bedchamber.",
+      "observation": "The long ஏலேலோ song contains 'போகசாலை'. A Tamil Digital Library architectural source explicitly glosses 'போகசாலை' as 'சயன சாலை', supporting the sense sleeping hall/bedchamber.",
       "translation_action": "Correct T1's over-interpretive 'pleasure-house' to a sleeping-quarters/bedchamber rendering."
     },
     {
@@ -70,16 +70,16 @@
       "translation_action": "Replace T1's generic 'dallied' with a rendering that preserves the lovers' quarrel followed by joining/reunion."
     },
     {
-      "type": "uncertain_reading",
-      "severity": "hold-required",
-      "observation": "The page-level witness for page 24 reproduces 'தன் வீட்டுத் தரகுமூட்டை / தலைமேலிருந்தும்'. The compound 'தரகுமூட்டை' remains insufficiently secure semantically from the available text witnesses.",
-      "translation_action": "Do not preserve T1's confident paraphrase 'burdens of your own household'. Retain the Tamil compound transliterated in the provisional English line pending a stronger print/image witness or an explicit editorial decision."
+      "type": "semantic_interpretation_hold",
+      "severity": "approval-blocking",
+      "observation": "The pinned chapter extraction and the separately retained page-level text witness both read 'தன் வீட்டுத் தரகுமூட்டை / தலைமேலிருந்தும்'. The character sequence 'தரகுமூட்டை' is therefore stable across the available text witnesses, but the compound's exact semantic force remains insufficiently secure. A trustworthy page-image rendering was not available in this review, so no visual-glyph verification is claimed.",
+      "translation_action": "Do not restore the earlier confident paraphrase 'burdens of your own household'. Retain the provisional transliteration 'taragu-mootai' pending stronger lexical/printed evidence or an explicit editorial decision accepting transliteration as final treatment."
     },
     {
-      "type": "uncertain_reading",
-      "severity": "hold-required",
-      "observation": "The page-level witness for page 24 also reproduces 'அவசரமாய் முந்தானையால் / கூட்டியே நின்று'. The words themselves are legible in the digital witness, but the exact object/syntactic force of 'கூட்டியே' with 'முந்தானையால்' remains unclear.",
-      "translation_action": "Render conservatively without supplying an unexpressed object; keep the chapter on source hold until a stronger witness or explicit editorial decision resolves the line."
+      "type": "semantic_interpretation_hold",
+      "severity": "approval-blocking",
+      "observation": "The pinned chapter extraction and the page-level text witness both read 'அவசரமாய் முந்தானையால் / கூட்டியே நின்று'. The words are textually stable in the available witnesses, but the exact object/syntactic force of 'கூட்டியே' with 'முந்தானையால்' remains uncertain. No visual-glyph verification is claimed.",
+      "translation_action": "Render conservatively without supplying an unexpressed object. Keep the semantic interpretation hold until stronger evidence or an explicit editorial decision resolves/accepts the line."
     },
     {
       "type": "cultural_term",
@@ -115,6 +115,7 @@
       "role": "secondary text witness only; not authority over the pinned autobiography source"
     }
   ],
+  "source_witness_review": "../reviews/v1-ch02-source-witness.md",
   "non_authorial_exclusions": [
     {
       "source_unit": 6,
@@ -128,11 +129,15 @@
   "unresolved": [
     {
       "area": "embedded-long-song: தரகுமூட்டை",
-      "reason": "Exact semantic force of the compound remains unresolved from available text witnesses."
+      "kind": "semantic-interpretation",
+      "textual_reading_stable": true,
+      "reason": "Exact semantic force of the stable compound remains unresolved from available witnesses."
     },
     {
       "area": "embedded-long-song: முந்தானையால் கூட்டியே நின்று",
-      "reason": "Exact object/syntactic force remains unresolved from available text witnesses."
+      "kind": "semantic-interpretation",
+      "textual_reading_stable": true,
+      "reason": "Exact object/syntactic force of the stable wording remains unresolved from available witnesses."
     }
   ],
   "status": "source-hold"
