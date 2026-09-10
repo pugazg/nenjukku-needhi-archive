@@ -24,10 +24,10 @@
 - Initial Kalaignar voice study (`v1-ch01`, `v1-ch02`): **COMPLETE**
 - Kalaignar Voice Guide: **INITIAL VERSION COMPLETE / LIVING DOCUMENT**
 - Translation glossary: **INITIALISED**
-- Source-note convention: **DEFINED**
+- Source-note convention: **DEFINED AND IN USE**
 - Corpus-wide source inventory: **NOT STARTED**
-- Pilot `v1-ch01`: **IN PROGRESS**
-- Pilot `v1-ch02`: **NOT STARTED**
+- Pilot `v1-ch01`: **T1 COMPLETE / T2 VOICE REVIEW IN PROGRESS**
+- Pilot `v1-ch02`: **SOURCE NOTES COMPLETE / READY FOR T1**
 - Production translation: **BLOCKED UNTIL BOTH PILOTS COMPLETE AND METHOD REVIEWED**
 
 ## Mandatory chapter statuses
@@ -50,25 +50,41 @@ A chapter must not be called `approved` unless all required source notes are rec
 
 | Chapter | Tamil title | Purpose | Status |
 |---|---|---|---|
-| `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | `t1-in-progress` |
-| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | `not-started` |
+| `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | `t2-voice-review` |
+| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | `source-review` complete; `ready-for-t1` |
 
-## Known source-note examples
+## Durable pilot files
 
 ### `v1-ch01`
 
-- repeated chapter title at start of first extraction unit;
-- OCR/spacing artefact such as `வா ழ்க்கை`;
-- extraction/page joins cross literary sentence/paragraph boundaries;
-- English paragraphing must be reconstructed from rhetorical units and documented.
+- T1 translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch01.json`
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch01.json`
+- T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-t2.md`
+
+Current T2 findings include:
+
+- preserve the `பெரிய` / `சின்ன` rhetorical contrast more closely;
+- restore the concrete `வெல்லம்` (jaggery) image in `உயிர் எமக்கு வெல்லமல்ல` rather than retaining only abstract sweetness;
+- restore the foundation-laying force of `கால்கோள் விழா`;
+- review whether `வெறித்தனமான பக்தி` was softened too much in T1;
+- remove an external historical normalisation in “our Presidency” and return to the source wording `நம்முடைய மாநிலம்`.
 
 ### `v1-ch02`
 
-- repeated chapter title at start of first extraction unit;
-- page/source-unit word joins, including `கேட்க-` + `லாம்` and `விடு-` + continuation;
-- final two extraction units are non-authorial Wikisource duplicate-page/editorial notices and must not be translated as memoir prose;
-- embedded satirical song requires verse-aware handling.
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
+
+Recorded before translation:
+
+- repeated chapter heading;
+- `கேட்க-` + `லாம்` page/source-unit join;
+- later `விடு-` continuation;
+- paragraph reconstruction requirement;
+- embedded satirical songs require verse-aware translation;
+- sharp tonal movement among grief, social criticism, devotion, agriculture, affection and humour;
+- final two source units are non-authorial Wikisource maintenance notices and are explicitly excluded from memoir translation.
 
 ## Next activity
 
-Complete `v1-ch01` source-note record and fresh T1 translation directly from Tamil. Do not use the existing English rendering as drafting authority. After T1 is frozen, perform T2 voice review, T3 English read, thought-structure audit, and only then compare with any pre-existing English version.
+Finish the complete T2 Tamil-English voice review for `v1-ch01`, apply the reviewed corrections as one coherent revision, then run T3 English-only reading and thought-structure audit. After that, compare the frozen new translation with any pre-existing English rendering only as an independent comparator.
+
+Then begin fresh T1 translation of `v1-ch02`, using its source-note exclusions and verse handling from the start.
