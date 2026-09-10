@@ -22,7 +22,7 @@ Does the frozen English use historically appropriate institutional English, stab
 
 ### 1. `முனுசாமி நாயுடு`
 
-The chapter currently has `Munusami Naidu`. Historical English references consistently use **Munuswamy Naidu** for the Justice Party leader and First Minister who lost the party leadership to the Raja of Bobbili in 1932.
+The chapter had `Munusami Naidu`. Historical English references consistently use **Munuswamy Naidu** for the Justice Party leader and First Minister who lost the party leadership to the Raja of Bobbili in 1932.
 
 **Revision:** `Munusami Naidu` → **Munuswamy Naidu**.
 
@@ -139,6 +139,10 @@ The chapter's explicit **1936** election statement remains Kalaignar's authored 
 - terminology/cultural revisions accepted: **2**;
 - gate status: **COMPLETE / PASS WITH MINOR REVISION**.
 
+## Durable application state
+
+Both accepted revisions are applied to `../chapters/v1-ch05.json`. The living glossary, Batch 001 control, project progress and manifest are synchronized to this result. The chapter is marked `terminology-cultural-complete` and the independent English remains frozen.
+
 ## Next activity
 
-Apply the two documented revisions to `../chapters/v1-ch05.json`, update the living glossary and controls, then perform the **post-freeze existing-English comparator availability check**. If no comparator exists, record that absence and proceed to final approval review. Do not invent or search for an unofficial comparator outside the controlled source repository.
+Perform the **post-freeze existing-English comparator availability check** for `v1-ch05` in the controlled read-only source repository. If `public/data/text-en/v1-ch05.json` is absent, record comparator absence and proceed to final approval review. Do not invent or search for an unofficial comparator outside the controlled source repository.
