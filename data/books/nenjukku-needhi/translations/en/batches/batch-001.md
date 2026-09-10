@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch04` SOURCE REVIEW COMPLETE**
+Status: **OPEN / `v1-ch04` T1 COMPLETE**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -21,7 +21,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | ID | Tamil title | Pages | Source blob SHA | Current status |
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
-| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **SOURCE REVIEW COMPLETE / READY FOR T1** |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
@@ -39,27 +39,33 @@ Durable files:
 
 Final status: **APPROVED / CLOSED** with source review, T1, T2, T3, thought structure and terminology/cultural gates passed; unresolved source holds `0`.
 
-## `v1-ch04` source-review result
+## `v1-ch04` durable state
 
 Source notes: `../source-notes/v1-ch04.json`
 
-Key controls established before T1:
+Fresh T1 translation: `../chapters/v1-ch04.json`
 
-- repeated heading is metadata only;
-- opening digital text is damaged as `-ம் ஆண்டு`; the missing year is explicitly reconstructed as **1936** from independent biographical evidence matching the stated age twelve and the exact Tiruvarur admission episode;
-- live source `main` advanced after Batch 001 opened, but `v1-ch04` is byte-identical at the batch pin and live ref, so no source-authority switch is required;
-- digital `கர்ஸ்தூரி ஐயங்கார்` is documented; English may use independently corroborated `Kasthuri Iyengar` as a name-normalisation decision;
-- headmaster's `நோக்கு` is the same dated Brahmin-Tamil pronominal form already resolved in `v1-ch03`, not `look`;
-- `பங்கா` / `பியூன்` preserve colonial-period school texture;
-- the opening admission scene must remain in **third-person dramatic present** until the delayed `நானே தான்!` self-reveal;
-- one missing opening quotation mark in the boy's plea is reconstructed as direct speech;
-- contextual extraction defects are recorded for `விழுத்து`, the full stop in `அந்த ஆண்டு. அந்தப் பையன்`, `சுட்சியின்`, and `சட்டசயைத்`;
-- `கலகலத்து நின்றது` is lexically valid in the sense of becoming shaky / losing strength and is not treated as corruption;
-- `அரிச்சுவடி` is a governing title/body metaphor: the Panagal Raja school text becomes Kalaignar's political primer;
-- the chapter's architecture must remain `school-admission drama → self-reveal → Panagal Raja reader → political primer → Justice Party history → Self-Respect/Periyar/Anna connection`, not an encyclopedic history dump;
-- no non-authorial Wikisource maintenance material is present on pp. 37–41;
+Gate results:
+
+- source review: **PASS**;
+- fresh T1 translation: **PASS / COMPLETE**;
 - unresolved source holds: **0**;
-- T2 review items: movement terminology/register and historical-office vocabulary.
+- next gate: **T2 source-and-Kalaignar-voice review**.
+
+T1 controls enforced:
+
+- repeated heading represented only in metadata;
+- damaged opening `-ம் ஆண்டு` reconstructed as **1936** only because the source note documents independent biographical evidence for the exact age-twelve Tiruvarur admission episode;
+- the admission episode remains in **third-person dramatic present** until the delayed `நானே தான்!` reveal;
+- `கர்ஸ்தூரி ஐயங்கார்` is rendered as the independently corroborated personal-name form `Kasthuri Iyengar`, with the source spelling retained in notes;
+- recurring dated Brahmin-Tamil `நோக்கு` is translated by function, not as `look`;
+- `punkah` and `peon` retain the colonial school scene;
+- the missing opening quotation in the boy's plea is reconstructed as direct speech;
+- source anomalies `விழுத்து`, `சுட்சியின்`, `சட்டசயைத்` and the interrupted `அந்த ஆண்டு. அந்தப் பையன்` sentence are translated by secure context and remain documented;
+- `அரிச்சுவடி` is retained as the governing `primer` metaphor in both title and body;
+- Justice Party history remains connected to the autobiographical schoolbook trigger rather than becoming detached encyclopedia prose;
+- Kalaignar's imagery remains visible: removal of fetters, Thiagarayar as the dawn-star of the Dravidians entering unending sleep in nature's lap, the country shedding tears for the Raja of Panagal, the Justice Party standing shaken, and the flame of rationalism spreading through `Kudi Arasu`;
+- movement terminology and historical-office vocabulary remain explicit T2 review items rather than being frozen at T1.
 
 ## Opening observations for remaining batch chapters
 
@@ -80,9 +86,9 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - Batch opened: **YES**
 - source files pinned: **5 / 5**
 - full source reviews complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- T1 complete: **1 / 5** (`v1-ch03`)
+- T1 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - T2 complete: **1 / 5** (`v1-ch03`)
 - T3 complete: **1 / 5** (`v1-ch03`)
 - thought-structure complete: **1 / 5** (`v1-ch03`)
 - approved chapters: **1 / 5** (`v1-ch03`)
-- next chapter activity: **fresh T1 for `v1-ch04`**
+- next chapter activity: **T2 source-and-Kalaignar-voice review for `v1-ch04`**
