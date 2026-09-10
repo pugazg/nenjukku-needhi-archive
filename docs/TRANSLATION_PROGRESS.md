@@ -22,13 +22,13 @@
 
 - Translation plan: **COMPLETE**
 - Initial Kalaignar voice study (`v1-ch01`, `v1-ch02`): **COMPLETE**
-- Kalaignar Voice Guide: **INITIAL VERSION COMPLETE / LIVING DOCUMENT**
+- Kalaignar Voice Guide: **UPDATED WITH PILOT-1 LESSONS / LIVING DOCUMENT**
 - Translation glossary: **INITIALISED**
 - Source-note convention: **DEFINED AND IN USE**
 - Corpus-wide source inventory: **NOT STARTED**
-- Pilot `v1-ch01`: **T1 COMPLETE / T2 VOICE REVIEW IN PROGRESS**
+- Pilot `v1-ch01`: **APPROVED / CLOSED**
 - Pilot `v1-ch02`: **SOURCE NOTES COMPLETE / READY FOR T1**
-- Production translation: **BLOCKED UNTIL BOTH PILOTS COMPLETE AND METHOD REVIEWED**
+- Production translation: **BLOCKED UNTIL `v1-ch02` PILOT COMPLETES AND METHOD IS REVIEWED**
 
 ## Mandatory chapter statuses
 
@@ -50,28 +50,45 @@ A chapter must not be called `approved` unless all required source notes are rec
 
 | Chapter | Tamil title | Purpose | Status |
 |---|---|---|---|
-| `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | `t2-voice-review` |
+| `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | **APPROVED / CLOSED** |
 | `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | `source-review` complete; `ready-for-t1` |
 
-## Durable pilot files
+## `v1-ch01` closure
 
-### `v1-ch01`
+Durable files:
 
-- T1 translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch01.json`
+- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch01.json`
 - source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch01.json`
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-t2.md`
+- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-t3.md`
+- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-structure.md`
+- post-freeze existing-English comparison: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-existing-comparison.md`
 
-Current T2 findings include:
+Gate results:
 
-- preserve the `பெரிய` / `சின்ன` rhetorical contrast more closely;
-- restore the concrete `வெல்லம்` (jaggery) image in `உயிர் எமக்கு வெல்லமல்ல` rather than retaining only abstract sweetness;
-- restore the foundation-laying force of `கால்கோள் விழா`;
-- review whether `வெறித்தனமான பக்தி` was softened too much in T1;
-- remove an external historical normalisation in “our Presidency” and return to the source wording `நம்முடைய மாநிலம்`.
+- T1 fresh Tamil translation: **PASS**;
+- T2 Kalaignar-voice review: **PASS WITH REVISION**;
+- T3 English-only read: **PASS WITH MINOR REVISION**;
+- thought-structure audit: **PASS**;
+- existing-English comparison: **PASS**;
+- unresolved source holds: **0**;
+- final status: **APPROVED**.
 
-### `v1-ch02`
+Key durable lessons from Pilot 1:
 
-- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
+- preserve concrete idiom rather than abstracting it (`உயிர் எமக்கு வெல்லமல்ல` retains its jaggery image);
+- preserve the `பெரிய / சின்ன` contrast and ownership logic;
+- preserve foundation imagery in `கால்கோள்`;
+- preserve deliberate intensity such as `வெறித்தனமான பக்தி`;
+- preserve Kalaignar's historical present in live political passages;
+- source OCR/extraction interventions must remain disclosed in source notes;
+- existing English may influence a phrase only after the fresh translation is frozen and the adoption is explicitly justified.
+
+The post-freeze comparator contributed one adopted phrase-level choice only: “Do the small not own them too?” All other fresh translation decisions remain governed by Tamil-source fidelity.
+
+## `v1-ch02` readiness
+
+Source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
 
 Recorded before translation:
 
@@ -85,6 +102,4 @@ Recorded before translation:
 
 ## Next activity
 
-Finish the complete T2 Tamil-English voice review for `v1-ch01`, apply the reviewed corrections as one coherent revision, then run T3 English-only reading and thought-structure audit. After that, compare the frozen new translation with any pre-existing English rendering only as an independent comparator.
-
-Then begin fresh T1 translation of `v1-ch02`, using its source-note exclusions and verse handling from the start.
+Begin fresh T1 translation of `v1-ch02` directly from Tamil, using its source-note exclusions and verse handling from the start. Do not consult any existing English as drafting authority. Preserve the chapter's tonal shifts and keep the embedded satirical songs as verse rather than flattening them into prose.
