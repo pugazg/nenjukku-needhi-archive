@@ -30,8 +30,20 @@
     {
       "type": "ocr_or_extraction_reading",
       "severity": "meaning-sensitive",
-      "observation": "The orphan-infant passage contains the extracted question 'அதன் வயிற்றுப் பசியை பார் போக்குவது? எப்படிப் போக்குவது?'. In context, 'பார்' does not produce a coherent question and the intended sense is plainly 'who is to relieve the child's hunger?'.",
-      "translation_action": "T1 translates the contextual question as 'Who was to relieve that hunger? How?' while preserving this note. Do not alter the read-only source."
+      "observation": "The orphan-infant passage contains the extracted question 'அதன் வயிற்றுப் பசியை பார் போக்குவது? எப்படிப் போக்குவது?'. The older page-level witness for page 22 reproduces the same 'பார்', so it does not resolve the anomalous token. In context, the sentence asks who is to relieve the infant's hunger and how.",
+      "translation_action": "Translate the contextual question as 'Who was to relieve that hunger? How was it to be relieved?' and keep the source intervention disclosed. Do not alter the read-only source."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "Page 24 reads 'ஆனால் அவ்ளோ, கள்ளக் காதலர்களில் ஒருவனோடு...'. Syntax and narrative context require the feminine contrast functioning as 'அவளோ'. The secondary page-level witness reproduces the same extracted form.",
+      "translation_action": "Render the contextual feminine sense ('yet she...') while retaining this note; do not silently treat the digital source as clean."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "Page 25 reads 'அவன்பால் விழுந்த காமுகர்கள்' although the surrounding sentence identifies the female heroine as the person attracting the lovers. The page-level witness also reproduces 'அவன்பால்'.",
+      "translation_action": "Use the contextually coherent feminine referent ('the lovers who fell for her') and disclose the source-form/gender mismatch here."
     },
     {
       "type": "paragraph_reconstruction",
@@ -46,16 +58,34 @@
       "translation_action": "Translate them as verse/song, preserving speaker, attack, imagery and satire; do not flatten them into prose summary."
     },
     {
+      "type": "lexical_resolution",
+      "severity": "meaning-sensitive",
+      "observation": "The long ஏலேலோ song contains 'போகசாலை'. An external Tamil Digital Library architectural source (TVA_BOK_0012940, p. 50) explicitly glosses 'போகசாலை' as 'சயன சாலை', supporting the sense sleeping hall/bedchamber.",
+      "translation_action": "Correct T1's over-interpretive 'pleasure-house' to a sleeping-quarters/bedchamber rendering."
+    },
+    {
+      "type": "lexical_resolution",
+      "severity": "voice-sensitive",
+      "observation": "The line 'அவரோடு ஊடியும் கலந்துமே வந்தேன்' uses 'ஊடல்' in its established lovers' sense: a small love-quarrel / feigned sulking before reunion.",
+      "translation_action": "Replace T1's generic 'dallied' with a rendering that preserves the lovers' quarrel followed by joining/reunion."
+    },
+    {
       "type": "uncertain_reading",
-      "severity": "review-required",
-      "observation": "The longer 'ஏலேலோ' satire contains compressed or potentially noisy extracted forms including 'தரகுமூட்டை', 'போகசாலை' and the sequence around 'முந்தானையால் கூட்டியே நின்று'. The broad satirical/sexual narrative is clear, but every lexical detail is not equally secure from this digital extraction alone.",
-      "translation_action": "T1 renders these lines conservatively and close to the available wording without fabricating explanatory detail. Revisit the exact lexical readings during T2/source review before chapter approval."
+      "severity": "hold-required",
+      "observation": "The page-level witness for page 24 reproduces 'தன் வீட்டுத் தரகுமூட்டை / தலைமேலிருந்தும்'. The compound 'தரகுமூட்டை' remains insufficiently secure semantically from the available text witnesses.",
+      "translation_action": "Do not preserve T1's confident paraphrase 'burdens of your own household'. Retain the Tamil compound transliterated in the provisional English line pending a stronger print/image witness or an explicit editorial decision."
+    },
+    {
+      "type": "uncertain_reading",
+      "severity": "hold-required",
+      "observation": "The page-level witness for page 24 also reproduces 'அவசரமாய் முந்தானையால் / கூட்டியே நின்று'. The words themselves are legible in the digital witness, but the exact object/syntactic force of 'கூட்டியே' with 'முந்தானையால்' remains unclear.",
+      "translation_action": "Render conservatively without supplying an unexpressed object; keep the chapter on source hold until a stronger witness or explicit editorial decision resolves the line."
     },
     {
       "type": "cultural_term",
       "severity": "translation-sensitive",
-      "observation": "The chapter relies on culturally loaded terms and images such as தாலி, குலவிளக்கு, குலதெய்வம், விபூதி, மாந்திரீகர், இடும்பன் சாமி and agricultural implements.",
-      "translation_action": "Retain or lightly gloss terms where English substitution would erase cultural function. Do not over-explain inside Kalaignar's prose."
+      "observation": "The chapter relies on culturally loaded terms and images such as தாலி, பள்ளயம், குலவிளக்கு, குலதெய்வம், விபூதி, மாந்திரீகர், இடும்பன் சாமி and agricultural implements.",
+      "translation_action": "Retain or lightly gloss terms where English substitution would erase cultural function. 'பள்ளயம்' is treated as a ritual food offering/spread rather than a generic ceremony. Do not over-explain inside Kalaignar's prose."
     },
     {
       "type": "tone_shift",
@@ -70,6 +100,21 @@
       "translation_action": "Exclude both units from the literary English translation. Their exclusion remains explicitly recorded here."
     }
   ],
+  "secondary_witnesses": [
+    {
+      "repository": "pugazg/nenjukku-needhi-archive",
+      "ref": "main",
+      "paths": [
+        "data/books/nenjukku-needhi/cleaned/volume1/0022.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0023.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0024.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0025.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0026.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0027.md"
+      ],
+      "role": "secondary text witness only; not authority over the pinned autobiography source"
+    }
+  ],
   "non_authorial_exclusions": [
     {
       "source_unit": 6,
@@ -82,9 +127,13 @@
   ],
   "unresolved": [
     {
-      "area": "embedded-long-song",
-      "reason": "Several lexical readings in the extracted ஏலேலோ satire require closer source review before final approval; T1 proceeded conservatively."
+      "area": "embedded-long-song: தரகுமூட்டை",
+      "reason": "Exact semantic force of the compound remains unresolved from available text witnesses."
+    },
+    {
+      "area": "embedded-long-song: முந்தானையால் கூட்டியே நின்று",
+      "reason": "Exact object/syntactic force remains unresolved from available text witnesses."
     }
   ],
-  "status": "t1-complete"
+  "status": "source-hold"
 }
