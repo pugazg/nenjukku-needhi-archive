@@ -45,8 +45,8 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 |---|---|---:|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | not started |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **SOURCE REVIEW NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -75,7 +75,7 @@ Final status: **APPROVED / CLOSED**.
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-## `v1-ch05` — comparator check complete
+## `v1-ch05` — approved / closed
 
 Durable files:
 
@@ -86,6 +86,7 @@ Durable files:
 - thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-structure.md`
 - terminology/cultural audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-terminology.md`
 - comparator check: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-existing-comparison.md`
+- final approval review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-approval.md`
 
 Gate state:
 
@@ -96,15 +97,16 @@ Gate state:
 - thought structure: **PASS / COMPLETE — 22 / 22 major movements preserved**;
 - terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
 - post-freeze comparator availability check: **COMPLETE / NOT APPLICABLE — COMPARATOR ABSENT**;
+- final approval: **PASS / APPROVED / CLOSED**;
 - controlled path checked: `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch05.json` at Batch 001 pin;
-- result: **404 / NOT FOUND**;
+- comparator result: **404 / NOT FOUND**;
 - wording adopted from prior English: **0**;
 - unresolved source holds: **0**;
-- outstanding review items: **0**;
-- independent English: **FROZEN**;
-- next gate: **final approval review**.
+- outstanding review items: **0**.
 
-The controlled comparator absence is now explicit. No unofficial external English translation was sought, and the independent chapter text was unchanged by this gate.
+Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932**, preserves Kalaignar's authored **1936** election chronology, and closes the chapter with all source/voice/structure/terminology controls intact. The final record also retains **Munuswamy Naidu**, the historical **First Minister / Premier** distinction, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, **Leader of the Tamils**, collective **The Tamil**, chapter-specific **the pride of race**, **Tamil chindu**, and consistent **Gandhiji** in the linked Bose comparison.
+
+Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
 ## Batch 001 counters
 
@@ -116,7 +118,7 @@ The controlled comparator absence is now explicit. No unofficial external Englis
 - thought-structure complete: **3 / 5**
 - terminology/cultural complete: **3 / 5**
 - comparator checks complete: **3 / 5**
-- approved: **2 / 5**
+- approved: **3 / 5**
 
 ## Infrastructure note
 
@@ -128,4 +130,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **final approval review** for `v1-ch05`. Confirm all completed gates, source/provenance controls, machine-readable record consistency under implemented repository controls, unresolved holds/review items, and approval readiness. Do not claim formal JSON-Schema validation while `schemas/chapter.json` remains an empty legacy placeholder.
+Begin the complete **source review for `v1-ch06`** (`தமிழ் காக்கும் போர் முனை`, pp. 46–50) before any T1 translation. Preserve its strongly oratorical texture, Pattukkottai Alagirisami descriptions, Tamil volunteer march, quoted public speech and repeated rhetorical imagery; do not flatten the chapter into historical summary.
