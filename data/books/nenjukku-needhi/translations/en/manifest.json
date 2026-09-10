@@ -9,7 +9,7 @@
   },
   "destination": {
     "repository": "pugazg/nenjukku-needhi-archive",
-    "branch": "translation/english-memoir"
+    "branch": "main"
   },
   "expected_chapters": 391,
   "volumes": {
