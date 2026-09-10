@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` T2 COMPLETE / T3 NEXT**
+Status: **OPEN / `v1-ch05` T3 COMPLETE / THOUGHT STRUCTURE NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -22,7 +22,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
@@ -77,39 +77,30 @@ Final `v1-ch04` controls:
 - T3 removed the unsupported translator hedge `in their view` from the Home Rule comparison and restored neutral `plans` for `திட்டங்கள்`;
 - historical assertions remain authored claims and are not silently fact-corrected.
 
-## `v1-ch05` — T2 complete
+## `v1-ch05` — T3 complete
 
 Durable files:
 
 - source notes: `../source-notes/v1-ch05.json`
 - translation: `../chapters/v1-ch05.json`
 - T2 review: `../reviews/v1-ch05-t2.md`
+- T3 review: `../reviews/v1-ch05-t3.md`
 
 Gate state:
 
 - source review: **PASS / COMPLETE**;
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
+- T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
 - unresolved source holds: **0**;
-- outstanding T2 review items: **0**;
-- next gate: **T3 English-only review**.
+- outstanding T3 review items: **0**;
+- next gate: **thought-structure audit**.
 
-T2 controls and revisions:
+T2 controls remain in force: witnessed **In 1932** opening, authored **1936** election statement, period **First Minister / Premier** distinction, normalized Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, consistent **Leader of the Tamils**, documented `நீட்டினார்`, and **Firm, forceful arguments** for `ஆணித்தரமான வாதங்கள்`.
 
-- the witnessed opening remains **In 1932**; the read-only source JSON remains untouched;
-- the source's explicit **1936** election statement remains Kalaignar's authored chronology and is not silently fact-corrected;
-- the Raja of Bobbili in 1932 and Dr P. Subbarayan's earlier government use the dyarchy-period title **First Minister**, while Rajaji's 1937 office is **Premier of the Madras Presidency**;
-- historical names are normalised where securely attested: **Sir A. T. Panneerselvam**, **Khan Bahadur Khalifullah Sahib**, **Natarajan**, and **Indian National Congress**;
-- `தலைகீழ்ப் பாடம்` is rendered **backwards and forwards**, avoiding the false suggestion of literal reverse recitation;
-- Maraimalai Adigal's `வடமொழி` is **Sanskrit**, while his exclamatory lament remains intact;
-- `இறும்பூது` is **wonder**, with T1's translator-added `proud` removed;
-- Rajaji's two-opponents claim and Panneerselvam's numerical reversal remain direct dialogue with the punchline intact;
-- the Thalamuthu–Natarajan prison deaths and blood-dipped language-struggle flag remain concrete and severe rather than being summarized as martyrdom;
-- Kalaignar's Tamil-mediated Voltaire quotation is retained as his wording and attribution; no canonical English maxim is imported;
-- `தமிழர் தலைவர்` is rendered consistently as **Leader of the Tamils** both as Periyar's public epithet and the translated title of Sami Chidambaranar's biography, preserving Kalaignar's lexical echo;
-- the anomalous page-45 `நீட்டினார்` remains documented while English states only the secure contextual function that Chidambaranar wrote the biography;
-- `ஆணித்தரமான வாதங்கள்` is **Firm, forceful arguments**; T1's invented nail-driving image has been removed;
-- the closing public chorus around Anna remains a sequence of separate voices, fragments and concrete metaphors rather than being collapsed into narrator summary.
+T3 accepted only source-safe English fluency revisions. Key changes include naturalizing the Tanjore-conference syntax, `பொறுப்பேற்றனர்` as **took office as ministers**, compulsory-Hindi legislation as **was enacted**, `உள்ளூர` as **at heart**, the Panneerselvam-response syntax, the fourteen-year pivot, Nehru's Europe sentence, the government-budget resolution, the Anna before-fame fragment, the world-values sentence, reported criticism of Periyar, and **Short in stature!** in the closing chorus.
+
+T3 deliberately retained `letter for letter`, `became corpses within the prison walls`, collective `The Tamil`, the blood-dipped flag, `How the man speaks!`, `It was written. It was said.`, and the separate pomegranate-pearl / sluice / Courtallam / Tamil-`chindu` images because smoothing them would weaken Kalaignar's rhetorical action.
 
 ## Branch consolidation
 
@@ -132,7 +123,7 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - full source reviews complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T1 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T2 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- T3 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
+- T3 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - thought-structure complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - approved chapters: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- next chapter activity: **T3 English-only review for `v1-ch05`**
+- next chapter activity: **thought-structure audit for `v1-ch05`**
