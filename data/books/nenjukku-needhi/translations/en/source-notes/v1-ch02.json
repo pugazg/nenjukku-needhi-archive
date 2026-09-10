@@ -24,20 +24,38 @@
     {
       "type": "source_unit_join",
       "severity": "meaning-sensitive",
-      "observation": "A later extraction boundary ends with 'விடு-' and continues syntactically in the following unit.",
-      "translation_action": "Reconstruct the continuous sentence before translating; preserve extraction-unit traceability in alignment."
+      "observation": "A later extraction boundary ends with 'விடு-' and continues as 'மல்லவா?' in the following unit.",
+      "translation_action": "Read as the continuous rhetorical form 'விடுமல்லவா?' and preserve extraction-unit traceability."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "The orphan-infant passage contains the extracted question 'அதன் வயிற்றுப் பசியை பார் போக்குவது? எப்படிப் போக்குவது?'. In context, 'பார்' does not produce a coherent question and the intended sense is plainly 'who is to relieve the child's hunger?'.",
+      "translation_action": "T1 translates the contextual question as 'Who was to relieve that hunger? How?' while preserving this note. Do not alter the read-only source."
     },
     {
       "type": "paragraph_reconstruction",
       "severity": "informational",
       "observation": "Narrative prose, song quotations and page joins do not correspond reliably to the JSON element boundaries.",
-      "translation_action": "Reconstruct literary prose/verse units from syntax and form; record the mapping in alignment metadata."
+      "translation_action": "Reconstruct literary prose/verse units from syntax and form; record the mapping in later alignment metadata."
     },
     {
       "type": "verse_or_song",
       "severity": "voice-sensitive",
       "observation": "The chapter embeds satirical songs attributed to Muthuvelar. They function as evidence of his courage and social criticism, not as detachable decoration.",
       "translation_action": "Translate them as verse/song, preserving speaker, attack, imagery and satire; do not flatten them into prose summary."
+    },
+    {
+      "type": "uncertain_reading",
+      "severity": "review-required",
+      "observation": "The longer 'ஏலேலோ' satire contains compressed or potentially noisy extracted forms including 'தரகுமூட்டை', 'போகசாலை' and the sequence around 'முந்தானையால் கூட்டியே நின்று'. The broad satirical/sexual narrative is clear, but every lexical detail is not equally secure from this digital extraction alone.",
+      "translation_action": "T1 renders these lines conservatively and close to the available wording without fabricating explanatory detail. Revisit the exact lexical readings during T2/source review before chapter approval."
+    },
+    {
+      "type": "cultural_term",
+      "severity": "translation-sensitive",
+      "observation": "The chapter relies on culturally loaded terms and images such as தாலி, குலவிளக்கு, குலதெய்வம், விபூதி, மாந்திரீகர், இடும்பன் சாமி and agricultural implements.",
+      "translation_action": "Retain or lightly gloss terms where English substitution would erase cultural function. Do not over-explain inside Kalaignar's prose."
     },
     {
       "type": "tone_shift",
@@ -62,6 +80,11 @@
       "reason": "Wikisource duplicate-page/proofreading maintenance notice; not authorial memoir text."
     }
   ],
-  "unresolved": [],
-  "status": "ready-for-t1"
+  "unresolved": [
+    {
+      "area": "embedded-long-song",
+      "reason": "Several lexical readings in the extracted ஏலேலோ satire require closer source review before final approval; T1 may proceed conservatively."
+    }
+  ],
+  "status": "t1-in-progress"
 }
