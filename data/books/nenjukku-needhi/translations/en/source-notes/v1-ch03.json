@@ -116,6 +116,11 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "t2_review": "../reviews/v1-ch03-t2.md",
-  "status": "t3-english-review"
+  "reviews": {
+    "t2": "../reviews/v1-ch03-t2.md",
+    "t3": "../reviews/v1-ch03-t3.md",
+    "thought_structure": "../reviews/v1-ch03-structure.md",
+    "approval": "../reviews/v1-ch03-approval.md"
+  },
+  "status": "approved"
 }
