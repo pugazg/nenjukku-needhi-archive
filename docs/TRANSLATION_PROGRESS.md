@@ -44,7 +44,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | Chapter | Tamil title | Pages | Current status |
 |---|---|---:|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
-| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **SOURCE REVIEW COMPLETE / READY FOR T1** |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | not started |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | not started |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
@@ -62,37 +62,39 @@ Final status: **APPROVED / CLOSED**.
 - unresolved source holds: 0
 - existing-English comparator at pinned ref: none
 
-## `v1-ch04` source-review result
+## `v1-ch04` — fresh T1 complete
 
-Durable source notes:
+Durable files:
 
-`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch04.json`
+- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch04.json`
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch04.json`
 
-Source review: **COMPLETE / READY FOR T1**.
+Gate state:
 
-Key findings:
+- source review: **PASS**;
+- T1: **PASS / COMPLETE**;
+- unresolved source holds: **0**;
+- T2 review items remaining: **2** — movement terminology/register; historical-office vocabulary;
+- next gate: **T2 source-and-Kalaignar-voice review**.
 
-- Source `main` advanced after the batch opened, but `v1-ch04` remains byte-identical at the pinned and live refs; Batch 001 therefore keeps its original source authority.
-- The opening is damaged in both the pinned extraction and page-37 witness as `-ம் ஆண்டு`. Independent biographical evidence places this exact Tiruvarur High School admission episode in **1936**, matching the passage's age twelve. T1 may reconstruct `In 1936` only with the source intervention disclosed.
-- `கர்ஸ்தூரி ஐயங்கார்` is the digital-source spelling; independent accounts identify the headmaster as **Kasthuri/Kasturi Iyengar**. English may normalise the personal name while preserving the note.
-- Headmaster Iyengar's `நோக்கு` is the dated Brahmin-Tamil pronominal form already established in `v1-ch03`; it functions as `உனக்கு`, not `look`.
-- `பங்கா` / `பியூன்` are period school vocabulary and should retain their colonial-era texture.
-- The admission episode is deliberately told in third-person dramatic present and must remain so until the delayed `நானே தான்!` reveal.
-- The boy's plea after `அதற்கு நான் என்ன செய்வது தம்பி?` has a missing opening quotation mark; it is securely reconstructed as direct speech.
-- Contextual extraction defects are recorded for `விழுத்து`, the interrupting full stop in `அந்த ஆண்டு. அந்தப் பையன்`, `சுட்சியின்`, and `சட்டசயைத்`.
-- `கலகலத்து நின்றது` is lexically valid in the sense of becoming shaky/losing strength and is not treated as corrupted text.
-- `அரிச்சுவடி` is the governing metaphor: the Panagal Raja supplementary reader becomes Kalaignar's political primer.
-- The chapter's structural movement is `school-admission drama → delayed self-reveal → Panagal Raja reader → political primer → Justice Party history → Self-Respect/Periyar/Anna connection`.
-- Pages 38–41 contain dense historical assertions; translate Kalaignar's account faithfully rather than silently fact-correcting it.
-- No non-authorial Wikisource maintenance material is present.
-- unresolved source holds: **0**.
-- T2 review items carried forward: movement terminology/register and historical-office vocabulary.
+T1 decisions enforced:
+
+- The damaged opening `-ம் ஆண்டு` is reconstructed as **1936** only through the already documented contextual evidence; the digital source is not represented as containing the missing numerals.
+- The school-admission scene remains in third-person dramatic present until the delayed `நானே தான்!` reveal.
+- `கர்ஸ்தூரி ஐயங்கார்` is rendered as `Kasthuri Iyengar`, with source spelling and the normalisation decision documented.
+- Headmaster Iyengar's recurring dated Brahmin-Tamil `நோக்கு` is translated by function rather than as `look`.
+- `punkah` and `peon` preserve the colonial-period school scene.
+- The boy's missing opening quotation is reconstructed as continuing direct speech.
+- `விழுத்து`, `சுட்சியின்`, `சட்டசயைத்` and the interrupted `அந்த ஆண்டு. அந்தப் பையன்` sequence are translated by context and remain disclosed.
+- `அரிச்சுவடி` is retained as **primer** in both title and body; the Panagal Raja schoolbook is the autobiographical trigger for the Justice Party history that follows.
+- The historical section preserves Kalaignar's rhetorical images rather than flattening them: removing fetters, Thiagarayar as the Dravidians' dawn-star entering unending sleep in nature's lap, the country shedding tears over the Raja of Panagal, the Justice Party left shaken, and the flame of rationalism carried by `Kudi Arasu`.
+- Dense historical claims are translated as Kalaignar presents them; T1 does not silently fact-correct them.
 
 ## Batch 001 counters
 
 - source files pinned: **5 / 5**
 - full source reviews complete: **2 / 5**
-- T1 complete: **1 / 5**
+- T1 complete: **2 / 5**
 - T2 complete: **1 / 5**
 - T3 complete: **1 / 5**
 - thought-structure complete: **1 / 5**
@@ -104,4 +106,4 @@ Key findings:
 
 ## Next activity
 
-Begin the fresh T1 translation of `v1-ch04` directly from the pinned Tamil and completed source notes. Preserve the third-person dramatic opening and delayed `நானே தான்!` reveal; reconstruct 1936 only as a documented source intervention; keep the `அரிச்சுவடி` political-primer metaphor; and do not turn the Justice Party history into detached encyclopedia prose.
+Run the complete T2 Tamil-English source-and-Kalaignar-voice review for `v1-ch04`. Special focus: the `அரிச்சுவடி`/primer metaphor, third-person admission drama, movement terminology (`நீதிக் கட்சி`, `சுயமரியாதை`, `பகுத்தறிவு`, `திராவிடப் பெருங்குடி`, `தாழ்த்தப்பட்ட`), historical-office vocabulary, and whether the dense political chronology has become more encyclopedic or smoother than Kalaignar's own rhetorical sequence.
