@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch04` T1 COMPLETE**
+Status: **OPEN / `v1-ch04` T2 COMPLETE**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -21,7 +21,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | ID | Tamil title | Pages | Source blob SHA | Current status |
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
-| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **T1 COMPLETE / T2 NEXT** |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **T2 COMPLETE / T3 NEXT** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
@@ -43,29 +43,30 @@ Final status: **APPROVED / CLOSED** with source review, T1, T2, T3, thought stru
 
 Source notes: `../source-notes/v1-ch04.json`
 
-Fresh T1 translation: `../chapters/v1-ch04.json`
+Fresh T1/T2 translation: `../chapters/v1-ch04.json`
+
+T2 review: `../reviews/v1-ch04-t2.md`
 
 Gate results:
 
 - source review: **PASS**;
 - fresh T1 translation: **PASS / COMPLETE**;
+- T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - unresolved source holds: **0**;
-- next gate: **T2 source-and-Kalaignar-voice review**.
+- outstanding T2 review items: **0**;
+- next gate: **T3 English-only review**.
 
-T1 controls enforced:
+T2 controls enforced:
 
-- repeated heading represented only in metadata;
-- damaged opening `-ம் ஆண்டு` reconstructed as **1936** only because the source note documents independent biographical evidence for the exact age-twelve Tiruvarur admission episode;
-- the admission episode remains in **third-person dramatic present** until the delayed `நானே தான்!` reveal;
-- `கர்ஸ்தூரி ஐயங்கார்` is rendered as the independently corroborated personal-name form `Kasthuri Iyengar`, with the source spelling retained in notes;
-- recurring dated Brahmin-Tamil `நோக்கு` is translated by function, not as `look`;
-- `punkah` and `peon` retain the colonial school scene;
-- the missing opening quotation in the boy's plea is reconstructed as direct speech;
-- source anomalies `விழுத்து`, `சுட்சியின்`, `சட்டசயைத்` and the interrupted `அந்த ஆண்டு. அந்தப் பையன்` sentence are translated by secure context and remain documented;
-- `அரிச்சுவடி` is retained as the governing `primer` metaphor in both title and body;
-- Justice Party history remains connected to the autobiographical schoolbook trigger rather than becoming detached encyclopedia prose;
-- Kalaignar's imagery remains visible: removal of fetters, Thiagarayar as the dawn-star of the Dravidians entering unending sleep in nature's lap, the country shedding tears for the Raja of Panagal, the Justice Party standing shaken, and the flame of rationalism spreading through `Kudi Arasu`;
-- movement terminology and historical-office vocabulary remain explicit T2 review items rather than being frozen at T1.
+- `தென்னிந்திய நல உரிமைச் சங்கம்` is normalised to the historically attested English proper name **South Indian Liberal Federation (SILF)**, with the intervention documented;
+- `முதல் மந்திரி` remains the period title **First Minister**, not modernised to Chief Minister;
+- `சட்டசபைத் தலைவர்` is rendered as **President of the Legislative Council**, matching the 1920s Madras Presidency institution rather than the modern Legislative Assembly;
+- Justice Party, Self-Respect Movement, rationalism, backward communities and depressed communities/people are frozen as context-sensitive historical working forms;
+- `திராவிடப் பெருங்குடி` remains **great Dravidian community**, preserving Kalaignar's collective imagery rather than replacing it with a bureaucratic non-Brahmin label;
+- `விடிவெள்ளி` is corrected from the redundant `morning star of dawn` to **morning star for the Dravidians**;
+- `சொற்போர்` retains oral/debate energy as **verbal debates**;
+- the `அரிச்சுவடி` → political-primer architecture remains intact;
+- historical assertions remain authored claims and are not silently fact-corrected.
 
 ## Branch consolidation
 
@@ -91,8 +92,8 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - source files pinned: **5 / 5**
 - full source reviews complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - T1 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- T2 complete: **1 / 5** (`v1-ch03`)
+- T2 complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
 - T3 complete: **1 / 5** (`v1-ch03`)
 - thought-structure complete: **1 / 5** (`v1-ch03`)
 - approved chapters: **1 / 5** (`v1-ch03`)
-- next chapter activity: **T2 source-and-Kalaignar-voice review for `v1-ch04`**
+- next chapter activity: **T3 English-only review for `v1-ch04`**
