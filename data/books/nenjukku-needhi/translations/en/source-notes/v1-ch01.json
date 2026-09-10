@@ -34,6 +34,12 @@
       "translation_action": "English literary paragraphs are reconstructed from syntax, rhetorical movement and argument. Alignment metadata must preserve traceability to source extraction units."
     },
     {
+      "type": "idiom",
+      "severity": "voice-sensitive",
+      "observation": "Kalaignar writes 'உயிர் எமக்கு வெல்லமல்ல' while describing colonised peoples who had witnessed mass death. The sentence uses 'வெல்லம்' (jaggery) as a concrete image of sweetness/value rather than only the abstract idea that life is precious.",
+      "translation_action": "T2 must preserve the jaggery/sweetness image rather than flattening it to a purely abstract paraphrase. A brief reader note may be retained if the literal image would otherwise be opaque."
+    },
+    {
       "type": "source_fidelity",
       "severity": "informational",
       "observation": "Historical and political assertions in this chapter are treated as Kalaignar's authorial claims.",
@@ -42,5 +48,5 @@
   ],
   "non_authorial_exclusions": [],
   "unresolved": [],
-  "status": "ready-for-t1"
+  "status": "t2-voice-review"
 }
