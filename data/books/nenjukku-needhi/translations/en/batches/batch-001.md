@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch03` T2 COMPLETE**
+Status: **OPEN / `v1-ch03` APPROVED**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -18,42 +18,39 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 
 | ID | Tamil title | Pages | Source blob SHA | Current status |
 |---|---|---:|---|---|
-| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **T2 COMPLETE / T3 NEXT** |
-| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | queued for source review |
+| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **NEXT — SOURCE REVIEW** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
-## `v1-ch03` durable state
+## `v1-ch03` closure
 
-Source notes: `../source-notes/v1-ch03.json`
+Durable files:
 
-Translation: `../chapters/v1-ch03.json`
-
-T2 review: `../reviews/v1-ch03-t2.md`
+- translation: `../chapters/v1-ch03.json`
+- source notes: `../source-notes/v1-ch03.json`
+- T2 review: `../reviews/v1-ch03-t2.md`
+- T3 review: `../reviews/v1-ch03-t3.md`
+- thought-structure audit: `../reviews/v1-ch03-structure.md`
+- final approval review: `../reviews/v1-ch03-approval.md`
 
 Gate results:
 
 - source review: **PASS**;
 - T1 fresh translation: **PASS**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION**;
+- T3 English-only literary review: **PASS WITH MINOR REVISION**;
+- thought-structure audit: **PASS — 24 / 24 major movements preserved**;
+- terminology/cultural consistency: **PASS**;
 - unresolved source holds: **0**;
-- next gate: **T3 English-only review**.
+- outstanding lexical review items: **0**;
+- existing-English comparator: **NONE at pinned source ref**;
+- final status: **APPROVED / CLOSED**.
 
-Key T2 corrections:
+Important durable lessons from the chapter include the dated Brahmin-Tamil `நோக்கு` = `உனக்கு` reading; the functional treatment of `அரிநமோத்து சிந்தம்` as an old education-initiation formula without speculative doctrinal translation; preservation of caste hierarchy and political metaphors; and retention of the long `இதோ` / `அதோ` spoken homecoming catalogue.
 
-- `அரிநமோத்து சிந்தம்` is now functionally resolved as an old education-initiation formula; English retains `Arinamothu Sindham` with only that minimal gloss;
-- Postmaster Iyer's dated Brahmin-Tamil `நோக்கு` is correctly read as `உனக்கு` (`for/to you`), changing T1's erroneous `look!` to `Mail has come for you!`;
-- `நாலு பெரிய மனிதர்கள்` is rendered as the socially pointed `the 'big men'` rather than an accidental exact count of four;
-- `கடுமையான அடிமைத்தனம்` regains stronger `bondage`/cruelty language;
-- the sarcastic `சுகம்` in walking over stones and thorns is restored as `the pleasure of it`;
-- `backward masses` is replaced by contextually appropriate `backward communities`;
-- the repeated `புறப்படு` movement of the oppressed person is restored in staccato form;
-- `ஈயச் செம்பு` is restored as a concrete `lead vessel` rather than generic metal;
-- `மூளியாக` is made source-nearer instead of the added `broken hulk` image;
-- `மாம்பழக் கதுப்பு` retains the concrete fleshy-side-of-a-mango comparison;
-- `உச்சிமோந்து` remains the specific affectionate crown-smelling gesture;
-- humour and the long `இதோ` / `அதோ` homecoming catalogue remain intact.
+The repository's `schemas/chapter.json` remains an empty legacy placeholder, so formal JSON-Schema execution is not currently available. Approval records machine-readable structural consistency under the repository's implemented controls rather than claiming a nonexistent schema run.
 
 ## Opening observations for remaining batch chapters
 
@@ -80,5 +77,7 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - full source reviews complete: **1 / 5** (`v1-ch03`)
 - T1 complete: **1 / 5** (`v1-ch03`)
 - T2 complete: **1 / 5** (`v1-ch03`)
-- approved chapters: **0 / 5**
-- next chapter activity: **T3 English-only review for `v1-ch03`**
+- T3 complete: **1 / 5** (`v1-ch03`)
+- thought-structure complete: **1 / 5** (`v1-ch03`)
+- approved chapters: **1 / 5** (`v1-ch03`)
+- next chapter activity: **complete source review for `v1-ch04`**
