@@ -27,7 +27,7 @@
 - Source-note convention: **DEFINED AND IN USE**
 - Corpus-wide source inventory: **NOT STARTED**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
-- Pilot `v1-ch02`: **SOURCE NOTES COMPLETE / READY FOR T1**
+- Pilot `v1-ch02`: **T1 COMPLETE / T2 SOURCE+VOICE REVIEW NEXT**
 - Production translation: **BLOCKED UNTIL `v1-ch02` PILOT COMPLETES AND METHOD IS REVIEWED**
 
 ## Mandatory chapter statuses
@@ -51,7 +51,7 @@ A chapter must not be called `approved` unless all required source notes are rec
 | Chapter | Tamil title | Purpose | Status |
 |---|---|---|---|
 | `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | **APPROVED / CLOSED** |
-| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | `source-review` complete; `ready-for-t1` |
+| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | **T1 COMPLETE** |
 
 ## `v1-ch01` closure
 
@@ -84,22 +84,28 @@ Key durable lessons from Pilot 1:
 - source OCR/extraction interventions must remain disclosed in source notes;
 - existing English may influence a phrase only after the fresh translation is frozen and the adoption is explicitly justified.
 
-The post-freeze comparator contributed one adopted phrase-level choice only: “Do the small not own them too?” All other fresh translation decisions remain governed by Tamil-source fidelity.
+## `v1-ch02` — T1 complete
 
-## `v1-ch02` readiness
+Durable files:
 
-Source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
+- fresh T1 translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch02.json`
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
 
-Recorded before translation:
+T1 decisions already enforced:
 
-- repeated chapter heading;
-- `கேட்க-` + `லாம்` page/source-unit join;
-- later `விடு-` continuation;
-- paragraph reconstruction requirement;
-- embedded satirical songs require verse-aware translation;
-- sharp tonal movement among grief, social criticism, devotion, agriculture, affection and humour;
-- final two source units are non-authorial Wikisource maintenance notices and are explicitly excluded from memoir translation.
+- repeated heading excluded from body and represented as metadata;
+- `கேட்க-` + `லாம்` and `விடு-` + `மல்லவா?` reconstructed as source-unit joins and disclosed;
+- anomalous extracted `பார் போக்குவது?` translated contextually as the question of who will relieve the orphaned infant's hunger and explicitly noted;
+- Muthuvelar's satirical songs retained as verse blocks, not prose summaries;
+- culturally loaded terms such as `thali`, `manthirikar`, `Appa` and `Amma` retained or lightly glossed where useful;
+- the Tirukkural verse and Kalaignar's subsequent gruel/nectar image remain linked;
+- the chapter's shifts among grief, satire, religious devotion, agricultural domesticity, affection and humour are preserved rather than normalised;
+- the final two Wikisource maintenance notices are excluded as non-authorial material.
+
+Open T2/source issue:
+
+- several lexical readings in the long `ஏலேலோ` satire (`தரகுமூட்டை`, `போகசாலை`, and the sequence around `முந்தானையால் கூட்டியே நின்று`) remain source-review items. T1 translates them conservatively but the chapter cannot be approved until they are reviewed.
 
 ## Next activity
 
-Begin fresh T1 translation of `v1-ch02` directly from Tamil, using its source-note exclusions and verse handling from the start. Do not consult any existing English as drafting authority. Preserve the chapter's tonal shifts and keep the embedded satirical songs as verse rather than flattening them into prose.
+Run the complete T2 source-and-Kalaignar-voice review for `v1-ch02`, with special attention to the embedded songs, rural/cultural vocabulary, humour, and whether any T1 phrasing over-explains or softens Kalaignar. Resolve or explicitly hold the long-song lexical uncertainties before T3.
