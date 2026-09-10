@@ -5,7 +5,7 @@
   "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
   "title": "My Political Primer",
   "pages": {"start": 37, "end": 41},
-  "status": "t1-complete",
+  "status": "t2-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -15,13 +15,15 @@
   },
   "source_notes": "../source-notes/v1-ch04.json",
   "translation_notes": [
-    "The surviving digital Tamil begins only with '-ம் ஆண்டு' after the repeated heading. T1 reconstructs the opening as 'In 1936' from the documented independent biographical evidence; the missing numerals are not presented as though they survive in the source.",
+    "The surviving digital Tamil begins only with '-ம் ஆண்டு' after the repeated heading. T1 reconstructs the opening as 'In 1936' from documented independent biographical evidence; the missing numerals are not presented as though they survive in the source.",
     "The school-admission scene deliberately remains in third-person dramatic present until Kalaignar's delayed 'நானே தான்!' reveal. The translation does not disclose the boy's identity early.",
     "The source spelling 'கர்ஸ்தூரி ஐயங்கார்' is normalised in English to the independently corroborated personal-name form 'Kasthuri Iyengar'; the source form remains documented in the sidecar.",
     "Headmaster Iyengar's dated Brahmin-Tamil 'நோக்கு' is translated by its established pronominal function ('for/to you') rather than as the modern verb 'look'.",
     "The missing opening quotation mark before the boy's plea on page 37 is reconstructed as continuing direct speech; other recorded extraction defects such as 'விழுத்து', 'சுட்சியின்', 'சட்டசயைத்' and the interrupted 'அந்த ஆண்டு. அந்தப் பையன்' sentence are translated by their secure contextual functions and remain disclosed in source notes.",
     "The title/body metaphor 'அரிச்சுவடி' is retained as 'primer': the Panagal Raja schoolbook is Kalaignar's political primer, and the subsequent Justice Party history remains connected to that autobiographical beginning.",
-    "Movement terminology and historical office vocabulary are deliberately not treated as permanently frozen at T1; they remain mandatory T2 review items."
+    "At T2, the Tamil organisation name 'தென்னிந்திய நல உரிமைச் சங்கம்' is normalised in English to its historically attested proper name 'South Indian Liberal Federation'. This is a proper-name normalisation, not a correction of Kalaignar's historical claim.",
+    "Historical office vocabulary is now standardised for the 1920s Madras Presidency: 'முதல் மந்திரி' is 'First Minister', and 'சட்டசபைத் தலைவர்' in this chapter is rendered as 'President of the Legislative Council' rather than the modern/incorrect 'Legislative Assembly'.",
+    "Movement terminology is now frozen for this chapter as Justice Party, Self-Respect Movement, rationalism, backward communities, and depressed communities/people according to context."
   ],
   "paragraphs": [
     "In 1936, Kasthuri Iyengar is the headmaster of Tiruvarur High School. He is seated in his room, attending to his work. Suddenly a twelve-year-old boy rushes into the room. Even the peon at the doorway, pulling the punkah, cannot stop him. The headmaster is startled at the sight of the youngster.",
@@ -40,37 +42,35 @@
     "'Victory!' he cries, running outside. He embraces his dear father, who has been waiting there anxiously, and dances with joy. That year the boy passes the Fifth Standard with leading marks.",
     "You will have understood who that boy was. It was I myself! That was one of the opening incidents of my high-school life.",
     "In the Fifth Standard, a book entitled 'The Raja of Panagal' was prescribed to us as supplementary reading. It ran to roughly fifty pages. I was the only one in the class who could recite that entire little book from memory. In a way, that book, 'The Raja of Panagal,' became my political primer.",
-    "To lead the great Dravidian community, to undertake the great task of removing its fetters, and to secure a place for its people in the political, social and economic spheres, Sir P. Thiagarayar, Dr T. M. Nair, the Raja of Panagal, Dr Natesa Mudaliar and others came together in Madras in November 1916 and founded a political party under the name 'South Indian Welfare Rights Association.'",
+    "To lead the great Dravidian community, to undertake the great task of removing its fetters, and to secure a place for its people in the political, social and economic spheres, Sir P. Thiagarayar, Dr T. M. Nair, the Raja of Panagal, Dr Natesa Mudaliar and others came together in Madras in November 1916 and founded a political party under the name 'South Indian Liberal Federation.'",
     "To publish and propagate the policies of that party, an English daily called Justice was started with Dr Nair as editor; a Tamil daily called Dravidan with Bhaktavatsalam Pillai as editor; and a Telugu journal called Andhra Prakasini with A. C. Parthasarathi Naidu as editor. Little by little, the party itself came to be known by the name of the English newspaper—the Justice Party.",
     "When the Viceroy of India, Lord Chelmsford, and the India Minister, Lord Montagu, came to Madras on 31 December 1917, the leaders of the Justice Party placed before them a statement explaining the condition of the Dravidians. More than the schemes of the Home Rule movement then in progress, it was the statement issued by the Justice Party that, in their view, revealed the true condition of Dravidian society. It was that statement which explained the miserable condition of the backward and depressed communities. After this statement, people from the depressed communities joined the Justice Party and worked through it.",
     "Great leaders such as N. Sivaraj, M. C. Rajah and Rettamalai Srinivasan came forward through the Justice Party to bring light to the country and to society. On 17 July 1919, Dr Nair died in London. The Justice Party was deeply shaken by the loss.",
     "The Montagu-Chelmsford Reforms provided for the first general election in India to be held on 2 November 1920. The Justice Party decided to contest it. Annie Besant's Home Rule movement entered the contest against the Justice Party. Gandhiji did not permit the Congress to take part in the election.",
-    "In the Madras Presidency election of that time, the Justice Party won an overwhelming majority of the seats. The Governor of the Presidency, Lord Willingdon, invited party leader Thiagarayar to form the ministry. Thiagarayar declined a ministerial post for himself and appointed A. Subbarayalu Reddiar as First Minister, the Raja of Panagal as second minister, and Sir K. V. Reddiar as third minister. Sir P. Rajagopalachariar was appointed by the Governor as president of the Legislative Assembly. This was the first ministry of Tamils to arise in Madras.",
-    "This provincial self-government legislature was inaugurated on 12 January 1921. In that same year, First Minister Subbarayalu died. The Raja of Panagal then took office as First Minister, with Sir K. V. Reddi and Sir A. P. Patro as the other ministers. The achievements made for the Dravidians during the Raja of Panagal's period in office were what the little book 'The Raja of Panagal,' prescribed to me in the Fifth Standard, described.",
+    "In the Madras Presidency election of that time, the Justice Party won an overwhelming majority of the seats. The Governor of the Presidency, Lord Willingdon, invited party leader Thiagarayar to form the ministry. Thiagarayar declined a ministerial post for himself and had A. Subbarayalu Reddiar appointed First Minister, the Raja of Panagal as second minister, and Sir K. V. Reddiar as third minister. Sir P. Rajagopalachariar was appointed by the Governor as President of the Legislative Council. This was the first Tamil ministry to arise in Madras.",
+    "This provincial self-government legislature was inaugurated on 12 January 1921. In that same year, First Minister Subbarayalu died. The Raja of Panagal then took office as First Minister, with Sir K. V. Reddi and Sir A. P. Patro as the other ministers. The little book 'The Raja of Panagal,' prescribed to me in the Fifth Standard, was about the achievements secured for the Dravidians during the Raja of Panagal's period in office.",
     "While the Justice Party was governing the Madras Presidency, six workers were killed during a mill-workers' strike in Madras. Governor Lord Willingdon issued an emergency order directing that five trade-union leaders—Thiru. Vi. Ka., B. P. Wadia, Chakkarai Chettiar, Natesa Naicker and E. L. Iyer—be deported.",
     "On seeing this, Justice Party leader Sir P. Thiagarayar rose in fury. He resolved that the Governor must withdraw the deportation order against the trade-union leaders, failing which the Justice Party ministry would resign. He conveyed that decision to the Governor and placed the ministers' resignation letters in the Governor's hands. Faced with the Justice Party's struggle and the turmoil that arose in the country, Lord Willingdon immediately withdrew the deportation order.",
-    "The second general election came in November 1923. The Justice Party won again. A ministry was formed with the Raja of Panagal as its head and Sivagnanam Pillai and A. P. Patro as ministers. Professor M. Ratnaswami was appointed president of the Legislative Assembly.",
-    "Even before the third general election, on 29 June 1925, Thiagarayar—who had shone as the morning star of dawn for the Dravidians—went into an unending sleep in nature's lap. After him, the Raja of Panagal assumed the leadership of the party.",
+    "The second general election came in November 1923. The Justice Party won again. A ministry was formed with the Raja of Panagal as its head and Sivagnanam Pillai and A. P. Patro as ministers. Professor M. Ratnaswami was appointed President of the Legislative Council.",
+    "Even before the third general election, on 29 June 1925, Thiagarayar—who had shone as the morning star for the Dravidians—went into an unending sleep in nature's lap. After him, the Raja of Panagal assumed the leadership of the party.",
     "In the third general election held in 1926, the Congress, under S. Srinivasa Iyengar, opposed the Justice Party under the name of the Swaraj Party. The Congress won that election, but it did not come forward to form the ministry. The Raja of Panagal too refused to form a ministry without a majority, dependent on the support of others. Dr Subbarayan's ministry was therefore formed.",
     "Under the leadership of the Raja of Panagal, the Justice Party passed a resolution pressing the British government to grant full self-government to the provinces. But, in a great loss to both party and country, the Raja of Panagal died on 16 December 1928. The country shed tears at his passing.",
     "With Nair, Thiagarayar and the Raja of Panagal all disappearing one after another, the Justice Party was left standing shaken.",
     "It was during the Raja of Panagal's period that the Religious Endowments Protection Act was brought in. Meanwhile, Thanthai Periyar E. V. Ramasamy, who had been a great pillar in strengthening the Congress, started the Self-Respect Movement in 1926. Through the weekly Kudi Arasu, thousands of articles radiating the flame of rationalism appeared.",
     "P. Jeevanandham, Pattukkottai Alagirisami, Soundarapandian, Kuthoosi Gurusami, Ponnambalanar, Singaravelar, Kaivalya Swami, S. Ramanathan and many others stood by Periyar and spread Self-Respect ideas throughout Tamil Nadu with the speed of a whirlwind.",
-    "In 1930, a 'Self-Respect Youth League' was started in Madras. Anna, who was then a student of Pachaiyappa's College, took part in that youth forum's weekly debates and delivered his views.",
+    "In 1930, a 'Self-Respect Youth League' was started in Madras. Anna, who was then a student of Pachaiyappa's College, took part in that youth forum's weekly verbal debates and delivered his views.",
     "In the general election held in 1930, the Justice Party won once again, and a ministry was formed under Diwan Bahadur Munusami Naidu, with P. T. Rajan and Kumarasami Reddiar as the other ministers.",
     "It was at this time that Periyar, with the political advancement of the Tamils in mind, prepared a programme and laid down as a condition that the Justice Party should accept it. The party accepted it. Thereafter, Periyar began to work together with the Justice Party."
   ],
   "provenance": {
-    "method": "Fresh T1 translation directly from the pinned Tamil source and the completed v1-ch04 source-note record, with retained pages 37–41 used as secondary page-level witnesses. No pre-existing English translation was used as drafting authority.",
+    "method": "Fresh T1 translation directly from the pinned Tamil source and completed source notes, followed by a full Tamil-English T2 comparison. No pre-existing English translation was used as drafting authority.",
     "translation_plan": "docs/TRANSLATION_PLAN.md",
     "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
     "source_review": "../source-notes/v1-ch04.json",
+    "t2_review": "../reviews/v1-ch04-t2.md",
     "unresolved_source_holds": 0,
-    "review_items": [
-      "movement terminology and historical political register",
-      "historical office vocabulary"
-    ],
-    "next_gate": "t2-source-and-voice-review"
+    "review_items": [],
+    "next_gate": "t3-english-review"
   }
 }
