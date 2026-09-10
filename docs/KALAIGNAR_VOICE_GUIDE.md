@@ -130,6 +130,41 @@ Where an earlier English rendering exists, do not consult it while drafting T1 o
 
 A comparator phrase may be adopted if it demonstrably improves fidelity, but the adoption must be documented. `v1-ch01` provides the first example: “Do the small not own them too?” was adopted after comparison because it preserves both the `பெரிய / சின்ன` contrast and the possession/belonging idea in `சொந்தமா`.
 
+## 19. Do not over-interpret unfamiliar cultural vocabulary
+
+An unfamiliar Tamil or Sanskrit-derived term is not permission to choose the most colourful English sense suggested by the surrounding scene. Establish its lexical or contextual function first.
+
+`v1-ch02` provides the first durable example: `போகசாலை` in the embedded satire is independently attested as `சயன சாலை`, a sleeping hall/bedchamber. The T1 phrase `pleasure-house` added a sexual implication not established by the word itself and was corrected at T2.
+
+When a secure English equivalent is unavailable, retaining/transliterating the source term with a note is preferable to an invented paraphrase.
+
+## 20. Lovers' literary vocabulary requires semantic precision
+
+Words from Tamil love-poetic and colloquial traditions can carry a more specific relationship action than a broad English verb suggests.
+
+In `v1-ch02`, `ஊடியும் கலந்துமே வந்தேன்` uses `ஊடல்` in the lovers' sense of quarrelling/feigned sulking before reunion. A generic rendering such as `dallied` loses that sequence. Preserve the relational action even when a compact one-word English equivalent is unavailable.
+
+## 21. Source uncertainty must remain visible in verse
+
+Songs can contain compressed syntax, dialect, archaic forms or extraction noise. Do not force every line into polished explanatory English merely to make the poem look finished.
+
+If a reading remains materially uncertain after consulting available witnesses, prefer:
+
+1. a documented source hold;
+2. conservative wording;
+3. provisional transliteration where necessary;
+4. later visual/print verification.
+
+`v1-ch02` establishes this rule with the unresolved `தரகுமூட்டை` and `முந்தானையால் கூட்டியே நின்று` lines. A visibly provisional reading is editorially stronger than a confident invention.
+
+## 22. Family anecdotes may shift into dramatic present
+
+Kalaignar can retell a remembered family story as though it is happening before the listener, using present-tense narration, fragments, exclamations and quoted family speech.
+
+Do not automatically regularise such passages into retrospective literary past. In the `v1-ch02` burglary sequence, the sudden `I am asleep, still an infant`, the inventory-like fragments, the late-barking dog and the parents' dialogue create oral comic timing. Preserve that live storytelling quality.
+
+Family dialogue should also remain immediate: colloquial turns such as `நல்ல வேளை` should not be inflated into ceremonious English when a direct phrase such as `Good thing...` carries the voice better.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -141,6 +176,8 @@ The completed pilot also established durable practice for concrete idiom, histor
 ### `v1-ch02` — `தந்தையின் துணிவு`
 
 The chapter combines orphaned childhood, portraiture of Muthuvelar, village songs and social criticism, religion/traditional healing, marriage and bereavement, agricultural life, longing for children, Kalaignar's birth, burglary and family humour. Tone changes are part of the composition and must not be normalised into one register.
+
+Its T2 review adds durable practice for culturally specific lexical verification, lovers' vocabulary, visible uncertainty in embedded verse, preservation of elevated praise beside earthy village detail, and dramatic-present family storytelling.
 
 ## Review question
 
