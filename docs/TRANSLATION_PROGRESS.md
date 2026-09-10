@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 |---|---|---:|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **THOUGHT STRUCTURE PASS / TERMINOLOGY-CULTURAL AUDIT NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | not started |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
@@ -86,7 +86,7 @@ Gate state:
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-## `v1-ch05` — T3 complete
+## `v1-ch05` — thought structure complete
 
 Durable files:
 
@@ -94,6 +94,7 @@ Durable files:
 - translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch05.json`
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-t2.md`
 - T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-t3.md`
+- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-structure.md`
 
 Gate state:
 
@@ -101,13 +102,17 @@ Gate state:
 - T1: **PASS / COMPLETE**;
 - T2: **PASS WITH REVISION / COMPLETE**;
 - T3: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
+- thought structure: **PASS / COMPLETE — 22 / 22 major movements preserved**;
 - unresolved source holds: **0**;
-- outstanding T3 review items: **0**;
-- next gate: **thought-structure audit**.
+- outstanding review items: **0**;
+- existing-English comparator: **NOT CONSULTED**;
+- next gate: **terminology/cultural-consistency audit**.
 
-T3 preserved all T2 source and terminology decisions while improving only genuine English-language roughness. Accepted revisions include the Tanjore-conference syntax, `took office as ministers`, compulsory-Hindi legislation `was enacted`, `organized agitations`, the red-flame sentence, `at heart` for `உள்ளூர`, the Panneerselvam-response syntax, the Maraimalai Adigal consolation sentence, the fourteen-year pivot, Nehru `to rest`, the public-money resolution, the Annadurai before-fame fragment, `came under severe challenge`, the reported criticism of Periyar, and `Short in stature!`.
+The structure audit confirms that the chapter remains autobiographical in function despite its dense political chronology. The Justice Party's decline loops back to Kalaignar's Fifth Standard political education; compulsory Hindi becomes mass struggle; June 3 binds movement history to his own birth date; the Thalamuthu–Natarajan passage turns sacrifice into the blood-dipped flag image; the fourteen-year 1924–1938 pivot uses Kalaignar's school age to widen into Indian and world history; the Voltaire passage converts events into a principle about disagreement and loyalty; criticism of Periyar reverses into his acceptance as **Leader of the Tamils**; and the chapter closes with Anna becoming audible through a public chorus.
 
-T3 explicitly retained source-driven unusual English where smoothing would erase Kalaignar's action: `letter for letter` in the Tamil-mediated Voltaire quotation; `became corpses within the prison walls`; collective `The Tamil`; the blood-dipped flag flown until it touches the sky; `How the man speaks!`; the clipped `It was written. It was said.`; and the separate pomegranate-pearl, sluice, Courtallam-waterfall and Tamil-`chindu` images.
+Structural accounting: **22 / 22 represented; 0 reordered; 0 omitted; 0 invented**.
+
+T2/T3 controls remain in force, including the witnessed **In 1932** opening, authored **1936** election statement, period **First Minister / Premier** distinction, normalized historical proper names, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, consistent **Leader of the Tamils**, documented `நீட்டினார்`, **Firm, forceful arguments**, and the 15 source-checked T3 fluency revisions. Deliberately unusual source-driven rhetoric remains intact.
 
 ## Batch 001 counters
 
@@ -116,7 +121,7 @@ T3 explicitly retained source-driven unusual English where smoothing would erase
 - T1 complete: **3 / 5**
 - T2 complete: **3 / 5**
 - T3 complete: **3 / 5**
-- thought-structure complete: **2 / 5**
+- thought-structure complete: **3 / 5**
 - approved: **2 / 5**
 
 ## Infrastructure note
@@ -129,4 +134,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the complete **thought-structure audit** for `v1-ch05`, checking that the English follows the same narrative and argumentative movement as the pinned Tamil. Do not consult any pre-existing English comparator until the independent translation has passed thought structure.
+Run the **final terminology/cultural-consistency audit** for `v1-ch05`. After that passes, check whether a post-freeze existing-English comparator exists; if none exists, proceed toward final approval without inventing one.

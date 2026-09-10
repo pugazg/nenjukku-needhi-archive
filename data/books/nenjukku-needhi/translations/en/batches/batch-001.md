@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` T3 COMPLETE / THOUGHT STRUCTURE NEXT**
+Status: **OPEN / `v1-ch05` THOUGHT STRUCTURE PASS / TERMINOLOGY-CULTURAL AUDIT NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -22,7 +22,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **THOUGHT STRUCTURE PASS / TERMINOLOGY-CULTURAL AUDIT NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
@@ -63,21 +63,7 @@ Gate results:
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-Final `v1-ch04` controls:
-
-- `தென்னிந்திய நல உரிமைச் சங்கம்` is normalised to **South Indian Liberal Federation (SILF)**, with the intervention documented;
-- `முதல் மந்திரி` remains **First Minister**;
-- `சட்டசபைத் தலைவர்` is **President of the Legislative Council** for the 1920s Madras Presidency context;
-- `இந்தியா மந்திரி` for Edwin Montagu is normalised to the official English office **Secretary of State for India**;
-- Justice Party, Self-Respect Movement, rationalism, backward communities and depressed communities/people remain context-sensitive historical working forms;
-- `திராவிடப் பெருங்குடி` remains **great Dravidian community**;
-- `விடிவெள்ளி` remains **morning star for the Dravidians**;
-- `சொற்போர்` retains oral/debate energy as **verbal debates**;
-- `அரிச்சுவடி` remains **political primer** and continues to anchor the historical section to the school-memory frame;
-- T3 removed the unsupported translator hedge `in their view` from the Home Rule comparison and restored neutral `plans` for `திட்டங்கள்`;
-- historical assertions remain authored claims and are not silently fact-corrected.
-
-## `v1-ch05` — T3 complete
+## `v1-ch05` — thought structure complete
 
 Durable files:
 
@@ -85,6 +71,7 @@ Durable files:
 - translation: `../chapters/v1-ch05.json`
 - T2 review: `../reviews/v1-ch05-t2.md`
 - T3 review: `../reviews/v1-ch05-t3.md`
+- thought-structure audit: `../reviews/v1-ch05-structure.md`
 
 Gate state:
 
@@ -92,15 +79,17 @@ Gate state:
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
+- thought structure: **PASS / COMPLETE — 22 / 22 major movements preserved**;
 - unresolved source holds: **0**;
-- outstanding T3 review items: **0**;
-- next gate: **thought-structure audit**.
+- outstanding review items: **0**;
+- existing-English comparator: **NOT CONSULTED**;
+- next gate: **terminology/cultural-consistency audit**.
 
-T2 controls remain in force: witnessed **In 1932** opening, authored **1936** election statement, period **First Minister / Premier** distinction, normalized Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, consistent **Leader of the Tamils**, documented `நீட்டினார்`, and **Firm, forceful arguments** for `ஆணித்தரமான வாதங்கள்`.
+The structure audit confirms that the chapter remains autobiography through political history rather than becoming a detached chronology. Justice Party history returns to Kalaignar's Fifth Standard political education; the anti-Hindi struggle is tied to his June 3 birthday; the 1924–1938 pivot uses his school age to widen into Indian and world crises; Periyar's contested public position resolves into the epithet **Leader of the Tamils**; and the chapter closes with the public emergence of Anna through a multi-speaker chorus.
 
-T3 accepted only source-safe English fluency revisions. Key changes include naturalizing the Tanjore-conference syntax, `பொறுப்பேற்றனர்` as **took office as ministers**, compulsory-Hindi legislation as **was enacted**, `உள்ளூர` as **at heart**, the Panneerselvam-response syntax, the fourteen-year pivot, Nehru's Europe sentence, the government-budget resolution, the Anna before-fame fragment, the world-values sentence, reported criticism of Periyar, and **Short in stature!** in the closing chorus.
+Structural accounting: **22 / 22 represented; 0 reordered; 0 omitted; 0 invented**.
 
-T3 deliberately retained `letter for letter`, `became corpses within the prison walls`, collective `The Tamil`, the blood-dipped flag, `How the man speaks!`, `It was written. It was said.`, and the separate pomegranate-pearl / sluice / Courtallam / Tamil-`chindu` images because smoothing them would weaken Kalaignar's rhetorical action.
+T2/T3 controls remain in force: witnessed **In 1932** opening, authored **1936** election statement, period **First Minister / Premier** distinction, normalized Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, consistent **Leader of the Tamils**, documented `நீட்டினார்`, **Firm, forceful arguments** for `ஆணித்தரமான வாதங்கள்`, and the 15 source-checked T3 fluency revisions. Deliberately unusual source-driven phrases and the separate Anna chorus remain intact.
 
 ## Branch consolidation
 
@@ -124,6 +113,6 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - T1 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T2 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T3 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- thought-structure complete: **2 / 5** (`v1-ch03`, `v1-ch04`)
+- thought-structure complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - approved chapters: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- next chapter activity: **thought-structure audit for `v1-ch05`**
+- next chapter activity: **terminology/cultural-consistency audit for `v1-ch05`**
