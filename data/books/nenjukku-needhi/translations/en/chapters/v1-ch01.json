@@ -5,7 +5,7 @@
   "tamil_title": "பிறந்த ஆண்டு",
   "title": "The Year I Was Born",
   "pages": {"start": 15, "end": 21},
-  "status": "thought-structure-review",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -24,14 +24,14 @@
   ],
   "paragraphs": [
     "“Have you become such a great man that you can now write your life story?” It was not someone else who asked me that question. My own heart asked it of me. But it had kept the answer in its own hands as well.",
-    "Does life—and history—belong only to the great? Have the small no share in them?",
+    "Does life—and history—belong only to the great? Do the small not own them too?",
     "Every human being has a life story. He may never think of writing it down. He may have no time to write it. Or he may lack the skill to gather its scattered threads and shape them into a written account.",
     "And yet two prisoners talk between themselves about the stories of their lives—we can hear them. Two elderly rickshaw pullers, resting in the shade of a tree and leaning comfortably against their vehicles, exchange the memorable episodes of their lives. Listen closely to two mendicants lying awake on the raised platform of a choultry, and there too what you hear is their life history.",
     "A patient on his deathbed, knowing that his end has come, watches the story of his life circle soundlessly before his mind's eye. Unable to write it, unable even to speak it, he lets it run like a film within his own heart. The unbidden smile at the threshold of death, the deep sigh, the tear—each of these is a different chapter in his history.",
     "An individual's history may contain no event that brought about a great social transformation. A political revolution may have found no place in his life. But in the changes and revolutions taking place in his country, he may have taken some part without even knowing it.",
     "He is a part of society. People like him, taken together, are society—the country itself. Who can deny that truth? So, in one way or another, he has a share in the changes of his land, even if he never considered that share important enough to enter in the record of his own life.",
     "In a storm that devastates an entire village, a branch torn from a tree is hurled through the air and crashes into the front of a house, bringing it down. What did the deed—the storm, or the branch? Whatever the answer, an event has entered the history of that branch.",
-    "Only after thinking through all this did I find the courage to render justice to my heart. The verdict itself came in the form of a question: “Does life—and history—belong only to the great? Have the small no share in them?”",
+    "Only after thinking through all this did I find the courage to render justice to my heart. The verdict itself came in the form of a question: “Does life—and history—belong only to the great? Do the small not own them too?”",
     "After that verdict, my pen began its work without pause or obstruction.",
     "My birthday was celebrated on the third of June. Thinking about birthdays, I could not help remembering what the thinker Rousseau had said: “My first misfortune was that I was born a human being!”",
     "There is something curious about that great thinker—who taught all humanity how to safeguard the rights that come with birth—cursing and lamenting his own birth.",
@@ -55,7 +55,7 @@
     "In 1924, the genius who would dispel a thousand years of darkness from Tamil Nadu and, at a stroke, overturn every sphere of life to meet the demands of the new age—my teacher, Arignar Anna—was then a fifteen-year-old high-school student, shaping himself to become the hero of a great history.",
     "India was shaking off a long sleep and rising with a thrill.",
     "Gandhiji's arrival and his involvement in politics were creating a new kind of awakening. Congress leaders were divided and bewildered over the question: “Complete independence? Or self-government subject to imperial control?”",
-    "It was a time when Lajpat Rai, Subhas Chandra Bose, Sathyamurthi, Srinivasa Iyengar, C. R. Das, Motilal Nehru and others would from time to time differ with Gandhiji and engage him in ceaseless argument and counter-argument.",
+    "It was a time when Lajpat Rai, Subhas Chandra Bose, Sathyamurthy, Srinivasa Iyengar, C. R. Das, Motilal Nehru and others would from time to time differ with Gandhiji and engage him in ceaseless argument and counter-argument.",
     "The distinction of Gandhiji formally assuming the presidency of the Indian National Congress belongs to 1924 alone. Neither before nor afterwards did he serve as its formal president. The plans drawn up at the Belgaum session in 1924 were the plans through which the Congress later attained its fuller organisational form.",
     "It was a programme born in 1924 that transformed E. V. Ramasamy—whom the country today honours as Thanthai Periyar—into the Hero of Vaikom.",
     "It was in this period that Thamizh Thendral Thiru. V. Kalyanasundara Mudaliar became a tempest against imperialism. It was in these days too that the labour movement began putting down roots in Tamil Nadu.",
@@ -98,6 +98,9 @@
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
     "t2_review": "../reviews/v1-ch01-t2.md",
     "t3_review": "../reviews/v1-ch01-t3.md",
-    "next_gate": "thought-structure-review"
+    "thought_structure_review": "../reviews/v1-ch01-structure.md",
+    "existing_english_comparison": "../reviews/v1-ch01-existing-comparison.md",
+    "comparison_adoptions": ["great/small ownership formulation only"],
+    "approval": "All pilot gates passed; no unresolved source holds."
   }
 }
