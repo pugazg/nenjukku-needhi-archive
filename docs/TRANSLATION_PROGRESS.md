@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 |---|---|---:|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | not started |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
@@ -86,39 +86,28 @@ Gate state:
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-## `v1-ch05` — T2 complete
+## `v1-ch05` — T3 complete
 
 Durable files:
 
 - source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch05.json`
 - translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch05.json`
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-t2.md`
+- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-t3.md`
 
 Gate state:
 
 - source review: **PASS / COMPLETE**;
 - T1: **PASS / COMPLETE**;
 - T2: **PASS WITH REVISION / COMPLETE**;
+- T3: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
 - unresolved source holds: **0**;
-- outstanding T2 review items: **0**;
-- next gate: **T3 English-only review**.
+- outstanding T3 review items: **0**;
+- next gate: **thought-structure audit**.
 
-T2 decisions:
+T3 preserved all T2 source and terminology decisions while improving only genuine English-language roughness. Accepted revisions include the Tanjore-conference syntax, `took office as ministers`, compulsory-Hindi legislation `was enacted`, `organized agitations`, the red-flame sentence, `at heart` for `உள்ளூர`, the Panneerselvam-response syntax, the Maraimalai Adigal consolation sentence, the fourteen-year pivot, Nehru `to rest`, the public-money resolution, the Annadurai before-fame fragment, `came under severe challenge`, the reported criticism of Periyar, and `Short in stature!`.
 
-- the opening remains **In 1932**, reconstructed only from the direct page witness;
-- Kalaignar's explicit **1936** election statement remains unchanged as authored chronology;
-- **First Minister** is retained for the Raja of Bobbili in 1932 and Dr P. Subbarayan's earlier dyarchy government; Rajaji's 1937 office is **Premier of the Madras Presidency**;
-- historically useful English forms are normalized as **Sir A. T. Panneerselvam**, **Khan Bahadur Khalifullah Sahib**, **Natarajan**, and **Indian National Congress**;
-- `தலைகீழ்ப் பாடம்` is **backwards and forwards**, avoiding a false claim of literal reverse recitation;
-- Maraimalai Adigal's `வடமொழி` is **Sanskrit** in its established lexical sense;
-- `இறும்பூது` is **wonder**; T1's added `proud` is removed;
-- the Rajaji/Panneerselvam arithmetic reversal remains direct political dialogue;
-- the Thalamuthu–Natarajan deaths and blood-dipped flag image remain concrete and severe;
-- the Voltaire quotation remains Kalaignar's Tamil-mediated wording and direct attribution, with no canonical English substitution;
-- `தமிழர் தலைவர்` is consistently **Leader of the Tamils** as Periyar's epithet and the translated book title;
-- page-45 `நீட்டினார்` remains documented as anomalous; the English states only the secure contextual function that Sami Chidambaranar wrote the biography;
-- `ஆணித்தரமான வாதங்கள்` is **Firm, forceful arguments**, with T1's invented nail image removed;
-- Anna's closing audience chorus remains separate voices, fragments and metaphors rather than summary.
+T3 explicitly retained source-driven unusual English where smoothing would erase Kalaignar's action: `letter for letter` in the Tamil-mediated Voltaire quotation; `became corpses within the prison walls`; collective `The Tamil`; the blood-dipped flag flown until it touches the sky; `How the man speaks!`; the clipped `It was written. It was said.`; and the separate pomegranate-pearl, sluice, Courtallam-waterfall and Tamil-`chindu` images.
 
 ## Batch 001 counters
 
@@ -126,7 +115,7 @@ T2 decisions:
 - full source reviews complete: **3 / 5**
 - T1 complete: **3 / 5**
 - T2 complete: **3 / 5**
-- T3 complete: **2 / 5**
+- T3 complete: **3 / 5**
 - thought-structure complete: **2 / 5**
 - approved: **2 / 5**
 
@@ -140,4 +129,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the complete T3 English-only literary review for `v1-ch05`. Read the revised English without using the Tamil as a crutch; identify only genuine English-language problems, then recheck every proposed revision against the pinned Tamil before acceptance. Do not consult any pre-existing English comparator during T3.
+Run the complete **thought-structure audit** for `v1-ch05`, checking that the English follows the same narrative and argumentative movement as the pinned Tamil. Do not consult any pre-existing English comparator until the independent translation has passed thought structure.
