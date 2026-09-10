@@ -49,10 +49,21 @@
       "translation": "chapters/v1-ch02.json",
       "source_notes": "source-notes/v1-ch02.json",
       "reviews": {
-        "t2": "reviews/v1-ch02-t2.md"
+        "t2": "reviews/v1-ch02-t2.md",
+        "source_witness": "reviews/v1-ch02-source-witness.md",
+        "t3": "reviews/v1-ch02-t3.md",
+        "thought_structure": "reviews/v1-ch02-structure.md"
+      },
+      "gates": {
+        "t1": "pass",
+        "t2": "pass-with-revision",
+        "t3": "pass",
+        "thought_structure": "pass"
       },
       "unresolved_source_holds": 2,
-      "next_gate": "resolve-source-hold"
+      "hold_kind": "semantic-interpretation",
+      "textual_readings_stable_across_available_text_witnesses": true,
+      "next_gate": "resolve-or-editorially-accept-two-semantic-interpretation-holds"
     }
   ]
 }
