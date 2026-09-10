@@ -25,9 +25,9 @@ The translation must preserve not only information but what Kalaignar's sentence
 
 Natural English matters, but never at the cost of these four levels.
 
-## What the Tamil pilot reveals about Kalaignar's prose
+## What the Tamil pilots reveal about Kalaignar's prose
 
-The initial method is derived from direct reading of `v1-ch01` (`பிறந்த ஆண்டு`) and `v1-ch02` (`தந்தையின் துணிவு`), not from copying the existing English benchmark.
+The method is derived from direct reading and full pilot processing of `v1-ch01` (`பிறந்த ஆண்டு`) and `v1-ch02` (`தந்தையின் துணிவு`), not from copying any existing English benchmark.
 
 Recurring characteristics to preserve:
 
@@ -42,16 +42,19 @@ Recurring characteristics to preserve:
 - embedded songs, proverbs, Tirukkural, quotations and sayings participate in the argument;
 - apparent personal, cultural, religious or political tensions should be preserved rather than simplified into a cleaner ideological portrait.
 
+See `docs/PILOT_METHOD_REVIEW.md` and `docs/KALAIGNAR_VOICE_GUIDE.md` for durable lessons from both pilots.
+
 ## Source-text problem: extraction units are not authorial paragraphs
 
 `public/data/text/*.json` contains extracted digital text. Its `paragraphs` array is **not assumed to represent Kalaignar's authorial paragraphing**.
 
-Known examples from the pilot:
+Known examples from the pilots:
 
 - words can be split across source elements/page joins, e.g. `கேட்க-` followed by `லாம்` in `v1-ch02`;
 - sentences can cross JSON element boundaries;
 - chapter titles can be repeated at the beginning of the first source element;
 - OCR/spacing artefacts can occur;
+- contextual extraction anomalies can survive into more than one text witness;
 - non-authorial Wikisource maintenance notices can appear inside the `paragraphs` array — `v1-ch02` contains two such duplicate-page/editorial notices.
 
 Therefore:
@@ -69,15 +72,30 @@ Record, where applicable:
 - `title_repeat` — chapter heading repeated inside body and treated as metadata rather than prose;
 - `page_join` / `source_unit_join` — a word or sentence crosses source elements and has been joined for translation;
 - `ocr_spacing` — an evident spacing/character artefact has been interpreted;
+- `ocr_or_extraction_reading` — an extracted form is defective or anomalous and context is used to determine its function;
 - `non_authorial_editorial` — Wikisource/editorial/interface material excluded from the literary translation;
 - `duplicate_source` — duplicated source text/page material;
-- `uncertain_reading` — source wording is genuinely uncertain; do not guess silently;
+- `textual_reading_hold` — the source characters/words themselves are not secure;
+- `semantic_interpretation_hold` — the visible wording is stable but its exact semantic/syntactic force remains uncertain;
+- `accepted_scholarly_uncertainty` — after reasonable review, an unresolved semantic interpretation is intentionally preserved transparently through conservative wording/transliteration and a documented editorial closure decision;
 - `verse_or_song` — embedded verse requires verse-aware translation;
 - `quotation` — quoted material whose wording/attribution needs special handling;
 - `paragraph_reconstruction` — English literary paragraphing differs from extraction-unit boundaries;
 - any other source intervention that could affect scholarly traceability.
 
 A note must identify what was observed and what action was taken. Source problems are documented only in `pugazg/nenjukku-needhi-archive`; they are never corrected in the source repository by this project.
+
+### Accepted scholarly uncertainty
+
+Accepted scholarly uncertainty is not a shortcut around a source hold. It may be used only when:
+
+1. reasonable source/lexical review has been attempted;
+2. the visible source wording is stable enough to preserve;
+3. a confident English interpretation would require invention;
+4. the final conservative treatment is visible in the translation and explained in source notes;
+5. a dedicated editorial decision records why the uncertainty is accepted and how future stronger evidence may reopen it.
+
+Once those conditions are satisfied, the item is no longer counted as an unresolved source hold. It remains permanently visible as an accepted uncertainty in the archival apparatus.
 
 ## Translation workflow
 
@@ -113,12 +131,13 @@ Compare Tamil and English and ask:
 - Did anger or political force become neutral?
 - Did a concrete image become abstraction?
 - Did spoken/oratorical prose become academic English?
+- Did an unfamiliar cultural term acquire an English meaning not established by evidence?
 
 Revise to restore the author's rhetorical action.
 
 ### P4 — T3 independent English read
 
-Read the English without using the Tamil as a crutch. It must function as English prose. Any fluency change must then be checked against the Tamil before acceptance.
+Read the English without using the Tamil as a crutch. It must function as English prose. Any fluency change must then be checked against the Tamil before acceptance. Do not smooth away a documented source uncertainty merely to make the English look finished.
 
 ### P5 — Thought-structure audit
 
@@ -138,7 +157,8 @@ A chapter can be marked `approved` only when:
 
 - all authorial Tamil is represented;
 - all exclusions/reconstructions are documented in source notes;
-- no unresolved source hold affects meaning;
+- no unresolved source hold remains;
+- any accepted scholarly uncertainty has a dedicated editorial closure record;
 - T1, T2, T3 and thought-structure checks pass;
 - terminology is consistent;
 - JSON/schema validation passes.
@@ -148,6 +168,8 @@ A chapter can be marked `approved` only when:
 Embedded verse is not to be flattened into prose. Preserve lineation where recoverable, imagery, satire, address and rhetorical force. Rhyme is secondary to meaning and tone.
 
 When Kalaignar quotes or renders another figure, translate the formulation present in Kalaignar's Tamil rather than silently replacing it with a modern canonical English quotation. External wording may be noted separately if useful, but it must not overwrite Kalaignar's framing.
+
+Compressed, dialectal, archaic or semantically uncertain verse must not be forced into confident explanatory English. Conservative wording or transliteration with explicit notes is preferable to invention.
 
 ## Historical/factual assertions
 
@@ -171,6 +193,8 @@ data/books/nenjukku-needhi/translations/en/
 │   ├── v1-ch01.json
 │   ├── v1-ch02.json
 │   └── ...
+├── reviews/
+│   └── ...
 ├── alignment/
 │   └── ...
 └── manifest.json
@@ -181,6 +205,7 @@ Project controls:
 ```text
 docs/
 ├── TRANSLATION_PLAN.md
+├── PILOT_METHOD_REVIEW.md
 ├── KALAIGNAR_VOICE_GUIDE.md
 ├── TRANSLATION_GLOSSARY.md
 └── TRANSLATION_PROGRESS.md
@@ -188,14 +213,25 @@ docs/
 
 ## Production strategy
 
-Pilot first:
+Pilot phase:
 
-1. `v1-ch01` — philosophy, politics, history, rhetoric and the self-to-world-to-self movement.
-2. `v1-ch02` — family history, village culture, satire, grief, embedded song, religion, labour and humour.
+1. `v1-ch01` — philosophy, politics, history, rhetoric and the self-to-world-to-self movement — **APPROVED / CLOSED**.
+2. `v1-ch02` — family history, village culture, satire, grief, embedded song, religion, labour and humour — **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**.
 
-After both complete T1–T3 and the structural audit, revise the guides before scaling.
+The pilot phase is complete.
 
-Production after pilot: normally 5 chapters per batch, reduced to 1–3 for unusually long or difficult chapters. Each batch is reviewed and durably committed before moving on.
+Normal production batch size is **5 chapters**, reduced to 1–3 for unusually long or difficult chapters.
+
+A five-chapter batch is a **management envelope**, not a requirement to translate all five chapters in one giant iteration. Within a batch:
+
+- process one chapter at a time;
+- complete source review and source notes before T1 for that chapter;
+- make durable, reviewable commits as gates complete;
+- finish the chapter's required gates before moving materially into the next chapter;
+- do not start a sixth chapter until the current five-chapter batch is closed;
+- record any reduction in batch size and its reason.
+
+Batch 001 is `v1-ch03`–`v1-ch07`.
 
 ## Final corpus gate
 
@@ -208,5 +244,6 @@ Before release, verify:
 - all authorial source content represented through translation/alignment;
 - all source interventions documented;
 - no unresolved meaning-affecting holds;
+- all accepted scholarly uncertainties explicitly inventoried;
 - terminology consistency across all six volumes;
 - valid machine-readable manifests and chapter JSON.
