@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / SOURCE REVIEW IN PROGRESS**
+Status: **OPEN / `v1-ch03` T1 COMPLETE**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -16,23 +16,34 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 
 ## Chapters
 
-| ID | Tamil title | Pages | Source blob SHA | Intake status |
+| ID | Tamil title | Pages | Source blob SHA | Current status |
 |---|---|---:|---|---|
-| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **SOURCE REVIEW COMPLETE / READY FOR T1** |
+| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | queued for source review |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
-## Initial intake observations
+## `v1-ch03` durable state
 
-These are only opening flags. Each chapter still requires a complete source-note review before T1.
+Source notes: `../source-notes/v1-ch03.json`
 
-### `v1-ch03`
+Fresh T1 translation: `../chapters/v1-ch03.json`
 
-Full source review is complete in `../source-notes/v1-ch03.json`.
+T1 decisions enforced:
 
-Key controls include repeated heading removal, multiple source-unit joins, long quoted journey reconstruction, `நாள் கூட` → contextual first-person interpretation, caste/ritual vocabulary, concrete political metaphors, humour timing, and a T2 lexical-review item for `அரிநமோத்து சிந்தம்`.
+- repeated heading represented only in metadata;
+- mantra retained as a transliterated invocation rather than doctrinally paraphrased;
+- source-unit joins reconstructed before translation;
+- long Thirukkuvalai homecoming speech rebuilt as literary/oral units while preserving repeated `இதோ` / `அதோ` movement;
+- `நாள் கூட` rendered by its clear first-person contextual function and disclosed;
+- caste humiliation and revolt remain explicit rather than softened into generic social discomfort;
+- wound/punugu, surgery and kicked-ball political images retained concretely;
+- ritual childhood, rationalist reinterpretation, nostalgia and grief remain in tension rather than being ideologically regularised;
+- humour timing preserved around the stolen hair-pot, village-pond curd, Angalamman puja and curse-soil;
+- `அரிநமோத்து சிந்தம்` provisionally retained as `Arinamothu Sindham` and remains a mandatory T2 lexical-review item before approval.
+
+## Opening observations for remaining batch chapters
 
 ### `v1-ch04`
 
@@ -55,6 +66,6 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - Batch opened: **YES**
 - source files pinned: **5 / 5**
 - full source reviews complete: **1 / 5** (`v1-ch03`)
-- translations started: **0 / 5**
+- T1 complete: **1 / 5** (`v1-ch03`)
 - approved chapters: **0 / 5**
-- next chapter activity: **fresh T1 for `v1-ch03`**
+- next chapter activity: **T2 source-and-Kalaignar-voice review for `v1-ch03`**
