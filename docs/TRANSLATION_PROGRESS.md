@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 |---|---|---:|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **TERMINOLOGY-CULTURAL PASS / COMPARATOR CHECK NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | not started |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
@@ -75,7 +75,7 @@ Final status: **APPROVED / CLOSED**.
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-## `v1-ch05` — terminology/cultural audit complete
+## `v1-ch05` — comparator check complete
 
 Durable files:
 
@@ -85,6 +85,7 @@ Durable files:
 - T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-t3.md`
 - thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-structure.md`
 - terminology/cultural audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-terminology.md`
+- comparator check: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch05-existing-comparison.md`
 
 Gate state:
 
@@ -94,23 +95,16 @@ Gate state:
 - T3: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
 - thought structure: **PASS / COMPLETE — 22 / 22 major movements preserved**;
 - terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
+- post-freeze comparator availability check: **COMPLETE / NOT APPLICABLE — COMPARATOR ABSENT**;
+- controlled path checked: `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch05.json` at Batch 001 pin;
+- result: **404 / NOT FOUND**;
+- wording adopted from prior English: **0**;
 - unresolved source holds: **0**;
 - outstanding review items: **0**;
 - independent English: **FROZEN**;
-- existing-English comparator: **NOT CONSULTED**;
-- next gate: **post-freeze comparator availability check**.
+- next gate: **final approval review**.
 
-Terminology/cultural audit decisions:
-
-- `முனுசாமி நாயுடு` → **Munuswamy Naidu** as established historical English spelling;
-- keep **Gandhiji** consistently through the linked Bose comparison where Kalaignar uses the reverential form;
-- retain the period **First Minister / Premier** distinction;
-- retain Panneerselvam, Khalifullah, Natarajan and Indian National Congress normalisations;
-- retain `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, and `தமிழர் தலைவர்` → **Leader of the Tamils**;
-- retain culturally visible Navalar / Arignar / Perarignar / Muthamizh Kaavalar / Ammaiyar / Tamilavel forms;
-- retain collective **The Tamil** in the blood-dipped-flag personification;
-- retain chapter-specific **the pride of race** while leaving broader `இனம்` vocabulary context-dependent;
-- retain **Tamil chindu** as a culturally specific song/poetic form rather than flattening it to generic `song`.
+The controlled comparator absence is now explicit. No unofficial external English translation was sought, and the independent chapter text was unchanged by this gate.
 
 ## Batch 001 counters
 
@@ -121,6 +115,7 @@ Terminology/cultural audit decisions:
 - T3 complete: **3 / 5**
 - thought-structure complete: **3 / 5**
 - terminology/cultural complete: **3 / 5**
+- comparator checks complete: **3 / 5**
 - approved: **2 / 5**
 
 ## Infrastructure note
@@ -133,4 +128,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Perform the **post-freeze existing-English comparator availability check** for `v1-ch05` in the controlled read-only source repository. If `public/data/text-en/v1-ch05.json` is absent, record comparator absence and proceed toward final approval; do not substitute an unofficial external English translation.
+Run the **final approval review** for `v1-ch05`. Confirm all completed gates, source/provenance controls, machine-readable record consistency under implemented repository controls, unresolved holds/review items, and approval readiness. Do not claim formal JSON-Schema validation while `schemas/chapter.json` remains an empty legacy placeholder.
