@@ -31,14 +31,17 @@
     {
       "id": "v1-ch01",
       "tamil_title": "பிறந்த ஆண்டு",
-      "status": "t1-in-progress",
-      "source_notes": "source-notes/v1-ch01.json"
+      "status": "t2-voice-review",
+      "translation": "chapters/v1-ch01.json",
+      "source_notes": "source-notes/v1-ch01.json",
+      "review": "reviews/v1-ch01-t2.md"
     },
     {
       "id": "v1-ch02",
       "tamil_title": "தந்தையின் துணிவு",
-      "status": "not-started",
-      "source_notes": null
+      "status": "ready-for-t1",
+      "translation": null,
+      "source_notes": "source-notes/v1-ch02.json"
     }
   ]
 }
