@@ -67,6 +67,8 @@ Use the glossary to keep decisions consistent while allowing context-sensitive r
 
 Kalaignar often reasons with physical images — storms, branches, lamps, fields, ornaments, bodies, prisons, streets, villages. Preserve the image. Do not replace it with an abstract explanation simply because the implication is obvious.
 
+This includes idioms whose image may sound unfamiliar in English. `உயிர் எமக்கு வெல்லமல்ல` in `v1-ch01` is the first durable example: the translation retains the jaggery image and explains the intervention in source notes rather than replacing the image with a purely abstract paraphrase.
+
 ## 9. Personal history and public history
 
 Historical material is often selected because it resonates with Kalaignar's own life. Keep those juxtapositions visible. A passage about national/world events may be preparing a personal return several paragraphs later.
@@ -116,11 +118,25 @@ Source JSON `paragraphs` are extraction units, not automatically authorial parag
 
 Every reconstruction must be disclosed in source notes.
 
+## 17. Preserve the author's historical present
+
+Do not automatically convert a memoir's contemporary present into retrospective past simply because the English translation is being read later.
+
+If Kalaignar writes from a live political moment — for example the 1974 Cauvery/Hemavathi passage in `v1-ch01` — retain that temporal vantage unless English grammar genuinely requires otherwise. Historical explanation belongs outside the translated prose.
+
+## 18. Existing English is a post-freeze comparator only
+
+Where an earlier English rendering exists, do not consult it while drafting T1 or shaping T2/T3. Compare only after the fresh translation has passed the thought-structure gate.
+
+A comparator phrase may be adopted if it demonstrably improves fidelity, but the adoption must be documented. `v1-ch01` provides the first example: “Do the small not own them too?” was adopted after comparison because it preserves both the `பெரிய / சின்ன` contrast and the possession/belonging idea in `சொந்தமா`.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
 
 The chapter begins with self-questioning, argues that ordinary lives belong to history, expands the year of birth into social/Indian/world history, and finally loops back to Kalaignar's own later political position before moving into family origins. The translation must preserve that widening-and-returning architecture.
+
+The completed pilot also established durable practice for concrete idiom, historical-present preservation, foundation imagery (`கால்கோள்`), forceful self-description (`வெறித்தனமான பக்தி`), source-note disclosure and post-freeze comparator use.
 
 ### `v1-ch02` — `தந்தையின் துணிவு`
 
