@@ -119,11 +119,12 @@
           "blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
           "result": "byte-identical"
         },
-        "status": "source-review",
-        "source_review_complete": true,
+        "status": "t1-complete",
+        "translation": "chapters/v1-ch04.json",
         "source_notes": "source-notes/v1-ch04.json",
         "gates": {
-          "source_review": "pass"
+          "source_review": "pass",
+          "t1": "pass"
         },
         "unresolved_source_holds": 0,
         "review_items": [
@@ -136,7 +137,7 @@
           "restore missing opening quotation for the boy's plea",
           "contextually interpret விழுத்து, சுட்சியின், சட்டசயைத் and interrupting punctuation without modifying source"
         ],
-        "next_gate": "fresh-t1-v1-ch04"
+        "next_gate": "t2-source-and-voice-review"
       },
       {
         "id": "v1-ch05",
@@ -161,13 +162,13 @@
       }
     ],
     "source_reviews_complete": 2,
-    "translations_started": 1,
-    "t1_complete": 1,
+    "translations_started": 2,
+    "t1_complete": 2,
     "t2_complete": 1,
     "t3_complete": 1,
     "thought_structure_complete": 1,
     "approved_chapters": 1,
-    "next_activity": "fresh-t1-v1-ch04"
+    "next_activity": "t2-source-and-voice-review-v1-ch04"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
