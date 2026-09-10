@@ -189,8 +189,13 @@
   "review_items": [],
   "t1_translation": "../chapters/v1-ch05.json",
   "t2_review": "../reviews/v1-ch05-t2.md",
-  "status": "t2-complete",
-  "gate_result": "pass-with-revision",
+  "t3_review": "../reviews/v1-ch05-t3.md",
+  "thought_structure_review": "../reviews/v1-ch05-structure.md",
+  "terminology_cultural_review": "../reviews/v1-ch05-terminology.md",
+  "existing_english_comparison": "../reviews/v1-ch05-existing-comparison.md",
+  "approval_review": "../reviews/v1-ch05-approval.md",
+  "status": "approved",
+  "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t3-english-review"
+  "next_gate": "closed"
 }
