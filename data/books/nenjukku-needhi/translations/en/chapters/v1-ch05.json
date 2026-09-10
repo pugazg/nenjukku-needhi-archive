@@ -5,7 +5,7 @@
   "tamil_title": "நீதிக் கட்சியில் பல மாற்றங்கள்",
   "title": "Many Changes in the Justice Party",
   "pages": {"start": 42, "end": 45},
-  "status": "comparator-check-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -30,7 +30,8 @@
     "T3 completed an English-only literary read and accepted 15 minor fluency revisions only after each was rechecked against the pinned Tamil. Deliberately unusual wording carrying Kalaignar's rhetoric was retained.",
     "The thought-structure audit passes 22/22 major movements with no omissions, reordering or invented structural turns; the independent English remains frozen for subsequent review.",
     "The terminology/cultural audit passes with two minor revisions: 'Munusami Naidu' is normalised to the historically established English form 'Munuswamy Naidu', and the linked Bose/Gandhi passage retains 'Gandhiji' consistently. The audit also explicitly retains the context-sensitive historical/cultural forms 'pride of race', collective 'The Tamil', and 'Tamil chindu'.",
-    "The post-freeze controlled comparator check found no `public/data/text-en/v1-ch05.json` at the Batch 001 source pin (404). No prior English wording was consulted or adopted, and no unofficial comparator was sought."
+    "The post-freeze controlled comparator check found no `public/data/text-en/v1-ch05.json` at the Batch 001 source pin (404). No prior English wording was consulted or adopted, and no unofficial comparator was sought.",
+    "Final approval review passed with zero unresolved source holds and zero outstanding review items. Formal JSON-Schema validation is not claimed because the repository's chapter schema remains an empty legacy placeholder."
   ],
   "paragraphs": [
     "In 1932, a no-confidence resolution was passed against Justice Party leader Munuswamy Naidu. At the conference convened in Tanjore in connection with it, the Raja of Bobbili took charge as party leader and formally assumed office as First Minister.",
@@ -66,7 +67,7 @@
     "Praise like this for his speeches poured in from the educated and from ordinary people alike."
   ],
   "provenance": {
-    "method": "Fresh T1 translation directly from the pinned Tamil source after completed source review, followed by complete T2 Tamil-English source-and-Kalaignar-voice comparison, T3 English-only literary review with every accepted fluency change rechecked against Tamil, a complete thought-structure audit, a terminology/cultural-consistency audit, and a post-freeze controlled comparator availability check. No pre-existing English translation was used as drafting authority; the controlled comparator path for this chapter is absent at the pinned source ref.",
+    "method": "Fresh T1 translation directly from the pinned Tamil source after completed source review, followed by complete T2 Tamil-English source-and-Kalaignar-voice comparison, T3 English-only literary review with every accepted fluency change rechecked against Tamil, a complete thought-structure audit, a terminology/cultural-consistency audit, a post-freeze controlled comparator availability check, and final approval review. No pre-existing English translation was used as drafting authority; the controlled comparator path for this chapter is absent at the pinned source ref.",
     "translation_plan": "docs/TRANSLATION_PLAN.md",
     "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
@@ -76,9 +77,10 @@
     "thought_structure_review": "../reviews/v1-ch05-structure.md",
     "terminology_cultural_review": "../reviews/v1-ch05-terminology.md",
     "existing_english_comparison": "../reviews/v1-ch05-existing-comparison.md",
+    "approval_review": "../reviews/v1-ch05-approval.md",
     "existing_english_comparator": null,
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "final-approval-review"
+    "next_gate": "closed"
   }
 }
