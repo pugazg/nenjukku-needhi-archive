@@ -70,16 +70,16 @@
       "translation_action": "Replace T1's generic 'dallied' with a rendering that preserves the lovers' quarrel followed by joining/reunion."
     },
     {
-      "type": "semantic_interpretation_hold",
-      "severity": "approval-blocking",
-      "observation": "The pinned chapter extraction and the separately retained page-level text witness both read 'தன் வீட்டுத் தரகுமூட்டை / தலைமேலிருந்தும்'. The character sequence 'தரகுமூட்டை' is therefore stable across the available text witnesses, but the compound's exact semantic force remains insufficiently secure. A trustworthy page-image rendering was not available in this review, so no visual-glyph verification is claimed.",
-      "translation_action": "Do not restore the earlier confident paraphrase 'burdens of your own household'. Retain the provisional transliteration 'taragu-mootai' pending stronger lexical/printed evidence or an explicit editorial decision accepting transliteration as final treatment."
+      "type": "accepted_scholarly_uncertainty",
+      "severity": "documented-final",
+      "observation": "The pinned chapter extraction and the separately retained page-level text witness both read 'தன் வீட்டுத் தரகுமூட்டை / தலைமேலிருந்தும்'. The character sequence 'தரகுமூட்டை' is stable across the available text witnesses, but the compound's exact semantic force remains insufficiently secure. No visual-glyph verification is claimed.",
+      "translation_action": "Final English retains the visible transliteration 'taragu-mootai' rather than inventing a confident paraphrase. This is an accepted scholarly uncertainty and no longer an unresolved source hold."
     },
     {
-      "type": "semantic_interpretation_hold",
-      "severity": "approval-blocking",
-      "observation": "The pinned chapter extraction and the page-level text witness both read 'அவசரமாய் முந்தானையால் / கூட்டியே நின்று'. The words are textually stable in the available witnesses, but the exact object/syntactic force of 'கூட்டியே' with 'முந்தானையால்' remains uncertain. No visual-glyph verification is claimed.",
-      "translation_action": "Render conservatively without supplying an unexpressed object. Keep the semantic interpretation hold until stronger evidence or an explicit editorial decision resolves/accepts the line."
+      "type": "accepted_scholarly_uncertainty",
+      "severity": "documented-final",
+      "observation": "The pinned chapter extraction and the page-level text witness both read 'அவசரமாய் முந்தானையால் / கூட்டியே நின்று'. The words are textually stable, but the exact object/syntactic force of 'கூட்டியே' with 'முந்தானையால்' remains uncertain. No visual-glyph verification is claimed.",
+      "translation_action": "Final English retains the conservative rendering 'in haste, gathering with the end of my sari, I stood' without supplying an unexpressed object. This is an accepted scholarly uncertainty and no longer an unresolved source hold."
     },
     {
       "type": "cultural_term",
@@ -116,6 +116,7 @@
     }
   ],
   "source_witness_review": "../reviews/v1-ch02-source-witness.md",
+  "editorial_closure": "../reviews/v1-ch02-editorial-closure.md",
   "non_authorial_exclusions": [
     {
       "source_unit": 6,
@@ -126,19 +127,20 @@
       "reason": "Wikisource duplicate-page/proofreading maintenance notice; not authorial memoir text."
     }
   ],
-  "unresolved": [
+  "unresolved": [],
+  "accepted_uncertainties": [
     {
       "area": "embedded-long-song: தரகுமூட்டை",
       "kind": "semantic-interpretation",
       "textual_reading_stable": true,
-      "reason": "Exact semantic force of the stable compound remains unresolved from available witnesses."
+      "final_treatment": "taragu-mootai"
     },
     {
       "area": "embedded-long-song: முந்தானையால் கூட்டியே நின்று",
       "kind": "semantic-interpretation",
       "textual_reading_stable": true,
-      "reason": "Exact object/syntactic force of the stable wording remains unresolved from available witnesses."
+      "final_treatment": "conservative literal rendering; no supplied object"
     }
   ],
-  "status": "source-hold"
+  "status": "approved"
 }
