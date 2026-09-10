@@ -5,7 +5,7 @@
   "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
   "title": "\"Sivaya Nama! Om Nama Sivaya!\"",
   "pages": {"start": 30, "end": 36},
-  "status": "thought-structure-review",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -77,8 +77,12 @@
     "t2_result": "pass-with-revision",
     "t3_review": "../reviews/v1-ch03-t3.md",
     "t3_result": "pass-with-minor-revision",
+    "thought_structure_review": "../reviews/v1-ch03-structure.md",
+    "thought_structure_result": "pass",
+    "approval_review": "../reviews/v1-ch03-approval.md",
     "existing_english_comparator": null,
     "unresolved_source_holds": 0,
-    "next_gate": "thought-structure-review"
+    "outstanding_review_items": 0,
+    "final_gate": "approved"
   }
 }
