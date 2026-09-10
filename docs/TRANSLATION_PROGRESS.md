@@ -104,29 +104,41 @@ Pinned source ref: `5c6b5ef8901044660e607d4649238d7c66cb648d`
 
 | Chapter | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **SOURCE REVIEW COMPLETE / READY FOR T1** |
+| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | queued for source review |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | queued for source review |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | queued for source review |
 
-### `v1-ch03` source-review result
+### `v1-ch03` — fresh T1 complete
 
-Source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch03.json`
+Durable files:
 
-Recorded before translation:
+- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch03.json`
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch03.json`
 
-- repeated chapter heading;
-- multiple page/source-unit joins, including sentences split at `நாலு பெரிய மனிதர்கள் இருக்குமிடத்தில்`, `மதிமயங்கித்`, `அப்படிப்`, and `அடியெடுத்து வைத்ததே`;
-- long quoted/oral Thirukkuvalai journey requires literary paragraph reconstruction while retaining repeated `இதோ` / `அதோ` demonstrative rhythm;
-- contextual extraction anomaly `நாள் கூட` is recorded; context requires the first-person `நான்கூட` sense;
-- low-level `வேணடுமென்ற` extraction defect recorded;
-- caste/ritual vocabulary and Kalaignar's retrospective rationalist criticism require voice-sensitive handling;
-- concrete political images — perfume on an unhealed wound, surgery, and the kicked ball — must remain concrete;
-- `அரிநமோத்து சிந்தம்` is a lexical/semantic review item: T1 may preserve/transliterate it, but approval requires review;
-- humour timing around the stolen hair-pot, Angalamman puja and curse-soil blowing back must be preserved;
-- no non-authorial Wikisource maintenance unit is currently identified in the chapter body.
+T1 decisions already enforced:
+
+- repeated chapter heading is metadata only;
+- mantra is retained as a transliterated invocation rather than doctrinally paraphrased;
+- multiple source-unit/page joins are reconstructed before translation;
+- the long Thirukkuvalai homecoming remains an oral journey with repeated `இதோ` / `அதோ` movement instead of being collapsed into summary;
+- contextual extraction anomaly `நாள் கூட` is rendered by its clear first-person `நான்கூட` function and remains disclosed;
+- caste humiliation and the child's revolt are explicit rather than softened;
+- concrete wound/punugu, surgery and kicked-ball political images remain concrete;
+- ritual childhood, later rationalist explanation, nostalgia and grief are allowed to coexist without ideological smoothing;
+- humour timing is preserved around the stolen hair-pot, curd/village-pond joke, Angalamman puja and curse-soil;
+- `அரிநமோத்து சிந்தம்` is provisionally transliterated as `Arinamothu Sindham` and remains a mandatory T2 lexical/semantic review item.
+
+No non-authorial body exclusion is currently identified for `v1-ch03`.
+
+## Batch 001 counters
+
+- source files pinned: **5 / 5**
+- full source reviews complete: **1 / 5**
+- T1 complete: **1 / 5**
+- approved: **0 / 5**
 
 ## Next activity
 
-Begin a fresh T1 translation of `v1-ch03` directly from the pinned Tamil source and its completed source-note record. Do not consult any existing English as drafting authority. Preserve the chapter's movement from ritual childhood and comic anecdote into caste revolt, childhood theatre, nostalgia, superstition, rationalist reinterpretation and return to family/village memory.
+Run the complete T2 source-and-Kalaignar-voice review for `v1-ch03`. Special focus: `அரிநமோத்து சிந்தம்`, the caste/social-revolt paragraph, the nostalgia analogy, repeated `இதோ` / `அதோ` spoken cadence, village dialect/dialogue, and whether any T1 cultural gloss or metaphor has become more explanatory than Kalaignar's Tamil.
