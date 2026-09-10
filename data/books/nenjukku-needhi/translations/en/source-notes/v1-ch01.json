@@ -43,7 +43,7 @@
       "type": "ocr_or_extraction_reading",
       "severity": "low",
       "observation": "Near the Cauvery passage the extracted text reads 'நாள் பிறந்த 1924-ல்தான்'. In context, immediately after 'இத்தகு கலவையான சூழ்நிலைகளூடே வழி நடந்த 1924-ல் நான் பிறந்தேன்', the intended reading is evidently 'நான் பிறந்த 1924-ல்தான்'.",
-      "translation_action": "Translate the contextual reading as 'the 1924 in which I was born' and disclose the intervention here. Do not alter the read-only source repository."
+      "translation_action": "Translate the contextual reading as 'the year 1924, in which I was born' and disclose the intervention here. Do not alter the read-only source repository."
     },
     {
       "type": "narrative_time",
@@ -60,5 +60,5 @@
   ],
   "non_authorial_exclusions": [],
   "unresolved": [],
-  "status": "t2-voice-review"
+  "status": "approved"
 }
