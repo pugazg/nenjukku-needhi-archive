@@ -1,6 +1,6 @@
 # Kalaignar Voice Guide — Nenjukku Needhi English Translation
 
-This guide is derived from direct reading of Kalaignar's Tamil, beginning with `v1-ch01` (`பிறந்த ஆண்டு`) and `v1-ch02` (`தந்தையின் துணிவு`). It is not derived by copying any pre-existing English translation.
+This guide is derived from direct reading of Kalaignar's Tamil, beginning with `v1-ch01` (`பிறந்த ஆண்டு`) and `v1-ch02` (`தந்தையின் துணிவு`) and continuing through production chapters. It is not derived by copying any pre-existing English translation.
 
 ## Core principle
 
@@ -22,24 +22,13 @@ Do not convert a sequence of questions into a declarative summary.
 
 ## 3. Repetition and accumulation
 
-Repeated constructions are often intentional. Kalaignar builds momentum through:
-
-- repeated clause openings;
-- lists of people/events/ideas;
-- recurring temporal formulations;
-- paired or contrasted phrases.
+Repeated constructions are often intentional. Kalaignar builds momentum through repeated clause openings, lists, recurring temporal formulations, and paired or contrasted phrases.
 
 Preserve the accumulation. Do not remove repetition merely because contemporary English editing would call it redundant.
 
 ## 4. Oral and public-speaking cadence
 
-Much of the prose behaves like speech addressed to listeners. Preserve:
-
-- direct turns to the reader;
-- sudden short sentences after long passages;
-- pauses and pivots;
-- emphatic questions/exclamations;
-- climactic ordering.
+Much of the prose behaves like speech addressed to listeners. Preserve direct turns to the reader, sudden short sentences after long passages, pauses and pivots, emphatic questions/exclamations, and climactic ordering.
 
 English punctuation may change for readability, but the dramatic build should survive.
 
@@ -148,14 +137,9 @@ In `v1-ch02`, `ஊடியும் கலந்துமே வந்தேன
 
 Songs can contain compressed syntax, dialect, archaic forms or extraction noise. Do not force every line into polished explanatory English merely to make the poem look finished.
 
-If a reading remains materially uncertain after consulting available witnesses, prefer:
+If a reading remains materially uncertain after consulting available witnesses, prefer a documented source hold, conservative wording, provisional transliteration where necessary, and later visual/print verification.
 
-1. a documented source hold;
-2. conservative wording;
-3. provisional transliteration where necessary;
-4. later visual/print verification.
-
-`v1-ch02` establishes this rule with the unresolved `தரகுமூட்டை` and `முந்தானையால் கூட்டியே நின்று` lines. A visibly provisional reading is editorially stronger than a confident invention.
+`v1-ch02` established this rule with `தரகுமூட்டை` and `முந்தானையால் கூட்டியே நின்று`. Both were later closed through a dedicated editorial decision as **accepted scholarly uncertainties**: the first remains visibly transliterated as `taragu-mootai`, and the second retains a conservative rendering without an invented object. Their approval is not a claim that their semantic questions were solved; stronger future evidence may reopen them.
 
 ## 22. Family anecdotes may shift into dramatic present
 
@@ -175,9 +159,39 @@ When multiple available text witnesses agree on the same character sequence but 
 - classify the remaining problem as a `semantic_interpretation_hold`;
 - do not claim visual verification unless a page image was actually inspected;
 - allow non-source-dependent gates such as T3 readability and thought-structure review to proceed if the uncertainty is isolated and transparently delimited;
-- continue to block final approval if the unresolved meaning could affect the final wording.
+- continue to block final approval unless the meaning is resolved or a dedicated editorial-closure decision formally accepts a conservative final treatment as scholarly uncertainty.
 
-`v1-ch02` establishes this distinction. The available text witnesses consistently reproduce `தரகுமூட்டை` and `முந்தானையால் கூட்டியே நின்று`. Their exact interpretation remains unresolved, so the English retains provisional/conservative treatment and the chapter remains on source hold even though T3 and the structural audit can pass.
+`v1-ch02` is the precedent: the two stable but semantically uncertain expressions were not silently guessed; they were explicitly accepted with durable final treatments and a future-revision path.
+
+## 24. Historical and social dialect must be read through the speaker
+
+A familiar-looking Tamil form may have a period, caste, regional or community-specific function different from its modern surface meaning. Resolve it from speaker identity, syntax and lexical evidence before translating.
+
+`v1-ch03` provides the first production example. Postmaster Iyer says `தபால் வந்திருக்கு நோக்கு!`. Here `நோக்கு` is the dated Brahmin-Tamil pronominal form of `உனக்கு` (`for/to you`), not the verb `look`. The correct English is therefore `Mail has come for you!`, not T1's `The mail's come, look!`.
+
+Preserve dialectal meaning and social texture, but do not manufacture an English regional accent to mimic Tamil caste/community speech.
+
+## 25. Traditional formulas can be contextualised without being normalised
+
+When Kalaignar preserves a Tamilised traditional formula, mantra or school invocation, the translator may explain its **function** if external/contextual evidence is secure while retaining the form Kalaignar actually gives.
+
+In `v1-ch03`, `அரிநமோத்து சிந்தம்` is independently attested as an old education-initiation formula associated with the ceremonial beginning of writing. The translation therefore keeps `Arinamothu Sindham` and adds only the minimal functional gloss `old initiation formula`.
+
+Do not silently Sanskritise the phrase or impose a word-for-word doctrinal translation that Kalaignar did not provide.
+
+## 26. Preserve sarcasm carried by an ordinary noun
+
+A seemingly simple word can carry the rhetorical bite of a sentence. Do not replace it with neutral explanatory prose.
+
+In `v1-ch03`, `கல்லிலும் முள்ளிலும் நடந்து பார்த்தால்தானே அதன் சுகத்தை வர்ணிக்கமுடியும்?` sarcastically calls the experience of walking over stones and thorns a `pleasure`. T1's neutral `what that experience is like` erased the sting. T2 restores `the pleasure of it`.
+
+The same principle applies to forceful political vocabulary: `கடுமையான அடிமைத்தனம்` should not be softened merely because `bondage` or `slavery` sounds stronger than contemporary memoir prose.
+
+## 27. Preserve culturally specific gestures when they carry affection
+
+A gesture unfamiliar in English need not be replaced by a more familiar gesture if doing so changes the scene.
+
+In `v1-ch03`, relatives welcome Kalaignar by `உச்சிமோந்து` — smelling the crown of his head out of affection. The English keeps that gesture rather than converting it into a generic kiss. A short contextual phrase may make the affection clear, but the physical action should survive.
 
 ## Pilot observations
 
@@ -185,13 +199,21 @@ When multiple available text witnesses agree on the same character sequence but 
 
 The chapter begins with self-questioning, argues that ordinary lives belong to history, expands the year of birth into social/Indian/world history, and finally loops back to Kalaignar's own later political position before moving into family origins. The translation must preserve that widening-and-returning architecture.
 
-The completed pilot also established durable practice for concrete idiom, historical-present preservation, foundation imagery (`கால்கோள்`), forceful self-description (`வெறித்தனமான பக்தி`), source-note disclosure and post-freeze comparator use.
+The completed pilot established durable practice for concrete idiom, historical-present preservation, foundation imagery (`கால்கோள்`), forceful self-description (`வெறித்தனமான பக்தி`), source-note disclosure and post-freeze comparator use.
 
 ### `v1-ch02` — `தந்தையின் துணிவு`
 
 The chapter combines orphaned childhood, portraiture of Muthuvelar, village songs and social criticism, religion/traditional healing, marriage and bereavement, agricultural life, longing for children, Kalaignar's birth, burglary and family humour. Tone changes are part of the composition and must not be normalised into one register.
 
-Its T2/T3 review adds durable practice for culturally specific lexical verification, lovers' vocabulary, visible uncertainty in embedded verse, preservation of elevated praise beside earthy village detail, dramatic-present family storytelling, and the distinction between stable source text and unresolved semantic interpretation.
+Its review established durable practice for culturally specific lexical verification, lovers' vocabulary, visible uncertainty in embedded verse, elevated praise beside earthy village detail, dramatic-present family storytelling, and accepted scholarly uncertainty.
+
+## Production observations
+
+### `v1-ch03` — `"சிவாய நம! ஓம் நமசிவாய"`
+
+The chapter moves from orthodox childhood rites and a comic stolen-hair-pot anecdote into caste humiliation and social revolt, then childhood theatre, intense nostalgia, remembered superstition, later rationalist reinterpretation, village humour and grief, and finally the departure for Tiruvarur schooling.
+
+Its T2 review adds durable practice for historical/dialectal forms (`நோக்கு`), minimal functional glossing of traditional formulas (`அரிநமோத்து சிந்தம்`), restoration of sarcasm (`சுகம்`), preservation of strong caste-political vocabulary, concrete period objects (`ஈயச் செம்பு`), and culturally specific affection (`உச்சிமோந்து`).
 
 ## Review question
 
