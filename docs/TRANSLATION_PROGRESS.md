@@ -20,19 +20,21 @@
 
 ## Gates
 
-- Translation plan: **COMPLETE**
+- Translation plan: **UPDATED FROM TWO PILOTS / COMPLETE FOR PRODUCTION**
 - Initial Kalaignar voice study (`v1-ch01`, `v1-ch02`): **COMPLETE**
+- Two-pilot method review: **COMPLETE** — `docs/PILOT_METHOD_REVIEW.md`
 - Kalaignar Voice Guide: **UPDATED THROUGH PILOT-2 / LIVING DOCUMENT**
 - Translation glossary: **INITIALISED**
 - Source-note convention: **DEFINED AND IN USE**
-- Corpus-wide source inventory: **NOT STARTED**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
-- Pilot `v1-ch02`: **T1 PASS / T2 PASS WITH REVISION / T3 PASS / THOUGHT-STRUCTURE PASS / SOURCE HOLD (2 SEMANTIC INTERPRETATIONS)**
-- Production translation: **BLOCKED UNTIL `v1-ch02` PILOT IS EDITORIALLY CLOSED AND METHOD IS REVIEWED**
+- Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
+- Pilot phase: **COMPLETE**
+- Production translation: **OPEN**
+- Active production batch: **Batch 001 — `v1-ch03`–`v1-ch07`**
 
 ## Mandatory chapter statuses
 
-Use only these durable states:
+Use only these durable chapter states:
 
 - `not-started`
 - `source-review`
@@ -44,86 +46,87 @@ Use only these durable states:
 - `source-hold`
 - `approved`
 
-A chapter must not be called `approved` unless all required source notes are recorded and all fidelity gates pass.
+A chapter may be `approved` with a documented accepted scholarly uncertainty only when the uncertainty has been explicitly reviewed, its conservative final treatment is visible, and a dedicated editorial closure decision exists. Accepted uncertainty is not counted as an unresolved source hold.
 
-## Pilot queue
+## Pilot closure
 
-| Chapter | Tamil title | Purpose | Status |
-|---|---|---|---|
-| `v1-ch01` | `பிறந்த ஆண்டு` | philosophy, rhetoric, self ↔ history, political/historical cadence | **APPROVED / CLOSED** |
-| `v1-ch02` | `தந்தையின் துணிவு` | family/village narrative, humour, grief, religion, agriculture, embedded songs | **SOURCE HOLD — ALL NON-SOURCE GATES COMPLETE** |
+### `v1-ch01` — `பிறந்த ஆண்டு`
 
-## `v1-ch01` closure
+Final status: **APPROVED / CLOSED**
 
-Durable files:
+Key durable lessons:
 
-- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch01.json`
-- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch01.json`
-- T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-t2.md`
-- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-t3.md`
-- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-structure.md`
-- post-freeze existing-English comparison: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch01-existing-comparison.md`
+- preserve concrete idiom rather than abstracting it;
+- preserve rhetorical contrast and ownership logic;
+- preserve foundation imagery and deliberate political/emotional intensity;
+- preserve Kalaignar's historical present;
+- source OCR/extraction interventions must remain disclosed;
+- existing English is a post-freeze comparator only.
+
+### `v1-ch02` — `தந்தையின் துணிவு`
+
+Final status: **APPROVED / CLOSED**
 
 Gate results:
 
-- T1 fresh Tamil translation: **PASS**;
-- T2 Kalaignar-voice review: **PASS WITH REVISION**;
-- T3 English-only read: **PASS WITH MINOR REVISION**;
+- T1: **PASS**;
+- T2: **PASS WITH REVISION**;
+- T3: **PASS**;
 - thought-structure audit: **PASS**;
-- existing-English comparison: **PASS**;
-- unresolved source holds: **0**;
-- final status: **APPROVED**.
-
-## `v1-ch02` — all translation/structure gates complete; semantic source hold remains
-
-Durable files:
-
-- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch02.json`
-- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch02.json`
-- T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-t2.md`
-- source-witness decision: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-source-witness.md`
-- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-t3.md`
-- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-structure.md`
-
-Gate results:
-
-- T1 fresh Tamil translation: **PASS**;
-- T2 complete Tamil–English source-and-voice review: **PASS WITH REVISION**;
 - non-authorial Wikisource notices: **EXCLUDED / PASS**;
-- source-unit joins and contextual extraction anomalies: **DOCUMENTED / PASS**;
-- embedded verse handling: **PASS WITH REVISION**;
-- T3 English-only read: **PASS**;
-- thought-structure audit: **PASS**;
-- structural omissions/additions: **0**;
-- final approval: **BLOCKED BY 2 SEMANTIC INTERPRETATION HOLDS**.
+- unresolved source holds: **0**;
+- accepted scholarly uncertainties: **2**.
 
-### Resolved during T2
+Accepted uncertainties:
 
-- `போகசாலை` — independently supported as sleeping hall/bedchamber; T1's `pleasure-house` was corrected.
-- `ஊடியும் கலந்துமே வந்தேன்` — restored to its lovers' quarrel/feigned-sulking then reunion sense rather than generic `dallied`.
-- Kalaignar-voice corrections were applied across the orphan-infant, social-satire, devotion, Anjugam-praise, agricultural, birth and burglary passages.
+1. `தரகுமூட்டை` — stable across available text witnesses; exact semantic force not securely established; final English retains `taragu-mootai`.
+2. `முந்தானையால் கூட்டியே நின்று` — stable wording; exact object/syntactic force remains uncertain; final English retains a conservative rendering without supplying an unexpressed object.
 
-### Exact remaining holds — 2
+Editorial closure: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch02-editorial-closure.md`.
 
-The pinned chapter extraction and the separately retained page-level text witness agree on the visible text. The remaining problem is **semantic interpretation**, not an unstable character reading.
+This closure does **not** claim the semantic questions have been solved. Stronger future evidence may reopen them through a documented revision.
 
-1. `தரகுமூட்டை` — exact semantic force of the stable compound remains uncertain. The English retains provisional `taragu-mootai` rather than inventing a confident paraphrase.
-2. `முந்தானையால் கூட்டியே நின்று` — exact object/syntactic force remains uncertain. The English remains conservative and supplies no unexpressed object.
+## Production method
 
-A trustworthy page-image rendering of the relevant printed page was not available through the interfaces used in the witness review, so no visual-glyph verification is claimed. These isolated holds did not prevent T3 or the thought-structure audit, but they continue to block `approved` status.
+Normal production batch size: **5 chapters**.
 
-## Pilot-2 structural result
+A five-chapter batch is a management envelope. Process one chapter at a time through:
 
-The English preserves the chapter's complete movement:
+`source review → source notes → T1 → T2 → T3 → thought structure → terminology/cultural audit → post-freeze comparator if applicable → approval`
 
-`orphaned Muthuvel → human foster care → father's talents → protest/social satire → Kalaignar's self-comparison → fearless critic / intense believer → marriages and bereavement → Anjugam → working agricultural household → coconut humour → childlessness / Kural → Kalaignar's birth → burglary / thali humour → father's philosophy of theft`
+Do not bulk-translate five chapters merely because they belong to one batch. Do not start the sixth chapter until the active batch is closed.
+
+## Active Batch 001 — `v1-ch03`–`v1-ch07`
+
+Batch control: `data/books/nenjukku-needhi/translations/en/batches/batch-001.md`
+
+Pinned source ref: `5c6b5ef8901044660e607d4649238d7c66cb648d`
+
+| Chapter | Tamil title | Pages | Current status |
+|---|---|---:|---|
+| `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **SOURCE REVIEW COMPLETE / READY FOR T1** |
+| `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | queued for source review |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | queued for source review |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | queued for source review |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | queued for source review |
+
+### `v1-ch03` source-review result
+
+Source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch03.json`
+
+Recorded before translation:
+
+- repeated chapter heading;
+- multiple page/source-unit joins, including sentences split at `நாலு பெரிய மனிதர்கள் இருக்குமிடத்தில்`, `மதிமயங்கித்`, `அப்படிப்`, and `அடியெடுத்து வைத்ததே`;
+- long quoted/oral Thirukkuvalai journey requires literary paragraph reconstruction while retaining repeated `இதோ` / `அதோ` demonstrative rhythm;
+- contextual extraction anomaly `நாள் கூட` is recorded; context requires the first-person `நான்கூட` sense;
+- low-level `வேணடுமென்ற` extraction defect recorded;
+- caste/ritual vocabulary and Kalaignar's retrospective rationalist criticism require voice-sensitive handling;
+- concrete political images — perfume on an unhealed wound, surgery, and the kicked ball — must remain concrete;
+- `அரிநமோத்து சிந்தம்` is a lexical/semantic review item: T1 may preserve/transliterate it, but approval requires review;
+- humour timing around the stolen hair-pot, Angalamman puja and curse-soil blowing back must be preserved;
+- no non-authorial Wikisource maintenance unit is currently identified in the chapter body.
 
 ## Next activity
 
-Make the editorial closure decision for the two isolated semantic interpretation holds. Preferred order:
-
-1. seek any stronger visual/lexical/printed evidence if newly accessible;
-2. if none is available, decide explicitly whether documented transliteration/conservative rendering is acceptable as the final scholarly treatment;
-3. if accepted, record the editorial acceptance, clear the two holds, mark `v1-ch02` approved, review the two-pilot method, and only then open the first five-chapter production batch.
-
-Do not guess a smoother meaning merely to achieve closure.
+Begin a fresh T1 translation of `v1-ch03` directly from the pinned Tamil source and its completed source-note record. Do not consult any existing English as drafting authority. Preserve the chapter's movement from ritual childhood and comic anecdote into caste revolt, childhood theatre, nostalgia, superstition, rationalist reinterpretation and return to family/village memory.
