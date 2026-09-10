@@ -1,0 +1,44 @@
+{
+  "project": "Nenjukku Needhi English Translation",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "path": "public/data/text",
+    "authority": "read-only",
+    "initial_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d"
+  },
+  "destination": {
+    "repository": "pugazg/nenjukku-needhi-archive",
+    "branch": "translation/english-memoir"
+  },
+  "expected_chapters": 391,
+  "volumes": {
+    "1": 140,
+    "2": 77,
+    "3": 73,
+    "4": 22,
+    "5": 50,
+    "6": 29
+  },
+  "method": {
+    "plan": "docs/TRANSLATION_PLAN.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "glossary": "docs/TRANSLATION_GLOSSARY.md",
+    "progress": "docs/TRANSLATION_PROGRESS.md",
+    "source_notes_required": true,
+    "existing_english_is_authority": false
+  },
+  "pilot": [
+    {
+      "id": "v1-ch01",
+      "tamil_title": "பிறந்த ஆண்டு",
+      "status": "t1-in-progress",
+      "source_notes": "source-notes/v1-ch01.json"
+    },
+    {
+      "id": "v1-ch02",
+      "tamil_title": "தந்தையின் துணிவு",
+      "status": "not-started",
+      "source_notes": null
+    }
+  ]
+}
