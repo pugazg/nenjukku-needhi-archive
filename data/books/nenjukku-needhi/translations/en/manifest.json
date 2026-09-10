@@ -31,10 +31,16 @@
     {
       "id": "v1-ch01",
       "tamil_title": "பிறந்த ஆண்டு",
-      "status": "t2-voice-review",
+      "status": "approved",
       "translation": "chapters/v1-ch01.json",
       "source_notes": "source-notes/v1-ch01.json",
-      "review": "reviews/v1-ch01-t2.md"
+      "reviews": {
+        "t2": "reviews/v1-ch01-t2.md",
+        "t3": "reviews/v1-ch01-t3.md",
+        "thought_structure": "reviews/v1-ch01-structure.md",
+        "existing_english_comparison": "reviews/v1-ch01-existing-comparison.md"
+      },
+      "unresolved_source_holds": 0
     },
     {
       "id": "v1-ch02",
