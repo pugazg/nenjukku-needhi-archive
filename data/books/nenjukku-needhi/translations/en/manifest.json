@@ -45,9 +45,12 @@
     {
       "id": "v1-ch02",
       "tamil_title": "தந்தையின் துணிவு",
-      "status": "ready-for-t1",
-      "translation": null,
-      "source_notes": "source-notes/v1-ch02.json"
+      "status": "t1-complete",
+      "translation": "chapters/v1-ch02.json",
+      "source_notes": "source-notes/v1-ch02.json",
+      "reviews": {},
+      "unresolved_source_holds": 1,
+      "next_gate": "t2-source-and-voice-review"
     }
   ]
 }
