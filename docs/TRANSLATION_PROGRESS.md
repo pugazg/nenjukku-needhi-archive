@@ -8,7 +8,7 @@
 - Latest observed source `main`: `bb0beaa0a18f97336b52319c1e7b15e62d81d1ed`
 - `v1-ch04` source blob is identical at both refs: `1b55b986176d330fab4ce16eb70565ddd895ba48`
 - Write repository: `pugazg/nenjukku-needhi-archive`
-- Working branch: `translation/english-memoir`
+- Working branch: `main`
 
 ## Corpus
 
@@ -103,6 +103,10 @@ T1 decisions enforced:
 ## Infrastructure note
 
 `schemas/chapter.json` is currently an empty one-byte legacy placeholder, so formal JSON-Schema execution is not available under current repository controls.
+
+## Branch consolidation
+
+The former working branch `translation/english-memoir` was merged into `main` via PR #1. All further translation work is performed directly on `main`; the old branch is not an active work surface.
 
 ## Next activity
 
