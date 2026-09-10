@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` TERMINOLOGY-CULTURAL PASS / COMPARATOR CHECK NEXT**
+Status: **OPEN / `v1-ch05` COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -22,7 +22,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 |---|---|---:|---|---|
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
-| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **TERMINOLOGY-CULTURAL PASS / COMPARATOR CHECK NEXT** |
+| `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | queued for source review |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
@@ -63,7 +63,7 @@ Gate results:
 - unresolved source holds: **0**;
 - outstanding review items: **0**.
 
-## `v1-ch05` — terminology/cultural audit complete
+## `v1-ch05` — comparator check complete
 
 Durable files:
 
@@ -73,6 +73,7 @@ Durable files:
 - T3 review: `../reviews/v1-ch05-t3.md`
 - thought-structure audit: `../reviews/v1-ch05-structure.md`
 - terminology/cultural audit: `../reviews/v1-ch05-terminology.md`
+- comparator check: `../reviews/v1-ch05-existing-comparison.md`
 
 Gate state:
 
@@ -82,14 +83,17 @@ Gate state:
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 15 source-checked revisions**;
 - thought structure: **PASS / COMPLETE — 22 / 22 major movements preserved**;
 - terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
+- post-freeze comparator availability check: **COMPLETE / NOT APPLICABLE — CONTROLLED COMPARATOR ABSENT**;
+- controlled comparator path: `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch05.json` at the Batch 001 source pin;
+- controlled comparator result: **404 / NOT FOUND**;
+- wording adopted from prior English: **0**;
 - unresolved source holds: **0**;
 - outstanding review items: **0**;
-- existing-English comparator: **NOT CONSULTED**;
-- next gate: **post-freeze comparator availability check**.
+- next gate: **final approval review**.
 
-The terminology/cultural audit normalises `முனுசாமி நாயுடு` to **Munuswamy Naidu** and keeps **Gandhiji** consistent inside the linked Bose comparison. It confirms the existing period **First Minister / Premier** distinction, Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, **Leader of the Tamils**, and the culturally visible Navalar / Arignar / Perarignar / Muthamizh Kaavalar / Ammaiyar / Tamilavel epithets.
+The terminology/cultural controls remain in force: **Munuswamy Naidu**, the historical **First Minister / Premier** distinction, Panneerselvam/Khalifullah/Natarajan/Indian National Congress forms, `வடமொழி` → **Sanskrit**, `இறும்பூது` → **wonder**, **Leader of the Tamils**, culturally visible honorifics, collective **The Tamil**, chapter-specific **the pride of race**, and **Tamil chindu**.
 
-The audit deliberately retains collective **The Tamil**, chapter-specific **the pride of race**, and **Tamil chindu** as source-driven historical/cultural language. `இனம்` is not globally frozen; later occurrences remain context-dependent.
+The independent English was frozen before the comparator check. Because the controlled source repository contains no `v1-ch05` English comparator at the pinned ref, no unofficial English text was sought and the chapter text was not changed by this gate.
 
 ## Branch consolidation
 
@@ -115,5 +119,6 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - T3 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - thought-structure complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - terminology/cultural complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
+- comparator checks complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - approved chapters: **2 / 5** (`v1-ch03`, `v1-ch04`)
-- next chapter activity: **post-freeze comparator availability check for `v1-ch05`**
+- next chapter activity: **final approval review for `v1-ch05`**
