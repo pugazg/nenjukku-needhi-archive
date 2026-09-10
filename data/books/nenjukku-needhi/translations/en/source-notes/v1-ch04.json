@@ -53,5 +53,6 @@
   "t2_review": "../reviews/v1-ch04-t2.md",
   "t3_review": "../reviews/v1-ch04-t3.md",
   "thought_structure_review": "../reviews/v1-ch04-structure.md",
-  "status": "structure-complete"
+  "approval_review": "../reviews/v1-ch04-approval.md",
+  "status": "approved"
 }
