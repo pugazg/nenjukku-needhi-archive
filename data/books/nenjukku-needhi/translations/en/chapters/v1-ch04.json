@@ -5,7 +5,7 @@
   "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
   "title": "My Political Primer",
   "pages": {"start": 37, "end": 41},
-  "status": "t3-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -64,15 +64,18 @@
     "It was at this time that Periyar, with the political advancement of the Tamils in mind, prepared a programme and laid down as a condition that the Justice Party should accept it. The party accepted it. Thereafter, Periyar began to work together with the Justice Party."
   ],
   "provenance": {
-    "method": "Fresh T1 translation directly from the pinned Tamil source and completed source notes, followed by a full Tamil-English T2 comparison and a standalone-English T3 literary review. No pre-existing English translation was used as drafting authority.",
+    "method": "Fresh T1 translation directly from the pinned Tamil source and completed source notes, followed by full T2, standalone-English T3, thought-structure and final terminology/cultural review. No pre-existing English translation was used as drafting or revision authority.",
     "translation_plan": "docs/TRANSLATION_PLAN.md",
     "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
     "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
     "source_review": "../source-notes/v1-ch04.json",
     "t2_review": "../reviews/v1-ch04-t2.md",
     "t3_review": "../reviews/v1-ch04-t3.md",
+    "thought_structure_review": "../reviews/v1-ch04-structure.md",
+    "approval_review": "../reviews/v1-ch04-approval.md",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit"
+    "existing_english_comparator": null,
+    "next_gate": "closed"
   }
 }
