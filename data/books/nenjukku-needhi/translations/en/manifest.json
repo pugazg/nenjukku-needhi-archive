@@ -85,27 +85,35 @@
         "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
         "pages": {"start": 30, "end": 36},
         "source_blob_sha": "e7c0d550d68f8b30d9c48a22019e017f7034ff93",
-        "status": "t3-english-review",
+        "status": "approved",
         "translation": "chapters/v1-ch03.json",
         "source_notes": "source-notes/v1-ch03.json",
         "reviews": {
-          "t2": "reviews/v1-ch03-t2.md"
+          "t2": "reviews/v1-ch03-t2.md",
+          "t3": "reviews/v1-ch03-t3.md",
+          "thought_structure": "reviews/v1-ch03-structure.md",
+          "approval": "reviews/v1-ch03-approval.md"
         },
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass",
+          "approval": "pass"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "t3-english-review"
+        "existing_english_comparator": null
       },
       {
         "id": "v1-ch04",
         "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
         "pages": {"start": 37, "end": 41},
         "source_blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
-        "status": "not-started"
+        "status": "source-review",
+        "next_gate": "complete-source-review"
       },
       {
         "id": "v1-ch05",
@@ -133,7 +141,12 @@
     "translations_started": 1,
     "t1_complete": 1,
     "t2_complete": 1,
-    "approved_chapters": 0,
-    "next_activity": "t3-english-review-v1-ch03"
-  }
+    "t3_complete": 1,
+    "thought_structure_complete": 1,
+    "approved_chapters": 1,
+    "next_activity": "complete-source-review-v1-ch04"
+  },
+  "infrastructure_notes": [
+    "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
+  ]
 }
