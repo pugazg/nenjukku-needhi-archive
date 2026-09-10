@@ -21,7 +21,7 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `அறிஞர் அண்ணா` | **Arignar Anna** (working) | Preserve epithet unless context strongly favours an explanatory first-use gloss. Review across later chapters. |
 | `பேரறிஞர் அண்ணா` | **Perarignar Anna** | `v1-ch05`: preserve the intensified political/literary epithet rather than flattening it to the bare personal name; the following `C. N. Annadurai, M.A.` is retained where Kalaignar himself supplies it. |
 | `தந்தை பெரியார்` | **Thanthai Periyar** (working) | Preserve the political/honorific force; first-use explanatory gloss may be considered in reader-facing editions. |
-| `காந்தியடிகள்` | Contextual: **Gandhiji / Gandhi** | Tamil carries reverential address. Use a form that preserves register without making English unnatural. |
+| `காந்தியடிகள்` | Contextual: **Gandhiji / Gandhi** | Tamil carries reverential address. Use a form that preserves register without making English unnatural. `v1-ch05` keeps **Gandhiji** consistently within the linked Bose/Gandhi comparison because the passage begins from `காந்தி அடிகளின்` and continues the same reverential referent. |
 | `அம்மா` / `அப்பா` | **Amma / Appa** or **my mother / my father** contextually | Kinship voice is important. Avoid rigid one-to-one replacement. |
 | `தாலி` | **thali** with first-use contextual gloss where needed | Culturally specific marital ornament/symbol; avoid flattening to simply “necklace”. |
 | `சமுதாய நீதி` / `சமூக நீதி` | **social justice** | Check historical/political context. |
@@ -49,6 +49,9 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `இறும்பூது` | **wonder / amazement** contextually | `v1-ch05`: preserve the literary sense. Do not add `pride` merely because the surrounding autobiographical moment is emotionally resonant. |
 | `தமிழர் தலைவர்` | **Leader of the Tamils** when functioning as epithet or transparent translated title | `v1-ch05`: preserve the deliberate echo between Periyar being accepted as `தமிழர் தலைவர்` and Sami Chidambaranar's biography bearing the same phrase. |
 | `ஆணித்தரமான` | **firm / forceful / strong** contextually | `v1-ch05`: `ஆணித்தரம்` is lexicalised as firmness/strength/quality. Do not manufacture an explicit nail-driving image from the word's form. |
+| `முனுசாமி நாயுடு` | **Munuswamy Naidu** | `v1-ch05`: use the established historical English spelling for the Justice Party leader/First Minister; this is proper-name normalisation, not source correction. |
+| `இனத்தின் பெருமை` | `v1-ch05`: **the pride of race** | Preserve the chapter's historical collective register in this 1938 values catalogue. Do not treat this as a global one-to-one rule for `இனம்`; later `இனம்`, `இன உணர்வு` and `தமிழினம்` remain context-dependent. |
+| `சிந்து` | **chindu** when the Tamil song/poetic form matters | `v1-ch05`: retain **Tamil chindu** in Anna's audience chorus rather than flattening the culturally specific form to generic `song`; contextual descriptive English may accompany it. |
 
 ## Terms awaiting evidence from wider corpus
 
@@ -57,6 +60,7 @@ The following should not be permanently fixed until more chapters are read:
 - `திராவிட இயக்கம்`
 - `இன உணர்வு`
 - `தமிழினம்`
+- broader uses of `இனம்` outside a clearly resolved chapter context
 - movement slogans and recurring political epithets
 - later-period institutional uses of `மாநிலம்`, `சட்டசபை`, `முதல்வர்`, and related office vocabulary outside the currently reviewed historical settings
 
@@ -67,3 +71,4 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch04` T2 added historical proper-name normalisation for `தென்னிந்திய நல உரிமைச் சங்கம்`, `Justice Party`, `Self-Respect Movement`, `rationalism`, `depressed communities`, `First Minister`, and the 1920s Madras Legislative Council's presidential office.
 - `v1-ch04` T3 added `இந்தியா மந்திரி` → `Secretary of State for India`, preserving Kalaignar's reference while using the attested official English office title.
 - `v1-ch05` T2 distinguished dyarchy-era `First Minister` from Rajaji's 1937 `Premier`, added `வடமொழி` → `Sanskrit`, `இறும்பூது` → `wonder/amazement`, `பேரறிஞர் அண்ணா` → `Perarignar Anna`, `தமிழர் தலைவர்` → `Leader of the Tamils`, and the rule against over-translating `ஆணித்தரமான` into an invented nail image.
+- `v1-ch05` terminology/cultural audit added `முனுசாமி நாயுடு` → `Munuswamy Naidu`, confirmed local `Gandhiji` consistency, retained chapter-specific `இனத்தின் பெருமை` → `the pride of race`, and documented `சிந்து` → `chindu` when the culturally specific poetic/song form matters.
