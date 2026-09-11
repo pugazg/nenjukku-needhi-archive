@@ -182,10 +182,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t3-complete",
-  "gate_result": "pass-with-minor-revision",
+  "status": "thought-structure-complete",
+  "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "thought-structure-audit",
+  "next_gate": "terminology-cultural-audit",
   "t1_translation": "../chapters/v1-ch06.json",
   "t2_review": "../reviews/v1-ch06-t2.md",
   "t2_resolutions": [
@@ -202,5 +202,14 @@
     "accept 18 English-language fluency revisions only after source recheck",
     "retain Fearless Heart, Summer-Thunder Alagiri, tiger/lion/summer-thunder crescendo, Hindi demon, frenzy/devotion, and the heart-rendered-justice motif",
     "retain the flare/sprout retrospective image, Tamil bulls/corpses prison wording, provisional sense of race, and final Tamil/green-crescent flag image"
-  ]
+  ],
+  "thought_structure_review": "../reviews/v1-ch06-structure.md",
+  "structure_result": {
+    "major_movements": 20,
+    "represented": 20,
+    "reordered": 0,
+    "omitted": 0,
+    "invented": 0
+  },
+  "independent_english_frozen": true
 }
