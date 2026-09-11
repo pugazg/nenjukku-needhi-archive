@@ -26,7 +26,7 @@ Existing English is **never drafting authority**.
 
 ## Production workflow
 
-`P0 source review → T1 fresh translation → T2 Tamil-English/Kalaignar voice → T3 English-only literary review → thought-structure audit → terminology/cultural audit → post-freeze comparator check → final approval → closed`
+`P0 source review → T1 fresh translation → T2 Tamil-English/Kalaignar voice → T3 English-only literary review → thought-structure audit → terminology/cultural audit → final approval → closed`
 
 Process chapters sequentially within the active batch.
 
@@ -71,17 +71,20 @@ Current counters:
 - unresolved terminology holds: **0**
 - unresolved source holds: **0**
 - independent English: **FROZEN**
-- next gate: **post-freeze comparator check**
+- comparator gate: **NOT APPLICABLE for v1-ch02+**
+- next gate: **final approval review**
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
 The remaining Batch 002 chapters `v1-ch09`–`v1-ch12` remain **T1 COMPLETE / T2 QUEUED**.
 
-## Immediate next activity — v1-ch08 comparator availability
+## Comparator policy
 
-Check only the controlled path `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch08.json` at Batch 002 pin `d6621b71256ae99b1c89b4f2091513dcc5f96626`.
+At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-The independent English is now frozen. If the controlled comparator is absent, record that absence and do not broaden the search to unofficial English versions.
+## Immediate next activity — v1-ch08 final approval
+
+Run the **final approval review** for `v1-ch08`. If all required gates and zero-hold conditions pass, approve and close the chapter. Stop before beginning `v1-ch09` T2.
 
 ## Mandatory controls
 
