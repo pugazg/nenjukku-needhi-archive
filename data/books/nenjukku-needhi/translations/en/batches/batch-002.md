@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / `v1-ch08` SOURCE REVIEW NEXT**
+Status: **OPEN / `v1-ch08` SOURCE REVIEW COMPLETE / T1 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -40,7 +40,7 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **P0 SOURCE REVIEW NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **SOURCE REVIEW COMPLETE / T1 NEXT** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **PINNED / QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **PINNED / QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **PINNED / QUEUED** |
@@ -61,7 +61,7 @@ This batch is a management envelope.
 
 - batch opened: **YES**
 - source files pinned: **5 / 5**
-- full source reviews complete: **0 / 5**
+- full source reviews complete: **1 / 5**
 - T1 complete: **0 / 5**
 - T2 complete: **0 / 5**
 - T3 complete: **0 / 5**
@@ -69,22 +69,36 @@ This batch is a management envelope.
 - terminology/cultural complete: **0 / 5**
 - comparator checks complete: **0 / 5**
 - approved chapters: **0 / 5**
+## `v1-ch08` — source review complete
+
+Durable file:
+
+- source notes: `../source-notes/v1-ch08.json`
+
+P0 result:
+
+- source review: **PASS / COMPLETE**;
+- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`;
+- source blob: `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`;
+- pages: **56–59**;
+- extraction units: **4**;
+- extraction strategy: `wordjoiner`;
+- previous Batch 001 pin comparison: **byte-identical**;
+- unresolved source holds: **0**;
+- non-authorial exclusions: **0**;
+- review items: **0**;
+- existing-English comparator consulted: **NO**;
+- next gate: **T1 fresh translation**.
+
+Protected source controls include the two page joins (`மீண்டும் / தோற்றுவிக்க` and `போட்டுக் / கொண்டிருந்தேன்`), exact quoted slogan `தமிழ் வாழ்க! இந்தி வளர்க`, the secure 100−25=75 reading behind anomalous `எழுபுத்து ஐந்து`, organizational distinction between `தமிழ் மாணவர் மன்றம்` and `தமிழ்நாடு தமிழ் மாணவர் மன்றம்`, authored 1941/1942 chronology, Bharathidasan's festival verse with recovered lineation, mixed internal-quotation punctuation in the theft scene, historical-present staging, the escalating festival-finance crisis, the gold-chain material detail, the Chettiar Bank pledge, maternal dialect/humour, and the linked two-theft self-accusation involving mother and wife.
+
+No T1 wording has been drafted at P0.
 
 ## Immediate next activity
 
-Run the complete **P0 source review for `v1-ch08` — `தமிழ் மாணவர் மன்றம்`, pages 56–59**.
+Perform **T1 fresh translation for `v1-ch08` directly from the pinned Tamil and P0 source notes**.
 
-Use:
-
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source path: `public/data/text/v1-ch08.json`
-- source blob: `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`
-- extraction units: **4**
-- source strategy: `wordjoiner`
-
-The first extraction unit begins with the chapter title, but whether/how that repeated heading is excluded must be decided and documented during P0 rather than assumed from intake inspection.
-
-Stop after P0 with **T1 next**. Do not translate during the P0 activity.
+Do not consult any existing-English comparator. Account for all authorial content, reconstruct literary paragraphing from the documented page witnesses, preserve verse lineation, direct speech, humour, internal questions, chronology and the two theft narratives. Stop with **T2 next**.
 
 ## Infrastructure limitation
 

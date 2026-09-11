@@ -58,7 +58,7 @@ The standard five-chapter size is retained because all five intake units are mod
 
 Chapters:
 
-- `v1-ch08` — `தமிழ் மாணவர் மன்றம்` — pp. 56–59 — blob `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` — **P0 NEXT**
+- `v1-ch08` — `தமிழ் மாணவர் மன்றம்` — pp. 56–59 — blob `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` — **P0 COMPLETE / T1 NEXT**
 - `v1-ch09` — `கலகக்கார நாரதர் புகுந்தார்.` — pp. 60–64 — blob `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` — QUEUED
 - `v1-ch10` — `நண்பன் நடித்த நாடகம்` — pp. 65–67 — blob `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` — QUEUED
 - `v1-ch11` — `இளம் எழுத்தாளர்` — pp. 68–70 — blob `31e7fcb1770db1a19caaa9725b9b5709f7250454` — QUEUED
@@ -67,7 +67,7 @@ Chapters:
 Opening counters:
 
 - source files pinned: **5 / 5**
-- source reviews: **0 / 5**
+- source reviews: **1 / 5**
 - T1: **0 / 5**
 - T2: **0 / 5**
 - T3: **0 / 5**
@@ -76,30 +76,43 @@ Opening counters:
 - comparator checks: **0 / 5**
 - approvals: **0 / 5**
 
-## Immediate next activity — v1-ch08 P0
+## v1-ch08 P0 — COMPLETE
 
-Perform the complete P0 source review for:
+Source notes:
 
-- ID: `v1-ch08`
-- Tamil title: `தமிழ் மாணவர் மன்றம்`
-- pages: **56–59**
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source path: `public/data/text/v1-ch08.json`
-- source blob: `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`
+`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch08.json`
+
+Result: **PASS / COMPLETE**
+
 - extraction units: **4**
-- extraction strategy: `wordjoiner`
+- unresolved source holds: **0**
+- non-authorial exclusions: **0**
+- review items: **0**
+- T1: **NOT STARTED**
+- existing-English comparator consulted: **NO**
 
-The intake inspection shows that the first extraction unit begins with the chapter title. Treat that only as an intake flag; decide and document the actual title-repeat handling during P0.
+Key P0 controls:
 
-P0 must:
+- repeated chapter title is metadata, not duplicate body prose;
+- page 56→57 joins `சம்மேளனத்தை மீண்டும் / தோற்றுவிக்க`;
+- page 57→58 joins `போட்டுக் / கொண்டிருந்தேன்`;
+- preserve exact quoted `தமிழ் வாழ்க! இந்தி வளர்க` slogan;
+- `எழுபுத்து ஐந்து` securely functions as seventy-five rupees from explicit 100−25 arithmetic;
+- distinguish `தமிழ் மாணவர் மன்றம்` from `தமிழ்நாடு தமிழ் மாணவர் மன்றம்`;
+- preserve authored 1941/1942 chronology;
+- preserve Bharathidasan festival verse as verse with recovered lineation; source form `பாதிதாசன்` remains documented;
+- reconstruct only punctuation/quote mechanics in the page-58 internal debate;
+- preserve historical present, escalating financial crisis, gold-chain material detail, Chettiar Bank pledge, maternal dialect/humour and the linked two-theft self-accusation.
 
-1. read the full pinned Tamil chapter;
-2. identify title repeats, page/source-unit joins, OCR/spacing anomalies, quotations, verse/song, chronology-sensitive assertions, non-authorial material and any meaning-affecting uncertainty;
-3. create `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch08.json`;
-4. update Batch 002, progress and manifest;
-5. stop with **T1 next**.
+## Immediate next activity — v1-ch08 T1
 
-Do **not** translate during P0.
+Create the fresh English T1 directly from the pinned Tamil plus P0 source notes.
+
+Do not consult existing English.
+
+Account for all authorial content and preserve verse lineation, direct speech, internal questions, political/organizational distinctions, dates, humour, imagery and the mother/wife theft parallel.
+
+Stop with **T2 source-and-Kalaignar-voice review next**.
 
 ## Mandatory controls
 

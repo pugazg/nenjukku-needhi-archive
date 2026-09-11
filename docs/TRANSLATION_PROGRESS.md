@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / `v1-ch08` P0 SOURCE REVIEW NEXT**
+Status: **OPEN / `v1-ch08` SOURCE REVIEW COMPLETE / T1 NEXT**
 
 Batch control:
 
@@ -59,7 +59,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **P0 SOURCE REVIEW NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **SOURCE REVIEW COMPLETE / T1 NEXT** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **PINNED / QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **PINNED / QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **PINNED / QUEUED** |
@@ -68,7 +68,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 Opening counters:
 
 - source files pinned: **5 / 5**
-- full source reviews complete: **0 / 5**
+- full source reviews complete: **1 / 5**
 - T1 complete: **0 / 5**
 - T2 complete: **0 / 5**
 - T3 complete: **0 / 5**
@@ -78,6 +78,25 @@ Opening counters:
 - approved: **0 / 5**
 
 The selected five chapter blobs are byte-identical to the older Batch 001 pin, while the batch authority itself is the live source `main` at Batch 002 opening.
+
+## `v1-ch08` — source review complete
+
+Durable file:
+
+`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch08.json`
+
+P0: **PASS / COMPLETE**
+
+- pinned source blob: `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`;
+- pages: **56–59**;
+- extraction units: **4**;
+- unresolved source holds: **0**;
+- non-authorial exclusions: **0**;
+- review items: **0**;
+- T1: **NOT STARTED**;
+- existing-English comparator consulted: **NO**.
+
+The source review protects the two page joins, exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, the secure seventy-five-rupee arithmetic behind anomalous `எழுபுத்து ஐந்து`, organization-name sequence, 1941/1942 chronology, Bharathidasan verse/lineation, dramatic historical present, mixed quote punctuation in the theft scene, concrete gold-chain/Chettiar Bank details, maternal colloquial humour and the later parallel sandalwood-bowl theft affecting his wife.
 
 ## Batch 001 — CLOSED
 
@@ -267,7 +286,7 @@ All chapter source-review, T1, T2, T3, thought-structure, terminology/cultural, 
 
 The Batch 001 source pin remains `5c6b5ef8901044660e607d4649238d7c66cb648d`. At closure, all five pinned source chapter blobs were re-read and matched their recorded archive provenance. Latest observed source `main` is `d6621b71256ae99b1c89b4f2091513dcc5f96626`.
 
-Batch 002 is now open. `v1-ch08` translation has **not** started; its P0 source review is next.
+Batch 002 is open. `v1-ch08` P0 source review is **PASS / COMPLETE**; T1 has **not** started and is next.
 
 ## Infrastructure note
 
@@ -279,4 +298,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the complete **P0 source review for `v1-ch08` (`தமிழ் மாணவர் மன்றம்`, pages 56–59)** from Batch 002 pin `d6621b71256ae99b1c89b4f2091513dcc5f96626`, source path `public/data/text/v1-ch08.json`, blob `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`. Create the source-note sidecar, document all source/extraction interventions, and stop with **T1 next**. Do not translate during P0.
+Perform **T1 fresh translation for `v1-ch08` (`தமிழ் மாணவர் மன்றம்`, pages 56–59)** directly from Batch 002 pin `d6621b71256ae99b1c89b4f2091513dcc5f96626` using `source-notes/v1-ch08.json`. Do not consult existing English. Preserve all documented page joins, verse lineation, quotations, chronology, humour, material detail and the linked theft narratives. Stop with **T2 next**.

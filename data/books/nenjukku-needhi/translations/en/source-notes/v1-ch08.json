@@ -1,0 +1,177 @@
+{
+  "id": "v1-ch08",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch08.json",
+    "blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
+    "authority": "read-only"
+  },
+  "source_drift_check": {
+    "previous_batch_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "previous_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
+    "batch_002_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
+    "result": "byte-identical"
+  },
+  "tamil_title": "தமிழ் மாணவர் மன்றம்",
+  "pages": {
+    "start": 56,
+    "end": 59
+  },
+  "extraction_unit_count": 4,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins by repeating the chapter title 'தமிழ் மாணவர் மன்றம்' before the opening sentence.",
+      "translation_action": "Represent the heading in title metadata and do not duplicate it as opening body prose."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 56 ends 'சம்மேளனத்தை மீண்டும்' and page 57 begins 'தோற்றுவிக்க முயன்றும் முடியாமல் திரும்பி விட்டார்.'",
+      "translation_action": "Join the sentence continuously across the page/extraction boundary: the unnamed organizer tried to form the federation again and failed. The page break is not authorial punctuation."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 57 ends 'அதற்காக அந்தச் சங்கிலியைப் போட்டுக்' and page 58 begins 'கொண்டிருந்தேன்.'",
+      "translation_action": "Join continuously as 'போட்டுக் கொண்டிருந்தேன்'. The page break is not authorial punctuation."
+    },
+    {
+      "type": "quotation_and_punctuation",
+      "severity": "voice-critical",
+      "observation": "The proposed federation slogan appears as the direct quotation 'தமிழ் வாழ்க! இந்தி வளர்க' followed by mixed single/double quotation punctuation in the extracted text.",
+      "translation_action": "Reconstruct normal English quotation punctuation but preserve the slogan's exact political content: Tamil live/prosper and Hindi grow. Do not normalize it into an anti-Hindi slogan merely because that would fit later politics more comfortably."
+    },
+    {
+      "type": "political_organization",
+      "severity": "translation-sensitive",
+      "observation": "The chapter distinguishes the earlier generic student federation from the newly created 'தமிழ் மாணவர் மன்றம்', then says the Tiruvarur body established contact with Venkataraman's Salem-based 'தமிழ்நாடு தமிழ் மாணவர் மன்றம்' and took that wider name.",
+      "translation_action": "Preserve the organizational sequence and the distinction between the local Tamil student body and the Tamil Nadu Tamil Students' organization. Do not collapse all bodies into one generic students' federation."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "meaning-sensitive",
+      "observation": "Page 56 reads 'எழுபுத்து ஐந்து ரூபாய்'. The surrounding arithmetic is explicit: 100 rupees in membership fees, 25 rupees refunded, leaving 75 rupees, and the next sentence refers to the people corresponding to that remaining sum.",
+      "translation_action": "Treat the amount as seventy-five rupees by secure arithmetic/context while preserving the anomalous source form in this note. Do not silently rewrite the Tamil source repository."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "The source contains several locally anomalous or joined forms whose narrative function is secure, including 'மேலீடுவதற்கான', 'வரையப்பட்ட துதான்', 'ஆறம் வகுப்பு', 'இப்படிநெஞ்சிலே' and later 'மகிச்சியும்'.",
+      "translation_action": "Translate only the secure contextual function of each form. Do not assert a corrected Tamil spelling in the source repository unless stronger source evidence is later obtained."
+    },
+    {
+      "type": "historical_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The memoir states that the Tamil Nadu Tamil Students' Association inaugural function took place at the beginning of 1941 and that its annual festival was celebrated grandly in Tiruvarur in 1942.",
+      "translation_action": "Preserve Kalaignar's dates and sequence exactly as authored. Translation is not the place to reconcile them with external organizational histories."
+    },
+    {
+      "type": "verse_or_song",
+      "severity": "voice-critical",
+      "observation": "Page 57 contains a festival poem beginning 'தண்பொழிலில் குயில் பாடும் திருவாரூரில்...' and ending with the cry 'கிளம்பிற்றுக் காண் தமிழ்ச் சிங்கக் கூட்டம்! / கிழித்தெறியத் தேடுதுகாண் பகைக் கூட்டத்தை!' The pinned JSON flattens lineation, while the page witness preserves the verse lines. The source surface reads 'பாதிதாசனின்'.",
+      "translation_action": "Preserve the passage as verse with recovered lineation rather than prose. Contextual and independent evidence identifies the poet as Bharathidasan; retain the anomalous source reading in this note rather than silently editing the Tamil."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "voice-critical",
+      "observation": "The four JSON paragraphs are page/extraction units. Page 57's witness shows separate prose paragraphs and verse lineation; there is also a strong rhetorical shift from student-organization history into the failed festival finances and then into the theft scene.",
+      "translation_action": "Reconstruct literary paragraphs and verse/dialogue turns from rhetoric and the page witness, not from the four JSON extraction units."
+    },
+    {
+      "type": "historical_present",
+      "severity": "voice-sensitive",
+      "observation": "The narrative shifts into vivid present-tense staging around the Tiruvarur annual festival and the Kumbakonam Dravidian Students' Association conference: 'ஆண்டு விழா நடைபெறுகிறது... மாநாடு துவங்குகிறது!'",
+      "translation_action": "Preserve the dramatic historical-present effect unless English syntax requires only minimal adjustment; do not flatten it into detached past-tense historical summary."
+    },
+    {
+      "type": "causal_financial_sequence",
+      "severity": "voice-critical",
+      "observation": "The chapter carefully builds a causal chain: invited speakers fail to arrive or return travel money, the speakers who did come must be sent home, pledged donors defer payment, time runs out, and the narrator decides to steal.",
+      "translation_action": "Preserve the escalating sequence and the repeated short exclamatory beats. Do not summarize it as merely 'the event ran short of funds'."
+    },
+    {
+      "type": "material_culture",
+      "severity": "translation-sensitive",
+      "observation": "Kalaignar's mother insists that he wear a gold chain on his hand/wrist; he is embarrassed by it, and the chain is later stored in her box because one link is broken and needs repair.",
+      "translation_action": "Preserve the object's bodily/material placement and family context. Do not automatically convert it into a necklace or generic jewellery."
+    },
+    {
+      "type": "quotation_and_extraction_punctuation",
+      "severity": "voice-critical",
+      "observation": "Page 58's internal debate about stealing uses alternating single/double quotation marks and contains an unmatched closing apostrophe after 'தங்கச் சங்கிலியைக் காணாமல் அம்மா என்ன பாடுபடுவார்கள்?'.",
+      "translation_action": "Reconstruct the internal questions and answers as coherent thought/dialogue units in English while preserving their sequence and urgency; treat the mismatched quote marks as extraction/punctuation noise."
+    },
+    {
+      "type": "metaphor_and_humour",
+      "severity": "voice-critical",
+      "observation": "The theft scene depends on concrete and comic images: questions pierce the heart like spears, the gold chain lies curled like a newly hatched snake, the mother spins around like a top, and the narrator consoles himself that everyone will turn to dust and that his mother's curse set no deadline.",
+      "translation_action": "Preserve the images, guilty humour and self-irony. Do not moralize, explain away, or flatten the scene into neutral confession."
+    },
+    {
+      "type": "institution_or_place_name",
+      "severity": "translation-sensitive",
+      "observation": "The chain is pledged for fifty rupees at 'திருவாரூர் செட்டியார் பாங்கு / செட்டியார் பாங்க்'. The word 'பாங்கு' is the period borrowing for bank and the transaction is a pledge/loan against the chain.",
+      "translation_action": "Keep the banking/pawn transaction concrete. Resolve the most defensible English form of the institution name at T2/terminology review; do not reduce it to an unspecified moneylender."
+    },
+    {
+      "type": "dialect_and_affection",
+      "severity": "voice-critical",
+      "observation": "The mother's line 'எங்கய்யாவுக்கு வெறுங்கையா இருக்கே' is colloquial, affectionate speech about her son's bare hand/wrist.",
+      "translation_action": "Preserve the maternal intimacy and colloquial register rather than converting it into formal standard English."
+    },
+    {
+      "type": "self_accusation_and_narrative_link",
+      "severity": "voice-critical",
+      "observation": "After eventually confessing the gold-chain theft, the narrator explicitly links it to a second theft that hurt his wife. The chapter then tells how he secretly pawns/borrows against his wife's sandalwood bowl to send comrade Sanarthanam home, while she is blamed for losing it and he remains silent.",
+      "translation_action": "Preserve the self-accusatory parallel between the two thefts and the emotional cost to mother and wife. Do not soften the narrator's repeated use of stealing or disconnect the second episode from the first."
+    },
+    {
+      "type": "proper_names_and_movement_terms",
+      "severity": "translation-sensitive",
+      "observation": "The chapter names S. P. Chidambaram, Venkataraman, Thavamani Rasan, Karunanandam, Anbazhagan, Mathiazhagan, Thennan, Sanarthanam and Jeyaseelan, alongside student/federation movement terminology.",
+      "translation_action": "T1 should stay close to source naming. T2/terminology review may normalize secure English forms, but must not invent identities or organizational expansions not established by the source."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No Wikisource maintenance notice, duplicate-page marker or other non-authorial body material appears in the inspected pages 56–59.",
+      "translation_action": "No non-authorial body exclusion is required for v1-ch08."
+    }
+  ],
+  "secondary_witnesses": [
+    {
+      "repository": "pugazg/nenjukku-needhi-archive",
+      "ref": "main",
+      "paths": [
+        "data/books/nenjukku-needhi/cleaned/volume1/0056.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0057.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0058.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0059.md"
+      ],
+      "blob_shas": [
+        "00116d26f8ffb7e8c386d6931833cf06d3b3825d",
+        "b52281f5235f02cec26a780fec637688d89301d7",
+        "10a611874ca04f34a88ee5b2e74db8897a200b72",
+        "5a4c76573cc0e631581e80edb01e612274a02b80"
+      ],
+      "role": "secondary page-level text witnesses used to recover paragraphing, verse lineation and page-boundary continuations; not authority over the pinned autobiography source"
+    }
+  ],
+  "external_contextual_evidence": [
+    {
+      "area": "festival poem / பாதிதாசன்",
+      "finding": "Independent Tamil sources reproduce the 'கிளம்பிற்றுக் காண் தமிழ்ச் சிங்கக் கூட்டம்...' lines as Bharathidasan's verse for Kalaignar's Tamil Students' Association context, supporting Bharathidasan as the secure poet identity while the pinned source's anomalous 'பாதிதாசன்' form remains documented."
+    }
+  ],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-review-complete",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}

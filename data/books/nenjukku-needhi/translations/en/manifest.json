@@ -92,9 +92,33 @@
         "source_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch08.json",
-        "status": "source-review-next",
+        "status": "source-review-complete",
         "unresolved_source_holds": 0,
-        "review_items": []
+        "review_items": [],
+        "source_notes": "source-notes/v1-ch08.json",
+        "gates": {
+          "source_review": "pass"
+        },
+        "source_review_result": {
+          "extraction_units": 4,
+          "unresolved_source_holds": 0,
+          "non_authorial_exclusions": 0,
+          "review_items": 0,
+          "previous_batch_pin_blob_match": "byte-identical"
+        },
+        "source_interventions": [
+          "exclude repeated chapter heading from body prose and retain it as title metadata",
+          "join page-56/57 'சம்மேளனத்தை மீண்டும் / தோற்றுவிக்க' across the extraction boundary",
+          "join page-57/58 'போட்டுக் / கொண்டிருந்தேன்' across the extraction boundary",
+          "preserve exact quoted slogan 'தமிழ் வாழ்க! இந்தி வளர்க' despite mixed extraction quotation marks",
+          "read anomalous 'எழுபுத்து ஐந்து' as seventy-five by explicit 100 minus 25 arithmetic without rewriting the Tamil source",
+          "preserve distinction between தமிழ் மாணவர் மன்றம் and தமிழ்நாடு தமிழ் மாணவர் மன்றம்",
+          "preserve authored 1941 inaugural / 1942 annual-festival chronology",
+          "recover Bharathidasan festival verse lineation from page witness while documenting source form 'பாதிதாசன்'",
+          "reconstruct mixed quotation punctuation in the internal theft debate without altering source meaning",
+          "preserve historical-present staging, financial escalation, gold-chain/Chettiar Bank material detail, maternal dialect/humour and linked mother/wife theft narratives"
+        ],
+        "next_gate": "t1"
       },
       {
         "id": "v1-ch09",
@@ -153,7 +177,7 @@
         "review_items": []
       }
     ],
-    "source_reviews_complete": 0,
+    "source_reviews_complete": 1,
     "translations_started": 0,
     "t1_complete": 0,
     "t2_complete": 0,
@@ -162,7 +186,7 @@
     "terminology_cultural_complete": 0,
     "comparator_checks_complete": 0,
     "approved_chapters": 0,
-    "next_activity": "source-review-v1-ch08",
+    "next_activity": "t1-v1-ch08",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",
