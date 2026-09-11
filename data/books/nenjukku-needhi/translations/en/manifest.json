@@ -315,10 +315,35 @@
           "end": 55
         },
         "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "source-review-next"
+        "status": "source-review-complete",
+        "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+        "live_source_check": {
+          "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+          "blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
+          "result": "byte-identical"
+        },
+        "source_notes": "source-notes/v1-ch07.json",
+        "gates": {
+          "source_review": "pass"
+        },
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "source_interventions": [
+          "exclude repeated chapter heading from body prose and retain it as title metadata",
+          "join page-51 visual/extraction split ஜி / ன்னா as Jinnah",
+          "translate anomalous முஸ்லீம் வீக்கிற்கும் by its secure contextual function as Muslim League without silently rewriting the Tamil",
+          "retain முடங்கல் as a valid archaic letter sense rather than treating it as OCR damage",
+          "treat அழகிரி சிற்றரசு contextually as separate Alagiri and Chittarasu names, with source punctuation anomaly documented",
+          "join page-53/54 செய்துகொண்- / டிருந்தது across the page boundary and ignore the stray extraction backtick inside the newspaper quotation",
+          "translate பள்ளிக்கூடத்திலிருத்த only by its secure schoolboy-meeting function without asserting corrected Tamil wording",
+          "preserve authored 1939 M. N. Roy party chronology and the fifteen-year-old / four-months-before-Murasoli timeline tension without silent historical correction",
+          "preserve மாணவ நேசன் production details, Bharathidasan spinning-wheel sarcasm, சிறுதுளி பெருவெள்ளம், Pongal special-issue reference, demy-paper economics and Murasoli's leaflet origin",
+          "preserve the unnamed communist recruiter's delayed reveal, Freedom–Peace–Equality triad and closing current/depth metaphor"
+        ],
+        "next_gate": "t1-fresh-translation"
       }
     ],
-    "source_reviews_complete": 4,
+    "source_reviews_complete": 5,
     "translations_started": 4,
     "t1_complete": 4,
     "t2_complete": 4,
@@ -327,7 +352,7 @@
     "terminology_cultural_complete": 4,
     "comparator_checks_complete": 4,
     "approved_chapters": 4,
-    "next_activity": "source-review-v1-ch07"
+    "next_activity": "t1-fresh-translation-v1-ch07"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
