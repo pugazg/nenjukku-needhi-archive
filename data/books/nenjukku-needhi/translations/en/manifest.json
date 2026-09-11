@@ -185,7 +185,7 @@
         "source_blob_sha": "e3104c0f74478f25d0b15c4bb1ed12afd6420d21",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch09.json",
-        "status": "t3-complete",
+        "status": "structure-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch09.json",
@@ -194,12 +194,14 @@
           "source_review": "pass",
           "t1": "pass",
           "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision"
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass"
         },
-        "next_gate": "thought-structure-audit",
+        "next_gate": "terminology-cultural-audit",
         "reviews": {
           "t2": "reviews/v1-ch09-t2.md",
-          "t3": "reviews/v1-ch09-t3.md"
+          "t3": "reviews/v1-ch09-t3.md",
+          "thought_structure": "reviews/v1-ch09-structure.md"
         },
         "t2_result": {
           "accepted_revisions": 12,
@@ -211,6 +213,13 @@
           "accepted_revisions": 11,
           "unresolved_source_holds": 0,
           "comparator_consulted": false
+        },
+        "structure_result": {
+          "represented": "20/20",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
         }
       },
       {
@@ -223,7 +232,7 @@
         "source_blob_sha": "38f3e3efcd8c48a7c3df70c3b5e36b02d813261f",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch10.json",
-        "status": "t3-complete",
+        "status": "structure-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch10.json",
@@ -232,12 +241,14 @@
           "source_review": "pass",
           "t1": "pass",
           "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision"
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass"
         },
-        "next_gate": "thought-structure-audit",
+        "next_gate": "terminology-cultural-audit",
         "reviews": {
           "t2": "reviews/v1-ch10-t2.md",
-          "t3": "reviews/v1-ch10-t3.md"
+          "t3": "reviews/v1-ch10-t3.md",
+          "thought_structure": "reviews/v1-ch10-structure.md"
         },
         "t2_result": {
           "accepted_revisions": 7,
@@ -249,6 +260,13 @@
           "accepted_revisions": 10,
           "unresolved_source_holds": 0,
           "comparator_consulted": false
+        },
+        "structure_result": {
+          "represented": "12/12",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
         }
       },
       {
@@ -261,7 +279,7 @@
         "source_blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch11.json",
-        "status": "t3-complete",
+        "status": "structure-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch11.json",
@@ -270,12 +288,14 @@
           "source_review": "pass",
           "t1": "pass",
           "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision"
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass"
         },
-        "next_gate": "thought-structure-audit",
+        "next_gate": "terminology-cultural-audit",
         "reviews": {
           "t2": "reviews/v1-ch11-t2.md",
-          "t3": "reviews/v1-ch11-t3.md"
+          "t3": "reviews/v1-ch11-t3.md",
+          "thought_structure": "reviews/v1-ch11-structure.md"
         },
         "t2_result": {
           "accepted_revisions": 7,
@@ -287,6 +307,13 @@
           "accepted_revisions": 7,
           "unresolved_source_holds": 0,
           "comparator_consulted": false
+        },
+        "structure_result": {
+          "represented": "12/12",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
         }
       },
       {
@@ -299,7 +326,7 @@
         "source_blob_sha": "df9bfe3fb369783e68c5166b7068323909d6f4f9",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch12.json",
-        "status": "t3-complete",
+        "status": "structure-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch12.json",
@@ -308,12 +335,14 @@
           "source_review": "pass",
           "t1": "pass",
           "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision"
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass"
         },
-        "next_gate": "thought-structure-audit",
+        "next_gate": "terminology-cultural-audit",
         "reviews": {
           "t2": "reviews/v1-ch12-t2.md",
-          "t3": "reviews/v1-ch12-t3.md"
+          "t3": "reviews/v1-ch12-t3.md",
+          "thought_structure": "reviews/v1-ch12-structure.md"
         },
         "t2_result": {
           "accepted_revisions": 13,
@@ -325,6 +354,13 @@
           "accepted_revisions": 12,
           "unresolved_source_holds": 0,
           "comparator_consulted": false
+        },
+        "structure_result": {
+          "represented": "22/22",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
         }
       }
     ],
@@ -333,10 +369,10 @@
     "t1_complete": 5,
     "t2_complete": 5,
     "t3_complete": 5,
-    "thought_structure_complete": 1,
+    "thought_structure_complete": 5,
     "terminology_cultural_complete": 1,
     "approved_chapters": 1,
-    "next_activity": "thought-structure-v1-ch09",
+    "next_activity": "terminology-cultural-v1-ch09",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",
