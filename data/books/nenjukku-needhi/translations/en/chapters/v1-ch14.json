@@ -8,7 +8,7 @@
     "start": 81,
     "end": 84
   },
-  "status": "terminology-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "T2 source-and-Kalaignar-voice review passed with 8 grouped source-checked revisions. The pass strengthens the bride-viewing intimacy, Kinthanar's oral/social satire and the wife's affectionate pressure while preserving the 13 September 1944 chronology, dual wedding forms, crowd chaos and actor-decision pivot. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 5 grouped minor source-checked revisions. The pass improves bride-viewing, Kinthanar cadence, poverty phrasing and the wife's affectionate pressure without changing the wedding chronology, reform/priestly contrast, crowd scene or actor-decision ending.",
     "Thought-structure audit passed 16/16 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
-    "Terminology/cultural audit passed with one reader-clarity revision: first-use `cheri` → `cheri settlement`, retaining the culture-specific word while giving minimal functional context. Reform marriage, Self-Respect marriage, vivaha subhamuhurtham, lagna, Kalaivanar, Kinthanar, kathakalakshepam, Mahamayi and source-led names remain intact. Independent English is frozen for final approval."
+    "Terminology/cultural audit passed with one reader-clarity revision: first-use `cheri` → `cheri settlement`, retaining the culture-specific word while giving minimal functional context. Reform marriage, Self-Respect marriage, vivaha subhamuhurtham, lagna, Kalaivanar, Kinthanar, kathakalakshepam, Mahamayi and source-led names remain intact. Independent English is frozen for final approval.",
+    "Final approval review passed with no chapter-text changes. v1-ch14 is APPROVED / CLOSED."
   ],
   "paragraphs": [
     "What would the girl be like? Beautiful—or not? Dark? Fair? Would she be good-natured? Would she suit the family? My thoughts did not stop with those questions. Why had I suddenly developed this desire for marriage? No, no—was it not that love affair which had exposed me like this before my family? Confused by such thoughts, I reached the bride's house.",
@@ -52,11 +53,12 @@
     "source_review": "../source-notes/v1-ch14.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "final-approval-review",
+    "next_gate": "closed",
     "t2_review": "../reviews/v1-ch14-t2.md",
     "t3_review": "../reviews/v1-ch14-t3.md",
     "thought_structure_review": "../reviews/v1-ch14-structure.md",
     "terminology_review": "../reviews/v1-ch14-terminology.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "approval_review": "../reviews/v1-ch14-approval.md"
   }
 }
