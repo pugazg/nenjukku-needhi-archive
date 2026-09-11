@@ -326,6 +326,54 @@ Colloquial family speech should remain intimate and socially grounded, but Engli
 
 In `v1-ch08`, the mother's `எங்கய்யாவுக்கு வெறுங்கையா இருக்கே` is rendered as **My dear boy's wrist is bare!** The line keeps the maternal affection and bodily detail without manufacturing dialect.
 
+## 48. Theatrical misdirection should survive until the reveal
+
+Kalaignar may narrate a staged scene as though it were a real autobiographical event, then reveal the theatrical frame only afterward. Do not spoil the joke by announcing the play too early.
+
+In `v1-ch09`, the sudden Indirani romance, Indra identity and Narada intervention are allowed to unfold before the memoir reveals the school production of `Dhruvan`.
+
+## 49. Child speech needs light preservation, not caricature
+
+When a child character's pronunciation is deliberately represented, preserve enough distortion for the reader to hear the child without inventing a comic English dialect.
+
+In `v1-ch09`, young Murasoli Maran's `மழலை மொழி` remains visibly childlike in the quoted line, while the surrounding narration identifies it as lisping child-speech.
+
+## 50. Personal crisis may pivot into public argument without losing either scale
+
+A deeply personal scene can become the basis for a wider political or institutional argument. Do not shorten the private crisis because an analytical passage follows, and do not detach the analysis from the experience that produced it.
+
+In `v1-ch09`, the third School Final failure, sleepless night and departure from home lead directly into reflection on student suicides and a sustained critique of the examination system.
+
+## 51. Deadpan scepticism is still humour
+
+Kalaignar may deliver a rationalist or sceptical joke in a straight face. Do not over-explain the irony or make it louder than the source.
+
+In `v1-ch10`, the black-stone `Rama's Foot` and the lightning-struck shrine are funniest when the narrator's question and `Alas, O Lord!` remain concise.
+
+## 52. An invented story inside the memoir must remain visibly invented
+
+When Kalaignar records a lie, ruse or staged explanation that he knowingly devised, keep the narrative frame explicit. Do not accidentally convert the inner story into historical fact.
+
+In `v1-ch10`, the army-enlistment episode is an imaginary story that Thennan is asked to perform for the family; its comedy depends on the reader knowing that it is fabricated.
+
+## 53. Satire of bad writing may depend on violent imagery and visible errors
+
+Do not sanitize grotesque metaphors merely because they are directed at writing quality, and do not silently repair misspellings that are themselves the joke.
+
+In `v1-ch11`, Mother Tamil is choked, clawed and killed page by page, while malformed story titles are cited as evidence of linguistic incompetence. The errors must remain recognizably errors.
+
+## 54. Embedded political documents keep their own historical voice
+
+A leaflet, speech, notice or other document quoted inside the memoir is not ordinary retrospective narration. Preserve its headings, dates, slogans, exclamations, inherited vocabulary and polemical momentum unless a source problem requires intervention.
+
+In `v1-ch12`, the 5-10-1944 `Murasoli` anti-Varnashrama leaflet remains a document within the autobiography rather than being rewritten as neutral historical summary.
+
+## 55. Ritual and learned terms require lexical evidence before paraphrase
+
+A Sanskrit-derived or ritual term that looks opaque must not be replaced by a colourful guess. Establish its lexical function first; retaining a culturally specific term may be better than a misleading English substitute.
+
+In `v1-ch12`, `பூரிதட்சிணை` is supported lexically as festive monetary dakshina to Brahmans. T2 therefore uses **Bountiful dakshina!** rather than the unrelated T1 phrase **feast of religious merit**.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
