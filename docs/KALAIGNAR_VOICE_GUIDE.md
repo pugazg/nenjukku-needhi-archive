@@ -308,6 +308,24 @@ A securely attested historical English entity name may be normalized even when K
 In `v1-ch07`, `புரட்சி ஜனநாயகக் கட்சி` is rendered **Radical Democratic Party**, while Kalaignar's explicit **1939** date remains untouched. The same principle applies to the chapter's fifteen-year-old / four-months-before-`Murasoli` tension.
 
 
+## 45. Guilt and humour may occupy the same sentence
+
+Kalaignar can indict his younger self while allowing the younger self's comic reasoning to remain fully audible. Do not “correct” the tone by making a guilty scene uniformly solemn.
+
+In `v1-ch08`, he steals his mother's gold chain, watches her curse the unknown thief, and then consoles himself that everyone eventually turns to dust and that his mother did not specify a deadline. The comedy does not cancel the guilt; the guilt does not cancel the joke. Preserve both.
+
+## 46. Domestic objects can be part of political causality
+
+Small material objects, sums and family possessions may carry the practical cost of political organizing. Do not summarize them away as incidental domestic detail.
+
+In `v1-ch08`, failed festival finances lead directly to a gold chain pledged for fifty rupees; a later public meeting leads to a sandalwood bowl used to obtain ten rupees. The objects, sums, debts and consequences make the politics autobiographically concrete.
+
+## 47. Preserve affectionate family speech without caricature
+
+Colloquial family speech should remain intimate and socially grounded, but English should not invent a comic accent or turn affection into formal prose.
+
+In `v1-ch08`, the mother's `எங்கய்யாவுக்கு வெறுங்கையா இருக்கே` is rendered as **My dear boy's wrist is bare!** The line keeps the maternal affection and bodily detail without manufacturing dialect.
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -353,6 +371,12 @@ Its T2 review adds durable practice for historically identifiable movement-body 
 The chapter begins in large-scale politics—Jinnah, Nehru, Gandhiji, Bose, Congress, Muslim League, China, Europe, Burma, Tripuri, M. N. Roy and the Forward Bloc—then suddenly reveals that Communist organizing has reached a thin fifteen-year-old Karunanidhi at school. From there the chapter becomes a memoir of handwritten student publishing, Bharathidasan's sarcasm, fifty hand-copied issues, the practical birth of `Murasoli`, and a student federation whose current seems ready to sweep the narrator away.
 
 Its T2 review adds durable practice for preserving macro-history → schoolboy scale shifts, distinguishing handwritten journals from physical copies, keeping production economics and publishing materiality visible, protecting the linked water imagery at the ending, and normalizing secure historical entity names without silently repairing Kalaignar's authored chronology.
+
+### `v1-ch08` — `தமிழ் மாணவர் மன்றம்`
+
+The chapter begins with student-federation politics and an ideological refusal, turns that refusal into the immediate creation of a Tamil student organization, expands into the 1941/1942 movement network and Bharathidasan's festival verse, and then makes the practical cost of organizing the engine of two painfully comic domestic theft narratives.
+
+Its T2 review adds durable practice for allowing guilt and humour to coexist, preserving political causality through small material objects and sums, retaining a wrist-worn gold chain rather than converting it into a necklace, keeping affectionate maternal speech intimate without caricature, and refusing to separate public activism from its domestic cost.
 
 ## Review question
 
