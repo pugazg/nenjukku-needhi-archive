@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / `v1-ch08` SOURCE REVIEW COMPLETE / T1 NEXT**
+Status: **OPEN / BATCH T1 COMPLETE 5/5 / `v1-ch08` T2 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -40,11 +40,11 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **SOURCE REVIEW COMPLETE / T1 NEXT** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **PINNED / QUEUED** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **PINNED / QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **PINNED / QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **PINNED / QUEUED** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **T1 COMPLETE / T2 NEXT** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **T1 COMPLETE / T2 QUEUED** |
 
 ## Batch rule
 
@@ -61,8 +61,8 @@ This batch is a management envelope.
 
 - batch opened: **YES**
 - source files pinned: **5 / 5**
-- full source reviews complete: **1 / 5**
-- T1 complete: **0 / 5**
+- full source reviews complete: **5 / 5**
+- T1 complete: **5 / 5**
 - T2 complete: **0 / 5**
 - T3 complete: **0 / 5**
 - thought-structure complete: **0 / 5**
@@ -94,11 +94,27 @@ Protected source controls include the two page joins (`மீண்டும் 
 
 No T1 wording has been drafted at P0.
 
+## Batch-wide T1 checkpoint
+
+At the user's explicit instruction, T1 was completed for the entire Batch 002 after P0/source review was completed for all five chapters.
+
+- source reviews: **5 / 5 COMPLETE**
+- T1 fresh translations: **5 / 5 COMPLETE**
+- T2: **0 / 5**
+- unresolved source holds: **0**
+- existing-English comparator consulted: **NO**
+
+T1 chapter files:
+
+- `../chapters/v1-ch08.json`
+- `../chapters/v1-ch09.json`
+- `../chapters/v1-ch10.json`
+- `../chapters/v1-ch11.json`
+- `../chapters/v1-ch12.json`
+
 ## Immediate next activity
 
-Perform **T1 fresh translation for `v1-ch08` directly from the pinned Tamil and P0 source notes**.
-
-Do not consult any existing-English comparator. Account for all authorial content, reconstruct literary paragraphing from the documented page witnesses, preserve verse lineation, direct speech, humour, internal questions, chronology and the two theft narratives. Stop with **T2 next**.
+Perform **T2 source-and-Kalaignar-voice review for `v1-ch08` only**. Subsequent review gates remain sequential unless the user explicitly authorizes another batch-wide gate.
 
 ## Infrastructure limitation
 

@@ -42,77 +42,31 @@ Final counters: all chapter gates **5 / 5**, unresolved source holds **0**, outs
 
 ## Batch 002 — OPEN
 
-Batch control:
+Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
-`data/books/nenjukku-needhi/translations/en/batches/batch-002.md`
+Span: **`v1-ch08`–`v1-ch12`**
 
-Source pin:
+At the user's explicit instruction, fresh T1 translation was completed across the entire active batch after P0/source review was completed for every chapter.
 
-`d6621b71256ae99b1c89b4f2091513dcc5f96626`
-
-The source repository `main` advanced since Batch 001, but the selected `v1-ch08`–`v1-ch12` blobs are unchanged from the older pin. The current source `main` is nevertheless the Batch 002 authority pin.
-
-Batch span: **`v1-ch08`–`v1-ch12`**.
-
-The standard five-chapter size is retained because all five intake units are modest 3–5-page chapters; no reduction is justified.
-
-Chapters:
-
-- `v1-ch08` — `தமிழ் மாணவர் மன்றம்` — pp. 56–59 — blob `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` — **P0 COMPLETE / T1 NEXT**
-- `v1-ch09` — `கலகக்கார நாரதர் புகுந்தார்.` — pp. 60–64 — blob `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` — QUEUED
-- `v1-ch10` — `நண்பன் நடித்த நாடகம்` — pp. 65–67 — blob `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` — QUEUED
-- `v1-ch11` — `இளம் எழுத்தாளர்` — pp. 68–70 — blob `31e7fcb1770db1a19caaa9725b9b5709f7250454` — QUEUED
-- `v1-ch12` — `"எடுக்கவோ, கோக்கவோ?"` — pp. 71–75 — blob `df9bfe3fb369783e68c5166b7068323909d6f4f9` — QUEUED
-
-Opening counters:
-
-- source files pinned: **5 / 5**
-- source reviews: **1 / 5**
-- T1: **0 / 5**
+- source reviews: **5 / 5**
+- T1: **5 / 5**
 - T2: **0 / 5**
-- T3: **0 / 5**
-- thought structure: **0 / 5**
-- terminology/cultural: **0 / 5**
-- comparator checks: **0 / 5**
-- approvals: **0 / 5**
-
-## v1-ch08 P0 — COMPLETE
-
-Source notes:
-
-`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch08.json`
-
-Result: **PASS / COMPLETE**
-
-- extraction units: **4**
 - unresolved source holds: **0**
-- non-authorial exclusions: **0**
-- review items: **0**
-- T1: **NOT STARTED**
 - existing-English comparator consulted: **NO**
 
-Key P0 controls:
+T1 chapters:
 
-- repeated chapter title is metadata, not duplicate body prose;
-- page 56→57 joins `சம்மேளனத்தை மீண்டும் / தோற்றுவிக்க`;
-- page 57→58 joins `போட்டுக் / கொண்டிருந்தேன்`;
-- preserve exact quoted `தமிழ் வாழ்க! இந்தி வளர்க` slogan;
-- `எழுபுத்து ஐந்து` securely functions as seventy-five rupees from explicit 100−25 arithmetic;
-- distinguish `தமிழ் மாணவர் மன்றம்` from `தமிழ்நாடு தமிழ் மாணவர் மன்றம்`;
-- preserve authored 1941/1942 chronology;
-- preserve Bharathidasan festival verse as verse with recovered lineation; source form `பாதிதாசன்` remains documented;
-- reconstruct only punctuation/quote mechanics in the page-58 internal debate;
-- preserve historical present, escalating financial crisis, gold-chain material detail, Chettiar Bank pledge, maternal dialect/humour and the linked two-theft self-accusation.
+- `v1-ch08` — **Tamil Students' Association**
+- `v1-ch09` — **Troublemaker Narada Entered**
+- `v1-ch10` — **The Drama My Friend Acted Out**
+- `v1-ch11` — **The Young Writer**
+- `v1-ch12` — **"Shall I Pick Them Up, or String Them?"**
 
-## Immediate next activity — v1-ch08 T1
+The batch-wide T1 preserves source-led joins, verse/drama lineation, direct speech, political and organizational distinctions, authored chronology, humour, self-irony, exam-failure reflection, and the embedded 1944 Murasoli leaflet. No prior English was consulted.
 
-Create the fresh English T1 directly from the pinned Tamil plus P0 source notes.
+## Immediate next activity — v1-ch08 T2
 
-Do not consult existing English.
-
-Account for all authorial content and preserve verse lineation, direct speech, internal questions, political/organizational distinctions, dates, humour, imagery and the mother/wife theft parallel.
-
-Stop with **T2 source-and-Kalaignar-voice review next**.
+Perform the T2 Tamil-English source-and-Kalaignar-voice review for `v1-ch08` only. Subsequent review gates remain sequential unless the user explicitly authorizes another batch-wide gate.
 
 ## Mandatory controls
 

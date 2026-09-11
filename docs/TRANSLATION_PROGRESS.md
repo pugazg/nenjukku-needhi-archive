@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / `v1-ch08` SOURCE REVIEW COMPLETE / T1 NEXT**
+Status: **OPEN / BATCH T1 COMPLETE 5/5 / `v1-ch08` T2 NEXT**
 
 Batch control:
 
@@ -59,17 +59,17 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **SOURCE REVIEW COMPLETE / T1 NEXT** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **PINNED / QUEUED** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **PINNED / QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **PINNED / QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **PINNED / QUEUED** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **T1 COMPLETE / T2 NEXT** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **T1 COMPLETE / T2 QUEUED** |
 
 Opening counters:
 
 - source files pinned: **5 / 5**
-- full source reviews complete: **1 / 5**
-- T1 complete: **0 / 5**
+- full source reviews complete: **5 / 5**
+- T1 complete: **5 / 5**
 - T2 complete: **0 / 5**
 - T3 complete: **0 / 5**
 - thought-structure complete: **0 / 5**
@@ -286,7 +286,7 @@ All chapter source-review, T1, T2, T3, thought-structure, terminology/cultural, 
 
 The Batch 001 source pin remains `5c6b5ef8901044660e607d4649238d7c66cb648d`. At closure, all five pinned source chapter blobs were re-read and matched their recorded archive provenance. Latest observed source `main` is `d6621b71256ae99b1c89b4f2091513dcc5f96626`.
 
-Batch 002 is open. `v1-ch08` P0 source review is **PASS / COMPLETE**; T1 has **not** started and is next.
+Batch 002 source reviews and fresh T1 translations are now **5 / 5 COMPLETE** under the user's explicit batch-wide T1 instruction. T2 has not started.
 
 ## Infrastructure note
 
@@ -298,4 +298,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Perform **T1 fresh translation for `v1-ch08` (`தமிழ் மாணவர் மன்றம்`, pages 56–59)** directly from Batch 002 pin `d6621b71256ae99b1c89b4f2091513dcc5f96626` using `source-notes/v1-ch08.json`. Do not consult existing English. Preserve all documented page joins, verse lineation, quotations, chronology, humour, material detail and the linked theft narratives. Stop with **T2 next**.
+Perform **T2 source-and-Kalaignar-voice review for `v1-ch08`** against the pinned Tamil and P0 notes. Do not consult any existing-English comparator. Stop with **T3 next**.
