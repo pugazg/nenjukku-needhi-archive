@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` T2 COMPLETE / T3 NEXT**
+Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` T3 COMPLETE / THOUGHT STRUCTURE NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -23,7 +23,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
 ## `v1-ch03` closure
@@ -96,7 +96,7 @@ Final controls retain the witnessed **In 1932** opening, Kalaignar's authored **
 
 The final approval review confirms 22/22 structural movements, zero unresolved source holds and zero outstanding review items. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder.
 
-## `v1-ch06` — T2 complete
+## `v1-ch06` — T3 complete
 
 Durable file:
 
@@ -111,15 +111,16 @@ Gate state:
 - outstanding source-review items: **0**;
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
+- T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 18 source-checked revisions**;
 - English title: **The Battlefront to Save Tamil**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
-- blocking T2 issues: **0**;
-- next gate: **T3 English-only literary review**.
+- outstanding T3 issues: **0**;
+- next gate: **thought-structure audit**.
 
 P0 records the repeated heading; page-47/48 and page-48/49 source-unit joins; the two-line student song on page 48; the page-47 Alagirisami oratory sequence; historical distance `கல்` as mile; the anomalous `முழககங்கள்` and `நிறுத்தாதற்கு முன்பே` forms; the final Tamil-flag/green-crescent punctuation split; the Jagadeesan hearsay anecdote; the `வெறி / பற்று` wordplay; the classroom dialogue and titular self-judgment; the thirty-six-year retrospective; and the final pivot to Bose, Jinnah, Gandhi and Muslim League politics.
 
-Fresh T1 is durable at `../chapters/v1-ch06.json`. T2 normalises the identifiable 1938 `தமிழர் படை` as **Tamil Brigade**, changes `வீரங்கொப்பளிக்கும்` to **brimming with valour**, restores distinct tiger/lion/summer-thunder verbs, makes the brigade's two-hundred-mile walking action explicit, resolves classroom `பலகை` as **bench**, renders `மறியல் அறப்போர்` as daily picketing carried on as a **non-violent struggle**, keeps `Gandhiji` for `காந்தியார்`, and preserves the relative thirty-six-year vantage. `இன உணர்ச்சி` remains intentionally reserved for the later terminology/cultural audit. No pre-existing English was consulted.
+Fresh T1 is durable at `../chapters/v1-ch06.json`. T2 normalises the identifiable 1938 `தமிழர் படை` as **Tamil Brigade**, changes `வீரங்கொப்பளிக்கும்` to **brimming with valour**, restores distinct tiger/lion/summer-thunder verbs, makes the brigade's two-hundred-mile walking action explicit, resolves classroom `பலகை` as **bench**, renders `மறியல் அறப்போர்` as daily picketing carried on as a **non-violent struggle**, keeps `Gandhiji` for `காந்தியார்`, and preserves the relative thirty-six-year vantage. `இன உணர்ச்சி` remains intentionally reserved for the later terminology/cultural audit. T3 accepted 18 source-checked minor revisions for English syntax and cadence while deliberately retaining Fearless Heart, Summer-Thunder Alagiri, the tiger/lion/summer-thunder crescendo, Hindi demon, frenzy/devotion, the heart-rendered-justice phrase, the flare/sprout image, the Tamil-bulls/corpses prison wording, provisional sense of race, and the Tamil/green-crescent flags. No pre-existing English was consulted.
 
 No non-authorial body material was found. No missing Tamil reconstruction is required.
 
@@ -144,9 +145,9 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - full source reviews complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - T1 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - T2 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- T3 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
+- T3 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - thought-structure complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - terminology/cultural complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - comparator checks complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - approved chapters: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- next chapter activity: **T3 English-only literary review for `v1-ch06`**
+- next chapter activity: **thought-structure audit for `v1-ch06`**
