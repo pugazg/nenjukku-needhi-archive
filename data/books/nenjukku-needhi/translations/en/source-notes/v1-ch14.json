@@ -74,6 +74,12 @@
       "severity": "informational",
       "observation": "No non-authorial maintenance material or duplicated body passage detected.",
       "translation_action": "No exclusion required."
+    },
+    {
+      "type": "t2_source_resolution",
+      "severity": "informational",
+      "observation": "The extracted `வால் பிளந்து` in the Kinthanar passage is contextually anomalous; T2 preserves the secure rhetorical function as puranic storytellers standing agape without asserting a corrected Tamil reading.",
+      "translation_action": "Retain the contextual function; source text remains unchanged."
     }
   ],
   "secondary_witnesses": [],
@@ -81,8 +87,15 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "source-reviewed",
+  "status": "t2-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t1"
+  "next_gate": "t3",
+  "t2_review": "../reviews/v1-ch14-t2.md",
+  "t2_resolutions": {
+    "accepted_revisions": 8,
+    "unresolved_source_holds": 0,
+    "blocking_t2_issues": 0,
+    "comparator_consulted": false
+  }
 }
