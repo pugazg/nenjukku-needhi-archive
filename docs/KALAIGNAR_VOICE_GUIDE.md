@@ -426,6 +426,18 @@ The chapter begins with student-federation politics and an ideological refusal, 
 
 Its T2 review adds durable practice for allowing guilt and humour to coexist, preserving political causality through small material objects and sums, retaining a wrist-worn gold chain rather than converting it into a necklace, keeping affectionate maternal speech intimate without caricature, and refusing to separate public activism from its domestic cost.
 
+### `v1-ch13`–`v1-ch17` — Batch 003 production observations
+
+Batch 003 adds several durable voice controls:
+
+- **Do not sanitize causal prejudice.** When Kalaignar directly quotes caste-abusive speech because that prejudice explains what happened, preserve the discriminatory register as attributed speech and keep the narrator's critical framing visible. Euphemism can erase causality; unframed repetition can erase attribution.
+- **Public action and domestic economy remain one narrative.** Theatre receipts, debts, a silver cup, wages, food deductions and money orders are not side details; they show the material cost of political/cultural work.
+- **Ritual and reform contrasts need concrete terms.** Reform marriage, Self-Respect marriage, lagna, vivaha subhamuhurtham, vibhuti, Mahamayi and related details should not be flattened into generic wedding language when the contrast itself carries the argument.
+- **Retrospective time can hold two emotional registers at once.** The office-era narrator in `v1-ch16` can be publicly praised and inwardly wounded in the same passage; preserve the irony rather than resolving it into a single mood.
+- **Violence may be narrated with later sweetness or humour.** Kalaignar can describe severe bodily danger and then say the memory is sweet; do not correct that tonal paradox into solemnity.
+- **Cultural clothing and local lexical forms need restraint.** Terms such as `avukka`, `kaili`, `jippa` and `kullai` should receive only enough gloss for comprehension, without exoticizing the speaker or scene.
+- **Source-led uncertainty is preferable to false historical polish.** A form such as `Keple` should remain transparently source-led when internal evidence does not justify a stronger normalization.
+
 ## Review question
 
 At T2, ask repeatedly:
