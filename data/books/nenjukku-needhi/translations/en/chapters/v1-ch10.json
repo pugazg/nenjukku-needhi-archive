@@ -8,7 +8,7 @@
     "start": 65,
     "end": 67
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
     "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass keeps the exhausted walk and Hasan Abdul Kader affection, sharpens the Kodikkarai deadpan religious humour, preserves the army-camp idea as an explicitly fabricated family story, and restores the closing mock-lament cadence. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 10 grouped minor source-checked revisions. The pass improves overnight-travel cadence, money-counting English, Hasan Abdul Kader's remembered description, Kodikkarai narrative flow, deadpan shrine humour and the fabricated army-story idiom without changing the source's humour or structure. No existing-English comparator was consulted.",
-    "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed with one site-name clarification: `Rama's Foot` → `Rama's Footprint`, matching the source's `ராமர் பாதம்` as the footprint-site/pavilion. Tirunellikaval, Tiruthuraipoondi, Thopputhurai, Vedaranyam, Kodikkarai, Hasan Abdul Kader, Fourth Form, annas, idli/dosa, Comrade and the fabricated army-camp story were retained as source-led or period-appropriate forms. Independent English is frozen for final approval."
   ],
   "paragraphs": [
     "I, at least, had not studied properly. I had entered politics and failed the examination. But how many students have ended up in a position like mine because they fell short by one mark or two? What became of them all? Those questions flashed and vanished in my heart like streaks of lightning that night.",
@@ -36,7 +37,7 @@
     "If I had not written that letter, the daily newspapers might have carried an advertisement: \"Beloved Karunanidhi! Do not worry about the examination result. We are not angry with you for that. Wherever you are, come home at once. —Your mother and father!\"",
     "Taking my letter, Thennan went to Tirukkuvalai. He saw my family, their eyes swollen from crying. \"Go and bring the boy back at once!\" they told him, gave him travel money and sent him to Thopputhurai.",
     "Now we had money to go sightseeing as well. The news that my parents' anger had subsided gave me some relief. We all set out together for Vedaranyam, Kodikkarai and other places.",
-    "We entered the Kodikkarai forest and wandered as far as we could. On a rise in the forest they showed us a pavilion called \"Rama's Foot.\" They said Rama had once stood there looking toward the sea, and that this was where he had placed his foot. Two feet had been carved in black stone. \"They speak of Rama's red-lotus feet. Why are these made of black stone?\" I asked. I still remember asking it.",
+    "We entered the Kodikkarai forest and wandered as far as we could. On a rise in the forest they showed us a pavilion called \"Rama's Footprint.\" They said Rama had once stood there looking toward the sea, and that this was where he had placed his foot. Two feet had been carved in black stone. \"They speak of Rama's red-lotus feet. Why are these made of black stone?\" I asked. I still remember asking it.",
     "A little distance away, the sanctum of a small temple lay in ruins. When I asked why it had collapsed, they said lightning had struck it. I expressed my profound sympathy: \"Alas, O Lord!\"",
     "During our tour, an officer recruiting men for the army had set up camp in that region. The sight of that camp gave me an idea. I told Thennan my idea—and it worked.",
     "I insisted that Thennan tell my family an imaginary story: \"I went to Thopputhurai looking for Karunanidhi. By then he had given his name to join the army camped there. I pleaded with him at length, but he would not listen. 'I will go and die on the battlefield. I will not return to see my mother and father,' he declared firmly. I asked him, 'Do you have the bodily strength to serve in the army?' He said, 'Look at this! There are people in worse shape than I am,' and showed me fifteen scrawny clerks. I grew frightened when I heard that the army was taking people for other kinds of work even if they were not strong. Then, with seven or eight friends, I got Karunanidhi to change his mind and brought him back.\"",
@@ -51,9 +52,11 @@
     "source_review": "../source-notes/v1-ch10.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch10-t2.md",
     "t3_review": "../reviews/v1-ch10-t3.md",
-    "thought_structure_review": "../reviews/v1-ch10-structure.md"
+    "thought_structure_review": "../reviews/v1-ch10-structure.md",
+    "terminology_review": "../reviews/v1-ch10-terminology.md",
+    "independent_english_frozen": true
   }
 }
