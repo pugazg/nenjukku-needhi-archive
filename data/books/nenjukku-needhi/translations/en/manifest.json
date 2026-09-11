@@ -315,7 +315,7 @@
           "end": 55
         },
         "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "t1-complete",
+        "status": "t2-complete",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -325,7 +325,8 @@
         "source_notes": "source-notes/v1-ch07.json",
         "gates": {
           "source_review": "pass",
-          "t1": "pass"
+          "t1": "pass",
+          "t2": "pass-with-revision"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -339,24 +340,33 @@
           "translate பள்ளிக்கூடத்திலிருத்த only by its secure schoolboy-meeting function without asserting corrected Tamil wording",
           "preserve authored 1939 M. N. Roy party chronology and the fifteen-year-old / four-months-before-Murasoli timeline tension without silent historical correction",
           "preserve மாணவ நேசன் production details, Bharathidasan spinning-wheel sarcasm, சிறுதுளி பெருவெள்ளம், Pongal special-issue reference, demy-paper economics and Murasoli's leaflet origin",
-          "preserve the unnamed communist recruiter's delayed reveal, Freedom–Peace–Equality triad and closing current/depth metaphor"
+          "preserve the unnamed communist recruiter's delayed reveal, Freedom–Peace–Equality triad and closing current/depth metaphor",
+          "normalize secure historical entity names to Indian National Congress and Radical Democratic Party while preserving Kalaignar's authored chronology",
+          "retain Maanava Nesan as the working romanized publication title and distinguish the title question from the visitor's embedded question",
+          "distinguish handwritten journal publication form from physical copies; retain Pongal special issue, demy paper and free labour/articles economics",
+          "rebalance Bharathidasan's spinning-wheel sarcasm without explanatory expansion",
+          "keep Students' Federation generic and Communist identity delayed; preserve Freedom–Peace–Equality",
+          "restore final Federation current / unknown-depth linked water imagery"
         ],
-        "next_gate": "t2-kalaignar-voice-review",
+        "next_gate": "t3-english-review",
         "translation": "chapters/v1-ch07.json",
         "english_title": "Are You the One Who Runs 'Maanava Nesan'?",
-        "existing_english_comparator": "not-consulted"
+        "existing_english_comparator": "not-consulted",
+        "reviews": {
+          "t2": "reviews/v1-ch07-t2.md"
+        }
       }
     ],
     "source_reviews_complete": 5,
     "translations_started": 5,
     "t1_complete": 5,
-    "t2_complete": 4,
+    "t2_complete": 5,
     "t3_complete": 4,
     "thought_structure_complete": 4,
     "terminology_cultural_complete": 4,
     "comparator_checks_complete": 4,
     "approved_chapters": 4,
-    "next_activity": "t2-kalaignar-voice-review-v1-ch07"
+    "next_activity": "t3-english-review-v1-ch07"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
