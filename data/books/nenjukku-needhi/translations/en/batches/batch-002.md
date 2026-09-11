@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / `v1-ch08` TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT**
+Status: **OPEN / `v1-ch08` APPROVED / `v1-ch09` T2 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -40,7 +40,7 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **APPROVED / CLOSED** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T1 COMPLETE / T2 QUEUED** |
@@ -67,7 +67,7 @@ This batch is a management envelope.
 - T3 complete: **0 / 5**
 - thought-structure complete: **0 / 5**
 - terminology/cultural complete: **0 / 5**
-- approved chapters: **0 / 5**
+- approved chapters: **1 / 5**
 ## `v1-ch08` — source review complete
 
 Durable file:
@@ -197,9 +197,32 @@ At Batch 002 source pin `d6621b71256ae99b1c89b4f2091513dcc5f96626`, the source r
 
 Accordingly, existing-English comparator checks are removed from the production activity list for `v1-ch02` onward. The historical `v1-ch01` comparison remains archived; no per-chapter comparator-absence records are required.
 
+## `v1-ch08` — approved / closed
+
+Final approval review:
+
+- `../reviews/v1-ch08-approval.md`
+
+Final result:
+
+- source review: **PASS**;
+- T1: **PASS**;
+- T2: **PASS WITH REVISION — 18 grouped revisions**;
+- T3: **PASS WITH MINOR REVISION — 19 grouped revisions**;
+- thought structure: **PASS — 18 / 18**;
+- terminology/cultural: **PASS WITH ONE REVISION**;
+- comparator gate: **NOT APPLICABLE for v1-ch02+**;
+- unresolved source holds: **0**;
+- unresolved terminology holds: **0**;
+- outstanding review items: **0**;
+- final approval: **PASS / APPROVED / CLOSED**;
+- approval-stage chapter-text changes: **0**.
+
+Batch 002 approved chapters: **1 / 5**.
+
 ## Immediate next activity
 
-Run the **final approval review for `v1-ch08`**. Verify P0, T1, T2, T3, thought structure, terminology/cultural consistency, unresolved holds and machine-readable consistency. If all pass, approve/close `v1-ch08` and stop before starting `v1-ch09` T2.
+Run the **T2 source-and-Kalaignar-voice review for `v1-ch09`**. Do not start T3 in the same activity. Existing-English comparator is not a production gate for this or later chapters.
 
 ## Infrastructure limitation
 
