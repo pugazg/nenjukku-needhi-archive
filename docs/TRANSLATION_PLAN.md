@@ -147,11 +147,13 @@ Record the chapter's narrative/argument architecture at a high level and verify 
 
 Apply the living glossary consistently. Do not flatten culturally or politically meaningful Tamil vocabulary merely for convenience. Decide case by case whether to translate, transliterate, gloss on first occurrence, or preserve an established political epithet.
 
-### P7 — Existing-English comparison, where available
+### Existing-English policy
 
-Any pre-existing English rendering is a comparator, not an authority. Draft from Tamil first. Only after the new translation is frozen for comparison may the existing rendering be consulted to identify stronger or weaker choices. Do not automatically adopt it.
+The source repository's `public/data/text-en/` directory contains only `v1-ch01.json` at the Batch 002 source pin. Therefore existing-English comparison is **not a recurring production gate** for `v1-ch02` onward.
 
-### P8 — Chapter approval
+The historical `v1-ch01` comparator review remains part of the archive as provenance. Do not create per-chapter comparator-absence checks or search unofficial English versions merely to satisfy a workflow gate.
+
+### P7 — Chapter approval
 
 A chapter can be marked `approved` only when:
 
