@@ -8,7 +8,7 @@
     "start": 85,
     "end": 89
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "Three documented page joins are reconstructed continuously.",
     "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass restores theatre greasepaint/materiality, sharpens the caste-prejudice explanation and the Justice Party luxury/irony rhetoric, while preserving the attributed discriminatory dialogue, 1940/1944 chronology and Annadurai Resolution sequence. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 6 grouped minor source-checked revisions. The pass smooths friendship narration, poverty/body routine, receipt idiom and the closing Dravida/Villupuram sentence while preserving the attributed caste-abuse dialogue, 1940/1944 political chronology and Annadurai Resolution rhetoric.",
-    "Thought-structure audit passed 18/18 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 18/18 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed with one period-vocabulary revision: `oppressed communities` → `depressed communities` for `தாழ்த்தப்பட்ட மக்கள்`, following the living glossary's historical category policy. The attributed caste-abuse dialogue remains visibly attributed and unendorsed; Justice Party, Dravida/Dravidian, Dravidar Kazhagam, Viduthalai, Dravida Nadu and Annadurai Resolution remain intact. Independent English is frozen for final approval."
   ],
   "paragraphs": [
     "The man who had bought my play Palaniyappan for one hundred rupees approached me after starting an arts troupe called the Dravidian Actors' Association, with the plan of staging plays that would propagate the movement's ideas. I agreed. The troupe first set up camp in Villupuram. They also asked me to join the company and act. I agreed on one condition: I would act only in plays I had written.",
@@ -40,7 +41,7 @@
     "There was one important reason our plays failed to bring successful collections in Villupuram. The people there hated the name \"Dravidian Actors' Association.\" Why? For political reasons? No! No! I reproduce the contemptuous caste talk heard in the bazaar:",
     "\"A theatre company has come from Nagapattinam, brother. There are more than forty boys. They're all educated Pariah fellows. They've even named the company after the Pariah caste.\"",
     "\"Is that so? Then only people of that caste should go and see the play.\"",
-    "That was the reason for our failure. It is an example of how high caste hatred raised its head in towns such as Villupuram twenty-five years ago. It is also evidence that people had not yet gained the maturity to understand the truth that \"Dravida\" was the name of an ancient people of the South, without caste distinction. In Villupuram in 1944, the word \"Dravida\" was misunderstood and, because of that, people from the oppressed communities were subjected to contemptuous abuse.",
+    "That was the reason for our failure. It is an example of how high caste hatred raised its head in towns such as Villupuram twenty-five years ago. It is also evidence that people had not yet gained the maturity to understand the truth that \"Dravida\" was the name of an ancient people of the South, without caste distinction. In Villupuram in 1944, the word \"Dravida\" was misunderstood and, because of that, people from the depressed communities were subjected to contemptuous abuse.",
     "Yet four years earlier, at the Justice Party conference held in Tiruvarur in 1940 under Periyar's leadership, Mr. P. Balasubramaniam had moved the resolution \"Dravida Nadu for the Dravidians,\" and Arignar Anna and C. Basudev had seconded it. Scholars such as the missionary Caldwell had concluded from their research that Tamil, Telugu, Kannada, Malayalam, Tulu and other languages arose from one ancient Dravidian language, and that those who spoke them were Dravidians.",
     "On that basis, at the Tiruvarur conference, Arignar Anna delivered a long explanatory speech about the paths to the artistic, cultural and economic advancement of the Dravidians. K. A. P. Viswanatham of Tiruchirappalli, who until then had been General Secretary of the Justice Party, resigned from that position after differences with party leader Periyar on various matters. Anna, then assistant editor of the newspaper Viduthalai, was elected General Secretary of the Justice Party.",
     "To awaken enthusiasm in the country for the words \"Dravida\" and \"Dravidian,\" Anna began the weekly Dravida Nadu from Kanchipuram. Alongside it he created in Kanchipuram an auxiliary body of sorts under the name Dravidar Kazhagam. No one then imagined that this auxiliary organization would one day grow into a movement across the country.",
@@ -59,9 +60,11 @@
     "source_review": "../source-notes/v1-ch15.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch15-t2.md",
     "t3_review": "../reviews/v1-ch15-t3.md",
-    "thought_structure_review": "../reviews/v1-ch15-structure.md"
+    "thought_structure_review": "../reviews/v1-ch15-structure.md",
+    "terminology_review": "../reviews/v1-ch15-terminology.md",
+    "independent_english_frozen": true
   }
 }
