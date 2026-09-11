@@ -8,7 +8,7 @@
     "start": 60,
     "end": 64
   },
-  "status": "terminology-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -24,7 +24,8 @@
     "T2 source-and-Kalaignar-voice review passed with 12 grouped source-checked revisions. The review restores the sandal-paste/silver-bowl continuity from v1-ch08, strengthens the theatrical Indra/Narada reveal and child-speech texture, preserves the night-flight despair without sensationalizing it, and clarifies the later examination-system argument. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 11 grouped minor source-checked revisions. The pass removes stiff or Indian-English constructions, improves crisis-scene cadence and the examination-system prose, and preserves all protected theatrical, emotional, political and autobiographical content. No existing-English comparator was consulted.",
     "Thought-structure audit passed 20/20 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
-    "Terminology/cultural audit passed with one proper-name normalization applied across three paragraphs: `Indirani` → `Indrani`, the secure English form of the mythological name இந்திராணி. School Final, Kudi Arasu, Periyar E. V. R., Dhruva/Dhruvan, Murasoli Maran, Nagapattinam, Tirukkuvalai and the v1-ch08 sandal-paste/silver-bowl continuity were retained. Independent English is frozen for final approval."
+    "Terminology/cultural audit passed with one proper-name normalization applied across three paragraphs: `Indirani` → `Indrani`, the secure English form of the mythological name இந்திராணி. School Final, Kudi Arasu, Periyar E. V. R., Dhruva/Dhruvan, Murasoli Maran, Nagapattinam, Tirukkuvalai and the v1-ch08 sandal-paste/silver-bowl continuity were retained. Independent English is frozen for final approval.",
+    "Final approval review passed with no chapter-text changes. v1-ch09 is APPROVED / CLOSED."
   ],
   "paragraphs": [
     "Shame, shame! How cruel I must have been. Otherwise, I could at least have told my wife the truth before she died. She had gone on believing that the beautiful sandal-paste bowl had disappeared through her own fault.",
@@ -67,11 +68,12 @@
     "source_review": "../source-notes/v1-ch09.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "final-approval-review",
+    "next_gate": "closed",
     "t2_review": "../reviews/v1-ch09-t2.md",
     "t3_review": "../reviews/v1-ch09-t3.md",
     "thought_structure_review": "../reviews/v1-ch09-structure.md",
     "terminology_review": "../reviews/v1-ch09-terminology.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "approval_review": "../reviews/v1-ch09-approval.md"
   }
 }
