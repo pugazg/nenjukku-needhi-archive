@@ -47,7 +47,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -109,7 +109,7 @@ Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932
 
 Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
-## `v1-ch06` — T2 complete
+## `v1-ch06` — T3 complete
 
 Durable file:
 
@@ -128,11 +128,12 @@ P0 result:
 - non-authorial exclusions: **0**;
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
+- T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 18 source-checked revisions**;
 - English title: **The Battlefront to Save Tamil**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
-- blocking T2 issues: **0**;
-- next gate: **T3 English-only literary review**.
+- outstanding T3 issues: **0**;
+- next gate: **thought-structure audit**.
 
 Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics.
 
@@ -144,7 +145,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - full source reviews complete: **4 / 5**
 - T1 complete: **4 / 5**
 - T2 complete: **4 / 5**
-- T3 complete: **3 / 5**
+- T3 complete: **4 / 5**
 - thought-structure complete: **3 / 5**
 - terminology/cultural complete: **3 / 5**
 - comparator checks complete: **3 / 5**
@@ -160,4 +161,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **T3 English-only literary review for `v1-ch06`**. Read the revised English without using the Tamil first, then check every proposed fluency revision back against the pinned Tamil before acceptance. Preserve the source-driven oratorical fragments, song, `வெறி / பற்று` turn, classroom drama, thirty-six-year retrospective, and final political widening. Do not consult any existing-English comparator.
+Run the **thought-structure audit for `v1-ch06`**. Map the full chapter movement from Pattukkottai Alagirisami and the Tamil Brigade through the shoe-festoon reversal, student awakening, Jagadeesan episode, Hindi-teacher confrontation, thirty-six-year retrospective, Thalamuthu/Natarajan and Anna, to the final Bose–Jinnah–Muslim League widening. Verify that English preserves the same intellectual journey without reordering or summary substitution.
