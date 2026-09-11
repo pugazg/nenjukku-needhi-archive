@@ -8,7 +8,7 @@
     "start": 76,
     "end": 80
   },
-  "status": "t3-complete",
+  "status": "structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "The page 76→77 join `குருதி / கக்கினார்` is translated continuously.",
     "The stable but lexically unresolved period medical term `ஜன்னி` is handled conservatively as grave illness; exact lexical resolution remains for T2/terminology review.",
     "T2 source-and-Kalaignar-voice review passed with 9 grouped source-checked revisions. The pass strengthens movement/political fervour, article-title cadence, family-economic idiom and the father-in-law portrait while preserving all source chronology, financial detail and direct speech. The `ஜன்னி` review item is closed through a deliberately conservative functional rendering ('gravely ill patient') without claiming a modern diagnosis.",
-    "T3 English-only literary review passed with 6 grouped minor source-checked revisions. The pass improves autobiographical immediacy, the Anna retrospective, crisis-scene idiom and writing cadence without changing chronology, politics, financial detail, titles or source uncertainty."
+    "T3 English-only literary review passed with 6 grouped minor source-checked revisions. The pass improves autobiographical immediacy, the Anna retrospective, crisis-scene idiom and writing cadence without changing chronology, politics, financial detail, titles or source uncertainty.",
+    "Thought-structure audit passed 20/20 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
   ],
   "paragraphs": [
     "The election contest between my Reform Association and my friend Thyagarasan's Youth Association was in full swing. Three days before the election, the Youth Association staged a play. At Thyagarasan's house, the man who was to play the hero quarrelled and walked away. Tickets had already been sold at a quarter anna each. Thyagarasan came running to me in distress.",
@@ -54,8 +55,9 @@
     "source_review": "../source-notes/v1-ch13.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch13-t2.md",
-    "t3_review": "../reviews/v1-ch13-t3.md"
+    "t3_review": "../reviews/v1-ch13-t3.md",
+    "thought_structure_review": "../reviews/v1-ch13-structure.md"
   }
 }
