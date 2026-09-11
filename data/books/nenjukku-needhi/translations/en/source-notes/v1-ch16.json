@@ -1,0 +1,76 @@
+{
+  "id": "v1-ch16",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch16.json",
+    "blob_sha": "fd6793f228db38098aff1eddcfb7fefce3fff3d2",
+    "authority": "read-only"
+  },
+  "tamil_title": "கம்புகள்! குண்டாந்தடிகள்!",
+  "pages": {
+    "start": 90,
+    "end": 93
+  },
+  "extraction_unit_count": 4,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the title and begins with split 'வா ழ்க்கை'.",
+      "translation_action": "Keep title as metadata; read split securely as வாழ்க்கை."
+    },
+    {
+      "type": "retrospective_frame",
+      "severity": "voice-critical",
+      "observation": "The narrator speaks from a present of office, praise and inner unrest, contrasting hidden needle-pricks of power with spear-points accepted during opposition life through 1966.",
+      "translation_action": "Preserve the present-tense self-indictment, chair/needle metaphor and relative political chronology."
+    },
+    {
+      "type": "colonial_context",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The chapter describes British India and French-controlled Puducherry/Karaikal areas, Dupleix, Clive and French street life before moving to 1945 troupe activity.",
+      "translation_action": "Preserve authored colonial framing and source judgments; do not silently modernize."
+    },
+    {
+      "type": "institution_or_place_name",
+      "severity": "translation-sensitive",
+      "observation": "The troupe performs at source-named 'கெப்ளே' theatre; Perumal is called 'அவுக்காப் பெருமாள்', with source itself glossing அவுக்கா as lawyer in local usage.",
+      "translation_action": "Use source-led romanization conservatively; retain the source's own avocat/lawyer gloss and defer exact theatre normalization if uncertain."
+    },
+    {
+      "type": "publication_history",
+      "severity": "translation-sensitive",
+      "observation": "Kanchi Kalyanasundaram runs weekly 'Thozhilalar Mithiran'; Kalaignar writes 'அந்தப் பேனா!' and 'காந்தி வைசிராய் ஆனால்?' before local Congress hostility escalates.",
+      "translation_action": "Preserve publication/article titles and causal sequence."
+    },
+    {
+      "type": "conference_violence",
+      "severity": "voice-critical",
+      "observation": "The DK conference moves from Anna's 'வா/போ' rhetorical reply to flag-raising, flagpole toppling, dispersal, assault and Bharathidasan's heavy boot being used as a weapon against Kalaignar.",
+      "translation_action": "Keep dramatic sequence, irony and physical detail; do not summarize as a generic clash."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "informational",
+      "observation": "No sentence is broken across the four extraction-unit boundaries.",
+      "translation_action": "No cross-unit join required; paragraph reconstruction still follows rhetoric."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No non-authorial maintenance material or duplicate body passage detected.",
+      "translation_action": "No exclusion required."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-reviewed",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}

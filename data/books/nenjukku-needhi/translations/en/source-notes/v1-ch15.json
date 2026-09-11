@@ -1,0 +1,88 @@
+{
+  "id": "v1-ch15",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch15.json",
+    "blob_sha": "ceb2759588dfec6646a4ba53369fce02c0bd9c92",
+    "authority": "read-only"
+  },
+  "tamil_title": "நண்பர்கள் முகம் வாடலாமா?",
+  "pages": {
+    "start": 85,
+    "end": 89
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the title and begins with split 'நா ன்'.",
+      "translation_action": "Use title metadata; read split securely as நான்."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "86→87 joins 'நாடகத்தை ஆரம்பிக்க வேண்டும் / என்ற உண்மையை'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "87→88 joins 'நிலை இருந்தது / என்றாலும்'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "88→89 joins 'கூட கோபுரம், / கொட்டு முழக்கு'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "material_life_and_theatre",
+      "severity": "voice-critical",
+      "observation": "The troupe's daily routine includes chorus as national salutation, poor food, a mile walk to bathe in irrigation pipes, washing/drying clothes, afternoon hunger, rehearsals and five chorus performances a day.",
+      "translation_action": "Preserve poverty, bodily routine, humour and exact material detail."
+    },
+    {
+      "type": "caste_slur_quotation",
+      "severity": "voice-critical",
+      "observation": "Unit 3 directly quotes townspeople using derogatory caste language to misread 'Dravida' as a Paraiyar/Pariah caste label and to boycott the troupe.",
+      "translation_action": "Preserve the discriminatory register as historically quoted speech without endorsing it; do not sanitize away the caste mechanism that explains the failed receipts."
+    },
+    {
+      "type": "historical_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The chapter links 1944 Villupuram events to the 1940 Tiruvarur Justice Party conference and then the 1944 Salem conference/Annadurai Resolution.",
+      "translation_action": "Preserve Kalaignar's authored dates, sequence and institutional claims; translation is not fact correction."
+    },
+    {
+      "type": "political_institutions",
+      "severity": "translation-sensitive",
+      "observation": "Justice Party, Periyar, Anna, Viduthalai, Dravida Nadu, Dravidar Kazhagam, the Annadurai Resolution, colonial titles and a 35-hour debate are central.",
+      "translation_action": "Use established historical English names where secure; preserve source claims and rhetorical momentum."
+    },
+    {
+      "type": "ocr_spacing_and_punctuation",
+      "severity": "translation-sensitive",
+      "observation": "Source contains spacing/punctuation noise such as 'சாதி வேறு - பாடின்றித்', 'பெருமக்கள்செய்த', and malformed quote punctuation around titles.",
+      "translation_action": "Translate secure meaning and normalize English punctuation only."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No non-authorial maintenance material or duplicate body passage detected.",
+      "translation_action": "No exclusion required."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-reviewed",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}

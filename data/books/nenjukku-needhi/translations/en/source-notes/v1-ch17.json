@@ -1,0 +1,94 @@
+{
+  "id": "v1-ch17",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch17.json",
+    "blob_sha": "eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66",
+    "authority": "read-only"
+  },
+  "tamil_title": "குளிப்பது ஒரு குற்றமா?",
+  "pages": {
+    "start": 94,
+    "end": 98
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title before continuing directly from the Puducherry assault in v1-ch16.",
+      "translation_action": "Use title metadata and preserve direct continuation."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "95→96 joins 'தலைவர்கள் தங்கியிருக்கும் இடம் தெரிந்து / அவர்களிடம்'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "96→97 joins 'மீதம் ஐந்து ரூபாயை என்னை / அண்டி வந்த அருமை மனைவிக்கு'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "violence_and_rescue",
+      "severity": "voice-critical",
+      "observation": "The narrator is chased, badge-grabbed, beaten in a conspirators' liquor-filled house, left unconscious by a gutter, then cared for by an unknown family.",
+      "translation_action": "Preserve physical sequence, quoted maternal compassion and later gratitude without sensational addition."
+    },
+    {
+      "type": "disguise_and_cultural_clothing",
+      "severity": "translation-sensitive",
+      "observation": "Helpers send him out disguised in source-described Muslim dress: கைலி, long jippa and skullcap/kullai.",
+      "translation_action": "Translate clothing concretely and neutrally; do not invent stereotyped mannerisms or identity claims beyond the source."
+    },
+    {
+      "type": "periyar_and_kudi_arasu",
+      "severity": "voice-critical",
+      "observation": "Periyar embraces him, treats his wounds, takes him to Erode and appoints him Kudi Arasu assistant editor; salary arithmetic is 40 rupees less 20 food, 10 snacks, 5 other expenses, leaving 5 sent to Padma.",
+      "translation_action": "Preserve affection, employment transition and exact household economy."
+    },
+    {
+      "type": "humour_and_habit",
+      "severity": "voice-critical",
+      "observation": "Daily bathing/clean clothes are jokingly treated by colleagues and Periyar as almost anti-Periyar habits, producing the title question.",
+      "translation_action": "Preserve affectionate/deadpan humour; do not turn it into doctrinal conflict."
+    },
+    {
+      "type": "publication_history",
+      "severity": "translation-sensitive",
+      "observation": "Kudi Arasu office routine includes nominal editor Karivaradasamy and articles 'அண்ணாமலைக்கு அரோகரா!' and 'தீட்டாயிடுத்து!', the latter responding to ritual purification after a Tamil song at the Thyagaraja festival.",
+      "translation_action": "Keep article titles, legal-risk joke, Tamil-language grievance and source chronology visible."
+    },
+    {
+      "type": "career_transition",
+      "severity": "translation-sensitive",
+      "observation": "After about a year learning under Periyar, A. S. A. Sami invites Kalaignar to Coimbatore to write dialogue for Jupiter's film 'ராஜகுமாரி'.",
+      "translation_action": "Preserve the transition from movement journalism to cinema and source-led names."
+    },
+    {
+      "type": "ocr_spacing",
+      "severity": "translation-sensitive",
+      "observation": "Secure extraction anomalies include 'திருவாருரூக்கு', 'நண்பரீகள்', 'விளக்கங்ளை' and stray quote marks around ரூபாய்.",
+      "translation_action": "Translate secure contextual sense; do not silently edit source repository."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No non-authorial maintenance material or duplicate body passage detected.",
+      "translation_action": "No exclusion required."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-reviewed",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}

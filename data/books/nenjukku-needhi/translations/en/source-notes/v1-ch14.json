@@ -1,0 +1,88 @@
+{
+  "id": "v1-ch14",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch14.json",
+    "blob_sha": "1fa0f359d8da9cbeb2d9b03fa6244badbece89f6",
+    "authority": "read-only"
+  },
+  "tamil_title": "வாழ்வதற்கு வழி? நடிகனானேன் நான்!",
+  "pages": {
+    "start": 81,
+    "end": 84
+  },
+  "extraction_unit_count": 4,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 begins with the chapter title; the following word is split as 'பெ ண்'.",
+      "translation_action": "Keep title only as metadata; read the split securely as பெண் without editing source."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "81→82 joins 'அடுக்களை / ஓரமாக'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "82→83 joins 'அருமையான / கதையொன்றை'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "83→84 joins 'பந்தலை விட்டுத் / தெருவுக்கே'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "marriage_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The memoir dates the marriage to 13 September 1944 and contrasts Kalaignar's Self-Respect marriage with Jayaram's priestly 'vivaha subhamuhurtham' in the same house.",
+      "translation_action": "Preserve date and ideological contrast exactly; do not harmonize ceremonies."
+    },
+    {
+      "type": "culture_and_ritual",
+      "severity": "translation-sensitive",
+      "observation": "The bride-viewing scene includes vibhuti, reform-marriage consent, lagna anxiety and the father-in-law's 'Mahamayi' invocation.",
+      "translation_action": "Keep culture-specific terms/ritual logic visible; avoid flattening them into generic wedding language."
+    },
+    {
+      "type": "performance_history",
+      "severity": "voice-critical",
+      "observation": "N. S. Krishnan's 'Kinthanar' kathakalakshepam is described as a revolutionary reworking of a traditional form, including the Nandan/Kindan temple/knowledge-temple contrast and a cheri-born youth proclaiming 'I too am human'.",
+      "translation_action": "Preserve the performance form, social-equality argument and oral punchlines; do not convert to neutral summary."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "Several secure extraction anomalies occur, including 'பெ ண்' and an anomalous form around 'நானும் மனிதனே' in unit 3.",
+      "translation_action": "Translate only secure contextual function; do not assert corrected Tamil in source."
+    },
+    {
+      "type": "narrative_arc",
+      "severity": "voice-critical",
+      "observation": "Wedding-day comic chaos and tenderness pivot after roughly a year into unemployment anxiety and the decision to become an actor.",
+      "translation_action": "Preserve the tonal transition and the wife's role in awakening family responsibility."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No non-authorial maintenance material or duplicated body passage detected.",
+      "translation_action": "No exclusion required."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-reviewed",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}
