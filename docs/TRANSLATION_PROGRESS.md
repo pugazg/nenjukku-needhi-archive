@@ -25,8 +25,8 @@
 
 - Translation plan: **COMPLETE FOR PRODUCTION**
 - Two-pilot method review: **COMPLETE**
-- Kalaignar Voice Guide: **LIVING / UPDATED THROUGH `v1-ch05` T2**
-- Translation glossary: **LIVING / UPDATED THROUGH `v1-ch05` TERMINOLOGY/CULTURAL AUDIT**
+- Kalaignar Voice Guide: **LIVING / UPDATED THROUGH `v1-ch06` TERMINOLOGY/CULTURAL AUDIT**
+- Translation glossary: **LIVING / UPDATED THROUGH `v1-ch06` TERMINOLOGY/CULTURAL AUDIT**
 - Source-note convention: **DEFINED AND IN USE**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
 - Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
@@ -47,7 +47,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **APPROVED / CLOSED** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -109,11 +109,18 @@ Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932
 
 Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
-## `v1-ch06` — comparator check complete
+## `v1-ch06` — approved / closed
 
 Durable file:
 
 - source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch06.json`
+- translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch06.json`
+- T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch06-t2.md`
+- T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch06-t3.md`
+- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch06-structure.md`
+- terminology/cultural audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch06-terminology.md`
+- comparator check: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch06-existing-comparison.md`
+- final approval review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch06-approval.md`
 
 P0 result:
 
@@ -140,11 +147,14 @@ P0 result:
 - independent English: **FROZEN**;
 - unresolved source holds: **0**;
 - unresolved terminology/comparator holds: **0**;
-- next gate: **final approval review**.
+- final approval: **PASS / APPROVED / CLOSED**;
+- next gate: **closed**.
 
 Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics.
 
-Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch06.json`. It preserves the Tamil force's 200-mile march, shoe-festoon confrontation, student associations and two-line song, Jagadeesan anecdote, Hindi-teacher confrontation, the heart-rendering-justice motif, the thirty-six-year retrospective, Anna's quotation, and the final Bose–Jinnah–Muslim League widening. No existing English was consulted.
+Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch06.json`. It preserves the Tamil Brigade's 200-mile march, shoe-festoon confrontation, student associations and two-line song, Jagadeesan anecdote, Hindi-teacher confrontation, the heart-rendering-justice motif, the thirty-six-year retrospective, Anna's quotation, and the final Bose–Jinnah–Muslim League widening. No existing English was consulted.
+
+Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms 20 / 20 structural movements, 0 unresolved source holds, 0 unresolved terminology/comparator issues, and 0 outstanding review items. Formal JSON-Schema validation remains unavailable because `schemas/chapter.json` is the empty one-byte legacy placeholder.
 
 ## Batch 001 counters
 
@@ -156,7 +166,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - thought-structure complete: **4 / 5**
 - terminology/cultural complete: **4 / 5**
 - comparator checks complete: **4 / 5**
-- approved: **3 / 5**
+- approved: **4 / 5**
 
 ## Infrastructure note
 
@@ -168,4 +178,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **final approval review for `v1-ch06`**. Verify all completed gates, source/provenance controls, unresolved holds/review items, machine-readable consistency under implemented repository controls, and approval readiness. Do not claim formal JSON-Schema validation while `schemas/chapter.json` remains the empty legacy placeholder.
+Begin the complete **source review for `v1-ch07`** (`"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"`, pp. 51–55) before any T1 translation. Inspect the opening all-India political chronology, the transition into Kalaignar's student activity, the known `ஜி ன்னாவிற்கும்` spacing form, and any additional cross-page joins, name/spacing anomalies, dialogue, quoted writing or non-authorial material.
