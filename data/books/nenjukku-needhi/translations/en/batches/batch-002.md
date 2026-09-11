@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / BATCH T2 COMPLETE 5/5 / `v1-ch09` T3 NEXT**
+Status: **OPEN / BATCH T3 COMPLETE 5/5 / `v1-ch09` STRUCTURE NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -41,10 +41,10 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T2 COMPLETE / T3 NEXT** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T2 COMPLETE / T3 QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T2 COMPLETE / T3 QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **T2 COMPLETE / T3 QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T3 COMPLETE / STRUCTURE NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T3 COMPLETE / STRUCTURE QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T3 COMPLETE / STRUCTURE QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **T3 COMPLETE / STRUCTURE QUEUED** |
 
 ## Batch rule
 
@@ -64,7 +64,7 @@ This batch is a management envelope.
 - full source reviews complete: **5 / 5**
 - T1 complete: **5 / 5**
 - T2 complete: **5 / 5**
-- T3 complete: **0 / 5**
+- T3 complete: **5 / 5**
 - thought-structure complete: **0 / 5**
 - terminology/cultural complete: **0 / 5**
 - approved chapters: **1 / 5**
@@ -100,7 +100,7 @@ At the user's explicit instruction, T1 was completed for the entire Batch 002 af
 - source reviews: **5 / 5 COMPLETE**
 - T1 fresh translations: **5 / 5 COMPLETE**
 - T2: **1 / 5**
-- T3: **1 / 5**
+- T3: **5 / 5**
 - thought structure: **1 / 5**
 - terminology/cultural: **1 / 5**
 - unresolved source holds: **0**
@@ -247,9 +247,36 @@ Durable new reviews:
 
 The batch-wide pass preserves the v1-ch09 theatrical reveal / examination crisis, v1-ch10 deadpan Kodikkarai humour and fabricated army story, v1-ch11 young-writer satire and malformed-title joke, and v1-ch12 embedded 1944 Murasoli polemic, friendship rhetoric and child-association election.
 
+## Batch-wide T3 checkpoint
+
+At the user's explicit instruction, T3 English-only literary review is now complete for the entire Batch 002.
+
+- `v1-ch08` — **PASS WITH MINOR REVISION — 19 grouped revisions** — already APPROVED / CLOSED
+- `v1-ch09` — **PASS WITH MINOR REVISION — 11 grouped revisions**
+- `v1-ch10` — **PASS WITH MINOR REVISION — 10 grouped revisions**
+- `v1-ch11` — **PASS WITH MINOR REVISION — 7 grouped revisions**
+- `v1-ch12` — **PASS WITH MINOR REVISION — 12 grouped revisions**
+
+Batch T3 state:
+
+- T3 complete: **5 / 5**
+- unresolved source holds: **0**
+- outstanding T3 issues: **0**
+- existing-English comparator consulted: **NO**
+- comparator gate for v1-ch02+: **NOT APPLICABLE**
+
+Durable new reviews:
+
+- `../reviews/v1-ch09-t3.md`
+- `../reviews/v1-ch10-t3.md`
+- `../reviews/v1-ch11-t3.md`
+- `../reviews/v1-ch12-t3.md`
+
+The batch-wide T3 pass improved English cadence without changing protected meaning, chronology, quoted material, theatrical framing, embedded-document rhetoric, cultural imagery or political force.
+
 ## Immediate next activity
 
-Run the **T3 English-only literary review for `v1-ch09`**. Do not start T3 for later chapters in the same activity unless separately authorized.
+Run the **thought-structure audit for `v1-ch09`**. Do not start the structure audit for later chapters in the same activity unless separately authorized.
 
 ## Infrastructure limitation
 
