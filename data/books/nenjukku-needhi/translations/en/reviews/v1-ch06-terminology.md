@@ -132,6 +132,10 @@ The closing image coordinates `தமிழ்க் கொடி` with `பச�
 - unresolved source holds: **0**;
 - result: **COMPLETE / PASS WITH MINOR REVISION**.
 
+## Durable application state
+
+Both terminology revisions have been applied to `../chapters/v1-ch06.json`. The source-note sidecar, living glossary, Kalaignar Voice Guide, Batch 001 control, project progress and manifest are synchronized to this audit. No pre-existing English comparator was consulted.
+
 ## Next activity
 
-Apply the two terminology revisions to `../chapters/v1-ch06.json`, update the source-note sidecar and living glossary/voice controls, synchronize Batch 001 / progress / manifest, then perform the **post-freeze existing-English comparator availability check**. Do not search unofficial comparators if the controlled source-repository path is absent.
+Perform the **post-freeze existing-English comparator availability check** at the controlled source-repository path for `v1-ch06`. If the controlled comparator is absent, record that absence and do not broaden the search to unofficial English versions.
