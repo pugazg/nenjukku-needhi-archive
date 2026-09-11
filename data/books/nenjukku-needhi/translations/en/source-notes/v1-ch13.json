@@ -1,0 +1,164 @@
+{
+  "id": "v1-ch13",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch13.json",
+    "blob_sha": "80fc03e2092ab69b22879e65ab6887acc4284a55",
+    "authority": "read-only"
+  },
+  "tamil_title": "மாமனார் தந்த வரவேற்பு",
+  "pages": {
+    "start": 76,
+    "end": 80
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins by repeating the chapter title 'மாமனார் தந்த வரவேற்பு' before continuing the Children's Reform Association / Youth Association election from v1-ch12.",
+      "translation_action": "Represent the heading in title metadata and do not duplicate it as opening body prose. Preserve the direct narrative continuation from v1-ch12."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 76 / extraction unit 1 ends 'கூட்டம் முடிந்ததும் குருதி' and page 77 / unit 2 begins 'கக்கினார்.'",
+      "translation_action": "Join continuously as 'குருதி கக்கினார்' ('he vomited blood'). The page boundary is not authorial punctuation."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "voice-critical",
+      "observation": "The five JSON paragraphs are page/extraction units, while the page-level witnesses show multiple prose paragraphs within each page and distinct rhetorical turns: association election, anti-Hindi activism, Alagirisami, first printed article, Anna encounter, Palaniyappan debt crisis, love failure and marriage journey.",
+      "translation_action": "Reconstruct English literary paragraphs from the page-level paragraphing and rhetorical movement rather than treating each JSON extraction unit as one authorial paragraph."
+    },
+    {
+      "type": "quotation_and_slogan",
+      "severity": "voice-critical",
+      "observation": "The chapter contains direct dialogue and political slogans including 'தமிழ் வாழ்க!' / 'இந்தி ஒழிக!', Alagirisami's call 'இந்திக்குத் தமிழ்நாட்டில் ஆதிக்கமா? எல்லோரும் வாருங்கள் தமிழர்களே!', his medical analogy, Anna's dialogue, and the closing 'மகமாயி, தாயே!' exclamation.",
+      "translation_action": "Preserve quotation status, oral cadence, exclamations and political force. Reconstruct only normal English quote punctuation; do not flatten slogans or dialogue into summary."
+    },
+    {
+      "type": "historical_movement_continuity",
+      "severity": "translation-sensitive",
+      "observation": "The chapter explicitly returns to the anti-Hindi movement begun in 1938 and Kalaignar's place among the 'தமிழர் படை', continuing terminology already established in v1-ch06.",
+      "translation_action": "Preserve the authored 1938 reference and reuse the established chapter-level policy for 'தமிழர் படை' only where context supports the identifiable Tamil Brigade/marching body. Translation must not alter chronology."
+    },
+    {
+      "type": "oratorical_imagery",
+      "severity": "voice-critical",
+      "observation": "Alagirisami's speech is rendered through active public-speech images: a storm on stage, revolutionary sound reaching the sky, and a roar like a thousand lions. The scene then turns abruptly to vomiting blood, collapse and pain.",
+      "translation_action": "Preserve the accumulation, abrupt tonal turn and bodily cost of the speech. Do not summarize the episode as merely an inspiring meeting."
+    },
+    {
+      "type": "semantic_interpretation_review",
+      "severity": "translation-sensitive",
+      "observation": "In Alagirisami's direct speech the stable source/page-witness wording is 'டாக்டருக்கு ஜலதோஷம் என்பதற்காக ஜன்னி பிறந்தவனைக் கவனிக்காமலிருக்கலாமா?' The internal corpus search did not supply a separate precedent for the period medical term 'ஜன்னி'; the broad contrast is secure (a doctor with a minor cold versus a much more seriously ill patient), but the exact lexical diagnosis is not yet fixed.",
+      "translation_action": "Do not silently emend the stable source wording or invent a precise modern diagnosis. T1 may preserve the severe-illness contrast conservatively; resolve the exact English handling of 'ஜன்னி' with lexical evidence by T2/terminology review."
+    },
+    {
+      "type": "publication_history",
+      "severity": "translation-sensitive",
+      "observation": "Kalaignar moves from handwritten student publishing to wanting his writing on the 'vehicle of print', then names Arignar Anna's 'திராவிடநாடு' journal. He says his article appeared in either the third or fourth issue, and later names the article 'இளமைப் பலி!' and the unpublished follow-up 'பகுத்தறிவு பரமசிவம்'.",
+      "translation_action": "Preserve Dravida Nadu as a publication title, retain the author's deliberate 'third or fourth issue' uncertainty, and keep both article titles visibly as titles. Do not manufacture a precise issue number."
+    },
+    {
+      "type": "proper_names_and_epithets",
+      "severity": "translation-sensitive",
+      "observation": "The chapter names Thyagarasan, Pattukkottai Alagirisami / Anjanenjan Alagirisami, Arignar Anna, T. N. Raman, Rajagopal, Thennan, R. V. Gopal, Pakkirisami, Malaikozhundu, Chidambaram Jayaraman, Raja Santhanam and singer Sundaranar, with political/literary epithets and movement roles.",
+      "translation_action": "T1 should stay source-led. Reuse already established Anna/Periyar-era epithet policies where applicable; defer uncertain romanization or formal institutional normalization to T2/terminology review rather than inventing identities."
+    },
+    {
+      "type": "relative_autobiographical_time",
+      "severity": "voice-sensitive",
+      "observation": "Looking back on his first meeting with Anna, Kalaignar says Anna continued for 'more than 27 years' as an elder-brother figure and ideal. The passage deliberately measures the relationship from the narrator's retrospective present.",
+      "translation_action": "Preserve the relative duration as authored. Do not convert it into inferred calendar endpoints."
+    },
+    {
+      "type": "embedded_quotation",
+      "severity": "voice-critical",
+      "observation": "The emotional retrospective on Anna culminates in the quoted phrase 'எதையும் தாங்கும் இதயம் வேண்டும்' appearing as golden letters through a veil of tears.",
+      "translation_action": "Keep the quoted formulation visibly quoted and preserve the visual/emotional staging; do not replace it with an external canonical English version."
+    },
+    {
+      "type": "financial_and_theatrical_sequence",
+      "severity": "voice-critical",
+      "observation": "The Tamil Nadu Tamil Students' Association fundraiser stages Kalaignar's 'பழனியப்பன்': cost 200 rupees, collection 80 rupees because of heavy rain, debt exceeding 100 rupees, creditors surrounding the theatre, an actress owed salary/travel money, and a silver cup worth 20 rupees given to send her home.",
+      "translation_action": "Preserve the amounts, causal sequence, theatre materiality and short rhetorical questions. Do not compress the episode into a generic statement that the play lost money."
+    },
+    {
+      "type": "political_organization_and_play_history",
+      "severity": "translation-sensitive",
+      "observation": "At Nagapattinam, Dravidar Kazhagam leader R. V. Gopal ultimately pays 100 rupees for 'பழனியப்பன்' for the planned Nagai Dravidian Actors' Association. The memoir then says the first play was staged elsewhere as 'சாந்தா' and later as 'நச்சுக் கோப்பை'.",
+      "translation_action": "Preserve the organizational role, the 100-rupee sale and the authored title-history sequence Palaniyappan → Santa → Natchuk Koppai. Do not collapse the three titles into one or silently modernize institutional names."
+    },
+    {
+      "type": "ocr_spacing",
+      "severity": "translation-sensitive",
+      "observation": "The pinned source/page witnesses contain several secure extraction/spacing anomalies, including 'உற்சாகததிலாழ்த்திய', 'ஆரம் பித்தேன்' and 'தொடங் கலாம்'. The punctuation around \"'பழனியப்பன்', 'சாந்தா'. என்னும் தலைப்பில்\" is also mechanically awkward.",
+      "translation_action": "Translate the secure contextual sense ('உற்சாகத்தில் ஆழ்த்திய', 'ஆரம்பித்தேன்', 'தொடங்கலாம்') and reconstruct normal English punctuation without asserting corrected Tamil text in the read-only source repository."
+    },
+    {
+      "type": "self_respect_and_marriage_custom",
+      "severity": "translation-sensitive",
+      "observation": "Kalaignar says a love relationship failed principally because he was a 'சுயமரியாதைக்காரன்'; the woman then married another man under priestly rites. His family subsequently seeks an immediate marriage for him.",
+      "translation_action": "Preserve Self-Respect political identity and the contrast with priestly marriage rites. Do not neutralize the ideological cause of the failed relationship."
+    },
+    {
+      "type": "marriage_and_family_culture",
+      "severity": "voice-sensitive",
+      "observation": "The arranged-marriage sequence names Chidambaram Jayaraman's sister, relatives going to see the prospective bride, consent from the bride's family, a telegram summoning Kalaignar to Chidambaram, travel with Thennan, a horse-cart arrival, and the father-in-law's loud 'மகமாயி, தாயே!' greeting/invocation.",
+      "translation_action": "Preserve the concrete marriage-process details, kinship/family framing, period telegram/train/horse-cart materiality and the culture-specific closing exclamation. Do not over-explain or flatten the comic/dramatic entrance."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No Wikisource maintenance notice, duplicate-page marker or other non-authorial body material appears in the inspected pages 76–80.",
+      "translation_action": "No non-authorial body exclusion is required for v1-ch13."
+    },
+    {
+      "type": "duplicate_source",
+      "severity": "informational",
+      "observation": "No duplicated body passage was detected across the five pinned extraction units/pages 76–80.",
+      "translation_action": "No duplicate-source exclusion is required."
+    }
+  ],
+  "secondary_witnesses": [
+    {
+      "repository": "pugazg/nenjukku-needhi-archive",
+      "ref": "main",
+      "paths": [
+        "data/books/nenjukku-needhi/cleaned/volume1/0076.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0077.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0078.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0079.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0080.md"
+      ],
+      "blob_shas": [
+        "a563f35b0c7b5e934e437b328d8bb044b16ff47f",
+        "ac2abb0baf6972a536eb961063f6150b0cbb8886",
+        "83ed9da4b0eb95788629a0ea9fe8ffdec93d943f",
+        "4a9fdb7339b2bfc344e1fd5c0b0000a8b03fc70b",
+        "beeaa3bc3fa1ec690bc560808337e66bc6dcc7a7"
+      ],
+      "role": "secondary page-level text witnesses used to recover paragraphing and confirm the page-76/77 continuation; not authority over the pinned autobiography source"
+    }
+  ],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [
+    {
+      "id": "v1-ch13-lexical-001",
+      "type": "lexical_review",
+      "term": "ஜன்னி",
+      "status": "open-nonblocking",
+      "requirement": "Resolve or conservatively document the exact English handling by T2/terminology review; do not invent a precise modern diagnosis."
+    }
+  ],
+  "status": "source-reviewed",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}
