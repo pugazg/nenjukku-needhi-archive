@@ -59,6 +59,12 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `இன உணர்ச்சி` | **racial consciousness** in `v1-ch06` historical political context | Chapter-specific decision for Anna's 1938 quotation. Do not globalise this to every `இனம்` / `இன உணர்வு` / `தமிழினம்`; later uses remain context-dependent. |
 | `காளை` / `காளையர்` (human reference) | **young man / warrior** contextually; avoid automatic literal `bull` | `v1-ch06`: `தமிழ்க் காளையர்` → **young Tamil warriors**. Tamil lexicons attest human senses such as young man in his prime and warrior; use literal bull imagery only when the source clearly activates it. |
 
+| `மாணவ நேசன்` | **Maanava Nesan** (working romanized publication title) | `v1-ch07`: retain as Kalaignar's handwritten student journal title rather than generic `student magazine`; final corpus-wide romanisation remains reviewable. |
+| `கையெழுத்து ஏடு` / `கையெழுத்துப் பத்திரிகை` / `கையெழுத்துப் பிரதி` | **handwritten journal** for the publication form; **copy / copies** for physical exemplars | `v1-ch07`: distinguish the literary/publication form from the fifty hand-copied physical copies. |
+| `பொங்கல் மலர்` | **Pongal special issue** contextually | Publication sense of `மலர்`; do not literalize as flower when referring to a commemorative/festival issue. |
+| `பாசறை` | **camp / organizing camp / base** contextually | `v1-ch07`: retain the movement-organizing metaphor; avoid flattening to generic `organization`. |
+| `புரட்சி ஜனநாயகக் கட்சி` (M. N. Roy context) | **Radical Democratic Party** | `v1-ch07`: normalize the historical entity name while preserving Kalaignar's authored **1939** chronology rather than silently changing it. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
@@ -79,3 +85,4 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch05` terminology/cultural audit added `முனுசாமி நாயுடு` → `Munuswamy Naidu`, confirmed local `Gandhiji` consistency, retained chapter-specific `இனத்தின் பெருமை` → `the pride of race`, and documented `சிந்து` → `chindu` when the culturally specific poetic/song form matters.
 - `v1-ch06` T2 added historical-event `தமிழர் படை` → `Tamil Brigade` for the 1938 march and `அறப்போர்` → `non-violent struggle / satyagraha` contextually.
 - `v1-ch06` terminology/cultural audit resolved chapter-specific `இன உணர்ச்சி` → `racial consciousness` and `தமிழ்க் காளையர்` → `young Tamil warriors`, while explicitly keeping broader `இனம்` usages context-dependent.
+- `v1-ch07` T2 added working `மாணவ நேசன்` → `Maanava Nesan`, distinguished handwritten journal from physical copy, documented `பொங்கல் மலர்` as Pongal special issue, retained `பாசறை` as an organizing-camp metaphor, and normalized M. N. Roy's `புரட்சி ஜனநாயகக் கட்சி` to `Radical Democratic Party` while preserving the memoir's authored 1939 date.
