@@ -40,7 +40,7 @@ Batch 001 source pin:
 
 Final counters: all chapter gates **5 / 5**, unresolved source holds **0**, outstanding review items **0**.
 
-## Batch 002 — OPEN
+## Batch 002 — CLOSED
 
 Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
@@ -54,7 +54,7 @@ Current counters:
 - T3: **5 / 5**
 - thought structure: **5 / 5**
 - terminology/cultural: **5 / 5**
-- approved: **1 / 5**
+- approved: **5 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
@@ -79,22 +79,39 @@ Current counters:
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
-The remaining Batch 002 chapters have now completed T2, T3, thought structure and terminology/cultural review:
+All remaining Batch 002 chapters are now **APPROVED / CLOSED**:
 
-- `v1-ch09` — **T2 PASS — 12 / T3 PASS — 11 / STRUCTURE PASS — 20 / 20 / TERMINOLOGY PASS WITH ONE REVISION — FINAL APPROVAL NEXT**
-- `v1-ch10` — **T2 PASS — 7 / T3 PASS — 10 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY PASS WITH ONE REVISION — FINAL APPROVAL QUEUED**
-- `v1-ch11` — **T2 PASS — 7 / T3 PASS — 7 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY PASS WITHOUT REVISION — FINAL APPROVAL QUEUED**
-- `v1-ch12` — **T2 PASS — 13 / T3 PASS — 12 / STRUCTURE PASS — 22 / 22 / TERMINOLOGY PASS WITHOUT REVISION — FINAL APPROVAL QUEUED**
+- `v1-ch09` — **APPROVED / CLOSED** — structure **20 / 20** — terminology **PASS WITH ONE REVISION**
+- `v1-ch10` — **APPROVED / CLOSED** — structure **12 / 12** — terminology **PASS WITH ONE REVISION**
+- `v1-ch11` — **APPROVED / CLOSED** — structure **12 / 12** — terminology **PASS WITHOUT REVISION**
+- `v1-ch12` — **APPROVED / CLOSED** — structure **22 / 22** — terminology **PASS WITHOUT REVISION**
 
-Batch 002 T2, T3, thought structure and terminology/cultural are all **5 / 5 COMPLETE**. Across the new terminology audits: **2 source-supported chapter revisions total**, **0 unresolved terminology holds**, **0 unresolved source holds**, and independent English is **frozen 5 / 5**.
+Batch 002 final state:
+
+- source review: **5 / 5**
+- T1: **5 / 5**
+- T2: **5 / 5**
+- T3: **5 / 5**
+- thought structure: **5 / 5**
+- terminology/cultural: **5 / 5**
+- approved: **5 / 5**
+- independent English frozen: **5 / 5**
+- unresolved source holds: **0**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
+- approval-stage chapter-text changes: **0**
+- comparator gate for v1-ch02+: **NOT APPLICABLE**
+- formal JSON-Schema validation: **NOT CLAIMED**
+
+No active production batch remains after Batch 002 closure.
 
 ## Comparator policy
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch09 final approval
+## Immediate next activity — open Batch 003
 
-Run the **final approval review** for `v1-ch09` only. Verify P0, T1, T2, T3, thought structure, terminology/cultural consistency, frozen independent English, zero unresolved holds and syntactic JSON parseability. If all pass, approve and close `v1-ch09`. Stop before beginning `v1-ch10` final approval.
+Open **Batch 003 beginning with `v1-ch13`**. Fetch live source `main`, choose and record the new batch source pin, inspect chapter size/difficulty to determine the Batch 003 span under the normal five-chapter policy, create the Batch 003 control, and synchronize manifest/progress/handover. Do not begin `v1-ch13` T1 until Batch 003 is durably opened and `v1-ch13` completes P0 source review.
 
 ## Mandatory controls
 
