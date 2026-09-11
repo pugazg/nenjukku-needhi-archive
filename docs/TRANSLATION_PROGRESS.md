@@ -26,7 +26,7 @@
 
 - Translation plan: **COMPLETE FOR PRODUCTION**
 - Two-pilot method review: **COMPLETE**
-- Kalaignar Voice Guide: **LIVING / UPDATED THROUGH `v1-ch08` T2**
+- Kalaignar Voice Guide: **LIVING / UPDATED THROUGH `v1-ch12` T2**
 - Translation glossary: **LIVING / UPDATED THROUGH `v1-ch07` TERMINOLOGY AUDIT**
 - Source-note convention: **DEFINED AND IN USE**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / `v1-ch08` APPROVED / `v1-ch09` T2 NEXT**
+Status: **OPEN / BATCH T2 COMPLETE 5/5 / `v1-ch09` T3 NEXT**
 
 Batch control:
 
@@ -60,17 +60,17 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **T1 COMPLETE / T2 QUEUED** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **T1 COMPLETE / T2 QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **T1 COMPLETE / T2 QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **T2 COMPLETE / T3 QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **T2 COMPLETE / T3 QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **T2 COMPLETE / T3 QUEUED** |
 
 Opening counters:
 
 - source files pinned: **5 / 5**
 - full source reviews complete: **5 / 5**
 - T1 complete: **5 / 5**
-- T2 complete: **1 / 5**
+- T2 complete: **5 / 5**
 - T3 complete: **1 / 5**
 - thought-structure complete: **1 / 5**
 - terminology/cultural complete: **1 / 5**
@@ -314,6 +314,19 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 At the Batch 002 source pin, `public/data/text-en/` contains only `v1-ch01.json`. Comparator checks are therefore not part of the production activity list for `v1-ch02` onward. The historical `v1-ch01` comparison remains preserved as provenance.
 
+## Batch 002 T2 checkpoint
+
+T2 is now **5 / 5 COMPLETE**.
+
+- `v1-ch08`: PASS WITH REVISION — 18 grouped revisions — APPROVED / CLOSED
+- `v1-ch09`: PASS WITH REVISION — 12 grouped revisions
+- `v1-ch10`: PASS WITH REVISION — 7 grouped revisions
+- `v1-ch11`: PASS WITH REVISION — 7 grouped revisions
+- `v1-ch12`: PASS WITH REVISION — 13 grouped revisions
+- unresolved source holds: **0**
+- blocking T2 issues: **0**
+- existing-English comparator consulted: **NO**
+
 ## Next activity
 
-Run the **T2 source-and-Kalaignar-voice review for `v1-ch09`**. Compare the fresh T1 against the pinned Tamil and P0 source notes, preserve the Dhruvan/Indra dramatic frame, child-speech flavour, exam-failure emotional sequence and examination-system argument, and stop with **T3 next**.
+Run the **T3 English-only literary review for `v1-ch09`**. Read the T2 English first without Tamil, identify genuine English-language issues only, source-check every proposed change against the pinned Tamil, and stop with **thought-structure audit next**.
