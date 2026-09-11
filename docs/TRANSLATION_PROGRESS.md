@@ -8,6 +8,7 @@
 - Latest observed source `main`: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 - `v1-ch05` source blob is identical at the Batch 001 pin and live source main: `220fb5271eac48c6988057d0d464d5950fd822a3`
 - `v1-ch06` source blob is identical at the Batch 001 pin and live source main: `8f93218b297262319d82f89274dbee3d1de803f5`
+- `v1-ch07` source blob is identical at the Batch 001 pin and live source main: `13b1f1d06abeb762ed5f016818fa282b78ba7593`
 - Write repository: `pugazg/nenjukku-needhi-archive`
 - Working branch: `main`
 
@@ -48,7 +49,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **SOURCE REVIEW PASS / T1 NEXT** |
 
 ## `v1-ch03`
 
@@ -156,10 +157,33 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 
 Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms 20 / 20 structural movements, 0 unresolved source holds, 0 unresolved terminology/comparator issues, and 0 outstanding review items. Formal JSON-Schema validation remains unavailable because `schemas/chapter.json` is the empty one-byte legacy placeholder.
 
+## `v1-ch07` — source review complete
+
+Durable file:
+
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch07.json`
+
+P0 result:
+
+- source review: **PASS / COMPLETE**;
+- source path: `pugazg/kalaignar-autobiography/public/data/text/v1-ch07.json`;
+- pinned source ref: `5c6b5ef8901044660e607d4649238d7c66cb648d`;
+- source blob: `13b1f1d06abeb762ed5f016818fa282b78ba7593`;
+- live-source comparison: **byte-identical**;
+- pages: **51–55**;
+- extraction units: **5**;
+- unresolved source holds: **0**;
+- non-authorial exclusions: **0**;
+- next gate: **fresh T1 translation**.
+
+Source review records the page-51 Jinnah word join, the contextual Muslim League reading, valid archaic `முடங்கல்` = letter, Alagiri/Chittarasu punctuation, page-53/54 hyphenated join, quoted-newspaper extraction artifact, macro-history → schoolboy pivot, `மாணவ நேசன்` production details, Bharathidasan's spinning-wheel sarcasm, `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper costs, Murasoli's leaflet origin, communist recruiter's delayed reveal, Freedom–Peace–Equality triad and the closing current/depth metaphor.
+
+Authored chronology tensions are retained, not corrected: the memoir's 1939 M. N. Roy party date and the fifteen-year-old / four-months-before-Murasoli timeline.
+
 ## Batch 001 counters
 
 - source files pinned: **5 / 5**
-- full source reviews complete: **4 / 5**
+- full source reviews complete: **5 / 5**
 - T1 complete: **4 / 5**
 - T2 complete: **4 / 5**
 - T3 complete: **4 / 5**
@@ -178,4 +202,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Begin the complete **source review for `v1-ch07`** (`"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"`, pp. 51–55) before any T1 translation. Inspect the opening all-India political chronology, the transition into Kalaignar's student activity, the known `ஜி ன்னாவிற்கும்` spacing form, and any additional cross-page joins, name/spacing anomalies, dialogue, quoted writing or non-authorial material.
+Begin the **fresh T1 translation for `v1-ch07`** (`"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"`, pp. 51–55) directly from the pinned Tamil and completed source notes. Preserve the long macro-political opening, Gandhi–Jinnah dialogue, Tripuri/Subhas sequence, the abrupt reveal of the thin fifteen-year-old Kalaignar, the handwritten `மாணவ நேசன்` production details, Bharathidasan's sarcasm, the practical birth of `Murasoli`, the communist recruiter's delayed reveal, Freedom–Peace–Equality triad, and the closing current/depth image. Do not consult an existing-English comparator.
