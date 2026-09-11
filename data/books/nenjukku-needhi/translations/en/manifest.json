@@ -222,7 +222,7 @@
           "end": 50
         },
         "source_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -233,7 +233,8 @@
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -253,14 +254,16 @@
           "resolve classroom பலகை contextually as bench",
           "render மறியல் அறப்போர் as daily picketing carried on as a non-violent struggle in this context",
           "retain காந்தியார் as Gandhiji and preserve relative thirty-six-year autobiographical vantage",
-          "carry இன உணர்ச்சி forward as semantically secure but reserved for terminology/cultural audit"
+          "carry இன உணர்ச்சி forward as semantically secure but reserved for terminology/cultural audit",
+          "apply 18 source-checked T3 fluency revisions without smoothing away source-driven epithets, song, wordplay, classroom drama, flare/sprout imagery, blunt prison wording or the final Tamil/green-crescent flag image"
         ],
-        "next_gate": "t3-english-review",
+        "next_gate": "thought-structure-audit",
         "translation": "chapters/v1-ch06.json",
         "english_title": "The Battlefront to Save Tamil",
         "existing_english_comparator": "not-consulted",
         "reviews": {
-          "t2": "reviews/v1-ch06-t2.md"
+          "t2": "reviews/v1-ch06-t2.md",
+          "t3": "reviews/v1-ch06-t3.md"
         }
       },
       {
@@ -278,12 +281,12 @@
     "translations_started": 4,
     "t1_complete": 4,
     "t2_complete": 4,
-    "t3_complete": 3,
+    "t3_complete": 4,
     "thought_structure_complete": 3,
     "terminology_cultural_complete": 3,
     "comparator_checks_complete": 3,
     "approved_chapters": 3,
-    "next_activity": "t3-english-review-v1-ch06"
+    "next_activity": "thought-structure-audit-v1-ch06"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
