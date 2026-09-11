@@ -1,4 +1,4 @@
-# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch09 T3
+# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch09 Thought-Structure Audit
 
 Continue directly in `pugazg/nenjukku-needhi-archive`, branch `main`.
 
@@ -23,20 +23,20 @@ The source repository's `public/data/text-en/` directory contains only `v1-ch01.
 - source reviews: **5 / 5**
 - T1: **5 / 5**
 - T2: **5 / 5**
-- T3: **1 / 5**
+- T3: **5 / 5**
 - thought structure: **1 / 5**
 - terminology/cultural: **1 / 5**
 - approved: **1 / 5**
 - unresolved source holds: **0**
-- blocking T2 issues: **0**
+- outstanding T3 issues: **0**
 
-T2 results:
+T3 results:
 
-- `v1-ch08` — PASS WITH REVISION — 18 grouped revisions — APPROVED / CLOSED
-- `v1-ch09` — PASS WITH REVISION — 12 grouped revisions
-- `v1-ch10` — PASS WITH REVISION — 7 grouped revisions
-- `v1-ch11` — PASS WITH REVISION — 7 grouped revisions
-- `v1-ch12` — PASS WITH REVISION — 13 grouped revisions
+- `v1-ch08` — PASS WITH MINOR REVISION — 19 grouped revisions — APPROVED / CLOSED
+- `v1-ch09` — PASS WITH MINOR REVISION — 11 grouped revisions
+- `v1-ch10` — PASS WITH MINOR REVISION — 10 grouped revisions
+- `v1-ch11` — PASS WITH MINOR REVISION — 7 grouped revisions
+- `v1-ch12` — PASS WITH MINOR REVISION — 12 grouped revisions
 
 ## Active chapter
 
@@ -47,41 +47,53 @@ T2 results:
 - source review: **PASS / COMPLETE**
 - T1: **PASS / COMPLETE**
 - T2: **PASS WITH REVISION / COMPLETE — 12 grouped revisions**
+- T3: **PASS WITH MINOR REVISION / COMPLETE — 11 grouped revisions**
 - unresolved source holds: **0**
-- next gate: **T3**
+- next gate: **thought structure**
 
 Durable files:
 
 - `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch09.json`
 - `data/books/nenjukku-needhi/translations/en/chapters/v1-ch09.json`
 - `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t2.md`
+- `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t3.md`
 
-## Immediate activity — T3 only
+## Immediate activity — thought structure only
 
-Run the English-only literary review.
+Compare the complete pinned Tamil and revised English by major movement rather than extraction-unit count.
 
-1. Read the revised English first without using Tamil.
-2. Identify only genuine English-language cadence, repetition, syntax, paragraph-flow or awkwardness issues.
-3. Recheck every proposed change against the pinned Tamil before accepting it.
-4. Preserve:
-   - the opening Padma / sandal-paste / silver-bowl grief;
-   - three School Final failures and self-critical humour;
-   - Kudi Arasu reading vs family expectations;
-   - Nagapattinam / Periyar half-yearly-exam episode;
-   - the Indirani → Indra → Narada theatrical misdirection;
-   - the Dhruvan play reveal;
-   - Kudi Arasu-flavoured Indra satire;
-   - Murasoli Maran's child speech;
-   - the third failure, sleepless night and departure;
-   - the direct despair questions;
-   - temple-tank / sea-sound imagery;
-   - election-deposit analogy;
-   - student-suicide reflection;
-   - examination-system critique and college-barrier conclusion.
-5. Do not consult existing English.
-6. Create `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t3.md`.
-7. Synchronize chapter/source notes/Batch 002/progress/manifest/handover.
-8. Stop with **thought-structure audit next**.
+At minimum verify:
+
+1. Padma / sandal-paste / silver-bowl grief continuing from v1-ch08;
+2. three School Final failures and self-critical humour;
+3. parents' sacrifices / Kudi Arasu reading;
+4. half-yearly examination abandoned for Periyar reception at Nagapattinam;
+5. final examination as the second battlefield;
+6. Tirukkuvalai holiday / public expectation of success;
+7. apparent Indirani romance;
+8. reveal as the Dhruvan school play;
+9. Kudi Arasu-flavoured Indra satire;
+10. young Murasoli Maran's child speech;
+11. third failure result;
+12. sleepless verandah night / father beside him;
+13. 2 a.m. departure and direct questions about remaining alive;
+14. temple-tank wave-hands / inner-sea image;
+15. family apparitions / tears while walking;
+16. election-deposit / rusty-hope analogy;
+17. student-suicide reflection;
+18. two-sided examination-system argument;
+19. proposed training / ability model;
+20. autobiographical college-barrier conclusion.
+
+Create:
+
+`data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-structure.md`
+
+Record represented / reordered / omitted / invented counts. Do not change chapter wording unless a genuine structural defect is source-proven.
+
+Do not consult existing English.
+
+Stop with **terminology/cultural-consistency audit next**.
 
 ## Infrastructure limitation
 
