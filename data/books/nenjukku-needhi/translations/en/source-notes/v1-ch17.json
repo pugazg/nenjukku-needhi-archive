@@ -87,8 +87,15 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "source-reviewed",
+  "status": "t2-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t1"
+  "next_gate": "t3",
+  "t2_review": "../reviews/v1-ch17-t2.md",
+  "t2_resolutions": {
+    "accepted_revisions": 7,
+    "unresolved_source_holds": 0,
+    "blocking_t2_issues": 0,
+    "comparator_consulted": false
+  }
 }
