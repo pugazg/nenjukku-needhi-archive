@@ -76,6 +76,27 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `குங்குமம்` | **kumkum** | Retain the culturally specific household/ritual substance rather than flattening it to generic red powder; in `v1-ch08` it appears with turmeric in the wife's bowl. |
 | `செட்டியார் பாங்கு` | contextual **Chettiar Bank in Tiruvarur** | `v1-ch08`: preserve the concrete bank/pledge transaction without claiming that **Chettiar Bank** is a verified formal corporate English name. Exact institutional normalization remains reviewable if later evidence appears. |
 
+| `பள்ளி இறுதி` | **School Final examination** | `v1-ch09`: retain the period school-qualification vocabulary; do not modernize to a current board-exam label. |
+| `குடியரசு` / `குடியரசுப் பதிப்பகம்` | **Kudi Arasu / Kudi Arasu press** | `v1-ch09`: preserve the publication title; do not translate it semantically in running prose. |
+| `பெரியார் ஈ.வெ.ரா.` | **Periyar E. V. R.** | `v1-ch09`: when the source itself gives Periyar plus initials, retain that form rather than replacing it with another honorific formula. |
+| `இந்திராணி` | **Indrani** | `v1-ch09`: securely normalize the mythological proper name; do not retain the Tamil-surface form `Indirani`. |
+| `துருவன்` | **Dhruva** for the mythological character; **Dhruvan** as the source-led working play title | `v1-ch09`: keep character and Tamil school-play title distinct when the prose requires it. |
+| `நான்காம் படிவம்` | **Fourth Form** | `v1-ch10`: preserve the historical school-level term; do not modernize to Grade 4. |
+| `ராமர் பாதம்` | **Rama's Footprint** | `v1-ch10`: the Kodikkarai pavilion/site refers to the footprint tradition; avoid the anatomically misleading `Rama's Foot`. |
+| `தோழர்` | **comrade** in movement/political address | `v1-ch08`–`v1-ch10`: retain political/fellow-activist address where the source uses it; do not flatten automatically to friend/Mr. |
+| malformed quoted story titles in `v1-ch11` | **preserve visibly malformed romanized forms** | The spelling errors are the substance of Kalaignar's satire; do not silently normalize `Raththa Kulambu`, `Malairani`, `Yezhaiyin Thali` before the source's own correction. |
+| `சேரன்` (pen name) | **Cheran** | `v1-ch11`–`v1-ch12`: retain Kalaignar's pen name; do not translate its lexical meaning. |
+| `திராவிடர் கழகம்` | **Dravidar Kazhagam** | `v1-ch12`: established historical organization name; do not replace with a literal English expansion. |
+| `திராவிட முன்னேற்றக் கழகம்` | **Dravida Munnetra Kazhagam** | `v1-ch12`: established historical organization name; retain the proper-name form. |
+| `வருணாசிரமம்` | **Varnashrama** | `v1-ch12`: preserve the source-era polemical term inside the 1944 Murasoli document rather than flattening it to a generic caste-system label. |
+| `பூரிதட்சிணை` | **bountiful dakshina** contextually | `v1-ch12`: lexical evidence supports festive monetary dakshina to Brahmans; retain `dakshina` as the culturally specific ritual/economic term. |
+| `பரணி` | **parani** | `v1-ch12`: retain the Tamil literary genre where the genre-name itself carries rhetorical force; do not reduce to generic poem/song. |
+| `தில்லை` / `சிதம்பரம்` | **Thillai / Chidambaram** according to source occurrence | `v1-ch12`: preserve the embedded leaflet's deliberate use of the cultural/older name Thillai alongside Chidambaram; do not mechanically collapse them. |
+| `மார்கழி` | **Margazhi** | `v1-ch12`: retain the Tamil month name where seasonal/devotional context matters. |
+| `சுண்டல்` | **sundal** with contextual ingredient gloss where useful | `v1-ch12`: **chickpea sundal** preserves the culturally specific food and gives sufficient reader clarity. |
+| `பீடி` | **beedi** | `v1-ch12`: preserve the period/cultural tobacco term rather than generic cigarette. |
+| `சிறுவர் சீர்திருத்தச் சங்கம்` | **Children's Reform Association** (working transparent rendering) | `v1-ch12`: retain as the memoir's child-run association; do not imply a formally attested English corporate name. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
@@ -99,3 +120,8 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch07` T2 added working `மாணவ நேசன்` → `Maanava Nesan`, distinguished handwritten journal from physical copy, documented `பொங்கல் மலர்` as Pongal special issue, retained `பாசறை` as an organizing-camp metaphor, and normalized M. N. Roy's `புரட்சி ஜனநாயகக் கட்சி` to `Radical Democratic Party` while preserving the memoir's authored 1939 date.
 - `v1-ch07` terminology/cultural audit confirmed the existing chapter wording without revision and added durable chapter-level policies for `முரசொலி` → `Murasoli`, `துண்டு வெளியீடுகள்` → `leaflet issues`, generic `மாணவர் சம்மேளனம்` → `Students' Federation`, and `சுதந்திரம் - சமாதானம் - சமத்துவம்` → `Freedom – Peace – Equality`.
 - `v1-ch08` terminology/cultural audit distinguished the earlier generic `Students' Federation` from `தமிழ் மாணவர் மன்றம்` → `Tamil Students' Association` and `தமிழ்நாடு தமிழ் மாணவர் மன்றம்` → `Tamil Nadu Tamil Students' Association`, retained a cautious working `Dravidian Students' Association`, added `குங்குமம்` → `kumkum`, kept `செட்டியார் பாங்கு` contextually as `Chettiar Bank in Tiruvarur`, and corrected `சந்தனக் கிண்ணம்` from material-misleading `sandalwood bowl` to `sandal-paste bowl` because the next chapter identifies the same vessel as silver.
+
+- `v1-ch09` terminology/cultural audit normalized mythological `இந்திராணி` to **Indrani**, retained **School Final examination**, **Kudi Arasu**, **Periyar E. V. R.**, and distinguished **Dhruva** the character from **Dhruvan** as the source-led school-play title.
+- `v1-ch10` terminology/cultural audit clarified `ராமர் பாதம்` as **Rama's Footprint**, retained **Fourth Form**, source-led place/personal names, pre-decimal annas and movement-address **comrade**.
+- `v1-ch11` terminology/cultural audit froze the deliberate malformed-title policy, generic **Dravidian movement**, **Murasoli**, and **Cheran** without chapter-text revision.
+- `v1-ch12` terminology/cultural audit retained **Dravidar Kazhagam**, **Dravida Munnetra Kazhagam**, **Varnashrama**, **Thillai/Chidambaram**, **dakshina**, **parani**, **Margazhi**, **beedi**, **sundal**, and **Children's Reform Association** without chapter-text revision.
