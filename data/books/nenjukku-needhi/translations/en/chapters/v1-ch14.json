@@ -8,7 +8,7 @@
     "start": 81,
     "end": 84
   },
-  "status": "t3-complete",
+  "status": "structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -21,7 +21,8 @@
     "Fresh T1 translation made directly from the Batch 003 pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
     "Three documented page joins are reconstructed continuously; literary paragraphing follows rhetorical flow rather than four extraction units.",
     "T2 source-and-Kalaignar-voice review passed with 8 grouped source-checked revisions. The pass strengthens the bride-viewing intimacy, Kinthanar's oral/social satire and the wife's affectionate pressure while preserving the 13 September 1944 chronology, dual wedding forms, crowd chaos and actor-decision pivot. No existing-English comparator was consulted.",
-    "T3 English-only literary review passed with 5 grouped minor source-checked revisions. The pass improves bride-viewing, Kinthanar cadence, poverty phrasing and the wife's affectionate pressure without changing the wedding chronology, reform/priestly contrast, crowd scene or actor-decision ending."
+    "T3 English-only literary review passed with 5 grouped minor source-checked revisions. The pass improves bride-viewing, Kinthanar cadence, poverty phrasing and the wife's affectionate pressure without changing the wedding chronology, reform/priestly contrast, crowd scene or actor-decision ending.",
+    "Thought-structure audit passed 16/16 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
   ],
   "paragraphs": [
     "What would the girl be like? Beautiful—or not? Dark? Fair? Would she be good-natured? Would she suit the family? My thoughts did not stop with those questions. Why had I suddenly developed this desire for marriage? No, no—was it not that love affair which had exposed me like this before my family? Confused by such thoughts, I reached the bride's house.",
@@ -50,8 +51,9 @@
     "source_review": "../source-notes/v1-ch14.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch14-t2.md",
-    "t3_review": "../reviews/v1-ch14-t3.md"
+    "t3_review": "../reviews/v1-ch14-t3.md",
+    "thought_structure_review": "../reviews/v1-ch14-structure.md"
   }
 }
