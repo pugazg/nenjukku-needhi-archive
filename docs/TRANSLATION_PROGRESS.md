@@ -49,7 +49,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **SOURCE REVIEW PASS / T1 NEXT** |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **T1 COMPLETE / T2 NEXT** |
 
 ## `v1-ch03`
 
@@ -157,7 +157,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 
 Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms 20 / 20 structural movements, 0 unresolved source holds, 0 unresolved terminology/comparator issues, and 0 outstanding review items. Formal JSON-Schema validation remains unavailable because `schemas/chapter.json` is the empty one-byte legacy placeholder.
 
-## `v1-ch07` — source review complete
+## `v1-ch07` — T1 complete
 
 Durable file:
 
@@ -174,17 +174,22 @@ P0 result:
 - extraction units: **5**;
 - unresolved source holds: **0**;
 - non-authorial exclusions: **0**;
-- next gate: **fresh T1 translation**.
+- fresh T1 translation: **PASS / COMPLETE**;
+- English title: **Are You the One Who Runs 'Maanava Nesan'?**;
+- existing-English comparator consulted: **NO**;
+- next gate: **T2 Tamil–English Kalaignar-voice review**.
 
 Source review records the page-51 Jinnah word join, the contextual Muslim League reading, valid archaic `முடங்கல்` = letter, Alagiri/Chittarasu punctuation, page-53/54 hyphenated join, quoted-newspaper extraction artifact, macro-history → schoolboy pivot, `மாணவ நேசன்` production details, Bharathidasan's spinning-wheel sarcasm, `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper costs, Murasoli's leaflet origin, communist recruiter's delayed reveal, Freedom–Peace–Equality triad and the closing current/depth metaphor.
 
 Authored chronology tensions are retained, not corrected: the memoir's 1939 M. N. Roy party date and the fifteen-year-old / four-months-before-Murasoli timeline.
 
+Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch07.json`. It preserves the macro-political opening, Gandhi–Jinnah dialogue, Congress/Subhas split, Nehru China sequence, the abrupt schoolboy reveal, `Maanava Nesan` production details, Bharathidasan's sarcasm, `சிறுதுளி பெருவெள்ளம்`, demy-paper economics, Murasoli's leaflet origin, the unnamed Communist recruiter, Freedom–Peace–Equality triad and the closing current/depth metaphor. No existing English was consulted.
+
 ## Batch 001 counters
 
 - source files pinned: **5 / 5**
 - full source reviews complete: **5 / 5**
-- T1 complete: **4 / 5**
+- T1 complete: **5 / 5**
 - T2 complete: **4 / 5**
 - T3 complete: **4 / 5**
 - thought-structure complete: **4 / 5**
@@ -202,4 +207,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Begin the **fresh T1 translation for `v1-ch07`** (`"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"`, pp. 51–55) directly from the pinned Tamil and completed source notes. Preserve the long macro-political opening, Gandhi–Jinnah dialogue, Tripuri/Subhas sequence, the abrupt reveal of the thin fifteen-year-old Kalaignar, the handwritten `மாணவ நேசன்` production details, Bharathidasan's sarcasm, the practical birth of `Murasoli`, the communist recruiter's delayed reveal, Freedom–Peace–Equality triad, and the closing current/depth image. Do not consult an existing-English comparator.
+Run the **T2 Tamil–English Kalaignar-voice review for `v1-ch07`**. Check the English title and `Maanava Nesan` treatment, Jinnah/Gandhi/Subhas/Nehru honorific variation, the Gandhi–Jinnah dialogue, `முடங்கல்`, the Alagiri/Chittarasu name split, Rajendra Prasad syntax, quoted newspaper wording, `கவிக்குயில்`, M. N. Roy party naming while preserving the authored 1939 date, Bharathidasan's spinning-wheel sarcasm, `சிறுதுளி பெருவெள்ளம்`, `பொங்கல் மலர்`, `டெம்மி பேப்பர்`, `இனாம்`, Murasoli's leaflet origin, `மாணவர் சம்மேளனம்`, and the closing current/depth imagery. Do not consult an existing-English comparator.
