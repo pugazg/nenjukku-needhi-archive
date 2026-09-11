@@ -83,8 +83,8 @@
   },
   "production": {
     "status": "open",
-    "active_batch": "batch-003",
-    "batch_control": "batches/batch-003.md",
+    "active_batch": null,
+    "batch_control": null,
     "batch_chapters": [
       {
         "id": "v1-ch13",
@@ -96,19 +96,18 @@
         "source_blob_sha": "80fc03e2092ab69b22879e65ab6887acc4284a55",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch13.json",
-        "status": "source-reviewed",
+        "status": "approved",
         "unresolved_source_holds": 0,
-        "review_items": [
-          {
-            "id": "v1-ch13-lexical-001",
-            "type": "lexical_review",
-            "term": "ஜன்னி",
-            "status": "open-nonblocking"
-          }
-        ],
-        "next_gate": "t1",
+        "review_items": [],
+        "next_gate": "closed",
         "gates": {
-          "source_review": "pass"
+          "source_review": "pass",
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass-with-one-revision",
+          "approval": "pass"
         },
         "source_notes": "source-notes/v1-ch13.json",
         "source_review_result": {
@@ -130,7 +129,40 @@
           "preserve Palaniyappan / Santa / Natchuk Koppai title history, theatrical finances and Dravidar Kazhagam organizational context",
           "document secure extraction/spacing anomalies including 'உற்சாகததிலாழ்த்திய', 'ஆரம் பித்தேன்' and 'தொடங் கலாம்'",
           "preserve Self-Respect identity versus priestly marriage rites and the Chidambaram arranged-marriage sequence"
-        ]
+        ],
+        "reviews": {
+          "source_notes": "source-notes/v1-ch13.json",
+          "t2": "reviews/v1-ch13-t2.md",
+          "t3": "reviews/v1-ch13-t3.md",
+          "thought_structure": "reviews/v1-ch13-structure.md",
+          "terminology": "reviews/v1-ch13-terminology.md",
+          "approval": "reviews/v1-ch13-approval.md"
+        },
+        "structure_result": {
+          "represented": "20/20",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
+        },
+        "terminology_result": {
+          "accepted_revisions": 1,
+          "unresolved_holds": 0,
+          "independent_english_frozen": true,
+          "comparator_consulted": false
+        },
+        "approval_result": {
+          "status": "approved",
+          "t2_revisions": 9,
+          "t3_revisions": 6,
+          "structure_movements": "20/20",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch14",
@@ -142,10 +174,52 @@
         "source_blob_sha": "1fa0f359d8da9cbeb2d9b03fa6244badbece89f6",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch14.json",
-        "status": "pinned-queued",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "source-review"
+        "next_gate": "closed",
+        "gates": {
+          "source_review": "pass",
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass-with-one-revision",
+          "approval": "pass"
+        },
+        "reviews": {
+          "source_notes": "source-notes/v1-ch14.json",
+          "t2": "reviews/v1-ch14-t2.md",
+          "t3": "reviews/v1-ch14-t3.md",
+          "thought_structure": "reviews/v1-ch14-structure.md",
+          "terminology": "reviews/v1-ch14-terminology.md",
+          "approval": "reviews/v1-ch14-approval.md"
+        },
+        "structure_result": {
+          "represented": "16/16",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
+        },
+        "terminology_result": {
+          "accepted_revisions": 1,
+          "unresolved_holds": 0,
+          "independent_english_frozen": true,
+          "comparator_consulted": false
+        },
+        "approval_result": {
+          "status": "approved",
+          "t2_revisions": 8,
+          "t3_revisions": 5,
+          "structure_movements": "16/16",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch15",
@@ -157,10 +231,52 @@
         "source_blob_sha": "ceb2759588dfec6646a4ba53369fce02c0bd9c92",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch15.json",
-        "status": "pinned-queued",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "source-review"
+        "next_gate": "closed",
+        "gates": {
+          "source_review": "pass",
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass-with-one-revision",
+          "approval": "pass"
+        },
+        "reviews": {
+          "source_notes": "source-notes/v1-ch15.json",
+          "t2": "reviews/v1-ch15-t2.md",
+          "t3": "reviews/v1-ch15-t3.md",
+          "thought_structure": "reviews/v1-ch15-structure.md",
+          "terminology": "reviews/v1-ch15-terminology.md",
+          "approval": "reviews/v1-ch15-approval.md"
+        },
+        "structure_result": {
+          "represented": "18/18",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
+        },
+        "terminology_result": {
+          "accepted_revisions": 1,
+          "unresolved_holds": 0,
+          "independent_english_frozen": true,
+          "comparator_consulted": false
+        },
+        "approval_result": {
+          "status": "approved",
+          "t2_revisions": 7,
+          "t3_revisions": 6,
+          "structure_movements": "18/18",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch16",
@@ -172,10 +288,52 @@
         "source_blob_sha": "fd6793f228db38098aff1eddcfb7fefce3fff3d2",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch16.json",
-        "status": "pinned-queued",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "source-review"
+        "next_gate": "closed",
+        "gates": {
+          "source_review": "pass",
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass-without-revision",
+          "approval": "pass"
+        },
+        "reviews": {
+          "source_notes": "source-notes/v1-ch16.json",
+          "t2": "reviews/v1-ch16-t2.md",
+          "t3": "reviews/v1-ch16-t3.md",
+          "thought_structure": "reviews/v1-ch16-structure.md",
+          "terminology": "reviews/v1-ch16-terminology.md",
+          "approval": "reviews/v1-ch16-approval.md"
+        },
+        "structure_result": {
+          "represented": "16/16",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
+        },
+        "terminology_result": {
+          "accepted_revisions": 0,
+          "unresolved_holds": 0,
+          "independent_english_frozen": true,
+          "comparator_consulted": false
+        },
+        "approval_result": {
+          "status": "approved",
+          "t2_revisions": 5,
+          "t3_revisions": 5,
+          "structure_movements": "16/16",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch17",
@@ -187,31 +345,73 @@
         "source_blob_sha": "eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch17.json",
-        "status": "pinned-queued",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "source-review"
+        "next_gate": "closed",
+        "gates": {
+          "source_review": "pass",
+          "t1": "pass",
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision",
+          "thought_structure": "pass",
+          "terminology_cultural": "pass-without-revision",
+          "approval": "pass"
+        },
+        "reviews": {
+          "source_notes": "source-notes/v1-ch17.json",
+          "t2": "reviews/v1-ch17-t2.md",
+          "t3": "reviews/v1-ch17-t3.md",
+          "thought_structure": "reviews/v1-ch17-structure.md",
+          "terminology": "reviews/v1-ch17-terminology.md",
+          "approval": "reviews/v1-ch17-approval.md"
+        },
+        "structure_result": {
+          "represented": "19/19",
+          "reordered": 0,
+          "omitted": 0,
+          "invented": 0,
+          "chapter_text_changes": 0
+        },
+        "terminology_result": {
+          "accepted_revisions": 0,
+          "unresolved_holds": 0,
+          "independent_english_frozen": true,
+          "comparator_consulted": false
+        },
+        "approval_result": {
+          "status": "approved",
+          "t2_revisions": 7,
+          "t3_revisions": 5,
+          "structure_movements": "19/19",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       }
     ],
-    "source_reviews_complete": 1,
-    "translations_started": 0,
-    "t1_complete": 0,
-    "t2_complete": 0,
-    "t3_complete": 0,
-    "thought_structure_complete": 0,
-    "terminology_cultural_complete": 0,
-    "approved_chapters": 0,
-    "next_activity": "t1-v1-ch13",
-    "batch_status": "open",
+    "source_reviews_complete": 5,
+    "translations_started": 5,
+    "t1_complete": 5,
+    "t2_complete": 5,
+    "t3_complete": 5,
+    "thought_structure_complete": 5,
+    "terminology_cultural_complete": 5,
+    "approved_chapters": 5,
+    "next_activity": "open-batch-004",
+    "batch_status": "closed",
     "last_closed_batch": {
-      "id": "batch-002",
-      "control": "batches/batch-002.md",
+      "id": "batch-003",
+      "control": "batches/batch-003.md",
       "chapters": [
-        "v1-ch08",
-        "v1-ch09",
-        "v1-ch10",
-        "v1-ch11",
-        "v1-ch12"
+        "v1-ch13",
+        "v1-ch14",
+        "v1-ch15",
+        "v1-ch16",
+        "v1-ch17"
       ],
       "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
       "status": "closed",
@@ -220,8 +420,8 @@
       "unresolved_terminology_holds": 0,
       "outstanding_review_items": 0
     },
-    "next_batch": null,
-    "next_batch_start": null,
+    "next_batch": "batch-004",
+    "next_batch_start": "v1-ch18",
     "source_files_pinned": 5,
     "batch_opening": {
       "span": [
