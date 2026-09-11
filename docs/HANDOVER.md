@@ -114,7 +114,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 Current counters:
 
 - source files pinned: **5 / 5**
-- source reviews: **0 / 5**
+- source reviews: **1 / 5**
 - T1: **0 / 5**
 - T2: **0 / 5**
 - T3: **0 / 5**
@@ -126,7 +126,7 @@ Current counters:
 
 Queue:
 
-- `v1-ch13` — **P0 SOURCE REVIEW NEXT**
+- `v1-ch13` — **P0 COMPLETE / T1 NEXT**
 - `v1-ch14` — **PINNED / QUEUED**
 - `v1-ch15` — **PINNED / QUEUED**
 - `v1-ch16` — **PINNED / QUEUED**
@@ -146,23 +146,38 @@ The live source `main` did not advance between Batch 002 and Batch 003, but Batc
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch13 P0 source review
+## v1-ch13 P0 source review — COMPLETE
 
-Run **P0 source review for `v1-ch13` only**.
+Durable source note:
 
-- title: `மாமனார் தந்த வரவேற்பு`
-- pages: **76–80**
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source path: `public/data/text/v1-ch13.json`
-- source blob: `80fc03e2092ab69b22879e65ab6887acc4284a55`
-- extraction units: **5**
-- extraction strategy: `wordjoiner`
+`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch13.json`
 
-Read the full pinned Tamil. Record title repeats, source-unit/page joins, OCR/spacing anomalies, quotations, verse/song, chronology-sensitive claims, non-authorial material, duplicate source content, textual/semantic holds, paragraph reconstruction and any culturally significant material that could affect later translation.
+Result:
 
-Create `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch13.json`, synchronize Batch 003/progress/manifest/handover, and stop with **T1 fresh translation next**.
+- **PASS / COMPLETE**
+- unresolved source holds: **0**
+- non-authorial exclusions: **0**
+- duplicate-source exclusions: **0**
+- page/source-unit joins: **1**
+- open review items: **1 non-blocking lexical item — `ஜன்னி`**
+- T1 started: **NO**
 
-Do **not** translate during this P0 activity.
+Important controls:
+
+- repeated chapter title is metadata, not body prose;
+- page 76→77 joins `குருதி / கக்கினார்`;
+- reconstruct literary paragraphs from page witnesses rather than five extraction units;
+- preserve 1938 anti-Hindi movement / Tamil Brigade continuity;
+- preserve Alagirisami's storm/lion oratorical imagery and blood-vomiting turn;
+- preserve Dravida Nadu, `இளமைப் பலி!`, `பகுத்தறிவு பரமசிவம்`, and the third-or-fourth-issue uncertainty;
+- preserve Palaniyappan → Santa → Natchuk Koppai title history and exact financial sequence;
+- preserve Self-Respect identity versus priestly marriage rites;
+- preserve the Chidambaram arranged-marriage / father-in-law entrance sequence;
+- do not invent a precise modern diagnosis for `ஜன்னி` before lexical resolution.
+
+## Immediate next activity — v1-ch13 T1
+
+Run **T1 fresh translation for `v1-ch13` only** directly from the pinned Tamil and P0 source notes. Do not consult existing English. Stop with **T2 next**.
 
 ## Mandatory controls
 
