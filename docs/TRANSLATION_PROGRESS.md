@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / `v1-ch08` T3 COMPLETE / STRUCTURE NEXT**
+Status: **OPEN / `v1-ch08` STRUCTURE COMPLETE / TERMINOLOGY NEXT**
 
 Batch control:
 
@@ -59,7 +59,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **T3 COMPLETE / STRUCTURE NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **T1 COMPLETE / T2 QUEUED** |
@@ -72,14 +72,14 @@ Opening counters:
 - T1 complete: **5 / 5**
 - T2 complete: **1 / 5**
 - T3 complete: **1 / 5**
-- thought-structure complete: **0 / 5**
+- thought-structure complete: **1 / 5**
 - terminology/cultural complete: **0 / 5**
 - comparator checks complete: **0 / 5**
 - approved: **0 / 5**
 
 The selected five chapter blobs are byte-identical to the older Batch 001 pin, while the batch authority itself is the live source `main` at Batch 002 opening.
 
-## `v1-ch08` — T3 complete
+## `v1-ch08` — thought structure complete
 
 Durable file:
 
@@ -98,10 +98,13 @@ P0: **PASS / COMPLETE**
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-t2.md`;
 - T3: **PASS WITH MINOR REVISION / COMPLETE — 19 grouped source-checked revisions**;
 - T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-t3.md`;
+- thought structure: **PASS / COMPLETE — 18 / 18 major movements**;
+- structure review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-structure.md`;
+- reordered / omitted / invented: **0 / 0 / 0**;
+- chapter-text changes at structure gate: **0**;
 - unresolved source holds: **0**;
-- blocking T2/T3 issues: **0**;
 - existing-English comparator consulted: **NO**;
-- next gate: **thought-structure audit**.
+- next gate: **terminology/cultural-consistency audit**.
 
 The source review protects the two page joins, exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, the secure seventy-five-rupee arithmetic behind anomalous `எழுபுத்து ஐந்து`, organization-name sequence, 1941/1942 chronology, Bharathidasan verse/lineation, dramatic historical present, mixed quote punctuation in the theft scene, concrete gold-chain/Chettiar Bank details, maternal colloquial humour and the later parallel sandalwood-bowl theft affecting his wife.
 
@@ -305,4 +308,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **thought-structure audit for `v1-ch08`**. Verify every major movement in the pinned Tamil survives in the revised English, with no omission, invention or reordering. Do not consult existing English.
+Run the **terminology/cultural-consistency audit for `v1-ch08`**. Review organization names, historical/political titles, personal names, place names, cultural objects and movement-era terms for consistency with the glossary and prior approved chapters. Do not consult existing English. If the gate passes, freeze the independent English for the controlled comparator stage.

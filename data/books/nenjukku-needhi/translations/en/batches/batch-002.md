@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / `v1-ch08` T3 COMPLETE / STRUCTURE NEXT**
+Status: **OPEN / `v1-ch08` STRUCTURE COMPLETE / TERMINOLOGY NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -40,7 +40,7 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **T3 COMPLETE / STRUCTURE NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T1 COMPLETE / T2 QUEUED** |
@@ -102,6 +102,7 @@ At the user's explicit instruction, T1 was completed for the entire Batch 002 af
 - T1 fresh translations: **5 / 5 COMPLETE**
 - T2: **1 / 5**
 - T3: **1 / 5**
+- thought structure: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
@@ -151,9 +152,29 @@ T3 result:
 
 T3 restored short narrative beats such as **Dawn came**, removed repetitive or mechanical English, clarified the open-box and baby-snake images, tightened the wrist-chain/family passages, and improved the Sanarthanam return-fare and closing inward-grief sentences. Protected political content, 1941/1942 chronology, Bharathidasan verse, historical present, guilty humour and the mother/wife two-theft structure were unchanged.
 
+## `v1-ch08` — thought structure complete
+
+Durable review:
+
+- `../reviews/v1-ch08-structure.md`
+
+Result:
+
+- **PASS / COMPLETE**;
+- major movements represented: **18 / 18**;
+- reordered: **0**;
+- omitted: **0**;
+- invented: **0**;
+- chapter-text revisions at this gate: **0**;
+- unresolved source holds: **0**;
+- existing-English comparator consulted: **NO**;
+- next gate: **terminology/cultural-consistency audit**.
+
+The audit confirms that public organizing and domestic consequence remain one continuous causal structure: Federation politics → ideological refusal → new Tamil student organization → movement expansion → festival finance collapse → gold-chain theft → mother's grief/guilty humour → explicit mother/wife parallel → Sanarthanam return-fare crisis → sandalwood-bowl loan → wife's blame and narrator's inward grief.
+
 ## Immediate next activity
 
-Run the **thought-structure audit for `v1-ch08`**. Verify all major source movements are represented in the revised English with no omission, invention or reordering. Do not consult existing English.
+Run the **terminology/cultural-consistency audit for `v1-ch08`**. Do not consult existing English. Freeze independent English only after that gate passes.
 
 ## Infrastructure limitation
 

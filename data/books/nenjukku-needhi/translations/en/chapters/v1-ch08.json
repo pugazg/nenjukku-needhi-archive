@@ -8,7 +8,7 @@
     "start": 56,
     "end": 59
   },
-  "status": "t3-complete",
+  "status": "structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -22,7 +22,8 @@
     "T1 preserves documented source joins, quoted material, authored chronology, humour, imagery and organizational distinctions without silent historical correction.",
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
     "T2 source-and-Kalaignar-voice review accepted 18 grouped source-checked revisions, chiefly restoring the Congress-Communist dominance/advance metaphor, more natural fee arithmetic, wrist-chain materiality, theft-scene self-talk, Chettiar Bank phrasing, mother's colloquial affection, and the guilty humour of the family scenes. No existing-English comparator was consulted.",
-    "T3 English-only literary review accepted 19 minor source-checked revisions for cadence and idiomatic English. Protected political content, chronology, verse, historical present, material details, guilty humour and the mother/wife two-theft structure were unchanged. No existing-English comparator was consulted."
+    "T3 English-only literary review accepted 19 minor source-checked revisions for cadence and idiomatic English. Protected political content, chronology, verse, historical present, material details, guilty humour and the mother/wife two-theft structure were unchanged. No existing-English comparator was consulted.",
+    "Thought-structure audit passed 18/18 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
   ],
   "paragraphs": [
     "The man in the khadi shirt came, held an election for the Federation office-bearers, and made me secretary of the student branch. My friend S. P. Chidambaram was made treasurer. From the day the office-bearers were elected, my mind was in turmoil. My young mind feared: \"If this goes on, where will we end up? With the Communists? With the Congress?\"",
@@ -58,8 +59,9 @@
     "source_review": "../source-notes/v1-ch08.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch08-t2.md",
-    "t3_review": "../reviews/v1-ch08-t3.md"
+    "t3_review": "../reviews/v1-ch08-t3.md",
+    "thought_structure_review": "../reviews/v1-ch08-structure.md"
   }
 }
