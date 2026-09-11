@@ -8,7 +8,7 @@
     "start": 51,
     "end": 55
   },
-  "status": "t3-complete",
+  "status": "structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -35,7 +35,8 @@
     "T2 distinguishes handwritten journals as a publication form from the physical copies produced by hand; demy-paper costs and the 'labour and articles were free' punchline remain intact.",
     "T2 restores the closing Federation 'current' so it links naturally to the final image of putting one's foot in without knowing the depth.",
     "T2 keeps the Students' Federation generic and the visitor unnamed; no unsupported expansion to a specific national student body or identity is introduced.",
-    "T3 English-only review accepted 19 source-checked fluency revisions, chiefly removing stiff literal syntax in the historical and handwritten-journal passages while preserving direct quotations, authored chronology tensions, publishing materiality, the delayed Communist reveal, Freedom – Peace – Equality, and the closing current/depth image. No existing-English comparator was consulted."
+    "T3 English-only review accepted 19 source-checked fluency revisions, chiefly removing stiff literal syntax in the historical and handwritten-journal passages while preserving direct quotations, authored chronology tensions, publishing materiality, the delayed Communist reveal, Freedom – Peace – Equality, and the closing current/depth image. No existing-English comparator was consulted.",
+    "Thought-structure audit passed 24/24 major movements with no reordering, omission or invention. The opening political history remains structurally connected to the Communist organizer's schoolboy encounter, Maanava Nesan, Murasoli's practical origin, student recruitment and the final current/depth apprehension. No chapter wording changed at this gate."
   ],
   "paragraphs": [
     "Jinnah and Jawaharlal Nehru continued to correspond. They were entirely about the Muslim community. In connection with the Muslims' demands, the Congress Party did not accept the conditions contained in a letter Jinnah wrote on 9 October 1938. Opposition between Jinnah and the Congress took deep root.",
@@ -78,8 +79,9 @@
     "source_review": "../source-notes/v1-ch07.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch07-t2.md",
-    "t3_review": "../reviews/v1-ch07-t3.md"
+    "t3_review": "../reviews/v1-ch07-t3.md",
+    "thought_structure_review": "../reviews/v1-ch07-structure.md"
   }
 }

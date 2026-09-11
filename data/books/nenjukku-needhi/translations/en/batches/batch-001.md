@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` T3 COMPLETE / THOUGHT STRUCTURE NEXT**
+Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` THOUGHT STRUCTURE COMPLETE / TERMINOLOGY NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -24,7 +24,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **THOUGHT STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
 
 ## `v1-ch03` closure
 
@@ -149,7 +149,7 @@ Controlled post-freeze comparator path `public/data/text-en/v1-ch06.json` is abs
 
 Final approval confirms **0 unresolved source holds**, **0 unresolved terminology/comparator issues**, **0 outstanding review items**, and **20 / 20 structural movements preserved**. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
-## `v1-ch07` — T3 complete
+## `v1-ch07` — thought structure complete
 
 Durable files:
 
@@ -157,6 +157,7 @@ Durable files:
 - translation: `../chapters/v1-ch07.json`
 - T2 review: `../reviews/v1-ch07-t2.md`
 - T3 review: `../reviews/v1-ch07-t3.md`
+- thought-structure audit: `../reviews/v1-ch07-structure.md`
 
 Gate state:
 
@@ -168,12 +169,14 @@ Gate state:
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 19 source-checked revisions**;
+- thought-structure audit: **PASS / COMPLETE — 24 / 24 major movements preserved**;
 - English title: **Are You the One Who Runs 'Maanava Nesan'?**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
 - blocking T2 issues: **0**;
 - outstanding T3 issues: **0**;
-- next gate: **thought-structure audit**.
+- outstanding structure items: **0**;
+- next gate: **terminology/cultural-consistency audit**.
 
 P0 records the opening `ஜி / ன்னா` word join; contextual `முஸ்லீம் வீக்கிற்கும்` → Muslim League function; valid archaic `முடங்கல்` = letter; Alagiri / Chittarasu name-list punctuation; Gandhi–Jinnah dialogue; authored political chronology; page-53/54 `கொண்- / டிருந்தது` join; the `பள்ளிக்கூடத்திலிருத்த` extraction anomaly; the macro-history → thin fifteen-year-old Kalaignar reveal; `மாணவ நேசன்` as a handwritten student periodical; Bharathidasan's spinning-wheel sarcasm; `சிறுதுளி பெருவெள்ளம்`; Pongal special-issue usage; demy-paper production economics; Murasoli's origin as leaflet issues; the Freedom–Peace–Equality triad; and the closing current/depth imagery.
 
@@ -182,6 +185,8 @@ Two authored chronology tensions are explicitly preserved rather than corrected:
 No non-authorial body material was found. No missing Tamil reconstruction is required.
 
 T3 first read the revised chapter as English and then checked every proposed change against the pinned Tamil. It accepted **19** minor fluency revisions, chiefly in the large-history syntax and handwritten-journal production passage. Direct Gandhi–Jinnah/newspaper/Sarojini material, authored chronology tensions, Bharathidasan's sarcasm, **Little drops make a great flood**, demy-paper/free-labour humour, `Murasoli` as leaflet issues, the delayed Communist reveal, **Freedom – Peace – Equality**, and the closing current/depth metaphor remain protected. No existing-English comparator was consulted.
+
+Thought-structure audit: **PASS — 24 / 24 major movements preserved; 0 reordered; 0 omitted; 0 invented**. The audit confirms that the opening political history is structurally necessary: M. N. Roy / Forward Bloc / Communist preparations create the bridge to the organizer who seeks out the thin fifteen-year-old narrator; `Maanava Nesan` then leads through publishing labour to `Murasoli`, student recruitment and the final current/depth apprehension. No chapter wording changed at this gate.
 
 ## Branch consolidation
 
@@ -205,8 +210,8 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - T1 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - T2 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - T3 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- thought-structure complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
+- thought-structure complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - terminology/cultural complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - comparator checks complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - approved chapters: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- next chapter activity: **thought-structure audit for `v1-ch07`**
+- next chapter activity: **terminology/cultural-consistency audit for `v1-ch07`**

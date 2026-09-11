@@ -49,7 +49,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **T3 COMPLETE / THOUGHT STRUCTURE NEXT** |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **THOUGHT STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
 
 ## `v1-ch03`
 
@@ -157,7 +157,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 
 Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms 20 / 20 structural movements, 0 unresolved source holds, 0 unresolved terminology/comparator issues, and 0 outstanding review items. Formal JSON-Schema validation remains unavailable because `schemas/chapter.json` is the empty one-byte legacy placeholder.
 
-## `v1-ch07` — T3 complete
+## `v1-ch07` — thought structure complete
 
 Durable files:
 
@@ -165,6 +165,7 @@ Durable files:
 - translation: `data/books/nenjukku-needhi/translations/en/chapters/v1-ch07.json`
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-t2.md`
 - T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-t3.md`
+- thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-structure.md`
 
 P0 result:
 
@@ -180,18 +181,20 @@ P0 result:
 - fresh T1 translation: **PASS / COMPLETE**;
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 19 source-checked revisions**;
+- thought-structure audit: **PASS / COMPLETE — 24 / 24 major movements preserved**;
 - English title: **Are You the One Who Runs 'Maanava Nesan'?**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
 - blocking T2 issues: **0**;
 - outstanding T3 issues: **0**;
-- next gate: **thought-structure audit**.
+- outstanding structure items: **0**;
+- next gate: **terminology/cultural-consistency audit**.
 
 Source review records the page-51 Jinnah word join, the contextual Muslim League reading, valid archaic `முடங்கல்` = letter, Alagiri/Chittarasu punctuation, page-53/54 hyphenated join, quoted-newspaper extraction artifact, macro-history → schoolboy pivot, `மாணவ நேசன்` production details, Bharathidasan's spinning-wheel sarcasm, `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper costs, Murasoli's leaflet origin, communist recruiter's delayed reveal, Freedom–Peace–Equality triad and the closing current/depth metaphor.
 
 Authored chronology tensions are retained, not corrected: the memoir's 1939 M. N. Roy party date and the fifteen-year-old / four-months-before-Murasoli timeline.
 
-Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch07.json`. T2 normalises **Indian National Congress** and **Radical Democratic Party** while preserving Kalaignar's authored dates; retains `Maanava Nesan`; distinguishes handwritten journals from physical copies; rebalances Bharathidasan's spinning-wheel sarcasm; preserves `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper/free-labour economics and Murasoli's leaflet origin; keeps the Students' Federation generic and Communist reveal delayed; and restores the linked current/depth imagery at the close. T3 then accepted **19 source-checked minor revisions** for English syntax and cadence without changing quotations, chronology tensions, political framing, material publishing detail, the delayed Communist reveal, **Freedom – Peace – Equality**, or the closing water images. No existing English was consulted.
+Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch07.json`. T2 normalises **Indian National Congress** and **Radical Democratic Party** while preserving Kalaignar's authored dates; retains `Maanava Nesan`; distinguishes handwritten journals from physical copies; rebalances Bharathidasan's spinning-wheel sarcasm; preserves `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper/free-labour economics and Murasoli's leaflet origin; keeps the Students' Federation generic and Communist reveal delayed; and restores the linked current/depth imagery at the close. T3 then accepted **19 source-checked minor revisions** for English syntax and cadence without changing quotations, chronology tensions, political framing, material publishing detail, the delayed Communist reveal, **Freedom – Peace – Equality**, or the closing water images. Thought structure then passed **24 / 24** major movements with **0 reordered, 0 omitted, 0 invented**; no chapter wording changed at the structure gate. No existing English was consulted.
 
 ## Batch 001 counters
 
@@ -200,7 +203,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - T1 complete: **5 / 5**
 - T2 complete: **5 / 5**
 - T3 complete: **5 / 5**
-- thought-structure complete: **4 / 5**
+- thought-structure complete: **5 / 5**
 - terminology/cultural complete: **4 / 5**
 - comparator checks complete: **4 / 5**
 - approved: **4 / 5**
@@ -215,4 +218,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **thought-structure audit for `v1-ch07`**. Verify that the English preserves the chapter's intellectual and narrative movement from Congress–League/Jinnah–Nehru politics through Tripuri, Bose, Nehru, M. N. Roy and Communist organizing; the sudden scale change to the thin fifteen-year-old schoolboy; `Maanava Nesan` and handwritten-journal materiality; the practical birth of `Murasoli`; the khadi-shirted recruiter and delayed Communist reveal; **Freedom – Peace – Equality**; and the final Federation current / unknown-depth apprehension. Do not consult any existing-English comparator yet.
+Run the **terminology/cultural-consistency audit for `v1-ch07`**. Review publication titles and forms, political proper names and honorific variation, `Maanava Nesan`, `Murasoli`, **handwritten journal / copy**, **Pongal special issue**, **demy paper**, **leaflet issues**, **organizing camp** for `பாசறை`, the generic **Students' Federation**, **Freedom – Peace – Equality**, and chapter-level romanisation/cultural consistency. Do not consult any existing-English comparator yet.
