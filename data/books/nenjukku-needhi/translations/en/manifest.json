@@ -32,7 +32,10 @@
     "accepted_scholarly_uncertainty_requires_editorial_closure": true,
     "normal_batch_size": 5,
     "batch_is_management_envelope": true,
-    "process_chapters_sequentially_within_batch": true
+    "process_chapters_sequentially_within_batch": true,
+    "existing_english_comparator_policy": "historical-v1-ch01-only",
+    "production_comparator_gate_required": false,
+    "production_workflow": "source-review -> T1 -> T2 -> T3 -> thought-structure -> terminology-cultural -> final-approval"
   },
   "pilot_phase": {
     "status": "complete",
@@ -124,9 +127,10 @@
           "preserve historical-present staging, financial escalation, gold-chain/Chettiar Bank material detail, maternal dialect/humour and linked mother/wife theft narratives",
           "complete T2 source-and-Kalaignar-voice review with 18 grouped source-checked revisions; preserve exact slogan, 1941/1942 chronology, Bharathidasan verse, historical present, wrist-chain materiality, guilty humour and mother/wife theft parallel",
           "complete T3 English-only literary review with 19 grouped source-checked minor revisions; protected political, chronological, verse, historical-present, material and two-theft structural content unchanged",
-          "terminology/cultural audit corrected `சந்தனக் கிண்ணம்` from material-misleading `sandalwood bowl` to `sandal-paste bowl`, supported by v1-ch09 identifying the same vessel as silver; all other terminology controls retained"
+          "terminology/cultural audit corrected `சந்தனக் கிண்ணம்` from material-misleading `sandalwood bowl` to `sandal-paste bowl`, supported by v1-ch09 identifying the same vessel as silver; all other terminology controls retained",
+          "retire recurring comparator gate: Batch 002 source pin public/data/text-en/ contains only v1-ch01.json; proceed directly from terminology/cultural freeze to final approval"
         ],
-        "next_gate": "post-freeze-comparator-check",
+        "next_gate": "final-approval-review",
         "translation": "chapters/v1-ch08.json",
         "reviews": {
           "t2": "reviews/v1-ch08-t2.md",
@@ -157,7 +161,8 @@
           "unresolved_holds": 0,
           "independent_english_frozen": true,
           "comparator_consulted": false
-        }
+        },
+        "comparator_policy": "not-applicable-after-v1-ch01"
       },
       {
         "id": "v1-ch09",
@@ -251,9 +256,8 @@
     "t3_complete": 1,
     "thought_structure_complete": 1,
     "terminology_cultural_complete": 1,
-    "comparator_checks_complete": 0,
     "approved_chapters": 0,
-    "next_activity": "post-freeze-comparator-check-v1-ch08",
+    "next_activity": "final-approval-v1-ch08",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",
