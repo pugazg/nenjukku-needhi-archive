@@ -52,7 +52,7 @@ Current counters:
 - T1: **5 / 5**
 - T2: **5 / 5**
 - T3: **5 / 5**
-- thought structure: **1 / 5**
+- thought structure: **5 / 5**
 - terminology/cultural: **1 / 5**
 - approved: **1 / 5**
 - unresolved source holds: **0**
@@ -79,22 +79,22 @@ Current counters:
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
-The remaining Batch 002 chapters have now completed both T2 and T3:
+The remaining Batch 002 chapters have now completed T2, T3 and thought structure:
 
-- `v1-ch09` — **T2 PASS WITH REVISION — 12 / T3 PASS WITH MINOR REVISION — 11 / STRUCTURE NEXT**
-- `v1-ch10` — **T2 PASS WITH REVISION — 7 / T3 PASS WITH MINOR REVISION — 10 / STRUCTURE QUEUED**
-- `v1-ch11` — **T2 PASS WITH REVISION — 7 / T3 PASS WITH MINOR REVISION — 7 / STRUCTURE QUEUED**
-- `v1-ch12` — **T2 PASS WITH REVISION — 13 / T3 PASS WITH MINOR REVISION — 12 / STRUCTURE QUEUED**
+- `v1-ch09` — **T2 PASS — 12 revisions / T3 PASS — 11 revisions / STRUCTURE PASS — 20 / 20 / TERMINOLOGY NEXT**
+- `v1-ch10` — **T2 PASS — 7 / T3 PASS — 10 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY QUEUED**
+- `v1-ch11` — **T2 PASS — 7 / T3 PASS — 7 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY QUEUED**
+- `v1-ch12` — **T2 PASS — 13 / T3 PASS — 12 / STRUCTURE PASS — 22 / 22 / TERMINOLOGY QUEUED**
 
-Batch 002 T2 is **5 / 5 COMPLETE** and T3 is **5 / 5 COMPLETE**, with **0 unresolved source holds**, **0 blocking T2 issues**, and **0 outstanding T3 issues**.
+Batch 002 T2, T3 and thought structure are all **5 / 5 COMPLETE**. Across the new structure audits: **0 reordered, 0 omitted, 0 invented, 0 chapter-text changes**. Unresolved source holds remain **0**.
 
 ## Comparator policy
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch09 thought structure
+## Immediate next activity — v1-ch09 terminology/cultural audit
 
-Run the **thought-structure audit** for `v1-ch09` only. Compare the complete pinned Tamil and revised English by major movement; record represented / reordered / omitted / invented counts; do not consult existing English; stop with **terminology/cultural audit next**.
+Run the **terminology/cultural-consistency audit** for `v1-ch09` only. Review names, school/examination terms, Kudi Arasu references, theatrical/mythological names, place names, child-speech handling, cultural imagery and source-era institutional forms against the living glossary and prior approved chapters. Do not consult existing English. Stop with **final approval next** if the terminology gate passes.
 
 ## Mandatory controls
 
