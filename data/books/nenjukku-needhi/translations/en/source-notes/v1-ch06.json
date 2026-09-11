@@ -182,10 +182,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "thought-structure-complete",
-  "gate_result": "pass",
+  "status": "terminology-cultural-complete",
+  "gate_result": "pass-with-minor-revision",
   "unresolved_source_holds": 0,
-  "next_gate": "terminology-cultural-audit",
+  "next_gate": "post-freeze-comparator-check",
   "t1_translation": "../chapters/v1-ch06.json",
   "t2_review": "../reviews/v1-ch06-t2.md",
   "t2_resolutions": [
@@ -211,5 +211,11 @@
     "omitted": 0,
     "invented": 0
   },
-  "independent_english_frozen": true
+  "independent_english_frozen": true,
+  "terminology_cultural_review": "../reviews/v1-ch06-terminology.md",
+  "terminology_resolutions": [
+    "retain Tamil Brigade, Fearless Heart, Summer-Thunder Alagiri, Ammaiyar, Self-Respect Movement, frenzy/devotion, non-violent picketing struggle, Gandhiji and the Tamil/green-crescent flag image",
+    "render இன உணர்ச்சி as racial consciousness in this chapter's historical political register without freezing a global rule for இனம்",
+    "render தமிழ்க் காளையர் as young Tamil warriors, using the established human senses of காளை rather than manufacturing a literal bull image"
+  ]
 }
