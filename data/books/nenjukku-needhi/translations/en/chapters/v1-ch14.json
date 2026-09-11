@@ -8,7 +8,7 @@
     "start": 81,
     "end": 84
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -22,7 +22,8 @@
     "Three documented page joins are reconstructed continuously; literary paragraphing follows rhetorical flow rather than four extraction units.",
     "T2 source-and-Kalaignar-voice review passed with 8 grouped source-checked revisions. The pass strengthens the bride-viewing intimacy, Kinthanar's oral/social satire and the wife's affectionate pressure while preserving the 13 September 1944 chronology, dual wedding forms, crowd chaos and actor-decision pivot. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 5 grouped minor source-checked revisions. The pass improves bride-viewing, Kinthanar cadence, poverty phrasing and the wife's affectionate pressure without changing the wedding chronology, reform/priestly contrast, crowd scene or actor-decision ending.",
-    "Thought-structure audit passed 16/16 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 16/16 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed with one reader-clarity revision: first-use `cheri` → `cheri settlement`, retaining the culture-specific word while giving minimal functional context. Reform marriage, Self-Respect marriage, vivaha subhamuhurtham, lagna, Kalaivanar, Kinthanar, kathakalakshepam, Mahamayi and source-led names remain intact. Independent English is frozen for final approval."
   ],
   "paragraphs": [
     "What would the girl be like? Beautiful—or not? Dark? Fair? Would she be good-natured? Would she suit the family? My thoughts did not stop with those questions. Why had I suddenly developed this desire for marriage? No, no—was it not that love affair which had exposed me like this before my family? Confused by such thoughts, I reached the bride's house.",
@@ -34,7 +35,7 @@
     "While our wedding ceremony was still going on, the traditionalists grew anxious that the auspicious lagna fixed for my brother-in-law's wedding might pass. They burst into our ceremony in agitation. They fretted and flared up. So that their lagna should not be missed, we too shifted the speeches connected with our wedding to the evening and gave way to the auspicious hour they so eagerly welcomed.",
     "That night Kalaivanar N. S. Krishnan was to perform his Kinthanar kathakalakshepam. Kalaivanar had changed the very idea that a kathakalakshepam must always carry the musty smell of the old order. Dressed like a distinguished Bhagavata storyteller and seated on stage with accompanying musicians, he would leave the puranic storytellers standing agape, thinking they were about to relish a devotional story dripping with piety.",
     "Then Kalaivanar would thunder: \"The Nandan of those days went to the temple; the Kinthan of these days goes to the temple of learning.\" Faces in the gathering would bloom. \"Is this not a feast of ideas!\" people would exclaim in delight. His revolutionary kathakalakshepam received welcome, support and praise across the South.",
-    "Who could fail to admire Kalaivanar's courage when they saw the story of a young man born in a cheri, living in poverty, going to Madras, receiving an education and proclaiming, \"I too am human\"? Today we rejoice in a time when the principle \"All are equal!\" has grown like a banyan tree. But what was the age in which Kalaivanar's Kinthanar revolution took place? What kinds of opposition did those intoxicated with the old order hurl at him?",
+    "Who could fail to admire Kalaivanar's courage when they saw the story of a young man born in a cheri settlement, living in poverty, going to Madras, receiving an education and proclaiming, \"I too am human\"? Today we rejoice in a time when the principle \"All are equal!\" has grown like a banyan tree. But what was the age in which Kalaivanar's Kinthanar revolution took place? What kinds of opposition did those intoxicated with the old order hurl at him?",
     "If that Kinthanar, which had caused such an upheaval, was to be performed at our wedding, could the wedding pavilion contain the crowd? The long, vast pavilion disappeared from sight. A sea of people surged inside. The Kinthanar performance had to be stopped. Hundreds of police came for protection. My brother-in-law and I—the two bridegrooms—could not even enter the pavilion.",
     "At that moment, without my knowing it, my eyes turned toward the women's section. Need I say why? I wanted to see whether she was safe. From within that same crowd, my Padma's eyes too were searching for me with longing and fear. She saw me struggling in the crush. Ah! How her face wilted! Only that morning had the bond of life been tied between us. Where had such affection come from so quickly? Even as I wondered, a great wave rose and separated us so that we could no longer see one another. In that surge, one or two young men broke their legs.",
     "At last the Kinthanar performance was shifted from the pavilion out into the street. Seeing the flood of people, Kalaivanar poured out his ideas that day with fresh vigour. My friends and I, without even eating dinner, sat beside the well in the backyard of the wedding house and listened through the loudspeaker.",
@@ -51,9 +52,11 @@
     "source_review": "../source-notes/v1-ch14.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch14-t2.md",
     "t3_review": "../reviews/v1-ch14-t3.md",
-    "thought_structure_review": "../reviews/v1-ch14-structure.md"
+    "thought_structure_review": "../reviews/v1-ch14-structure.md",
+    "terminology_review": "../reviews/v1-ch14-terminology.md",
+    "independent_english_frozen": true
   }
 }
