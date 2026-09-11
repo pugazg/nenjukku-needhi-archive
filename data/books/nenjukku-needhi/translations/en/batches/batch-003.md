@@ -1,6 +1,6 @@
 # Batch 003 — Volume 1 Chapters 13–17
 
-Status: **OPEN / `v1-ch13` P0 SOURCE REVIEW NEXT**
+Status: **OPEN / `v1-ch13` P0 COMPLETE / T1 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -42,7 +42,7 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch13` | `மாமனார் தந்த வரவேற்பு` | 76–80 | **P0 SOURCE REVIEW NEXT** |
+| `v1-ch13` | `மாமனார் தந்த வரவேற்பு` | 76–80 | **P0 COMPLETE / T1 NEXT** |
 | `v1-ch14` | `வாழ்வதற்கு வழி? நடிகனானேன் நான்!` | 81–84 | **PINNED / QUEUED** |
 | `v1-ch15` | `நண்பர்கள் முகம் வாடலாமா?` | 85–89 | **PINNED / QUEUED** |
 | `v1-ch16` | `கம்புகள்! குண்டாந்தடிகள்!` | 90–93 | **PINNED / QUEUED** |
@@ -52,7 +52,7 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 - batch opened: **YES**
 - source files pinned: **5 / 5**
-- full source reviews complete: **0 / 5**
+- full source reviews complete: **1 / 5**
 - T1 complete: **0 / 5**
 - T2 complete: **0 / 5**
 - T3 complete: **0 / 5**
@@ -71,24 +71,39 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 - existing English is not a production gate for `v1-ch02+`;
 - do not start `v1-ch18` until Batch 003 is closed.
 
+## `v1-ch13` — P0 source review complete
+
+Durable source note:
+
+`../source-notes/v1-ch13.json`
+
+Result:
+
+- **PASS / COMPLETE**
+- extraction units: **5**
+- page/source-unit joins: **1**
+- non-authorial exclusions: **0**
+- duplicate-source exclusions: **0**
+- unresolved source holds: **0**
+- open review items: **1 non-blocking lexical item — `ஜன்னி`**
+- translations started: **0**
+
+Key controls:
+
+- repeated title excluded from body prose;
+- page 76→77 `குருதி / கக்கினார்` joined continuously;
+- page-level paragraphing preferred over extraction-unit boundaries;
+- 1938 anti-Hindi / Tamil Brigade continuity preserved;
+- Alagirisami speech imagery and direct dialogue protected;
+- Dravida Nadu / article-title history protected;
+- Palaniyappan → Santa → Natchuk Koppai title sequence protected;
+- secure spacing/OCR anomalies documented;
+- Self-Respect identity / priestly-marriage contrast protected;
+- marriage-arrangement and father-in-law entrance material protected.
+
 ## Immediate next activity
 
-Run **P0 source review for `v1-ch13` only**.
-
-Source identity:
-
-- ID: `v1-ch13`
-- title: `மாமனார் தந்த வரவேற்பு`
-- pages: **76–80**
-- source path: `public/data/text/v1-ch13.json`
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source blob: `80fc03e2092ab69b22879e65ab6887acc4284a55`
-- extraction units: **5**
-- extraction strategy: `wordjoiner`
-
-P0 must read the full pinned Tamil and record title repeats, page/source-unit joins, OCR or spacing anomalies, quotations, verse/song, chronology-sensitive claims, non-authorial material, duplicated source material, textual/semantic holds and paragraph-reconstruction needs.
-
-Do **not** translate during P0.
+Run **T1 fresh translation for `v1-ch13` only**, directly from the pinned Tamil and P0 source notes. Do not consult existing English. Preserve the one lexical review item transparently and do not invent a precise modern diagnosis for `ஜன்னி`. Stop with **T2 next**.
 
 ## Infrastructure limitation
 
