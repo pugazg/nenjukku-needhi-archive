@@ -47,7 +47,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **TERMINOLOGY/CULTURAL PASS / COMPARATOR CHECK NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -109,7 +109,7 @@ Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932
 
 Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
-## `v1-ch06` — terminology/cultural complete
+## `v1-ch06` — comparator check complete
 
 Durable file:
 
@@ -131,12 +131,16 @@ P0 result:
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 18 source-checked revisions**;
 - thought-structure audit: **PASS / COMPLETE — 20 / 20 major movements preserved**;
 - terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
+- post-freeze comparator check: **COMPLETE / NOT APPLICABLE — COMPARATOR ABSENT**;
+- controlled path: `public/data/text-en/v1-ch06.json`;
+- pinned `text-en` tree SHA: `b99f25ead115fad25226ac619ff9c8bd3e4e60cb`;
+- comparator text consulted: **NO**;
+- translation changes from comparator gate: **0**;
 - English title: **The Battlefront to Save Tamil**;
 - independent English: **FROZEN**;
-- existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
-- unresolved terminology holds: **0**;
-- next gate: **post-freeze comparator availability check**.
+- unresolved terminology/comparator holds: **0**;
+- next gate: **final approval review**.
 
 Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics.
 
@@ -151,7 +155,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - T3 complete: **4 / 5**
 - thought-structure complete: **4 / 5**
 - terminology/cultural complete: **4 / 5**
-- comparator checks complete: **3 / 5**
+- comparator checks complete: **4 / 5**
 - approved: **3 / 5**
 
 ## Infrastructure note
@@ -164,4 +168,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Perform the **post-freeze existing-English comparator availability check for `v1-ch06`** at the controlled source path `public/data/text-en/v1-ch06.json` using the Batch 001 pinned source ref. If absent, record the absence and do not search unofficial English versions.
+Run the **final approval review for `v1-ch06`**. Verify all completed gates, source/provenance controls, unresolved holds/review items, machine-readable consistency under implemented repository controls, and approval readiness. Do not claim formal JSON-Schema validation while `schemas/chapter.json` remains the empty legacy placeholder.
