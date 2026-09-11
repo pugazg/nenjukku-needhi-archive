@@ -288,6 +288,26 @@ Do not erase the period's collective identity vocabulary, but do not force one E
 In `v1-ch06`, Anna's `இன உணர்ச்சி ஊற்றெடுக்க` is rendered **our racial consciousness to well up** because that preserves the historical political register and the abstract-consciousness construction. This is a chapter-specific choice, not a universal rule; later uses must be reconsidered from context.
 
 
+
+## 42. Preserve deliberate changes of scale from public history to the young narrator
+
+Kalaignar can spend pages on national or international politics and then reveal that the thread has been leading toward a small autobiographical scene. Do not smooth that pivot away by inserting explanatory transitions the Tamil does not need.
+
+In `v1-ch07`, Congress–League relations, Tripuri, Bose, Nehru, China, M. N. Roy, Forward Bloc and Communist organizing suddenly narrow to one organizer expecting an adult Karunanidhi and instead meeting a thin fifteen-year-old schoolboy. The scale change is part of the memoir's wit and self-positioning.
+
+## 43. Preserve the material economics of writing and publishing
+
+When Kalaignar explains how writing was physically produced, copied, paid for and circulated, the material details are part of the autobiography, not disposable production trivia.
+
+In `v1-ch07`, `Maanava Nesan` means two issues a month, eight pages an issue, at least fifty hand-copied copies, demy-paper costs, and free labour and articles. That practical burden directly produces the narrative birth of `Murasoli` as leaflet issues. Keep the numbers, materials, humour and causal link visible.
+
+## 44. Proper-name normalization must not become chronology correction
+
+A securely attested historical English entity name may be normalized even when Kalaignar's date or sequence conflicts with later reference works. Normalize the name; preserve the memoir's authored chronology.
+
+In `v1-ch07`, `புரட்சி ஜனநாயகக் கட்சி` is rendered **Radical Democratic Party**, while Kalaignar's explicit **1939** date remains untouched. The same principle applies to the chapter's fifteen-year-old / four-months-before-`Murasoli` tension.
+
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -327,6 +347,12 @@ Its T2 review adds durable practice for constitutional-period office changes (`F
 The chapter begins with the Tamil Brigade and Pattukkottai Alagirisami's oratorical portrait, then turns the public campaign into Kalaignar's own student activism: associations, daily processions, a two-line song, the Jagadeesan fast, a direct classroom confrontation with his Hindi teacher, and the self-judgment that “my heart rendered justice to me.” It then leaps thirty-six years forward before widening again into Thalamuthu, Natarajan, Anna, Bose, Jinnah and Muslim League participation.
 
 Its T2 review adds durable practice for historically identifiable movement-body naming (`தமிழர் படை` → `Tamil Brigade`), preserving short animal/weather oratorical bursts, keeping `வெறி / பற்று` wordplay explicit, resolving context-bound objects such as classroom `பலகை` as a bench, rendering `மறியல் அறப்போர்` as non-violent picketing struggle, and protecting relative autobiographical time from unnecessary calendar conversion. `இன உணர்ச்சி` remains deliberately open for its later terminology/cultural audit.
+
+### `v1-ch07` — `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"`
+
+The chapter begins in large-scale politics—Jinnah, Nehru, Gandhiji, Bose, Congress, Muslim League, China, Europe, Burma, Tripuri, M. N. Roy and the Forward Bloc—then suddenly reveals that Communist organizing has reached a thin fifteen-year-old Karunanidhi at school. From there the chapter becomes a memoir of handwritten student publishing, Bharathidasan's sarcasm, fifty hand-copied issues, the practical birth of `Murasoli`, and a student federation whose current seems ready to sweep the narrator away.
+
+Its T2 review adds durable practice for preserving macro-history → schoolboy scale shifts, distinguishing handwritten journals from physical copies, keeping production economics and publishing materiality visible, protecting the linked water imagery at the ending, and normalizing secure historical entity names without silently repairing Kalaignar's authored chronology.
 
 ## Review question
 
