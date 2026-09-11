@@ -24,7 +24,8 @@
     "T2 source-and-Kalaignar-voice review accepted 18 grouped source-checked revisions, chiefly restoring the Congress-Communist dominance/advance metaphor, more natural fee arithmetic, wrist-chain materiality, theft-scene self-talk, Chettiar Bank phrasing, mother's colloquial affection, and the guilty humour of the family scenes. No existing-English comparator was consulted.",
     "T3 English-only literary review accepted 19 minor source-checked revisions for cadence and idiomatic English. Protected political content, chronology, verse, historical present, material details, guilty humour and the mother/wife two-theft structure were unchanged. No existing-English comparator was consulted.",
     "Thought-structure audit passed 18/18 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
-    "Terminology/cultural audit passed with one source-supported chapter-text correction: `சந்தனக் கிண்ணம்` is rendered `sandal-paste bowl`, not `sandalwood bowl`, because the next chapter identifies the same vessel as silver. Organization labels, names, place names, Comrade, kumkum, wrist-chain materiality and the cautious Chettiar Bank wording were retained. Independent English is now frozen for the controlled comparator stage."
+    "Terminology/cultural audit passed with one source-supported chapter-text correction: `சந்தனக் கிண்ணம்` is rendered `sandal-paste bowl`, not `sandalwood bowl`, because the next chapter identifies the same vessel as silver. Organization labels, names, place names, Comrade, kumkum, wrist-chain materiality and the cautious Chettiar Bank wording were retained. Independent English is now frozen for the controlled comparator stage.",
+    "Project workflow update: existing-English comparator checks are not a recurring production gate for v1-ch02 onward because the source repository's text-en directory contains only v1-ch01. The historical v1-ch01 comparison remains archival provenance; v1-ch08 proceeds directly from terminology freeze to final approval."
   ],
   "paragraphs": [
     "The man in the khadi shirt came, held an election for the Federation office-bearers, and made me secretary of the student branch. My friend S. P. Chidambaram was made treasurer. From the day the office-bearers were elected, my mind was in turmoil. My young mind feared: \"If this goes on, where will we end up? With the Communists? With the Congress?\"",
@@ -60,11 +61,12 @@
     "source_review": "../source-notes/v1-ch08.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "post-freeze-comparator-check",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch08-t2.md",
     "t3_review": "../reviews/v1-ch08-t3.md",
     "thought_structure_review": "../reviews/v1-ch08-structure.md",
     "terminology_review": "../reviews/v1-ch08-terminology.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "comparator_policy": "not-applicable-after-v1-ch01"
   }
 }
