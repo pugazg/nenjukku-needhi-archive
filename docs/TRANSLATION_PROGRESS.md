@@ -7,6 +7,7 @@
 - Batch 001 pinned source ref: `5c6b5ef8901044660e607d4649238d7c66cb648d`
 - Latest observed source `main`: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 - `v1-ch05` source blob is identical at the Batch 001 pin and live source main: `220fb5271eac48c6988057d0d464d5950fd822a3`
+- `v1-ch06` source blob is identical at the Batch 001 pin and live source main: `8f93218b297262319d82f89274dbee3d1de803f5`
 - Write repository: `pugazg/nenjukku-needhi-archive`
 - Working branch: `main`
 
@@ -46,7 +47,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **SOURCE REVIEW NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **SOURCE REVIEW PASS / T1 NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -108,10 +109,31 @@ Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932
 
 Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
+## `v1-ch06` — source review complete
+
+Durable file:
+
+- source notes: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch06.json`
+
+P0 result:
+
+- source review: **PASS / COMPLETE**;
+- source path: `pugazg/kalaignar-autobiography/public/data/text/v1-ch06.json`;
+- pinned source ref: `5c6b5ef8901044660e607d4649238d7c66cb648d`;
+- source blob: `8f93218b297262319d82f89274dbee3d1de803f5`;
+- live-source comparison: **byte-identical**;
+- pages: **46–50**;
+- extraction units: **5**;
+- unresolved source holds: **0**;
+- non-authorial exclusions: **0**;
+- next gate: **fresh T1 translation**.
+
+Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics. T1 must preserve the chapter's strongly oral and autobiographical movement rather than flattening it into political summary.
+
 ## Batch 001 counters
 
 - source files pinned: **5 / 5**
-- full source reviews complete: **3 / 5**
+- full source reviews complete: **4 / 5**
 - T1 complete: **3 / 5**
 - T2 complete: **3 / 5**
 - T3 complete: **3 / 5**
@@ -130,4 +152,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Begin the complete **source review for `v1-ch06`** (`தமிழ் காக்கும் போர் முனை`, pp. 46–50) before any T1 translation. Preserve its strongly oratorical texture, Pattukkottai Alagirisami descriptions, Tamil volunteer march, quoted public speech and repeated rhetorical imagery; do not flatten the chapter into historical summary.
+Begin the **fresh T1 translation for `v1-ch06`** (`தமிழ் காக்கும் போர் முனை`, pp. 46–50) directly from the pinned Tamil and completed source notes. Preserve its strongly oratorical texture, the two cross-page joins, the two-line student song, Pattukkottai Alagirisami descriptions, classroom dialogue, retrospective time shifts and final political widening. Do not consult an existing English comparator.
