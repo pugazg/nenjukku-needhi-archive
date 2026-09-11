@@ -8,7 +8,7 @@
     "start": 65,
     "end": 67
   },
-  "status": "t3-complete",
+  "status": "structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -22,7 +22,8 @@
     "T1 preserves documented source joins, quoted material, authored chronology, humour, imagery and organizational distinctions without silent historical correction.",
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
     "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass keeps the exhausted walk and Hasan Abdul Kader affection, sharpens the Kodikkarai deadpan religious humour, preserves the army-camp idea as an explicitly fabricated family story, and restores the closing mock-lament cadence. No existing-English comparator was consulted.",
-    "T3 English-only literary review passed with 10 grouped minor source-checked revisions. The pass improves overnight-travel cadence, money-counting English, Hasan Abdul Kader's remembered description, Kodikkarai narrative flow, deadpan shrine humour and the fabricated army-story idiom without changing the source's humour or structure. No existing-English comparator was consulted."
+    "T3 English-only literary review passed with 10 grouped minor source-checked revisions. The pass improves overnight-travel cadence, money-counting English, Hasan Abdul Kader's remembered description, Kodikkarai narrative flow, deadpan shrine humour and the fabricated army-story idiom without changing the source's humour or structure. No existing-English comparator was consulted.",
+    "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
   ],
   "paragraphs": [
     "I, at least, had not studied properly. I had entered politics and failed the examination. But how many students have ended up in a position like mine because they fell short by one mark or two? What became of them all? Those questions flashed and vanished in my heart like streaks of lightning that night.",
@@ -50,8 +51,9 @@
     "source_review": "../source-notes/v1-ch10.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch10-t2.md",
-    "t3_review": "../reviews/v1-ch10-t3.md"
+    "t3_review": "../reviews/v1-ch10-t3.md",
+    "thought_structure_review": "../reviews/v1-ch10-structure.md"
   }
 }
