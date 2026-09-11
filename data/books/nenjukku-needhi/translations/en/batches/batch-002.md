@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / `v1-ch08` APPROVED / `v1-ch09` T2 NEXT**
+Status: **OPEN / BATCH T2 COMPLETE 5/5 / `v1-ch09` T3 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -41,10 +41,10 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T1 COMPLETE / T2 QUEUED** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T1 COMPLETE / T2 QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T1 COMPLETE / T2 QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **T1 COMPLETE / T2 QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T2 COMPLETE / T3 QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T2 COMPLETE / T3 QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **T2 COMPLETE / T3 QUEUED** |
 
 ## Batch rule
 
@@ -63,7 +63,7 @@ This batch is a management envelope.
 - source files pinned: **5 / 5**
 - full source reviews complete: **5 / 5**
 - T1 complete: **5 / 5**
-- T2 complete: **0 / 5**
+- T2 complete: **5 / 5**
 - T3 complete: **0 / 5**
 - thought-structure complete: **0 / 5**
 - terminology/cultural complete: **0 / 5**
@@ -220,9 +220,36 @@ Final result:
 
 Batch 002 approved chapters: **1 / 5**.
 
+## Batch-wide T2 checkpoint
+
+At the user's explicit instruction, T2 source-and-Kalaignar-voice review is now complete for the entire Batch 002.
+
+- `v1-ch08` — **PASS WITH REVISION — 18 grouped revisions** — already APPROVED / CLOSED
+- `v1-ch09` — **PASS WITH REVISION — 12 grouped revisions**
+- `v1-ch10` — **PASS WITH REVISION — 7 grouped revisions**
+- `v1-ch11` — **PASS WITH REVISION — 7 grouped revisions**
+- `v1-ch12` — **PASS WITH REVISION — 13 grouped revisions**
+
+Batch T2 state:
+
+- T2 complete: **5 / 5**
+- unresolved source holds: **0**
+- blocking T2 issues: **0**
+- existing-English comparator consulted: **NO**
+- comparator gate for v1-ch02+: **NOT APPLICABLE**
+
+Durable new reviews:
+
+- `../reviews/v1-ch09-t2.md`
+- `../reviews/v1-ch10-t2.md`
+- `../reviews/v1-ch11-t2.md`
+- `../reviews/v1-ch12-t2.md`
+
+The batch-wide pass preserves the v1-ch09 theatrical reveal / examination crisis, v1-ch10 deadpan Kodikkarai humour and fabricated army story, v1-ch11 young-writer satire and malformed-title joke, and v1-ch12 embedded 1944 Murasoli polemic, friendship rhetoric and child-association election.
+
 ## Immediate next activity
 
-Run the **T2 source-and-Kalaignar-voice review for `v1-ch09`**. Do not start T3 in the same activity. Existing-English comparator is not a production gate for this or later chapters.
+Run the **T3 English-only literary review for `v1-ch09`**. Do not start T3 for later chapters in the same activity unless separately authorized.
 
 ## Infrastructure limitation
 
