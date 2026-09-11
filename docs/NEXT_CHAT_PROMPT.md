@@ -1,4 +1,4 @@
-# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch09 Terminology-Cultural Audit
+# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch09 Final Approval
 
 Continue directly in `pugazg/nenjukku-needhi-archive`, branch `main`.
 
@@ -25,38 +25,37 @@ The source repository's `public/data/text-en/` directory contains only `v1-ch01.
 - T2: **5 / 5**
 - T3: **5 / 5**
 - thought structure: **5 / 5**
-- terminology/cultural: **1 / 5**
+- terminology/cultural: **5 / 5**
 - approved: **1 / 5**
+- independent English frozen: **5 / 5**
 - unresolved source holds: **0**
+- unresolved terminology holds: **0**
 
-Structure results:
+Terminology results:
 
-- `v1-ch08` — PASS — 18 / 18 — APPROVED / CLOSED
-- `v1-ch09` — PASS — 20 / 20
-- `v1-ch10` — PASS — 12 / 12
-- `v1-ch11` — PASS — 12 / 12
-- `v1-ch12` — PASS — 22 / 22
-
-Across the new audits:
-
-- reordered: **0**
-- omitted: **0**
-- invented: **0**
-- chapter-text changes: **0**
+- `v1-ch08` — PASS WITH ONE REVISION — APPROVED / CLOSED
+- `v1-ch09` — PASS WITH ONE REVISION — **Indirani → Indrani**
+- `v1-ch10` — PASS WITH ONE REVISION — **Rama's Foot → Rama's Footprint**
+- `v1-ch11` — PASS WITHOUT REVISION
+- `v1-ch12` — PASS WITHOUT REVISION
 
 ## Active chapter
 
 `v1-ch09` — **Troublemaker Narada Entered**
 
-- pages: **60–64**
-- source blob: `e3104c0f74478f25d0b15c4bb1ed12afd6420d21`
 - source review: **PASS**
 - T1: **PASS**
 - T2: **PASS WITH REVISION — 12 grouped revisions**
 - T3: **PASS WITH MINOR REVISION — 11 grouped revisions**
 - thought structure: **PASS — 20 / 20**
+- terminology/cultural: **PASS WITH ONE REVISION**
+- terminology revision: **Indirani → Indrani**
 - unresolved source holds: **0**
-- next gate: **terminology/cultural**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
+- independent English: **FROZEN**
+- comparator gate: **NOT APPLICABLE**
+- next gate: **FINAL APPROVAL**
 
 Durable files:
 
@@ -65,38 +64,32 @@ Durable files:
 - `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t2.md`
 - `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t3.md`
 - `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-structure.md`
+- `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-terminology.md`
 
-## Immediate activity — terminology/cultural audit only
+## Immediate activity — final approval only
 
-Review the independent English against:
+Verify:
 
-1. `docs/TRANSLATION_GLOSSARY.md`
-2. `docs/KALAIGNAR_VOICE_GUIDE.md`
-3. terminology precedents in approved chapters.
+1. source review PASS;
+2. T1 PASS;
+3. T2 PASS WITH REVISION;
+4. T3 PASS WITH MINOR REVISION;
+5. thought structure PASS — 20 / 20, reordered / omitted / invented = 0 / 0 / 0;
+6. terminology/cultural PASS WITH ONE REVISION;
+7. unresolved source holds = 0;
+8. unresolved terminology holds = 0;
+9. outstanding review items = 0;
+10. independent English frozen = true;
+11. chapter and source-note JSON parse syntactically;
+12. no formal JSON-Schema validation claim because `schemas/chapter.json` remains a one-byte legacy placeholder.
 
-Give particular attention to:
+If all pass:
 
-- School Final / examination vocabulary;
-- Kudi Arasu press / publication references;
-- Periyar E. V. R.;
-- Tirukkuvalai / Nagapattinam;
-- Indirani / Indra / Narada / Dhruva / Kali / Ahalya;
-- `Dhruvan` as the play title;
-- Murasoli Maran;
-- child-speech representation;
-- sandal-paste / silver-bowl continuity from `v1-ch08`;
-- election deposit terminology;
-- educational-policy vocabulary;
-- any culture-specific image that should remain source-led rather than normalized away.
-
-Do not consult existing English.
-
-Create:
-
-`data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-terminology.md`
-
-If the audit passes, freeze the independent English and set the next gate to **final approval**.
+- create `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-approval.md`;
+- mark `v1-ch09` **APPROVED / CLOSED**;
+- synchronize Batch 002, progress, manifest, handover and next-chat controls;
+- stop before beginning `v1-ch10` final approval.
 
 ## Infrastructure limitation
 
-`schemas/chapter.json` remains a one-byte newline-only legacy placeholder. Do not claim formal JSON-Schema validation.
+Do not claim formal JSON-Schema validation.
