@@ -1,0 +1,247 @@
+{
+  "id": "v1-ch07",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "path": "public/data/text/v1-ch07.json",
+    "blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
+    "authority": "read-only"
+  },
+  "source_drift_check": {
+    "observed_live_main": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "live_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
+    "result": "chapter blob identical to Batch 001 pin; unrelated source-repository drift does not change v1-ch07 authority"
+  },
+  "tamil_title": "\"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?\"",
+  "pages": {
+    "start": 51,
+    "end": 55
+  },
+  "extraction_unit_count": 5,
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins by repeating the chapter title \"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?\".",
+      "translation_action": "Represent the heading in title metadata and do not duplicate it as opening body prose."
+    },
+    {
+      "type": "word_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 51 visually breaks the opening name as 'ஜி' / 'ன்னாவிற்கும்'; the pinned JSON flattens this as 'ஜி ன்னாவிற்கும்'.",
+      "translation_action": "Reconstruct the continuous name as 'ஜின்னாவிற்கும்' / Jinnah. This is a layout/extraction join, not a source-content uncertainty."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "Page 51 reads 'முஸ்லீம் வீக்கிற்கும்' in the sentence contrasting Congress–League distance with Dravidian movement–League closeness. The chapter repeatedly names 'முஸ்லீம் லீக்' elsewhere, so the contextual referent is secure even though the surface form is anomalous.",
+      "translation_action": "Translate the secure contextual function as 'Muslim League' without asserting a silent Tamil-source correction."
+    },
+    {
+      "type": "lexical_archaism",
+      "severity": "informational",
+      "observation": "Page 51 uses 'முடங்கல்' for Jinnah's written communication. Tamil lexical evidence includes 'சுருளோலைக் கடிதம்' / letter as an established sense of 'முடங்கல்'.",
+      "translation_action": "Translate contextually as 'letter' or 'written communication'; do not treat 'முடங்கல்' as OCR damage."
+    },
+    {
+      "type": "name_list_punctuation",
+      "severity": "translation-sensitive",
+      "observation": "Page 51 prints 'பெரியார், அண்ணா, அழகிரி சிற்றரசு போன்றவர்கள்' without clear punctuation between அழகிரி and சிற்றரசு. Historical listings identify Pattukkottai Alagiri and C. P. Chittarasu as separate Dravidian movement figures appearing alongside Periyar and Anna.",
+      "translation_action": "Treat Alagiri and Chittarasu as separate names in English, while preserving the source punctuation anomaly in this note. Do not invent a compound personal name."
+    },
+    {
+      "type": "quotation",
+      "severity": "voice-critical",
+      "observation": "The Gandhi–Jinnah exchange is given as direct dialogue: Gandhi asks whether this is the Jinnah who represented Hindus and Muslims in 1915; Jinnah replies, 'தேசியம் ஒருவருடைய தனிச் சொத்து அல்ல.'",
+      "translation_action": "Preserve both lines as direct speech and retain the compact aphoristic force of Jinnah's reply; do not paraphrase into historical summary."
+    },
+    {
+      "type": "historical_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Page 51 states that Gandhiji, Subhas Bose and Jinnah together held talks on 18 June 1938 and that Jinnah presented a fourteen-condition plan which was not accepted.",
+      "translation_action": "Translate Kalaignar's chronology and grouping exactly as written. Any external historical correction, if ever desired, belongs outside the memoir translation."
+    },
+    {
+      "type": "historical_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Page 52 says Rajaji's ministry ended in 1939, an interim ministry was formed, and that ministry removed the compulsory-Hindi law, making 1939 the first-stage victory year of the language struggle.",
+      "translation_action": "Preserve the authored chronology and causal framing. Do not silently revise dates or constitutional arrangements from external histories."
+    },
+    {
+      "type": "punctuation_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "Page 52 has the awkward sequence 'அடுத்து காந்தியடிகளின் அன்பைப் பெற்றார், ராசேந்திர பிரசாத் காங்கிரசின் தலைவராகத் தேர்ந்தெடுக்கப்பட்டார்.' The secure narrative function is that Rajendra Prasad, a Gandhi-favoured figure, was then elected Congress president.",
+      "translation_action": "Translate only the secure syntactic function conservatively; do not assert an unattested corrected Tamil punctuation or wording."
+    },
+    {
+      "type": "quotation_and_extraction_artifact",
+      "severity": "voice-sensitive",
+      "observation": "Page 53 contains a quoted newspaper recollection ending '...விட்டுக் கொடுக்கவில்லை' followed immediately by 'என்று', and the cleaned/pinned text contains a stray backtick before 'வந்த'.",
+      "translation_action": "Reconstruct normal quotation boundaries in English and ignore the stray extraction backtick; do not alter the Tamil source repository."
+    },
+    {
+      "type": "quotation",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Page 53 attributes to 'கவிக்குயில் சரோஜினி தேவி' a fiftieth-birthday message to Nehru: 'உன்னுடைய முதல் 30 ஆண்டுகள் இந்தியாவின் சரித்திரத்தில் தலையாய இடம் பெற்று விட்டன'. The 'first 30 years' wording is explicit in both pinned JSON and page witness.",
+      "translation_action": "Translate the quotation as Kalaignar records it. Do not silently rewrite 'first 30 years' on biographical or contextual grounds."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 53 ends with the hyphenated fragment 'செய்து கொண்-' and page 54 begins 'டிருந்தது.'",
+      "translation_action": "Join across the extraction/page boundary as continuous 'செய்து கொண்டிருந்தது'. The hyphen and page break are not authorial punctuation."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "Page 54 begins the personal pivot with 'பள்ளிக்கூடத்திலிருத்த என்னைச் சந்திக்க...' The surface form is anomalous; context securely indicates the organizer wanted to meet schoolboy Kalaignar while he was at/from school.",
+      "translation_action": "Translate the secure event-function conservatively (meeting the schoolboy narrator) without claiming a corrected Tamil source form."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "voice-critical",
+      "observation": "The five JSON paragraphs are page/extraction units. Pages 51–53 are dense macro-political chronology, page 54 pivots abruptly to a comic personal encounter with a thin fifteen-year-old Karunanidhi, and pages 54–55 then become reflective memoir about handwritten student publishing and organizing.",
+      "translation_action": "Reconstruct literary paragraphs and dialogue turns from rhetoric, not from the five extraction units. Preserve the large-history-to-schoolboy reveal rather than flattening the chapter into continuous chronology."
+    },
+    {
+      "type": "title_dialogue",
+      "severity": "voice-critical",
+      "observation": "The chapter title asks \"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?\" while the embedded visitor's question is \"நீங்கள்தானா 'மாணவ நேசன்' நடத்துகிற கருணாநிதி\".",
+      "translation_action": "Preserve the distinction between the title's standalone question and the visitor's in-scene wording; do not force them into identical English merely for consistency."
+    },
+    {
+      "type": "periodical_title",
+      "severity": "translation-sensitive",
+      "observation": "'மாணவ நேசன்' is Kalaignar's handwritten student periodical. The chapter explains its format, copying method, circulation and role in his development as a writer.",
+      "translation_action": "Keep the title visibly distinct as a publication name. Decide transliteration versus translated gloss at T2/terminology review; do not reduce it to a generic 'student magazine'."
+    },
+    {
+      "type": "quotation_and_cultural_reference",
+      "severity": "voice-critical",
+      "observation": "Bharathidasan's review compares the handwritten magazine to the belief that the country would advance through 'கைராட்டை' (hand-spinning wheel/charkha): the sentence deliberately repeats 'பைத்தியக்காரத்தனம்'.",
+      "translation_action": "Preserve the sarcastic comparison and repeated 'madness' structure. Translate the spinning-wheel reference clearly enough to retain its political/cultural meaning without explanatory overloading."
+    },
+    {
+      "type": "proverb",
+      "severity": "voice-sensitive",
+      "observation": "Kalaignar answers criticism with the compact proverb 'சிறுதுளி பெருவெள்ளம்.'",
+      "translation_action": "Retain the proverb as a compact image ('little drops make a great flood' or equivalent), not as an explanatory paraphrase about small efforts accumulating."
+    },
+    {
+      "type": "cultural_publication_form",
+      "severity": "translation-sensitive",
+      "observation": "Page 54 says people often make a handwritten copy 'பொங்கல் மலர்போல'. Here 'மலர்' refers to a special commemorative/festival issue, not a literal flower.",
+      "translation_action": "Translate as a Pongal special/annual issue contextually; do not literalize 'flower'."
+    },
+    {
+      "type": "material_culture",
+      "severity": "translation-sensitive",
+      "observation": "Kalaignar specifies 'டெம்மி பேப்பர்' costs and says 'உழைப்பும் கட்டுரைகளும் இனாம்!' while describing at least fifty handwritten copies, eight pages per issue, twice monthly.",
+      "translation_action": "Preserve the concrete production economics and joke: demy paper cost was collected, while labour and articles were free/gratis. Do not genericize this into 'printing expenses'."
+    },
+    {
+      "type": "publication_origin",
+      "severity": "voice-critical",
+      "observation": "The difficulty of handwriting fifty copies of 'மாணவ நேசன்' leads directly to the thought 'வேறு என்ன செய்யலாம்' and then to 'முரசொலி'—explicitly not first as a weekly or monthly but as 'துண்டு வெளியீடுகளாக!'",
+      "translation_action": "Preserve this origin sequence and the emphatic final fragment: Murasoli emerges from a practical copying problem and begins as leaflet/pamphlet issues, not as a conventional periodical."
+    },
+    {
+      "type": "authored_timeline_tension",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The narrator says the khadi-shirted bespectacled organizer encountered him as a thin fifteen-year-old, then page 55 says this meeting occurred four months before Murasoli began. Murasoli's own institutional history dates its first issue to 10 August 1942, when Karunanidhi was eighteen.",
+      "translation_action": "Preserve both memoir statements exactly as authored; do not silently reconcile the age/date tension. Any editorial historical note must remain outside the translated memoir."
+    },
+    {
+      "type": "authored_timeline_tension",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Page 53 says that in 1939 M. N. Roy started 'புரட்சி ஜனநாயகக் கட்சி'. Standard biographical references place Roy's Radical Democratic Party in 1940, growing out of the League of Radical Congressmen founded in 1939.",
+      "translation_action": "Preserve Kalaignar's explicit 1939 chronology. At T2, use the historically attested English party name if context confirms it, without correcting the memoir's year."
+    },
+    {
+      "type": "historical_event_identity",
+      "severity": "informational",
+      "observation": "The chapter says Nehru went to China as a Congress envoy and returned after world war began. Nehru's own 1939 records independently confirm a brief China visit cut short by the outbreak of war.",
+      "translation_action": "Treat the event identity as secure; preserve Kalaignar's own narrative wording and relative sequence."
+    },
+    {
+      "type": "political_organization",
+      "severity": "translation-sensitive",
+      "observation": "Page 55 describes an unnamed khadi-shirted, bespectacled man recruiting Kalaignar to organize a 'மாணவர் சம்மேளனம்' around 'சுதந்திரம் - சமாதானம் - சமத்துவம்'. Kalaignar says only later that the man behind the scenes was a communist.",
+      "translation_action": "Preserve the delayed political reveal and anonymity. Do not silently expand 'மாணவர் சம்மேளனம்' to a specific national organization such as AISF unless later source evidence establishes that identity."
+    },
+    {
+      "type": "rhetorical_triad",
+      "severity": "voice-critical",
+      "observation": "The recruiter appeals through the three-word sequence 'சுதந்திரம் - சமாதானம் - சமத்துவம்'.",
+      "translation_action": "Preserve the order and rhythmic triad Freedom – Peace – Equality (or source-equivalent wording); do not collapse it into a generic progressive program."
+    },
+    {
+      "type": "metaphor_or_idiom",
+      "severity": "voice-critical",
+      "observation": "The chapter closes with Kalaignar worrying 'ஆழந் தெரியாமல் காலை விட்டு விட்டோம்' as the student federation's current seemed ready to sweep them along.",
+      "translation_action": "Preserve both linked physical images—the current sweeping them away and having put a foot in without knowing the depth. Do not flatten the ending to 'I worried I had made a mistake'."
+    },
+    {
+      "type": "proper_names_and_honorifics",
+      "severity": "translation-sensitive",
+      "observation": "The chapter contains Jinnah / Janab Jinnah, Gandhiyadigal / Gandhiyar / Mahatma Gandhi, Jawaharlal Nehru / Pandit Nehru, Subhas Bose / Subhas Chandra Bose, Abul Kalam Azad, Pattabhi Sitaramayya, Patel, Rajendra Prasad, Sarojini Devi, M. N. Roy, Periyar, Anna, Alagiri and Chittarasu.",
+      "translation_action": "T1 should stay close to source naming; T2/terminology review must normalize secure English forms while preserving meaningful honorific variation and avoiding invented titles."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No Wikisource maintenance notice or other non-authorial body material appears in the inspected pages 51–55.",
+      "translation_action": "No non-authorial body exclusion is required for v1-ch07."
+    }
+  ],
+  "secondary_witnesses": [
+    {
+      "repository": "pugazg/nenjukku-needhi-archive",
+      "ref": "main",
+      "paths": [
+        "data/books/nenjukku-needhi/cleaned/volume1/0051.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0052.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0053.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0054.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0055.md"
+      ],
+      "blob_shas": [
+        "5c5d2621a153a84405f2f7bd9747e8314ba6d283",
+        "86d011472ed3b93619c915fca663366841429e79",
+        "5b525e973c9ace00a25f1df173ae9948a135e80d",
+        "25033e260a1a47583a7383fd2ee1c7afb417619a",
+        "a703ae5d6f2ccde9fc8973fb5f76fbbd5e086b07"
+      ],
+      "role": "secondary page-level text witnesses used to recover lineation, paragraphing, quotations and the page-53/54 hyphenated join; not authority over the pinned autobiography source"
+    }
+  ],
+  "external_contextual_evidence": [
+    {
+      "area": "முடங்கல்",
+      "finding": "Tamil lexical sources attest 'முடங்கல்' as a rolled-palm-leaf letter / letter, confirming that the page-51 word is meaningful archaic vocabulary rather than an OCR error."
+    },
+    {
+      "area": "Alagiri / Chittarasu name list",
+      "finding": "Independent Dravidian-movement historical listings name Pattukkottai Alagirisami and C. P. Chittarasu separately alongside Periyar and Anna, supporting the contextual reading of the source's unpunctuated 'அழகிரி சிற்றரசு' sequence as two people."
+    },
+    {
+      "area": "Nehru China visit",
+      "finding": "Jawaharlal Nehru's own 1939 writings record his China trip and an early return after war broke out, corroborating the chapter's event identity without replacing Kalaignar's wording."
+    },
+    {
+      "area": "M. N. Roy party chronology",
+      "finding": "Biographical reference works place the Radical Democratic Party in 1940 and the League of Radical Congressmen in 1939; the memoir explicitly says 1939 for 'புரட்சி ஜனநாயகக் கட்சி', so the memoir's year is preserved as authored chronology."
+    },
+    {
+      "area": "Murasoli origin chronology",
+      "finding": "Murasoli's official institutional history dates its first issue to 10 August 1942 and says Karunanidhi was eighteen; the memoir here pairs a fifteen-year-old self-description with a meeting said to be four months before Murasoli began. This is recorded as an authored timeline tension, not corrected in translation."
+    }
+  ],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-review-complete",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1-fresh-translation"
+}
