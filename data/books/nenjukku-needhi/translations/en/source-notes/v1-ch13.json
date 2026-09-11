@@ -153,12 +153,20 @@
       "id": "v1-ch13-lexical-001",
       "type": "lexical_review",
       "term": "ஜன்னி",
-      "status": "open-nonblocking",
-      "requirement": "Resolve or conservatively document the exact English handling by T2/terminology review; do not invent a precise modern diagnosis."
+      "status": "resolved-conservative",
+      "requirement": "Resolve or conservatively document the exact English handling by T2/terminology review; do not invent a precise modern diagnosis.",
+      "resolution": "The exact period diagnosis is not asserted; the contrast is rendered functionally as 'a gravely ill patient', preserving the doctor's-minor-cold versus severe-patient analogy."
     }
   ],
-  "status": "source-reviewed",
+  "status": "t2-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t1"
+  "next_gate": "t3",
+  "t2_review": "../reviews/v1-ch13-t2.md",
+  "t2_resolutions": {
+    "accepted_revisions": 9,
+    "unresolved_source_holds": 0,
+    "blocking_t2_issues": 0,
+    "comparator_consulted": false
+  }
 }
