@@ -82,8 +82,8 @@
   },
   "production": {
     "status": "open",
-    "active_batch": "batch-002",
-    "batch_control": "batches/batch-002.md",
+    "active_batch": null,
+    "batch_control": null,
     "batch_chapters": [
       {
         "id": "v1-ch08",
@@ -185,7 +185,7 @@
         "source_blob_sha": "e3104c0f74478f25d0b15c4bb1ed12afd6420d21",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch09.json",
-        "status": "terminology-complete",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch09.json",
@@ -196,14 +196,16 @@
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision"
+          "terminology_cultural": "pass-with-one-revision",
+          "approval": "pass"
         },
-        "next_gate": "final-approval-review",
+        "next_gate": "closed",
         "reviews": {
           "t2": "reviews/v1-ch09-t2.md",
           "t3": "reviews/v1-ch09-t3.md",
           "thought_structure": "reviews/v1-ch09-structure.md",
-          "terminology": "reviews/v1-ch09-terminology.md"
+          "terminology": "reviews/v1-ch09-terminology.md",
+          "approval": "reviews/v1-ch09-approval.md"
         },
         "t2_result": {
           "accepted_revisions": 12,
@@ -229,7 +231,17 @@
           "independent_english_frozen": true,
           "comparator_consulted": false
         },
-        "comparator_policy": "not-applicable-after-v1-ch01"
+        "comparator_policy": "not-applicable-after-v1-ch01",
+        "approval_result": {
+          "status": "approved",
+          "structure_movements": "20/20",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch10",
@@ -241,7 +253,7 @@
         "source_blob_sha": "38f3e3efcd8c48a7c3df70c3b5e36b02d813261f",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch10.json",
-        "status": "terminology-complete",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch10.json",
@@ -252,14 +264,16 @@
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision"
+          "terminology_cultural": "pass-with-one-revision",
+          "approval": "pass"
         },
-        "next_gate": "final-approval-review",
+        "next_gate": "closed",
         "reviews": {
           "t2": "reviews/v1-ch10-t2.md",
           "t3": "reviews/v1-ch10-t3.md",
           "thought_structure": "reviews/v1-ch10-structure.md",
-          "terminology": "reviews/v1-ch10-terminology.md"
+          "terminology": "reviews/v1-ch10-terminology.md",
+          "approval": "reviews/v1-ch10-approval.md"
         },
         "t2_result": {
           "accepted_revisions": 7,
@@ -285,7 +299,17 @@
           "independent_english_frozen": true,
           "comparator_consulted": false
         },
-        "comparator_policy": "not-applicable-after-v1-ch01"
+        "comparator_policy": "not-applicable-after-v1-ch01",
+        "approval_result": {
+          "status": "approved",
+          "structure_movements": "12/12",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch11",
@@ -297,7 +321,7 @@
         "source_blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch11.json",
-        "status": "terminology-complete",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch11.json",
@@ -308,14 +332,16 @@
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
-          "terminology_cultural": "pass-without-revision"
+          "terminology_cultural": "pass-without-revision",
+          "approval": "pass"
         },
-        "next_gate": "final-approval-review",
+        "next_gate": "closed",
         "reviews": {
           "t2": "reviews/v1-ch11-t2.md",
           "t3": "reviews/v1-ch11-t3.md",
           "thought_structure": "reviews/v1-ch11-structure.md",
-          "terminology": "reviews/v1-ch11-terminology.md"
+          "terminology": "reviews/v1-ch11-terminology.md",
+          "approval": "reviews/v1-ch11-approval.md"
         },
         "t2_result": {
           "accepted_revisions": 7,
@@ -341,7 +367,17 @@
           "independent_english_frozen": true,
           "comparator_consulted": false
         },
-        "comparator_policy": "not-applicable-after-v1-ch01"
+        "comparator_policy": "not-applicable-after-v1-ch01",
+        "approval_result": {
+          "status": "approved",
+          "structure_movements": "12/12",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch12",
@@ -353,7 +389,7 @@
         "source_blob_sha": "df9bfe3fb369783e68c5166b7068323909d6f4f9",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch12.json",
-        "status": "terminology-complete",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch12.json",
@@ -364,14 +400,16 @@
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
-          "terminology_cultural": "pass-without-revision"
+          "terminology_cultural": "pass-without-revision",
+          "approval": "pass"
         },
-        "next_gate": "final-approval-review",
+        "next_gate": "closed",
         "reviews": {
           "t2": "reviews/v1-ch12-t2.md",
           "t3": "reviews/v1-ch12-t3.md",
           "thought_structure": "reviews/v1-ch12-structure.md",
-          "terminology": "reviews/v1-ch12-terminology.md"
+          "terminology": "reviews/v1-ch12-terminology.md",
+          "approval": "reviews/v1-ch12-approval.md"
         },
         "t2_result": {
           "accepted_revisions": 13,
@@ -397,7 +435,17 @@
           "independent_english_frozen": true,
           "comparator_consulted": false
         },
-        "comparator_policy": "not-applicable-after-v1-ch01"
+        "comparator_policy": "not-applicable-after-v1-ch01",
+        "approval_result": {
+          "status": "approved",
+          "structure_movements": "22/22",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "chapter_text_changes": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       }
     ],
     "source_reviews_complete": 5,
@@ -407,27 +455,28 @@
     "t3_complete": 5,
     "thought_structure_complete": 5,
     "terminology_cultural_complete": 5,
-    "approved_chapters": 1,
-    "next_activity": "final-approval-v1-ch09",
-    "batch_status": "open",
+    "approved_chapters": 5,
+    "next_activity": "open-batch-003",
+    "batch_status": "closed",
     "last_closed_batch": {
-      "id": "batch-001",
-      "control": "batches/batch-001.md",
+      "id": "batch-002",
+      "control": "batches/batch-002.md",
       "chapters": [
-        "v1-ch03",
-        "v1-ch04",
-        "v1-ch05",
-        "v1-ch06",
-        "v1-ch07"
+        "v1-ch08",
+        "v1-ch09",
+        "v1-ch10",
+        "v1-ch11",
+        "v1-ch12"
       ],
-      "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+      "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
       "status": "closed",
       "approved_chapters": 5,
       "unresolved_source_holds": 0,
+      "unresolved_terminology_holds": 0,
       "outstanding_review_items": 0
     },
-    "next_batch": null,
-    "next_batch_start": null,
+    "next_batch": "batch-003",
+    "next_batch_start": "v1-ch13",
     "source_files_pinned": 5,
     "batch_opening": {
       "span": [
