@@ -103,81 +103,66 @@ Batch 002 final state:
 - comparator gate for v1-ch02+: **NOT APPLICABLE**
 - formal JSON-Schema validation: **NOT CLAIMED**
 
-## Batch 003 — OPEN
+## Batch 003 — CLOSED
 
 Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
 Span: **`v1-ch13`–`v1-ch17`**
 
-Batch-size decision: **standard five chapters retained**. Intake inspection found all five to be modest 4–5-page chapters (about 6.7k–9.6k Tamil characters), so no reduction was warranted.
+Batch-size decision: **standard five chapters retained**.
 
-Current counters:
+Final state:
 
-- source files pinned: **5 / 5**
-- source reviews: **1 / 5**
-- T1: **0 / 5**
-- T2: **0 / 5**
-- T3: **0 / 5**
-- thought structure: **0 / 5**
-- terminology/cultural: **0 / 5**
-- approved: **0 / 5**
-- translations started: **0**
+- source reviews: **5 / 5**
+- T1: **5 / 5**
+- T2: **5 / 5**
+- T3: **5 / 5**
+- thought structure: **5 / 5**
+- terminology/cultural: **5 / 5**
+- approved: **5 / 5**
+- independent English frozen: **5 / 5**
 - unresolved source holds: **0**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
+- approval-stage chapter-text changes: **0**
+- existing-English comparator consulted: **NO**
+- comparator gate for `v1-ch02+`: **NOT APPLICABLE**
 
-Queue:
+Chapters:
 
-- `v1-ch13` — **P0 COMPLETE / T1 NEXT**
-- `v1-ch14` — **PINNED / QUEUED**
-- `v1-ch15` — **PINNED / QUEUED**
-- `v1-ch16` — **PINNED / QUEUED**
-- `v1-ch17` — **PINNED / QUEUED**
+- `v1-ch13` — **APPROVED / CLOSED** — T2 9 / T3 6 / structure 20/20 / terminology PASS WITH ONE REVISION
+- `v1-ch14` — **APPROVED / CLOSED** — T2 8 / T3 5 / structure 16/16 / terminology PASS WITH ONE REVISION
+- `v1-ch15` — **APPROVED / CLOSED** — T2 7 / T3 6 / structure 18/18 / terminology PASS WITH ONE REVISION
+- `v1-ch16` — **APPROVED / CLOSED** — T2 5 / T3 5 / structure 16/16 / terminology PASS WITHOUT REVISION
+- `v1-ch17` — **APPROVED / CLOSED** — T2 7 / T3 5 / structure 19/19 / terminology PASS WITHOUT REVISION
 
-Source identities:
+Batch 003 terminology revisions:
 
-- `v1-ch13` — pages 76–80 — blob `80fc03e2092ab69b22879e65ab6887acc4284a55`
-- `v1-ch14` — pages 81–84 — blob `1fa0f359d8da9cbeb2d9b03fa6244badbece89f6`
-- `v1-ch15` — pages 85–89 — blob `ceb2759588dfec6646a4ba53369fce02c0bd9c92`
-- `v1-ch16` — pages 90–93 — blob `fd6793f228db38098aff1eddcfb7fefce3fff3d2`
-- `v1-ch17` — pages 94–98 — blob `eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66`
+- `v1-ch13`: restored **Children's Reform Association** continuity from `v1-ch12` (2 occurrences);
+- `v1-ch14`: first-use **cheri → cheri settlement**;
+- `v1-ch15`: **oppressed communities → depressed communities**;
+- `v1-ch16`, `v1-ch17`: no terminology-stage chapter changes.
 
-The live source `main` did not advance between Batch 002 and Batch 003, but Batch 003 independently records the freshly fetched live SHA as its authority pin.
+The `v1-ch13` `ஜன்னி` lexical item is **resolved conservatively**: no modern diagnosis is asserted; the doctor-with-a-cold versus gravely ill patient contrast is preserved.
 
-## Comparator policy
+The living glossary and voice guide are updated through Batch 003.
 
-At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
+Formal JSON-Schema validation remains **NOT CLAIMED** because `schemas/chapter.json` is a one-byte legacy placeholder.
 
-## v1-ch13 P0 source review — COMPLETE
+No active production batch remains.
 
-Durable source note:
+## Immediate next activity — open Batch 004
 
-`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch13.json`
+Open **Batch 004 beginning with `v1-ch18`**.
 
-Result:
-
-- **PASS / COMPLETE**
-- unresolved source holds: **0**
-- non-authorial exclusions: **0**
-- duplicate-source exclusions: **0**
-- page/source-unit joins: **1**
-- open review items: **1 non-blocking lexical item — `ஜன்னி`**
-- T1 started: **NO**
-
-Important controls:
-
-- repeated chapter title is metadata, not body prose;
-- page 76→77 joins `குருதி / கக்கினார்`;
-- reconstruct literary paragraphs from page witnesses rather than five extraction units;
-- preserve 1938 anti-Hindi movement / Tamil Brigade continuity;
-- preserve Alagirisami's storm/lion oratorical imagery and blood-vomiting turn;
-- preserve Dravida Nadu, `இளமைப் பலி!`, `பகுத்தறிவு பரமசிவம்`, and the third-or-fourth-issue uncertainty;
-- preserve Palaniyappan → Santa → Natchuk Koppai title history and exact financial sequence;
-- preserve Self-Respect identity versus priestly marriage rites;
-- preserve the Chidambaram arranged-marriage / father-in-law entrance sequence;
-- do not invent a precise modern diagnosis for `ஜன்னி` before lexical resolution.
-
-## Immediate next activity — v1-ch13 T1
-
-Run **T1 fresh translation for `v1-ch13` only** directly from the pinned Tamil and P0 source notes. Do not consult existing English. Stop with **T2 next**.
+1. Fetch live writable `main`.
+2. Fetch live source-repository `main` read-only.
+3. Record the new Batch 004 source pin.
+4. Inspect `v1-ch18` onward for chapter size/difficulty under the normal five-chapter policy.
+5. Create `data/books/nenjukku-needhi/translations/en/batches/batch-004.md`.
+6. Synchronize manifest/progress/handover/next-chat controls.
+7. Do **not** translate during batch opening.
+8. Stop with `v1-ch18` P0 source review next.
 
 ## Mandatory controls
 
