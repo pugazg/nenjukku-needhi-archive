@@ -8,7 +8,7 @@
     "start": 90,
     "end": 93
   },
-  "status": "terminology-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "T2 source-and-Kalaignar-voice review passed with 5 grouped source-checked revisions. The pass removes translator-facing meta language, restores Kalaignar's first-person judgment of colonial Puducherry, keeps source-led Keple/avukka forms, and sharpens the assault detail to a hobnailed boot. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 5 grouped minor source-checked revisions. The pass improves the office/needle metaphor, French-Puducherry pendant sentence, Thozhilalar Mithiran office idiom and conference cadence without changing the 1966 retrospective frame, colonial chronology, publication history or violence sequence.",
     "Thought-structure audit passed 16/16 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
-    "Terminology/cultural audit passed without chapter-text revision. Dravidian Actors' Association, Dravidar Kazhagam, Puducherry/Karaikal/Mahe/Yanam, Keple Theatre, Avukka Perumal, Thozhilalar Mithiran, beedi, Sivaguru and source-led article titles were retained. `Keple` remains an explicitly source-led working form rather than an unsupported historical normalization. Independent English is frozen for final approval."
+    "Terminology/cultural audit passed without chapter-text revision. Dravidian Actors' Association, Dravidar Kazhagam, Puducherry/Karaikal/Mahe/Yanam, Keple Theatre, Avukka Perumal, Thozhilalar Mithiran, beedi, Sivaguru and source-led article titles were retained. `Keple` remains an explicitly source-led working form rather than an unsupported historical normalization. Independent English is frozen for final approval.",
+    "Final approval review passed with no chapter-text changes. v1-ch16 is APPROVED / CLOSED."
   ],
   "paragraphs": [
     "As I sit writing these notes of my life story, my state of mind today is restless. Neither the turbulence of the deep sea nor molten lava leaping and scattering from a volcano would be an adequate image for the pain in my heart.",
@@ -51,11 +52,12 @@
     "source_review": "../source-notes/v1-ch16.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "final-approval-review",
+    "next_gate": "closed",
     "t2_review": "../reviews/v1-ch16-t2.md",
     "t3_review": "../reviews/v1-ch16-t3.md",
     "thought_structure_review": "../reviews/v1-ch16-structure.md",
     "terminology_review": "../reviews/v1-ch16-terminology.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "approval_review": "../reviews/v1-ch16-approval.md"
   }
 }
