@@ -95,7 +95,7 @@
         "source_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch08.json",
-        "status": "terminology-complete",
+        "status": "approved",
         "unresolved_source_holds": 0,
         "review_items": [],
         "source_notes": "source-notes/v1-ch08.json",
@@ -105,7 +105,8 @@
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision"
+          "terminology_cultural": "pass-with-one-revision",
+          "approval": "pass"
         },
         "source_review_result": {
           "extraction_units": 4,
@@ -130,13 +131,14 @@
           "terminology/cultural audit corrected `சந்தனக் கிண்ணம்` from material-misleading `sandalwood bowl` to `sandal-paste bowl`, supported by v1-ch09 identifying the same vessel as silver; all other terminology controls retained",
           "retire recurring comparator gate: Batch 002 source pin public/data/text-en/ contains only v1-ch01.json; proceed directly from terminology/cultural freeze to final approval"
         ],
-        "next_gate": "final-approval-review",
+        "next_gate": "closed",
         "translation": "chapters/v1-ch08.json",
         "reviews": {
           "t2": "reviews/v1-ch08-t2.md",
           "t3": "reviews/v1-ch08-t3.md",
           "thought_structure": "reviews/v1-ch08-structure.md",
-          "terminology": "reviews/v1-ch08-terminology.md"
+          "terminology": "reviews/v1-ch08-terminology.md",
+          "approval": "reviews/v1-ch08-approval.md"
         },
         "t2_result": {
           "accepted_revisions": 18,
@@ -162,7 +164,16 @@
           "independent_english_frozen": true,
           "comparator_consulted": false
         },
-        "comparator_policy": "not-applicable-after-v1-ch01"
+        "comparator_policy": "not-applicable-after-v1-ch01",
+        "approval_result": {
+          "status": "approved",
+          "structure_movements": "18/18",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "outstanding_review_items": 0,
+          "comparator_gate": "not-applicable-after-v1-ch01",
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+        }
       },
       {
         "id": "v1-ch09",
@@ -256,8 +267,8 @@
     "t3_complete": 1,
     "thought_structure_complete": 1,
     "terminology_cultural_complete": 1,
-    "approved_chapters": 0,
-    "next_activity": "final-approval-v1-ch08",
+    "approved_chapters": 1,
+    "next_activity": "t2-v1-ch09",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",
