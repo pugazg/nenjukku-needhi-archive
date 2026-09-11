@@ -96,10 +96,41 @@
         "source_blob_sha": "80fc03e2092ab69b22879e65ab6887acc4284a55",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch13.json",
-        "status": "source-review-next",
+        "status": "source-reviewed",
         "unresolved_source_holds": 0,
-        "review_items": [],
-        "next_gate": "source-review"
+        "review_items": [
+          {
+            "id": "v1-ch13-lexical-001",
+            "type": "lexical_review",
+            "term": "ஜன்னி",
+            "status": "open-nonblocking"
+          }
+        ],
+        "next_gate": "t1",
+        "gates": {
+          "source_review": "pass"
+        },
+        "source_notes": "source-notes/v1-ch13.json",
+        "source_review_result": {
+          "extraction_units": 5,
+          "unresolved_source_holds": 0,
+          "non_authorial_exclusions": 0,
+          "duplicate_source_exclusions": 0,
+          "review_items": 1,
+          "page_joins": 1,
+          "source_spacing_anomalies_documented": 3
+        },
+        "source_interventions": [
+          "exclude repeated chapter heading from body prose and retain it as title metadata",
+          "join page 76/77 'குருதி / கக்கினார்' continuously",
+          "reconstruct literary paragraphing from page-level witnesses rather than five extraction units",
+          "preserve slogans/direct speech, 1938 anti-Hindi movement reference, Tamil Brigade continuity and Alagirisami's oratorical imagery",
+          "preserve Dravida Nadu publication history, article-title sequence and authored third-or-fourth-issue uncertainty",
+          "document stable but lexically unresolved period medical term 'ஜன்னி' as a non-blocking review item for later lexical resolution",
+          "preserve Palaniyappan / Santa / Natchuk Koppai title history, theatrical finances and Dravidar Kazhagam organizational context",
+          "document secure extraction/spacing anomalies including 'உற்சாகததிலாழ்த்திய', 'ஆரம் பித்தேன்' and 'தொடங் கலாம்'",
+          "preserve Self-Respect identity versus priestly marriage rites and the Chidambaram arranged-marriage sequence"
+        ]
       },
       {
         "id": "v1-ch14",
@@ -162,7 +193,7 @@
         "next_gate": "source-review"
       }
     ],
-    "source_reviews_complete": 0,
+    "source_reviews_complete": 1,
     "translations_started": 0,
     "t1_complete": 0,
     "t2_complete": 0,
@@ -170,7 +201,7 @@
     "thought_structure_complete": 0,
     "terminology_cultural_complete": 0,
     "approved_chapters": 0,
-    "next_activity": "source-review-v1-ch13",
+    "next_activity": "t1-v1-ch13",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-002",
