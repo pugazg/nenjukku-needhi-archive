@@ -1,0 +1,189 @@
+{
+  "id": "v1-ch06",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "path": "public/data/text/v1-ch06.json",
+    "blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
+    "authority": "read-only"
+  },
+  "source_drift_check": {
+    "observed_live_main": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "live_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
+    "result": "chapter blob identical to Batch 001 pin; unrelated source-repository drift does not change v1-ch06 authority"
+  },
+  "tamil_title": "தமிழ் காக்கும் போர் முனை",
+  "pages": {
+    "start": 46,
+    "end": 50
+  },
+  "extraction_unit_count": 5,
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins by repeating the chapter heading 'தமிழ் காக்கும் போர் முனை'.",
+      "translation_action": "Represent the heading in title metadata and do not repeat it as body prose."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 47 ends mid-sentence with 'சங்கங்கள் அமைப்பதில் எனக்குத்' and page 48 begins 'தனி ஆர்வம் உண்டு'.",
+      "translation_action": "Join the two extraction units into one continuous sentence; the page boundary is not an authorial sentence break."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 48 ends with the split personal name 'திரு என்.' and page 49 begins 'வி. நடராசன் அவர்கள்'.",
+      "translation_action": "Join as the continuous name/reference 'திரு என். வி. நடராசன் அவர்கள்'; do not treat the page break as punctuation."
+    },
+    {
+      "type": "paragraph_reconstruction",
+      "severity": "voice-sensitive",
+      "observation": "All five JSON paragraphs are page/extraction units. The page witnesses show multiple distinct literary paragraphs, fragments, speeches and dialogue turns inside them.",
+      "translation_action": "T1 must reconstruct literary units from the page-level rhetoric rather than mechanically using the five JSON elements as English paragraphs."
+    },
+    {
+      "type": "verse_or_song",
+      "severity": "voice-critical",
+      "observation": "Page 48 identifies Kalaignar's student procession song and gives its refrain as two lines: 'வாருங்கள் எல்லோரும் போருக்குச் சென்றிடுவோம்!' / 'வந்திருக்கும் இந்திப் பேயை விரட்டி திருப்பிடுவோம்'. The chapter JSON flattens the line break.",
+      "translation_action": "Preserve the refrain as an embedded two-line song/pallavi in English; do not flatten it into ordinary prose."
+    },
+    {
+      "type": "quotation_and_oratory",
+      "severity": "voice-critical",
+      "observation": "Page 47 builds Alagirisami's speech through separate bursts—'புலி உறுமியது! சிம்மம் கர்ச்சித்தது! கோடை இடி குமுறியது!'—then gives his shoe-garland speech and the short command 'கட்டியவர்களே அவிழ்க்கட்டும்!'.",
+      "translation_action": "Preserve the escalating animal/thunder images, exclamatory cadence, direct speech, joke about wearing the shoes, and the short command; do not compress the episode into narrative summary."
+    },
+    {
+      "type": "historical_distance_unit",
+      "severity": "translation-sensitive",
+      "observation": "Page 46 says 'இருநூறு கல் தொலைவு'; historical Tamil lexicon usage permits 'கல்' as a mile/distance unit, and page 47 later describes the same march as 'இருநூறு மைல்'.",
+      "translation_action": "Treat the distance sense as secure and translate contextually as miles; retain source-note traceability rather than reading 'கல்' literally as stone."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "Page 48 gives 'இந்தி எதிர்ப்பு முழககங்கள்' in both the pinned chapter JSON and the cleaned page witness. The surrounding clause securely identifies anti-Hindi slogans in a handbill.",
+      "translation_action": "Translate only the secure contextual function ('anti-Hindi slogans') and do not silently assert a corrected Tamil spelling in the source repository."
+    },
+    {
+      "type": "ocr_or_extraction_reading",
+      "severity": "translation-sensitive",
+      "observation": "Page 47 gives the awkward surface clause 'அழகிரி பேச்சை நிறுத்தாதற்கு முன்பே'. The narrative function is secure: the Congress men return, apologise and remove the shoe garland while/before Alagiri's long speech has ended.",
+      "translation_action": "Translate the secure event-function conservatively without asserting an unattested replacement Tamil form."
+    },
+    {
+      "type": "punctuation_or_coordination",
+      "severity": "voice-sensitive",
+      "observation": "The closing page prints 'தமிழ்க் கொடியும். பச்சைப் பிறைக் கொடியும் சேர்ந்து பறந்திட...' with a full stop between two coordinated flag images.",
+      "translation_action": "Preserve the emphatic pairing of the Tamil flag and green crescent flag; English may restore grammatical coordination while documenting the source punctuation."
+    },
+    {
+      "type": "historical_proper_names",
+      "severity": "translation-sensitive",
+      "observation": "The chapter contains Pattukkottai Alagirisami, Moovalur Ramamirtham Ammaiyar, Manavai Thirumalaisami, N. V. Natarajan, Subhas Chandra Bose, Muhammad Ali Jinnah and other period names/titles. External English spellings vary for Alagirisami/Alagiri.",
+      "translation_action": "Do not normalise uncertain English spellings during P0. T1 may transliterate freshly; T2/terminology review must choose established forms with disclosure."
+    },
+    {
+      "type": "movement_vocabulary",
+      "severity": "translation-sensitive",
+      "observation": "The chapter uses both 'சுயமரியாதை இயக்கம்' and 'தன்மான இயக்கம்' for the Self-Respect political current, alongside 'மொழிப் போராட்டம்', 'தமிழ் காக்கும் இயக்கம்', 'மறியல் அறப்போர்' and other struggle vocabulary.",
+      "translation_action": "Preserve distinctions of movement/war/struggle/picketing vocabulary in T1; do not flatten every occurrence into generic 'protest'."
+    },
+    {
+      "type": "reported_anecdote",
+      "severity": "voice-sensitive",
+      "observation": "The Jagadeesan hunger-strike passage reports that the fasting man expressed desire for Periyar's green-stone ring using the hearsay marker 'தெரிவித்தாராம்', then moves into Periyar's stated disbelief in fasts and the students breaking the fasting man's picture.",
+      "translation_action": "Preserve the reported/hearsay status and ironic sequence; do not convert the ring anecdote into an independently verified narrator assertion."
+    },
+    {
+      "type": "rhetorical_wordplay",
+      "severity": "voice-critical",
+      "observation": "Kalaignar anticipates that some may call his Tamil feeling 'வெறி' and answers that if devotion/attachment ('பற்று') is called frenzy, then that meaning is correct.",
+      "translation_action": "Preserve the explicit வெறி/பற்று argument and its self-defending rhetorical turn rather than paraphrasing it as generic enthusiasm."
+    },
+    {
+      "type": "classroom_dialogue",
+      "severity": "voice-critical",
+      "observation": "Pages 48–49 shift into a dramatic classroom scene with short teacher/student dialogue, ear-twisting, a slap, dizziness and the titular self-judgment 'இவ்வாறு என் நெஞ்சு எனக்கு நீதி வழங்கியது'.",
+      "translation_action": "Preserve the short spoken turns, bodily immediacy and the explicit 'my heart rendered justice to me' motif. The later 'பலகையில் உட்கார்ந்து விட்டேன்' must be resolved contextually and not mechanically equated with the earlier 'கரும் பலகை' (blackboard)."
+    },
+    {
+      "type": "temporal_vantage",
+      "severity": "voice-critical",
+      "observation": "Page 49 jumps from the 1938 classroom incident to the narrator's present after thirty-six years, then recalls a homeopathy conference about five years earlier; page 50 states the former Hindi teacher's present profession.",
+      "translation_action": "Preserve Kalaignar's relative-time vantage and tense movement. Do not silently replace 'thirty-six years' or 'about five years ago' with externally calculated calendar years."
+    },
+    {
+      "type": "political_imagery",
+      "severity": "voice-critical",
+      "observation": "The chapter repeatedly personifies and militarises language politics: Tamil Mother threatened by the dagger of compulsory Hindi, Tamil feeling in blood and breath, a language war in which the narrator says he sprouted, and Thalamuthu/Natarajan as 'தமிழ்க் காளையர்'.",
+      "translation_action": "Retain the concrete images and bodily/martial force; do not reduce them to abstract statements about language policy."
+    },
+    {
+      "type": "quotation",
+      "severity": "voice-critical",
+      "observation": "Page 50 quotes Anna's retrospective evaluation of compulsory Hindi as an opportunity that made collective feeling, sacrifice, truth, labour, imprisoned mothers and life-giving 'மணிகள்' visible.",
+      "translation_action": "Translate Kalaignar's quoted Anna passage freshly, preserving its cumulative parallel structure and figurative language; do not replace it with any external English version."
+    },
+    {
+      "type": "political_pivot",
+      "severity": "voice-critical",
+      "observation": "After the autobiographical school/teacher arc, page 50 widens to Hindu-Muslim conflict in northern India, Bose in East Bengal, Jinnah and the Muslim League, Gandhi's 'declaration of war' characterization, and Muslim League participation in Tamil Nadu anti-Hindi activity.",
+      "translation_action": "Preserve the pivot from personal memory back to all-India politics and the final image of Tamil and green-crescent flags flying together; do not reorganise it into detached encyclopedia chronology."
+    },
+    {
+      "type": "non_authorial_editorial",
+      "severity": "informational",
+      "observation": "No Wikisource maintenance notice or other non-authorial body material appears in the inspected pages 46–50.",
+      "translation_action": "No non-authorial body exclusion is required for v1-ch06."
+    }
+  ],
+  "secondary_witnesses": [
+    {
+      "repository": "pugazg/nenjukku-needhi-archive",
+      "ref": "main",
+      "paths": [
+        "data/books/nenjukku-needhi/cleaned/volume1/0046.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0047.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0048.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0049.md",
+        "data/books/nenjukku-needhi/cleaned/volume1/0050.md"
+      ],
+      "blob_shas": [
+        "98842d844daaef0d43d07d7c006b103f1d7bdfc0",
+        "322278158ab34d91902b90c87724cad54df71dd6",
+        "89998d6f33fca38d754a846cf9c77253e61781f5",
+        "7b12842c11c7ad277428f85f7951acfd19874c57",
+        "7c6db17d530f00afaa34dcbc848f5666a7633d9c"
+      ],
+      "role": "secondary page-level text witnesses used to recover page joins, paragraphing, dialogue and song lineation; not authority over the pinned autobiography source"
+    }
+  ],
+  "external_contextual_evidence": [
+    {
+      "area": "Tamil volunteer march",
+      "finding": "Historical accounts independently identify a 1938 Tamilar Padai/Tamil brigade march from Tiruchirappalli to Madras led by Pattukkottai Alagiri/Azhagirisamy with Moovalur Ramamirtham among its prominent participants. This corroborates event identity only; the memoir's wording and scale remain controlling."
+    },
+    {
+      "area": "N. V. Natarajan",
+      "finding": "A contemporary Justice newspaper report from November 1938 identifies N. V. Natarajan as Secretary of the Peddunaickenpet Tamilar Kazagam, supporting the identity and English initials behind the page-48/49 split name."
+    },
+    {
+      "area": "Jagadeesan fast",
+      "finding": "Historical summaries identify Stalin Jagadeesan's 1938 anti-Hindi fast and Periyar's opposition to fasting as a protest method. The memoir's green-stone-ring anecdote remains an authored reported anecdote and is not independently promoted to verified fact."
+    },
+    {
+      "area": "lexical: கல்",
+      "finding": "Tamil lexicon evidence records 'கல்' as a historical mile/distance unit; the chapter itself later restates the march distance using 'மைல்'."
+    }
+  ],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-review-complete",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1-fresh-translation"
+}
