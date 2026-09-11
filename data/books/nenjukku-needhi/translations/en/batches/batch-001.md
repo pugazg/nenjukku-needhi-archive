@@ -1,12 +1,12 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` SOURCE REVIEW NEXT**
+Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` SOURCE REVIEW PASS / T1 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
 Pinned source ref for batch opening: `5c6b5ef8901044660e607d4649238d7c66cb648d`
 
-Latest source-main drift check during `v1-ch05` source review: `d6621b71256ae99b1c89b4f2091513dcc5f96626`; `v1-ch05` blob remains byte-identical at `220fb5271eac48c6988057d0d464d5950fd822a3`, so Batch 001 authority remains the opening pin.
+Latest source-main drift check during `v1-ch06` source review: `d6621b71256ae99b1c89b4f2091513dcc5f96626`; `v1-ch06` blob remains byte-identical at `8f93218b297262319d82f89274dbee3d1de803f5`, so Batch 001 authority remains the opening pin.
 
 Write repository: `pugazg/nenjukku-needhi-archive`
 
@@ -23,7 +23,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **SOURCE REVIEW NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **SOURCE REVIEW PASS / T1 NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
 ## `v1-ch03` closure
@@ -96,6 +96,25 @@ Final controls retain the witnessed **In 1932** opening, Kalaignar's authored **
 
 The final approval review confirms 22/22 structural movements, zero unresolved source holds and zero outstanding review items. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder.
 
+## `v1-ch06` — source review complete
+
+Durable file:
+
+- source notes: `../source-notes/v1-ch06.json`
+
+Gate state:
+
+- source review: **PASS / COMPLETE**;
+- extraction units: **5 / pages 46–50**;
+- pinned/live source blob: **byte-identical** at `8f93218b297262319d82f89274dbee3d1de803f5`;
+- unresolved source holds: **0**;
+- outstanding source-review items: **0**;
+- next gate: **fresh T1 translation**.
+
+P0 records the repeated heading; page-47/48 and page-48/49 source-unit joins; the two-line student song on page 48; the page-47 Alagirisami oratory sequence; historical distance `கல்` as mile; the anomalous `முழககங்கள்` and `நிறுத்தாதற்கு முன்பே` forms; the final Tamil-flag/green-crescent punctuation split; the Jagadeesan hearsay anecdote; the `வெறி / பற்று` wordplay; the classroom dialogue and titular self-judgment; the thirty-six-year retrospective; and the final pivot to Bose, Jinnah, Gandhi and Muslim League politics.
+
+No non-authorial body material was found. No missing Tamil reconstruction is required.
+
 ## Branch consolidation
 
 PR #1 merged the former working branch `translation/english-memoir` into `main`. `main` is the sole active translation work surface. Future chapter commits and control updates go directly to `main`.
@@ -114,7 +133,7 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 
 - Batch opened: **YES**
 - source files pinned: **5 / 5**
-- full source reviews complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
+- full source reviews complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - T1 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T2 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - T3 complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
@@ -122,4 +141,4 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - terminology/cultural complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - comparator checks complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - approved chapters: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- next chapter activity: **complete source review for `v1-ch06` before T1**
+- next chapter activity: **fresh T1 translation for `v1-ch06`**
