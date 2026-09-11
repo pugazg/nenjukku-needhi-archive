@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / BATCH TERMINOLOGY COMPLETE 5/5 / `v1-ch09` FINAL APPROVAL NEXT**
+Status: **CLOSED / 5 OF 5 APPROVED**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -41,10 +41,10 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **APPROVED / CLOSED** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **APPROVED / CLOSED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **APPROVED / CLOSED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **APPROVED / CLOSED** |
 
 ## Batch rule
 
@@ -66,8 +66,8 @@ This batch is a management envelope.
 - T2 complete: **5 / 5**
 - T3 complete: **5 / 5**
 - thought-structure complete: **5 / 5**
-- terminology/cultural complete: **0 / 5**
-- approved chapters: **1 / 5**
+- terminology/cultural complete: **5 / 5**
+- approved chapters: **5 / 5**
 ## `v1-ch08` — source review complete
 
 Durable file:
@@ -329,9 +329,55 @@ Durable new reviews:
 
 The living glossary is updated through `v1-ch12`, including School Final, Kudi Arasu, Indrani/Dhruva, Fourth Form, Rama's Footprint, deliberate malformed-title policy, Dravidar Kazhagam / Dravida Munnetra Kazhagam, Varnashrama, dakshina, parani, Margazhi, beedi, sundal and Children's Reform Association.
 
-## Immediate next activity
+## Batch-wide final approval checkpoint
 
-Run the **final approval review for `v1-ch09`**. Do not begin final approval for later chapters in the same activity unless separately authorized.
+Final approval is complete for all five Batch 002 chapters.
+
+- `v1-ch08` — **APPROVED / CLOSED**
+- `v1-ch09` — **APPROVED / CLOSED**
+- `v1-ch10` — **APPROVED / CLOSED**
+- `v1-ch11` — **APPROVED / CLOSED**
+- `v1-ch12` — **APPROVED / CLOSED**
+
+Final approval checks:
+
+- source reviews: **5 / 5 PASS**
+- T1: **5 / 5 PASS**
+- T2: **5 / 5 COMPLETE**
+- T3: **5 / 5 COMPLETE**
+- thought structure: **5 / 5 PASS**
+- terminology/cultural: **5 / 5 COMPLETE**
+- approved chapters: **5 / 5**
+- independent English frozen: **5 / 5**
+- unresolved source holds: **0**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
+- approval-stage chapter-text changes: **0**
+- existing-English comparator gate for v1-ch02+: **NOT APPLICABLE**
+- source repository modifications: **0**
+- formal JSON-Schema validation: **NOT CLAIMED**
+
+Pinned source blobs confirmed at approval/closure:
+
+- `v1-ch08`: `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`
+- `v1-ch09`: `e3104c0f74478f25d0b15c4bb1ed12afd6420d21`
+- `v1-ch10`: `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f`
+- `v1-ch11`: `31e7fcb1770db1a19caaa9725b9b5709f7250454`
+- `v1-ch12`: `df9bfe3fb369783e68c5166b7068323909d6f4f9`
+
+## Batch closure
+
+Batch 002 is **CLOSED**.
+
+No active production batch remains after this closure.
+
+## Next production activity
+
+**Open Batch 003 beginning with `v1-ch13`.**
+
+At Batch 003 opening, fetch live source `main`, record a new source pin, inspect the next chapter span under the normal five-chapter policy, create the Batch 003 control, and synchronize manifest/progress/handover.
+
+Do not begin `v1-ch13` T1 until Batch 003 is durably opened and `v1-ch13` completes P0 source review.
 
 ## Infrastructure limitation
 
