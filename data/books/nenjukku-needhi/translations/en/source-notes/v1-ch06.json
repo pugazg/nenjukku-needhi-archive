@@ -182,8 +182,9 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "source-review-complete",
+  "status": "t1-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t1-fresh-translation"
+  "next_gate": "t2-kalaignar-voice-review",
+  "t1_translation": "../chapters/v1-ch06.json"
 }
