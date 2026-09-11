@@ -8,7 +8,7 @@
     "start": 71,
     "end": 75
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
     "T2 source-and-Kalaignar-voice review passed with 13 grouped source-checked revisions. The pass strengthens the embedded 1944 Murasoli polemic, restores the source's conch-blast and eat-and-roll sarcasm, corrects `பூரிதட்சிணை` to bountiful dakshina using lexical evidence, preserves the Karna-Duryodhana friendship argument and Kural quotations, and sharpens the child-association meeting/election voice. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 12 grouped minor source-checked revisions. The pass improves the pre-leaflet transition, restores the embedded leaflet's exclamatory polemical English, removes a few literal idioms, and smooths the friendship and Children's Reform Association sections while preserving all headings, dates, quotations, caste terms, rhetorical imagery and election details. No existing-English comparator was consulted.",
-    "Thought-structure audit passed 22/22 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 22/22 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed without chapter-text revision. Kizhavan Kanavu, Murasoli, Dravidar Kazhagam, Varnashrama, Thillai/Chidambaram, Dikshitars, dakshina, Sanatanis, Sudra/Sudrahood, Self-Respect Movement, Periyar, parani, Villiputhurar's Bharatham, Kural, Dravida Munnetra Kazhagam, Children's Reform Association, Anjaneya, anna/paisa, beedi, chickpea sundal, bhajan, Margazhi, Thambayya Pillai, Thyagarasan and the source-led Democratic Party label were retained. Independent English is frozen for final approval."
   ],
   "paragraphs": [
     "\"Sir! Only now has my writing gained this much influence. I began writing many years ago. My first book was Kizhavan Kanavu. Its price was only three annas. We printed Murasoli leaflet issues, distributed them free, used them to spread our principles, and at the same time introduced myself as a writer. Many of today's talented writers are people who advanced only after struggling as I did. Is it fair that you should wish to leap suddenly to the summit?\"",
@@ -69,9 +70,11 @@
     "source_review": "../source-notes/v1-ch12.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch12-t2.md",
     "t3_review": "../reviews/v1-ch12-t3.md",
-    "thought_structure_review": "../reviews/v1-ch12-structure.md"
+    "thought_structure_review": "../reviews/v1-ch12-structure.md",
+    "terminology_review": "../reviews/v1-ch12-terminology.md",
+    "independent_english_frozen": true
   }
 }
