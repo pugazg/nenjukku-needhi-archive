@@ -65,13 +65,26 @@
     }
   ],
   "secondary_witnesses": [],
-  "external_contextual_evidence": [],
+  "external_contextual_evidence": [
+    {
+      "area": "பூரிதட்சிணை",
+      "finding": "University of Madras Tamil Lexicon defines பூரிதட்சிணை as a money gift to Brahmans on festive occasions; the element பூரி also carries abundance/plenty.",
+      "translation_action": "Replace T1's unrelated 'feast of religious merit' with the source-compatible rhetorical phrase 'Bountiful dakshina!' while retaining the culturally specific term."
+    }
+  ],
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t1-complete",
+  "status": "t2-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t2",
-  "t1_translation": "../chapters/v1-ch12.json"
+  "next_gate": "t3",
+  "t1_translation": "../chapters/v1-ch12.json",
+  "t2_review": "../reviews/v1-ch12-t2.md",
+  "t2_resolutions": {
+    "accepted_revisions": 13,
+    "unresolved_source_holds": 0,
+    "blocking_t2_issues": 0,
+    "comparator_consulted": false
+  }
 }
