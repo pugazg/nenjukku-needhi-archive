@@ -46,27 +46,31 @@ Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
 Span: **`v1-ch08`–`v1-ch12`**
 
-At the user's explicit instruction, fresh T1 translation was completed across the entire active batch after P0/source review was completed for every chapter.
+Current counters:
 
 - source reviews: **5 / 5**
 - T1: **5 / 5**
-- T2: **0 / 5**
+- T2: **1 / 5**
+- T3: **0 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
-T1 chapters:
+`v1-ch08` — **Tamil Students' Association**
 
-- `v1-ch08` — **Tamil Students' Association**
-- `v1-ch09` — **Troublemaker Narada Entered**
-- `v1-ch10` — **The Drama My Friend Acted Out**
-- `v1-ch11` — **The Young Writer**
-- `v1-ch12` — **"Shall I Pick Them Up, or String Them?"**
+- T1: **PASS / COMPLETE**
+- T2: **PASS WITH REVISION / COMPLETE**
+- accepted grouped T2 revisions: **18**
+- unresolved source holds: **0**
+- blocking T2 issues: **0**
+- next gate: **T3**
 
-The batch-wide T1 preserves source-led joins, verse/drama lineation, direct speech, political and organizational distinctions, authored chronology, humour, self-irony, exam-failure reflection, and the embedded 1944 Murasoli leaflet. No prior English was consulted.
+T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
-## Immediate next activity — v1-ch08 T2
+The remaining Batch 002 chapters `v1-ch09`–`v1-ch12` remain **T1 COMPLETE / T2 QUEUED**.
 
-Perform the T2 Tamil-English source-and-Kalaignar-voice review for `v1-ch08` only. Subsequent review gates remain sequential unless the user explicitly authorizes another batch-wide gate.
+## Immediate next activity — v1-ch08 T3
+
+Run the **T3 English-only literary review** of `v1-ch08`. Read the revised English first without consulting Tamil; then recheck every proposed fluency change against the pinned Tamil before accepting it. Do not consult existing English.
 
 ## Mandatory controls
 
