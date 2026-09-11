@@ -61,7 +61,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
-| `v1-ch13` | `மாமனார் தந்த வரவேற்பு` | 76–80 | `80fc03e2092ab69b22879e65ab6887acc4284a55` | **P0 SOURCE REVIEW NEXT** |
+| `v1-ch13` | `மாமனார் தந்த வரவேற்பு` | 76–80 | `80fc03e2092ab69b22879e65ab6887acc4284a55` | **P0 COMPLETE / T1 NEXT** |
 | `v1-ch14` | `வாழ்வதற்கு வழி? நடிகனானேன் நான்!` | 81–84 | `1fa0f359d8da9cbeb2d9b03fa6244badbece89f6` | **PINNED / QUEUED** |
 | `v1-ch15` | `நண்பர்கள் முகம் வாடலாமா?` | 85–89 | `ceb2759588dfec6646a4ba53369fce02c0bd9c92` | **PINNED / QUEUED** |
 | `v1-ch16` | `கம்புகள்! குண்டாந்தடிகள்!` | 90–93 | `fd6793f228db38098aff1eddcfb7fefce3fff3d2` | **PINNED / QUEUED** |
@@ -70,7 +70,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 Opening counters:
 
 - source files pinned: **5 / 5**
-- full source reviews complete: **0 / 5**
+- full source reviews complete: **1 / 5**
 - T1 complete: **0 / 5**
 - T2 complete: **0 / 5**
 - T3 complete: **0 / 5**
@@ -420,16 +420,20 @@ Batch 002 is **CLOSED** with **5 / 5 APPROVED**.
 - independent English frozen: **5 / 5**
 - formal JSON-Schema validation: **NOT CLAIMED**
 
-## Next activity
+## `v1-ch13` P0 checkpoint
 
-Run **P0 source review for `v1-ch13` only**.
+P0 source review is **PASS / COMPLETE**.
 
-- title: `மாமனார் தந்த வரவேற்பு`
-- pages: **76–80**
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source path: `public/data/text/v1-ch13.json`
+- source note: `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch13.json`
 - source blob: `80fc03e2092ab69b22879e65ab6887acc4284a55`
 - extraction units: **5**
-- extraction strategy: `wordjoiner`
+- page join: **1 — `குருதி / கக்கினார்`**
+- unresolved source holds: **0**
+- non-authorial exclusions: **0**
+- duplicate-source exclusions: **0**
+- open review items: **1 non-blocking lexical item — `ஜன்னி`**
+- T1 started: **NO**
 
-Read the full pinned Tamil, document all source interventions/uncertainties, create the source-note sidecar, synchronize controls, and stop with **T1 next**. Do not translate during P0.
+## Next activity
+
+Run **T1 fresh translation for `v1-ch13` only** from the pinned Tamil plus P0 source notes. Do not consult existing English. Preserve all quoted/publication/drama titles, financial details, political-movement language, Anna/Alagirisami voice, and the authored marriage sequence. Stop with **T2 next**.
