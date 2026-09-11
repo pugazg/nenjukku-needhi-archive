@@ -275,6 +275,19 @@ Do not merge a sequence of short rhetorical images into one explanatory sentence
 In `v1-ch06`, Alagiri's speech is staged as three blows: **The tiger growled! The lion roared! Summer thunder rumbled!** The shoe-festoon episode then moves through direct speech, sarcasm, crowd surge, restraint, apology and reversal. The scene should remain dramatic, not be reduced to a summary that Alagiri gave a persuasive speech.
 
 
+## 40. Do not literalize lexicalized human animal terms automatically
+
+Tamil may use a noun whose literal animal sense has long-established human meanings such as youth, manliness or warriorhood. Preserve the human force unless the passage actively develops the animal image.
+
+In `v1-ch06`, `தமிழ்க் காளையர்` refers to Thalamuthu and Natarajan. Lexical evidence supports `காளை` as young man / man in his prime / warrior. The translation therefore uses **young Tamil warriors**, not the mechanically literal **Tamil bulls**. This complements the earlier rule against manufacturing imagery from lexicalised forms.
+
+## 41. Historical `இன` language requires chapter-level judgment
+
+Do not erase the period's collective identity vocabulary, but do not force one English equivalent across every occurrence of `இனம்`, `இன உணர்வு`, `இன உணர்ச்சி` or `தமிழினம்`.
+
+In `v1-ch06`, Anna's `இன உணர்ச்சி ஊற்றெடுக்க` is rendered **our racial consciousness to well up** because that preserves the historical political register and the abstract-consciousness construction. This is a chapter-specific choice, not a universal rule; later uses must be reconsidered from context.
+
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
