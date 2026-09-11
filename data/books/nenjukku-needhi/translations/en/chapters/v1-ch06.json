@@ -8,7 +8,7 @@
     "start": 46,
     "end": 50
   },
-  "status": "t3-complete",
+  "status": "thought-structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -33,7 +33,8 @@
     "T2 renders மறியல் அறப்போர் here as daily picketing carried on as a non-violent struggle, preserving both the picketing action and the அறப்போர் register.",
     "T2 retains இன உணர்ச்சி provisionally as 'sense of race' for this chapter; its final corpus-sensitive English remains a dedicated terminology/cultural-audit decision.",
     "T3 completed an English-only literary read and accepted 18 minor fluency revisions only after every candidate was checked back against the pinned Tamil.",
-    "T3 deliberately retained source-driven formulations including Fearless Heart, Summer-Thunder Alagiri, the tiger/lion/summer-thunder crescendo, Hindi demon, the frenzy/devotion turn, 'my heart rendered justice to me', the flare/sprout image, the two Tamil bulls becoming corpses in prison, provisional 'sense of race', and the Tamil/green-crescent flags."
+    "T3 deliberately retained source-driven formulations including Fearless Heart, Summer-Thunder Alagiri, the tiger/lion/summer-thunder crescendo, Hindi demon, the frenzy/devotion turn, 'my heart rendered justice to me', the flare/sprout image, the two Tamil bulls becoming corpses in prison, provisional 'sense of race', and the Tamil/green-crescent flags.",
+    "Thought-structure audit passes 20/20 major movements with no reordering, omission or invention; the independent English is frozen at this gate before any existing-English comparison."
   ],
   "paragraphs": [
     "Pattukkottai Alagirisami, whom Tamils called the \"Fearless Heart,\" marshalled a Tamil Brigade in Tiruchirappalli and led it toward Madras. Among the prominent figures in that march were the venerable Moovalur Ramamirtham Ammaiyar and Manavai Thirumalaisami.",
@@ -80,8 +81,10 @@
     "source_review": "../source-notes/v1-ch06.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch06-t2.md",
-    "t3_review": "../reviews/v1-ch06-t3.md"
+    "t3_review": "../reviews/v1-ch06-t3.md",
+    "thought_structure_review": "../reviews/v1-ch06-structure.md",
+    "independent_english_frozen": true
   }
 }
