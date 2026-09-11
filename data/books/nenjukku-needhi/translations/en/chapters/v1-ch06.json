@@ -8,7 +8,7 @@
     "start": 46,
     "end": 50
   },
-  "status": "comparator-check-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -37,7 +37,8 @@
     "Thought-structure audit passes 20/20 major movements with no reordering, omission or invention; the independent English is frozen at this gate before any existing-English comparison.",
     "Terminology/cultural audit resolves இன உணர்ச்சி as 'racial consciousness' for this chapter's historical political register; this is not a global one-to-one rule for இனம்.",
     "Terminology/cultural audit resolves தமிழ்க் காளையர் as 'young Tamil warriors', using the established human senses of காளை (young man/warrior) and avoiding an over-literal animal image while retaining the source's heroic force.",
-    "Post-freeze controlled comparator check found no public/data/text-en/v1-ch06.json at the Batch 001 pinned source ref; the text-en tree contains only v1-ch01.json. No prior-English wording was consulted or adopted."
+    "Post-freeze controlled comparator check found no public/data/text-en/v1-ch06.json at the Batch 001 pinned source ref; the text-en tree contains only v1-ch01.json. No prior-English wording was consulted or adopted.",
+    "Final approval review passes all gates with zero unresolved source, terminology or comparator issues; formal JSON-Schema validation remains unavailable because schemas/chapter.json is the empty legacy placeholder."
   ],
   "paragraphs": [
     "Pattukkottai Alagirisami, whom Tamils called the \"Fearless Heart,\" marshalled a Tamil Brigade in Tiruchirappalli and led it toward Madras. Among the prominent figures in that march were the venerable Moovalur Ramamirtham Ammaiyar and Manavai Thirumalaisami.",
@@ -84,13 +85,14 @@
     "source_review": "../source-notes/v1-ch06.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "final-approval-review",
+    "next_gate": "closed",
     "t2_review": "../reviews/v1-ch06-t2.md",
     "t3_review": "../reviews/v1-ch06-t3.md",
     "thought_structure_review": "../reviews/v1-ch06-structure.md",
     "independent_english_frozen": true,
     "terminology_cultural_review": "../reviews/v1-ch06-terminology.md",
     "existing_english_comparison": "../reviews/v1-ch06-existing-comparison.md",
-    "existing_english_comparator": "absent"
+    "existing_english_comparator": "absent",
+    "approval_review": "../reviews/v1-ch06-approval.md"
   }
 }
