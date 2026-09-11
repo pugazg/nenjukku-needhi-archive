@@ -27,7 +27,7 @@
 - Translation plan: **COMPLETE FOR PRODUCTION**
 - Two-pilot method review: **COMPLETE**
 - Kalaignar Voice Guide: **LIVING / UPDATED THROUGH `v1-ch12` T2**
-- Translation glossary: **LIVING / UPDATED THROUGH `v1-ch07` TERMINOLOGY AUDIT**
+- Translation glossary: **LIVING / UPDATED THROUGH `v1-ch12` TERMINOLOGY AUDIT**
 - Source-note convention: **DEFINED AND IN USE**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
 - Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / BATCH STRUCTURE COMPLETE 5/5 / `v1-ch09` TERMINOLOGY NEXT**
+Status: **OPEN / BATCH TERMINOLOGY COMPLETE 5/5 / `v1-ch09` FINAL APPROVAL NEXT**
 
 Batch control:
 
@@ -60,10 +60,10 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
 
 Opening counters:
 
@@ -73,7 +73,7 @@ Opening counters:
 - T2 complete: **5 / 5**
 - T3 complete: **5 / 5**
 - thought-structure complete: **5 / 5**
-- terminology/cultural complete: **1 / 5**
+- terminology/cultural complete: **5 / 5**
 - approved: **1 / 5**
 
 The selected five chapter blobs are byte-identical to the older Batch 001 pin, while the batch authority itself is the live source `main` at Batch 002 opening.
@@ -354,6 +354,20 @@ Thought structure is now **5 / 5 COMPLETE**.
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
+## Batch 002 terminology/cultural checkpoint
+
+Terminology/cultural consistency is now **5 / 5 COMPLETE**.
+
+- `v1-ch08`: PASS WITH ONE REVISION — APPROVED / CLOSED
+- `v1-ch09`: PASS WITH ONE REVISION — **Indirani → Indrani**
+- `v1-ch10`: PASS WITH ONE REVISION — **Rama's Foot → Rama's Footprint**
+- `v1-ch11`: PASS WITHOUT REVISION
+- `v1-ch12`: PASS WITHOUT REVISION
+- unresolved terminology holds: **0**
+- unresolved source holds: **0**
+- independent English frozen: **5 / 5**
+- existing-English comparator consulted: **NO**
+
 ## Next activity
 
-Run the **terminology/cultural-consistency audit for `v1-ch09`**. Review names, institutional labels, political/cultural vocabulary, ritual/material terms and source-era forms against the living glossary and prior approved chapters. Do not consult existing English.
+Run the **final approval review for `v1-ch09`**. Verify all completed gates, zero-hold conditions, frozen independent English, syntactic JSON parseability and repository control consistency. Do not claim formal JSON-Schema validation.
