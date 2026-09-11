@@ -249,6 +249,32 @@ When Kalaignar reproduces a sequence of audience voices, keep the plurality, fra
 
 The end of `v1-ch05` presents reactions to Anna's oratory as a chorus: music, restrained movement, pomegranate pearls, an opened sluice, firm arguments, undeniable statistics, the Courtallam waterfall and a Tamil `chindu`. Their accumulation makes the public reception audible. The English should preserve that staged chorus even if individual fragments are unconventional prose sentences.
 
+
+## 36. Named political marching bodies should not be flattened into generic forces
+
+When a source term identifies a historically recognizable organization or campaign body, use a stable English event-name if it improves traceability without overwriting Kalaignar's wording.
+
+In `v1-ch06`, `தமிழர் படை` refers to the 1938 Tamilar Padai march and is rendered **Tamil Brigade**. This preserves the organized marching body more clearly than generic `force`. The rule is context-specific: ordinary uses of `படை` elsewhere still require fresh judgment.
+
+## 37. Preserve paired wordplay and bodily political imagery
+
+Kalaignar often argues through repeated or paired concrete words rather than abstract explanation. Do not paraphrase away the lexical relation merely to make English smoother.
+
+In `v1-ch06`, the self-defence turns on `வெறி / பற்று`: some may call his Tamil feeling frenzy, but if devotion is called frenzy, he accepts the charge. The same chapter places Tamil in his blood and breath, shows Tamil Mother threatened by a compulsory-Hindi dagger, and says he “sprouted” from a language struggle that had “flared up.” These images carry the political emotion and should remain visible.
+
+## 38. Relative autobiographical time is part of the narrator's vantage
+
+When Kalaignar says “thirty-six years have passed” or “about five years ago,” do not silently convert those phrases into calendar dates merely because the composition date can be inferred.
+
+In `v1-ch06`, the leap from the 1938 classroom slap to the former Hindi teacher's later homeopathy role depends on the narrator measuring distance from his own present. Preserve that relative-time movement.
+
+## 39. Public speech may work through abrupt animal, weather and crowd images
+
+Do not merge a sequence of short rhetorical images into one explanatory sentence.
+
+In `v1-ch06`, Alagiri's speech is staged as three blows: **The tiger growled! The lion roared! Summer thunder rumbled!** The shoe-festoon episode then moves through direct speech, sarcasm, crowd surge, restraint, apology and reversal. The scene should remain dramatic, not be reduced to a summary that Alagiri gave a persuasive speech.
+
+
 ## Pilot observations
 
 ### `v1-ch01` — `பிறந்த ஆண்டு`
@@ -282,6 +308,12 @@ Its T2 review establishes durable practice for historical proper-name normalisat
 The chapter continues Justice Party history but repeatedly returns public history to Kalaignar's own age and political awakening: the 1932 leadership change, party decline, his Panagal Raja school memory, compulsory Hindi, the first anti-Hindi struggle, martyrs, the fourteen-year 1924–1938 pivot, Indian and world crises, Periyar's emergence as `தமிழர் தலைவர்`, and the first spreading fame of Anna's oratory.
 
 Its T2 review adds durable practice for constitutional-period office changes (`First Minister` versus `Premier`), lexical `வடமொழி` → `Sanskrit`, disciplined `இறும்பூது` → `wonder` without added pride, consistent preservation of political epithets, historically useful proper-name normalisation, non-canonical handling of Kalaignar's Tamil-mediated Voltaire quotation, and refusal to invent an etymological nail image from `ஆணித்தரமான`. The closing audience chorus confirms that public reception itself can be a dramatic scene and should not be flattened into summary.
+
+### `v1-ch06` — `தமிழ் காக்கும் போர் முனை`
+
+The chapter begins with the Tamil Brigade and Pattukkottai Alagirisami's oratorical portrait, then turns the public campaign into Kalaignar's own student activism: associations, daily processions, a two-line song, the Jagadeesan fast, a direct classroom confrontation with his Hindi teacher, and the self-judgment that “my heart rendered justice to me.” It then leaps thirty-six years forward before widening again into Thalamuthu, Natarajan, Anna, Bose, Jinnah and Muslim League participation.
+
+Its T2 review adds durable practice for historically identifiable movement-body naming (`தமிழர் படை` → `Tamil Brigade`), preserving short animal/weather oratorical bursts, keeping `வெறி / பற்று` wordplay explicit, resolving context-bound objects such as classroom `பலகை` as a bench, rendering `மறியல் அறப்போர்` as non-violent picketing struggle, and protecting relative autobiographical time from unnecessary calendar conversion. `இன உணர்ச்சி` remains deliberately open for its later terminology/cultural audit.
 
 ## Review question
 
