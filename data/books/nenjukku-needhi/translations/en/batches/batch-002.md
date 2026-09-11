@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / BATCH T3 COMPLETE 5/5 / `v1-ch09` STRUCTURE NEXT**
+Status: **OPEN / BATCH STRUCTURE COMPLETE 5/5 / `v1-ch09` TERMINOLOGY NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -41,10 +41,10 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T3 COMPLETE / STRUCTURE NEXT** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T3 COMPLETE / STRUCTURE QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T3 COMPLETE / STRUCTURE QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **T3 COMPLETE / STRUCTURE QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
 
 ## Batch rule
 
@@ -65,7 +65,7 @@ This batch is a management envelope.
 - T1 complete: **5 / 5**
 - T2 complete: **5 / 5**
 - T3 complete: **5 / 5**
-- thought-structure complete: **0 / 5**
+- thought-structure complete: **5 / 5**
 - terminology/cultural complete: **0 / 5**
 - approved chapters: **1 / 5**
 ## `v1-ch08` — source review complete
@@ -101,7 +101,7 @@ At the user's explicit instruction, T1 was completed for the entire Batch 002 af
 - T1 fresh translations: **5 / 5 COMPLETE**
 - T2: **1 / 5**
 - T3: **5 / 5**
-- thought structure: **1 / 5**
+- thought structure: **5 / 5**
 - terminology/cultural: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
@@ -274,9 +274,36 @@ Durable new reviews:
 
 The batch-wide T3 pass improved English cadence without changing protected meaning, chronology, quoted material, theatrical framing, embedded-document rhetoric, cultural imagery or political force.
 
+## Batch-wide thought-structure checkpoint
+
+At the user's explicit instruction, thought-structure audit is now complete for the entire Batch 002.
+
+- `v1-ch08` — **PASS — 18 / 18** — already APPROVED / CLOSED
+- `v1-ch09` — **PASS — 20 / 20**
+- `v1-ch10` — **PASS — 12 / 12**
+- `v1-ch11` — **PASS — 12 / 12**
+- `v1-ch12` — **PASS — 22 / 22**
+
+Batch structure state:
+
+- thought structure complete: **5 / 5**
+- reordered major movements: **0**
+- omitted structural turns: **0**
+- invented structural turns: **0**
+- chapter-text changes at structure gate: **0**
+- unresolved source holds: **0**
+- existing-English comparator consulted: **NO**
+
+Durable new reviews:
+
+- `../reviews/v1-ch09-structure.md`
+- `../reviews/v1-ch10-structure.md`
+- `../reviews/v1-ch11-structure.md`
+- `../reviews/v1-ch12-structure.md`
+
 ## Immediate next activity
 
-Run the **thought-structure audit for `v1-ch09`**. Do not start the structure audit for later chapters in the same activity unless separately authorized.
+Run the **terminology/cultural-consistency audit for `v1-ch09`**. Do not begin the terminology audit for later chapters unless separately authorized.
 
 ## Infrastructure limitation
 
