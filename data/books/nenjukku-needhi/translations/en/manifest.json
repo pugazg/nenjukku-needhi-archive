@@ -185,7 +185,7 @@
         "source_blob_sha": "e3104c0f74478f25d0b15c4bb1ed12afd6420d21",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch09.json",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch09.json",
@@ -193,16 +193,23 @@
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
-        "next_gate": "t3",
+        "next_gate": "thought-structure-audit",
         "reviews": {
-          "t2": "reviews/v1-ch09-t2.md"
+          "t2": "reviews/v1-ch09-t2.md",
+          "t3": "reviews/v1-ch09-t3.md"
         },
         "t2_result": {
           "accepted_revisions": 12,
           "unresolved_source_holds": 0,
           "blocking_t2_issues": 0,
+          "comparator_consulted": false
+        },
+        "t3_result": {
+          "accepted_revisions": 11,
+          "unresolved_source_holds": 0,
           "comparator_consulted": false
         }
       },
@@ -216,7 +223,7 @@
         "source_blob_sha": "38f3e3efcd8c48a7c3df70c3b5e36b02d813261f",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch10.json",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch10.json",
@@ -224,16 +231,23 @@
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
-        "next_gate": "t3",
+        "next_gate": "thought-structure-audit",
         "reviews": {
-          "t2": "reviews/v1-ch10-t2.md"
+          "t2": "reviews/v1-ch10-t2.md",
+          "t3": "reviews/v1-ch10-t3.md"
         },
         "t2_result": {
           "accepted_revisions": 7,
           "unresolved_source_holds": 0,
           "blocking_t2_issues": 0,
+          "comparator_consulted": false
+        },
+        "t3_result": {
+          "accepted_revisions": 10,
+          "unresolved_source_holds": 0,
           "comparator_consulted": false
         }
       },
@@ -247,7 +261,7 @@
         "source_blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch11.json",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch11.json",
@@ -255,16 +269,23 @@
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
-        "next_gate": "t3",
+        "next_gate": "thought-structure-audit",
         "reviews": {
-          "t2": "reviews/v1-ch11-t2.md"
+          "t2": "reviews/v1-ch11-t2.md",
+          "t3": "reviews/v1-ch11-t3.md"
         },
         "t2_result": {
           "accepted_revisions": 7,
           "unresolved_source_holds": 0,
           "blocking_t2_issues": 0,
+          "comparator_consulted": false
+        },
+        "t3_result": {
+          "accepted_revisions": 7,
+          "unresolved_source_holds": 0,
           "comparator_consulted": false
         }
       },
@@ -278,7 +299,7 @@
         "source_blob_sha": "df9bfe3fb369783e68c5166b7068323909d6f4f9",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch12.json",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "translation": "chapters/v1-ch12.json",
@@ -286,16 +307,23 @@
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
-        "next_gate": "t3",
+        "next_gate": "thought-structure-audit",
         "reviews": {
-          "t2": "reviews/v1-ch12-t2.md"
+          "t2": "reviews/v1-ch12-t2.md",
+          "t3": "reviews/v1-ch12-t3.md"
         },
         "t2_result": {
           "accepted_revisions": 13,
           "unresolved_source_holds": 0,
           "blocking_t2_issues": 0,
+          "comparator_consulted": false
+        },
+        "t3_result": {
+          "accepted_revisions": 12,
+          "unresolved_source_holds": 0,
           "comparator_consulted": false
         }
       }
@@ -304,11 +332,11 @@
     "translations_started": 5,
     "t1_complete": 5,
     "t2_complete": 5,
-    "t3_complete": 1,
+    "t3_complete": 5,
     "thought_structure_complete": 1,
     "terminology_cultural_complete": 1,
     "approved_chapters": 1,
-    "next_activity": "t3-v1-ch09",
+    "next_activity": "thought-structure-v1-ch09",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",
