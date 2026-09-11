@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` SOURCE REVIEW NEXT**
+Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` SOURCE REVIEW PASS / T1 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -24,7 +24,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **SOURCE REVIEW PASS / T1 NEXT** |
 
 ## `v1-ch03` closure
 
@@ -147,6 +147,27 @@ Controlled post-freeze comparator path `public/data/text-en/v1-ch06.json` is abs
 
 Final approval confirms **0 unresolved source holds**, **0 unresolved terminology/comparator issues**, **0 outstanding review items**, and **20 / 20 structural movements preserved**. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
+## `v1-ch07` — source review complete
+
+Durable file:
+
+- source notes: `../source-notes/v1-ch07.json`
+
+Gate state:
+
+- source review: **PASS / COMPLETE**;
+- extraction units: **5 / pages 51–55**;
+- pinned/live source blob: **byte-identical** at `13b1f1d06abeb762ed5f016818fa282b78ba7593`;
+- unresolved source holds: **0**;
+- outstanding source-review items: **0**;
+- next gate: **fresh T1 translation**.
+
+P0 records the opening `ஜி / ன்னா` word join; contextual `முஸ்லீம் வீக்கிற்கும்` → Muslim League function; valid archaic `முடங்கல்` = letter; Alagiri / Chittarasu name-list punctuation; Gandhi–Jinnah dialogue; authored political chronology; page-53/54 `கொண்- / டிருந்தது` join; the `பள்ளிக்கூடத்திலிருத்த` extraction anomaly; the macro-history → thin fifteen-year-old Kalaignar reveal; `மாணவ நேசன்` as a handwritten student periodical; Bharathidasan's spinning-wheel sarcasm; `சிறுதுளி பெருவெள்ளம்`; Pongal special-issue usage; demy-paper production economics; Murasoli's origin as leaflet issues; the Freedom–Peace–Equality triad; and the closing current/depth imagery.
+
+Two authored chronology tensions are explicitly preserved rather than corrected: M. N. Roy's `புரட்சி ஜனநாயகக் கட்சி` is placed in 1939 in the memoir although standard references date the Radical Democratic Party to 1940; and the memoir's fifteen-year-old self-description sits beside a claim that the recruiter met him four months before Murasoli began, while Murasoli's institutional history dates its first issue to 10 August 1942 when Karunanidhi was eighteen.
+
+No non-authorial body material was found. No missing Tamil reconstruction is required.
+
 ## Branch consolidation
 
 PR #1 merged the former working branch `translation/english-memoir` into `main`. `main` is the sole active translation work surface. Future chapter commits and control updates go directly to `main`.
@@ -165,7 +186,7 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 
 - Batch opened: **YES**
 - source files pinned: **5 / 5**
-- full source reviews complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
+- full source reviews complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - T1 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - T2 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - T3 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
@@ -173,4 +194,4 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - terminology/cultural complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - comparator checks complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - approved chapters: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- next chapter activity: **complete source review for `v1-ch07` before T1**
+- next chapter activity: **fresh T1 translation for `v1-ch07`**
