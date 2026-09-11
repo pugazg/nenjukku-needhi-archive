@@ -8,7 +8,7 @@
     "start": 56,
     "end": 59
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -23,7 +23,8 @@
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
     "T2 source-and-Kalaignar-voice review accepted 18 grouped source-checked revisions, chiefly restoring the Congress-Communist dominance/advance metaphor, more natural fee arithmetic, wrist-chain materiality, theft-scene self-talk, Chettiar Bank phrasing, mother's colloquial affection, and the guilty humour of the family scenes. No existing-English comparator was consulted.",
     "T3 English-only literary review accepted 19 minor source-checked revisions for cadence and idiomatic English. Protected political content, chronology, verse, historical present, material details, guilty humour and the mother/wife two-theft structure were unchanged. No existing-English comparator was consulted.",
-    "Thought-structure audit passed 18/18 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 18/18 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed with one source-supported chapter-text correction: `சந்தனக் கிண்ணம்` is rendered `sandal-paste bowl`, not `sandalwood bowl`, because the next chapter identifies the same vessel as silver. Organization labels, names, place names, Comrade, kumkum, wrist-chain materiality and the cautious Chettiar Bank wording were retained. Independent English is now frozen for the controlled comparator stage."
   ],
   "paragraphs": [
     "The man in the khadi shirt came, held an election for the Federation office-bearers, and made me secretary of the student branch. My friend S. P. Chidambaram was made treasurer. From the day the office-bearers were elected, my mind was in turmoil. My young mind feared: \"If this goes on, where will we end up? With the Communists? With the Congress?\"",
@@ -48,8 +49,8 @@
     "Thus once I stole in a way that hurt my mother's heart; and another time, in a way that hurt the heart of my beloved wife.",
     "For a public meeting held on behalf of the Students' Association I had invited Comrade Sanarthanam. He came. I had sent him the fare to come. But how was I to send him back? Those who had asked me to arrange the meeting, and those who had climbed the stage to show off their own importance, had all gone home.",
     "Thinking that I would somehow collect the money and send the comrade back, I asked him to stay one more day. He stayed. By the next evening I had still found no one who would give me money. I went home.",
-    "There was a sandalwood bowl that had been given to my wife as a wedding gift. She kept her turmeric and kumkum in it. I took the bowl, hid it, and slipped out. I begged a relative named Jeyaseelan to take it and borrow ten rupees against it. He tried to stop me. I would not give in; finally he agreed and brought back the money.",
-    "The public-meeting problem was settled. Everyone blamed my wife for having lost the sandalwood bowl. They scolded her. Poor woman—she could do nothing but cry; she could not answer them. I did not reveal the truth. Watching my wife suffer, I would weep inwardly."
+    "There was a sandal-paste bowl that had been given to my wife as a wedding gift. She kept her turmeric and kumkum in it. I took the bowl, hid it, and slipped out. I begged a relative named Jeyaseelan to take it and borrow ten rupees against it. He tried to stop me. I would not give in; finally he agreed and brought back the money.",
+    "The public-meeting problem was settled. Everyone blamed my wife for having lost the sandal-paste bowl. They scolded her. Poor woman—she could do nothing but cry; she could not answer them. I did not reveal the truth. Watching my wife suffer, I would weep inwardly."
   ],
   "provenance": {
     "method": "Fresh T1 translation directly from the pinned Tamil after completed P0/source review, followed by a complete T2 Tamil-English source-and-Kalaignar-voice comparison. No pre-existing English translation was consulted.",
@@ -59,9 +60,11 @@
     "source_review": "../source-notes/v1-ch08.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "post-freeze-comparator-check",
     "t2_review": "../reviews/v1-ch08-t2.md",
     "t3_review": "../reviews/v1-ch08-t3.md",
-    "thought_structure_review": "../reviews/v1-ch08-structure.md"
+    "thought_structure_review": "../reviews/v1-ch08-structure.md",
+    "terminology_review": "../reviews/v1-ch08-terminology.md",
+    "independent_english_frozen": true
   }
 }

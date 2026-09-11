@@ -53,6 +53,7 @@ Current counters:
 - T2: **1 / 5**
 - T3: **1 / 5**
 - thought structure: **1 / 5**
+- terminology/cultural: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
@@ -65,16 +66,22 @@ Current counters:
 - accepted grouped T3 revisions: **19**
 - thought structure: **PASS / COMPLETE — 18 / 18 major movements**
 - reordered / omitted / invented: **0 / 0 / 0**
+- terminology/cultural: **PASS WITH ONE REVISION / COMPLETE**
+- terminology revision: **sandalwood bowl → sandal-paste bowl**
+- unresolved terminology holds: **0**
 - unresolved source holds: **0**
-- next gate: **terminology/cultural-consistency audit**
+- independent English: **FROZEN**
+- next gate: **post-freeze comparator check**
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
 The remaining Batch 002 chapters `v1-ch09`–`v1-ch12` remain **T1 COMPLETE / T2 QUEUED**.
 
-## Immediate next activity — v1-ch08 terminology/cultural audit
+## Immediate next activity — v1-ch08 comparator availability
 
-Run the **terminology/cultural-consistency audit** for `v1-ch08`. Review organization names, place names, personal names, cultural objects and movement-era terminology against the glossary and prior approved chapters. Do not consult existing English. Freeze the independent English only after this gate passes.
+Check only the controlled path `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch08.json` at Batch 002 pin `d6621b71256ae99b1c89b4f2091513dcc5f96626`.
+
+The independent English is now frozen. If the controlled comparator is absent, record that absence and do not broaden the search to unofficial English versions.
 
 ## Mandatory controls
 

@@ -1,4 +1,4 @@
-# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch08 Terminology-Cultural Audit
+# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch08 Controlled Comparator Check
 
 Continue directly in `pugazg/nenjukku-needhi-archive`, branch `main`.
 
@@ -6,26 +6,13 @@ Continue directly in `pugazg/nenjukku-needhi-archive`, branch `main`.
 
 Fetch live `main` first and preserve newer durable work.
 
-The source repository is strictly **READ ONLY**:
+Source repository is strictly **READ ONLY**:
 
 `pugazg/kalaignar-autobiography`
 
-Never modify it.
-
-## Batch 002 state
-
-Source pin:
+Batch 002 source pin:
 
 `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-
-- source reviews: **5 / 5**
-- T1: **5 / 5**
-- T2: **1 / 5**
-- T3: **1 / 5**
-- thought structure: **1 / 5**
-- terminology/cultural: **0 / 5**
-- comparator checks: **0 / 5**
-- approvals: **0 / 5**
 
 ## Active chapter
 
@@ -35,60 +22,37 @@ Source pin:
 - T1: PASS
 - T2: PASS WITH REVISION — 18 grouped revisions
 - T3: PASS WITH MINOR REVISION — 19 grouped revisions
-- thought structure: PASS — **18 / 18**
-- reordered / omitted / invented: **0 / 0 / 0**
-- unresolved source holds: **0**
-- existing-English comparator consulted: **NO**
+- thought structure: PASS — 18 / 18
+- terminology/cultural: **PASS WITH ONE REVISION**
+- terminology revision: **sandalwood bowl → sandal-paste bowl**
+- unresolved source holds: 0
+- unresolved terminology holds: 0
+- independent English: **FROZEN**
+- comparator consulted so far: **NO**
 
-Durable files:
+## Immediate activity — controlled comparator availability only
 
-- `data/books/nenjukku-needhi/translations/en/chapters/v1-ch08.json`
-- `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch08.json`
-- `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-t2.md`
-- `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-t3.md`
-- `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-structure.md`
+Check exactly:
 
-## Immediate activity — terminology/cultural audit only
+`public/data/text-en/v1-ch08.json`
 
-Review the independent English against:
+at source ref:
 
-1. `docs/TRANSLATION_GLOSSARY.md`
-2. `docs/KALAIGNAR_VOICE_GUIDE.md`
-3. prior approved chapter terminology precedents.
+`d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
-Give particular attention to:
+Do not search web or unofficial English versions.
 
-- Federation / generic Students' Federation;
-- Tamil Students' Association;
-- Tamil Nadu Tamil Students' Association;
-- Dravidian Students' Association;
-- Bharathidasan;
-- S. P. Chidambaram;
-- Venkataraman;
-- Thavamani Rasan;
-- Karunanandam;
-- Anbazhagan;
-- Mathiazhagan;
-- Thennan;
-- Sanarthanam;
-- Jeyaseelan;
-- Tiruvarur / Thanjavur / Kumbakonam;
-- Chettiar Bank;
-- Comrade;
-- kumkum;
-- wrist-worn gold chain;
-- any movement-era institutional forms.
+If absent:
 
-Do not consult existing English.
+- record controlled comparator available: NO;
+- consulted: NO;
+- translation changes: 0;
+- create `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-existing-comparison.md`;
+- synchronize chapter, source notes, Batch 002, progress, manifest and handover;
+- stop with **final approval review next**.
 
-Create:
-
-`data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-terminology.md`
-
-If the audit passes, freeze independent English and set the next gate to the controlled post-freeze comparator availability check.
+If present, compare only now that independent English is frozen; comparator wording is not drafting authority.
 
 ## Infrastructure limitation
 
-`schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
-
-Do not claim formal JSON-Schema validation.
+`schemas/chapter.json` remains a one-byte newline-only legacy placeholder. Do not claim formal JSON-Schema validation.

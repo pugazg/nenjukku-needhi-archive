@@ -69,6 +69,13 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `மாணவர் சம்மேளனம்` | **Students' Federation** unless the source itself securely identifies a specific body | `v1-ch07`: keep generic; do not expand to AISF or another named organization merely from external historical inference. |
 | `சுதந்திரம் - சமாதானம் - சமத்துவம்` | **Freedom – Peace – Equality** | `v1-ch07`: preserve order and slogan-like rhythm; do not collapse to a generic political program. |
 
+| `தமிழ் மாணவர் மன்றம்` | **Tamil Students' Association** (working chapter-level form) | `v1-ch08`: distinguish this new Tamil student body from the earlier generic **Students' Federation**; do not collapse the two organizational stages. |
+| `தமிழ்நாடு தமிழ் மாணவர் மன்றம்` | **Tamil Nadu Tamil Students' Association** (working chapter-level form) | `v1-ch08`: retain as the wider body linked from Salem and later adopted by the Tiruvarur association; do not shorten it so far that the local/wider distinction disappears. |
+| `திராவிடர் மாணவர் கழகம்` | **Dravidian Students' Association** (working transparent rendering) | `v1-ch08`: use as a source-led working English form for the Kumbakonam conference body; do not promote it to a claimed formal historical English name without stronger evidence. |
+| `சந்தனக் கிண்ணம்` | **sandal-paste bowl** | `v1-ch08`–`v1-ch09`: denotes the bowl associated with sandal paste/use, not a bowl made of sandalwood. `v1-ch09` explicitly calls the same vessel a **silver bowl**, ruling out material-sense **sandalwood bowl**. |
+| `குங்குமம்` | **kumkum** | Retain the culturally specific household/ritual substance rather than flattening it to generic red powder; in `v1-ch08` it appears with turmeric in the wife's bowl. |
+| `செட்டியார் பாங்கு` | contextual **Chettiar Bank in Tiruvarur** | `v1-ch08`: preserve the concrete bank/pledge transaction without claiming that **Chettiar Bank** is a verified formal corporate English name. Exact institutional normalization remains reviewable if later evidence appears. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
@@ -91,3 +98,4 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch06` terminology/cultural audit resolved chapter-specific `இன உணர்ச்சி` → `racial consciousness` and `தமிழ்க் காளையர்` → `young Tamil warriors`, while explicitly keeping broader `இனம்` usages context-dependent.
 - `v1-ch07` T2 added working `மாணவ நேசன்` → `Maanava Nesan`, distinguished handwritten journal from physical copy, documented `பொங்கல் மலர்` as Pongal special issue, retained `பாசறை` as an organizing-camp metaphor, and normalized M. N. Roy's `புரட்சி ஜனநாயகக் கட்சி` to `Radical Democratic Party` while preserving the memoir's authored 1939 date.
 - `v1-ch07` terminology/cultural audit confirmed the existing chapter wording without revision and added durable chapter-level policies for `முரசொலி` → `Murasoli`, `துண்டு வெளியீடுகள்` → `leaflet issues`, generic `மாணவர் சம்மேளனம்` → `Students' Federation`, and `சுதந்திரம் - சமாதானம் - சமத்துவம்` → `Freedom – Peace – Equality`.
+- `v1-ch08` terminology/cultural audit distinguished the earlier generic `Students' Federation` from `தமிழ் மாணவர் மன்றம்` → `Tamil Students' Association` and `தமிழ்நாடு தமிழ் மாணவர் மன்றம்` → `Tamil Nadu Tamil Students' Association`, retained a cautious working `Dravidian Students' Association`, added `குங்குமம்` → `kumkum`, kept `செட்டியார் பாங்கு` contextually as `Chettiar Bank in Tiruvarur`, and corrected `சந்தனக் கிண்ணம்` from material-misleading `sandalwood bowl` to `sandal-paste bowl` because the next chapter identifies the same vessel as silver.
