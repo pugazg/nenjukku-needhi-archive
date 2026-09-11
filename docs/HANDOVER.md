@@ -54,10 +54,11 @@ Current counters:
 - T3: **1 / 5**
 - thought structure: **1 / 5**
 - terminology/cultural: **1 / 5**
+- approved: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
-`v1-ch08` — **Tamil Students' Association**
+`v1-ch08` — **Tamil Students' Association — APPROVED / CLOSED**
 
 - T1: **PASS / COMPLETE**
 - T2: **PASS WITH REVISION / COMPLETE**
@@ -72,7 +73,9 @@ Current counters:
 - unresolved source holds: **0**
 - independent English: **FROZEN**
 - comparator gate: **NOT APPLICABLE for v1-ch02+**
-- next gate: **final approval review**
+- final approval: **PASS / APPROVED / CLOSED**
+- approval review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch08-approval.md`
+- next gate: **CLOSED**
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
@@ -82,9 +85,9 @@ The remaining Batch 002 chapters `v1-ch09`–`v1-ch12` remain **T1 COMPLETE / T2
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch08 final approval
+## Immediate next activity — v1-ch09 T2
 
-Run the **final approval review** for `v1-ch08`. If all required gates and zero-hold conditions pass, approve and close the chapter. Stop before beginning `v1-ch09` T2.
+Run the **T2 source-and-Kalaignar-voice review** for `v1-ch09` only. Preserve the school-play frame, Kudi Arasu satire, Murasoli Maran child speech, third school-final failure, night departure, emotional self-questioning and the later examination-system argument. Do not consult existing English. Stop with **T3 next**.
 
 ## Mandatory controls
 
