@@ -173,7 +173,7 @@
   "status": "terminology-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "post-freeze-comparator-check",
+  "next_gate": "final-approval-review",
   "t1_translation": "../chapters/v1-ch08.json",
   "t2_review": "../reviews/v1-ch08-t2.md",
   "t2_resolutions": {
@@ -202,5 +202,6 @@
     "unresolved_holds": 0,
     "independent_english_frozen": true,
     "comparator_consulted": false
-  }
+  },
+  "comparator_policy": "not-applicable-after-v1-ch01"
 }
