@@ -158,10 +158,10 @@
       "resolution": "The exact period diagnosis is not asserted; the contrast is rendered functionally as 'a gravely ill patient', preserving the doctor's-minor-cold versus severe-patient analogy."
     }
   ],
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "terminology-cultural-audit",
+  "next_gate": "final-approval-review",
   "t2_review": "../reviews/v1-ch13-t2.md",
   "t2_resolutions": {
     "accepted_revisions": 9,
@@ -182,5 +182,13 @@
     "omitted": 0,
     "invented": 0,
     "chapter_text_changes": 0
+  },
+  "terminology_review": "../reviews/v1-ch13-terminology.md",
+  "terminology_result": {
+    "accepted_revisions": 1,
+    "changed_occurrences": 2,
+    "unresolved_holds": 0,
+    "independent_english_frozen": true,
+    "comparator_consulted": false
   }
 }
