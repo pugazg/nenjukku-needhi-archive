@@ -51,7 +51,7 @@ Current counters:
 - source reviews: **5 / 5**
 - T1: **5 / 5**
 - T2: **5 / 5**
-- T3: **1 / 5**
+- T3: **5 / 5**
 - thought structure: **1 / 5**
 - terminology/cultural: **1 / 5**
 - approved: **1 / 5**
@@ -79,22 +79,22 @@ Current counters:
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
-The remaining Batch 002 chapters have now also completed T2:
+The remaining Batch 002 chapters have now completed both T2 and T3:
 
-- `v1-ch09` — **T2 PASS WITH REVISION — 12 grouped revisions / T3 NEXT**
-- `v1-ch10` — **T2 PASS WITH REVISION — 7 grouped revisions / T3 QUEUED**
-- `v1-ch11` — **T2 PASS WITH REVISION — 7 grouped revisions / T3 QUEUED**
-- `v1-ch12` — **T2 PASS WITH REVISION — 13 grouped revisions / T3 QUEUED**
+- `v1-ch09` — **T2 PASS WITH REVISION — 12 / T3 PASS WITH MINOR REVISION — 11 / STRUCTURE NEXT**
+- `v1-ch10` — **T2 PASS WITH REVISION — 7 / T3 PASS WITH MINOR REVISION — 10 / STRUCTURE QUEUED**
+- `v1-ch11` — **T2 PASS WITH REVISION — 7 / T3 PASS WITH MINOR REVISION — 7 / STRUCTURE QUEUED**
+- `v1-ch12` — **T2 PASS WITH REVISION — 13 / T3 PASS WITH MINOR REVISION — 12 / STRUCTURE QUEUED**
 
-Batch 002 T2 is **5 / 5 COMPLETE** with **0 unresolved source holds** and **0 blocking T2 issues**.
+Batch 002 T2 is **5 / 5 COMPLETE** and T3 is **5 / 5 COMPLETE**, with **0 unresolved source holds**, **0 blocking T2 issues**, and **0 outstanding T3 issues**.
 
 ## Comparator policy
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch09 T3
+## Immediate next activity — v1-ch09 thought structure
 
-Run the **T3 English-only literary review** for `v1-ch09` only. Read the revised English first without Tamil; identify only genuine cadence, repetition, syntax or flow issues; source-check every proposed revision against the pinned Tamil; do not consult existing English; stop with **thought-structure audit next**.
+Run the **thought-structure audit** for `v1-ch09` only. Compare the complete pinned Tamil and revised English by major movement; record represented / reordered / omitted / invented counts; do not consult existing English; stop with **terminology/cultural audit next**.
 
 ## Mandatory controls
 
