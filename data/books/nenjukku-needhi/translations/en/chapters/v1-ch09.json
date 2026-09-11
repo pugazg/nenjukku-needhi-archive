@@ -1,0 +1,68 @@
+{
+  "id": "v1-ch09",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "கலகக்கார நாரதர் புகுந்தார்.",
+  "title": "Troublemaker Narada Entered",
+  "pages": {
+    "start": 60,
+    "end": 64
+  },
+  "status": "t1-complete",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch09.json",
+    "blob_sha": "e3104c0f74478f25d0b15c4bb1ed12afd6420d21",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch09.json",
+  "translation_notes": [
+    "Fresh T1 translation made directly from the Batch 002 pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
+    "T1 preserves documented source joins, quoted material, authored chronology, humour, imagery and organizational distinctions without silent historical correction.",
+    "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs."
+  ],
+  "paragraphs": [
+    "Shame, shame! How cruel I must have been. If not, I could at least have told my wife the truth before she died. She had gone on believing that the beautiful sandalwood bowl had disappeared through her own fault.",
+    "Only after my wife died did the memory of that sandalwood bowl pierce me. I tried to recover it. The debt had been only ten rupees. \"I will give you a hundred rupees. I want that bowl back,\" I pleaded. I longed for that sandalwood bowl to shine in our house as a remembrance of my dear wife Padma.",
+    "They said the people who had taken it in pledge had melted it down. Alas—was it that silver bowl they melted? No, no! Was it not my heart that they put into the fire and melted?",
+    "Need it even be explained what result a school student like me, turned into an intense political activist, would achieve in his examinations? I failed the school-final class three times. There was no fourth attempt. \"Ah! At last I am rid of that trouble,\" I sighed.",
+    "If I tell you that after the third failure I told my parents I had passed and deceived them for a year or two, just think what a talent I had! At the time I regarded it as talent. Later I realized how outrageously I had wasted the money they had saved by denying themselves food and comfort, and I have not failed to weep over it.",
+    "After my first failure the family consoled me: \"Never mind; you can pass next time,\" and made me study again. The trouble they took so that I might somehow pass was no small thing. Every night I would sit up until midnight. \"Ah, how much interest the boy has developed in his studies! This time he is sure to pass,\" they would say happily.",
+    "How were they to know that what I was reading were publications of the Kudi Arasu press? \"Poor boy! What will happen to his health if he stays awake studying like this?\" they would say, boiling milk for me and melting ghee to pour down my throat. Without realizing it, I was melting their hearts.",
+    "The half-yearly examination came. I wrote the first day's paper. Then news arrived that the next day there would be a reception in Nagapattinam for Periyar E. V. R. Telling the family I was going to school, Thennan and I boarded a train to Nagapattinam. Would the half-yearly examination wait because I did not turn up? It went ahead and ended.",
+    "Then I set out for the second battlefield everyone eagerly awaited—the final examination. I told them at home that I would definitely pass. I too believed it, to some extent.",
+    "We all went to Tirukkuvalai to spend the holidays. The moment I reached my native village, there was hardly anyone who did not ask, \"Will you pass this year?\" To everyone who asked, both my family and I gave only the news of victory.",
+    "While I was spending the holidays merrily, one day an Indirani suddenly came my way. Once I had found an Indirani, how could I help turning into Indra? In the very school where I had studied in the village, I got a chance one day to exchange tender words with that maiden. Even now, when I think of that unexpected opportunity, my heart tastes sweetness.",
+    "\"The two of us can play and sing in this garden every day and live in delight. What do you say?\" she asked. \"Would I say no to sugarcane, my dear?\" I replied, and embraced her.",
+    "Into that blissful stage of our love entered a troublemaker. \"You are behaving without understanding the situation!\" he warned me. Our argument grew heated. In the end he won. I left Indirani and ran. I kept running. Where? To the earth below! Why? Dhruva, it seemed, was performing penance, and Narada the troublemaker was dragging me along to learn the details.",
+    "It was the annual festival of the school Students' Association, and the play was Dhruvan. The boy who was to play Indra suddenly developed a severe fever on the day of the play. There was no other way. As an old student, I was forced to shoulder the responsibility. I wrote Indra's lines myself. Every one of them carried the smell of Kudi Arasu.",
+    "Narada looked at me and demanded angrily: \"Hey, Indra! The whole earthly world is in chaos, and you are frolicking with Indirani. Is this the beauty of your rule?\"",
+    "At once Indra would reply: \"Yes! This is the beauty, the grammar, the whole of my rule! If I do not frolic with Indirani, with whom else am I to frolic? For courting Ahalya I have already been cursed so that my whole body became eyes. When gods with one or two eyes suffer from the disease of love, what am I—with a thousand eyes—to do? And tell me, Narada! I alone am said to have a thousand eyes; they call Kali too the thousand-eyed one. Did she also get some curse like mine?\"",
+    "That was the novel Indra costume I put on. And do you know who the child actor was who played Dhruva's younger brother? It was my treasured nephew, the apple of my eye—Murasoli Maran!",
+    "I have still not forgotten the baby speech with which he said to Dhruva: \"Hey, Duduva, do you know who I am? You mustn't sit on my father's lap!\" Even now, when I repeat it at the right moment to tease him at home, he blushes like a bride and runs away.",
+    "Fifteen days after the Dhruvan play ended, the result of my school examination peeped toward the village. The news would appear in the daily newspaper in the morning. I received it the previous evening itself. I had failed.",
+    "I told no one. After supper I brought out a mat to sleep on the front verandah. \"Why are you sleeping on the verandah today, when you never do?\" Mother and Father asked. I somehow managed an answer. Father too lay down near me for company.",
+    "\"Alas! What cruel news awaits in the morning these people who protect me with such love!\" I thought. My pillow was wet with tears. Sleep would not come. I lay pretending to sleep.",
+    "It was pitch dark. It may have been two in the morning. I rose quietly. Father was sleeping deeply. I sat on the mat for a while looking only at his face. Then I blew out the tiny lamp that was flickering \"minuk, minuk\".",
+    "How could I tell them I had failed and still remain alive? How could I face the people of the village? Was this a just answer to all the trouble my family had taken for me? At daybreak the newspaper would arrive. They would search and search for my examination number. When they did not find it, they would sob and cry. Was I to stand there shamelessly watching them? The questions bored into me.",
+    "I felt faint. Anguish! Turmoil! My head began to spin. The temple tank opposite was touching the bank again and again with its soft wave-hands, making a gentle sound. But the sound rising in my heart was louder than the waves of the sea.",
+    "I rose from the bedding and began walking. I had no clear idea where I was going. I kept walking. The confusion that tortured me did not at least stop my feet. Before my eyes, each member of my family seemed to appear and ask in a choking voice, \"Could you do such a thing?\" In spite of myself my eyes became pools.",
+    "I had received the failure I had expected. Yet there had been one hope: might we not somehow, by some mistake, scrape through? It is natural to hope like that. Candidates in an election may have little chance even of getting their deposit back, yet a rusted scrap of hope clings to them and makes them dream impossible dreams. When such a hope collapsed to the ground, I was shattered.",
+    "If the heart grew so heavy even over an expected result, I do not know how young student hearts bear sudden shocks that arrive unexpectedly. Everyone notices examination results and the reports of student suicides that follow them.",
+    "A general view has arisen that the examination system ruins the lives of many students and therefore must be changed little by little. Others argue: \"If examinations disappear altogether, students' educational standards may be ruined by their own carelessness.\" Neither argument is complete.",
+    "A common ground between the two has to be created without lowering educational standards. Good training must be given in education. The student must engage in receiving that training step by step. Once the training is complete, the best system would be to give the student opportunities to undertake work suited to his qualifications and abilities.",
+    "If qualifications, ability and research capacity can arise during the years of learning itself, an examination that blocks the student's educational growth becomes an obstacle. Do all those who score well in examinations excel in their jobs? Do they even show competence without shortcomings? We cannot therefore call everyone who passes an examination talented; nor should we regard those who fail as incapable.",
+    "As for me, if the examination at the end of school had not stepped in and put up a barricade, I might have entered college. Rightly or wrongly, people say that I have some ability. Perhaps a college education might have polished that ability further. Instead, a barrier was put up declaring that I was not fit even for college."
+  ],
+  "provenance": {
+    "method": "Fresh T1 translation directly from the pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch09.json",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "next_gate": "t2"
+  }
+}
