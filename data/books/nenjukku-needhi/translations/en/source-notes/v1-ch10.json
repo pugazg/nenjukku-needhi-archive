@@ -57,10 +57,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "terminology-cultural-audit",
+  "next_gate": "final-approval-review",
   "t1_translation": "../chapters/v1-ch10.json",
   "t2_review": "../reviews/v1-ch10-t2.md",
   "t2_resolutions": {
@@ -82,5 +82,13 @@
     "omitted": 0,
     "invented": 0,
     "chapter_text_changes": 0
+  },
+  "terminology_review": "../reviews/v1-ch10-terminology.md",
+  "terminology_result": {
+    "accepted_revisions": 1,
+    "changed_occurrences": 1,
+    "unresolved_holds": 0,
+    "independent_english_frozen": true,
+    "comparator_consulted": false
   }
 }
