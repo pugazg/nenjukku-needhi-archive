@@ -63,16 +63,22 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t2-complete",
+  "status": "t3-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "t3",
+  "next_gate": "thought-structure-audit",
   "t1_translation": "../chapters/v1-ch09.json",
   "t2_review": "../reviews/v1-ch09-t2.md",
   "t2_resolutions": {
     "accepted_revisions": 12,
     "unresolved_source_holds": 0,
     "blocking_t2_issues": 0,
+    "comparator_consulted": false
+  },
+  "t3_review": "../reviews/v1-ch09-t3.md",
+  "t3_result": {
+    "accepted_revisions": 11,
+    "unresolved_source_holds": 0,
     "comparator_consulted": false
   }
 }
