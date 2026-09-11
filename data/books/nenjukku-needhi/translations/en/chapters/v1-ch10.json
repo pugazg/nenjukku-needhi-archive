@@ -8,7 +8,7 @@
     "start": 65,
     "end": 67
   },
-  "status": "terminology-complete",
+  "status": "approved",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -24,7 +24,8 @@
     "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass keeps the exhausted walk and Hasan Abdul Kader affection, sharpens the Kodikkarai deadpan religious humour, preserves the army-camp idea as an explicitly fabricated family story, and restores the closing mock-lament cadence. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 10 grouped minor source-checked revisions. The pass improves overnight-travel cadence, money-counting English, Hasan Abdul Kader's remembered description, Kodikkarai narrative flow, deadpan shrine humour and the fabricated army-story idiom without changing the source's humour or structure. No existing-English comparator was consulted.",
     "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
-    "Terminology/cultural audit passed with one site-name clarification: `Rama's Foot` → `Rama's Footprint`, matching the source's `ராமர் பாதம்` as the footprint-site/pavilion. Tirunellikaval, Tiruthuraipoondi, Thopputhurai, Vedaranyam, Kodikkarai, Hasan Abdul Kader, Fourth Form, annas, idli/dosa, Comrade and the fabricated army-camp story were retained as source-led or period-appropriate forms. Independent English is frozen for final approval."
+    "Terminology/cultural audit passed with one site-name clarification: `Rama's Foot` → `Rama's Footprint`, matching the source's `ராமர் பாதம்` as the footprint-site/pavilion. Tirunellikaval, Tiruthuraipoondi, Thopputhurai, Vedaranyam, Kodikkarai, Hasan Abdul Kader, Fourth Form, annas, idli/dosa, Comrade and the fabricated army-camp story were retained as source-led or period-appropriate forms. Independent English is frozen for final approval.",
+    "Final approval review passed with no chapter-text changes. v1-ch10 is APPROVED / CLOSED."
   ],
   "paragraphs": [
     "I, at least, had not studied properly. I had entered politics and failed the examination. But how many students have ended up in a position like mine because they fell short by one mark or two? What became of them all? Those questions flashed and vanished in my heart like streaks of lightning that night.",
@@ -52,11 +53,12 @@
     "source_review": "../source-notes/v1-ch10.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "final-approval-review",
+    "next_gate": "closed",
     "t2_review": "../reviews/v1-ch10-t2.md",
     "t3_review": "../reviews/v1-ch10-t3.md",
     "thought_structure_review": "../reviews/v1-ch10-structure.md",
     "terminology_review": "../reviews/v1-ch10-terminology.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "approval_review": "../reviews/v1-ch10-approval.md"
   }
 }
