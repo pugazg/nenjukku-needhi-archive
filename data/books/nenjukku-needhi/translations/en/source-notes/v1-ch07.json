@@ -240,10 +240,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t2-complete",
-  "gate_result": "pass-with-revision",
+  "status": "t3-complete",
+  "gate_result": "pass-with-minor-revision",
   "unresolved_source_holds": 0,
-  "next_gate": "t3-english-review",
+  "next_gate": "thought-structure-audit",
   "t1_translation": "../chapters/v1-ch07.json",
   "t2_review": "../reviews/v1-ch07-t2.md",
   "t2_resolutions": [
@@ -254,5 +254,13 @@
     "preserve Bharathidasan's spinning-wheel sarcasm, little-drops/great-flood proverb, Pongal special-issue reference and Murasoli leaflet origin",
     "keep Students' Federation generic, preserve delayed Communist reveal and Freedom–Peace–Equality triad",
     "restore the linked water imagery at the ending: Federation current sweeping them along and stepping in without knowing the depth"
+  ],
+  "t3_review": "../reviews/v1-ch07-t3.md",
+  "t3_resolutions": [
+    "accepted 19 English-only fluency revisions only after rechecking each against the pinned Tamil",
+    "simplified stiff historical syntax without altering direct quotations, political judgments, entity names or authored chronology",
+    "improved handwritten-journal publishing prose while retaining the handwritten-journal/copy distinction, Pongal special issue, demy paper, free labour/articles joke and Murasoli leaflet origin",
+    "retained the delayed Communist reveal, Students' Federation generic identity and Freedom – Peace – Equality triad",
+    "kept the linked closing water imagery; only the English article was adjusted to 'put a foot in without knowing the depth'"
   ]
 }

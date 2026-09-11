@@ -315,7 +315,7 @@
           "end": 55
         },
         "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -326,7 +326,8 @@
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -346,14 +347,16 @@
           "distinguish handwritten journal publication form from physical copies; retain Pongal special issue, demy paper and free labour/articles economics",
           "rebalance Bharathidasan's spinning-wheel sarcasm without explanatory expansion",
           "keep Students' Federation generic and Communist identity delayed; preserve Freedom–Peace–Equality",
-          "restore final Federation current / unknown-depth linked water imagery"
+          "restore final Federation current / unknown-depth linked water imagery",
+          "apply 19 source-checked T3 fluency revisions without changing direct quotations, authored chronology tensions, political framing, handwritten-journal production economics, Murasoli's leaflet origin, delayed Communist reveal, Freedom–Peace–Equality or the current/depth ending"
         ],
-        "next_gate": "t3-english-review",
+        "next_gate": "thought-structure-audit",
         "translation": "chapters/v1-ch07.json",
         "english_title": "Are You the One Who Runs 'Maanava Nesan'?",
         "existing_english_comparator": "not-consulted",
         "reviews": {
-          "t2": "reviews/v1-ch07-t2.md"
+          "t2": "reviews/v1-ch07-t2.md",
+          "t3": "reviews/v1-ch07-t3.md"
         }
       }
     ],
@@ -361,12 +364,12 @@
     "translations_started": 5,
     "t1_complete": 5,
     "t2_complete": 5,
-    "t3_complete": 4,
+    "t3_complete": 5,
     "thought_structure_complete": 4,
     "terminology_cultural_complete": 4,
     "comparator_checks_complete": 4,
     "approved_chapters": 4,
-    "next_activity": "t3-english-review-v1-ch07"
+    "next_activity": "thought-structure-audit-v1-ch07"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
