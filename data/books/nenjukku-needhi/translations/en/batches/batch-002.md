@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / BATCH STRUCTURE COMPLETE 5/5 / `v1-ch09` TERMINOLOGY NEXT**
+Status: **OPEN / BATCH TERMINOLOGY COMPLETE 5/5 / `v1-ch09` FINAL APPROVAL NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -41,10 +41,10 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | **TERMINOLOGY COMPLETE / FINAL APPROVAL QUEUED** |
 
 ## Batch rule
 
@@ -102,7 +102,7 @@ At the user's explicit instruction, T1 was completed for the entire Batch 002 af
 - T2: **1 / 5**
 - T3: **5 / 5**
 - thought structure: **5 / 5**
-- terminology/cultural: **1 / 5**
+- terminology/cultural: **5 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
@@ -301,9 +301,37 @@ Durable new reviews:
 - `../reviews/v1-ch11-structure.md`
 - `../reviews/v1-ch12-structure.md`
 
+## Batch-wide terminology/cultural checkpoint
+
+At the user's explicit instruction, terminology/cultural-consistency audit is now complete for the entire Batch 002.
+
+- `v1-ch08` — **PASS WITH ONE REVISION** — already APPROVED / CLOSED
+- `v1-ch09` — **PASS WITH ONE REVISION** — `Indirani` → **`Indrani`**
+- `v1-ch10` — **PASS WITH ONE REVISION** — `Rama's Foot` → **`Rama's Footprint`**
+- `v1-ch11` — **PASS WITHOUT REVISION**
+- `v1-ch12` — **PASS WITHOUT REVISION**
+
+Batch terminology state:
+
+- terminology/cultural complete: **5 / 5**
+- unresolved terminology holds: **0**
+- unresolved source holds: **0**
+- independent English frozen: **5 / 5**
+- existing-English comparator consulted: **NO**
+- comparator gate for v1-ch02+: **NOT APPLICABLE**
+
+Durable new reviews:
+
+- `../reviews/v1-ch09-terminology.md`
+- `../reviews/v1-ch10-terminology.md`
+- `../reviews/v1-ch11-terminology.md`
+- `../reviews/v1-ch12-terminology.md`
+
+The living glossary is updated through `v1-ch12`, including School Final, Kudi Arasu, Indrani/Dhruva, Fourth Form, Rama's Footprint, deliberate malformed-title policy, Dravidar Kazhagam / Dravida Munnetra Kazhagam, Varnashrama, dakshina, parani, Margazhi, beedi, sundal and Children's Reform Association.
+
 ## Immediate next activity
 
-Run the **terminology/cultural-consistency audit for `v1-ch09`**. Do not begin the terminology audit for later chapters unless separately authorized.
+Run the **final approval review for `v1-ch09`**. Do not begin final approval for later chapters in the same activity unless separately authorized.
 
 ## Infrastructure limitation
 
