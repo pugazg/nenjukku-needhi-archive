@@ -81,10 +81,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t3-complete",
+  "status": "structure-complete",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "thought-structure-audit",
+  "next_gate": "terminology-cultural-audit",
   "t2_review": "../reviews/v1-ch15-t2.md",
   "t2_resolutions": {
     "accepted_revisions": 7,
@@ -97,5 +97,13 @@
     "accepted_revisions": 6,
     "unresolved_source_holds": 0,
     "comparator_consulted": false
+  },
+  "thought_structure_review": "../reviews/v1-ch15-structure.md",
+  "structure_result": {
+    "represented": "18/18",
+    "reordered": 0,
+    "omitted": 0,
+    "invented": 0,
+    "chapter_text_changes": 0
   }
 }
