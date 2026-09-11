@@ -33,7 +33,8 @@
 - Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
 - Pilot phase: **COMPLETE**
 - Production translation: **OPEN**
-- Active production batch: **Batch 001 — `v1-ch03`–`v1-ch07`**
+- Active production batch: **NONE — Batch 001 CLOSED**
+- Last closed production batch: **Batch 001 — `v1-ch03`–`v1-ch07`**
 
 ## Production method
 
@@ -41,7 +42,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 `source review → source notes → T1 → T2 → T3 → thought structure → terminology/cultural audit → post-freeze comparator if applicable → approval`
 
-## Active Batch 001
+## Batch 001 — CLOSED
 
 | Chapter | Tamil title | Pages | Current status |
 |---|---|---:|---|
@@ -210,6 +211,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 
 ## Batch 001 counters
 
+- batch status: **CLOSED**
 - source files pinned: **5 / 5**
 - full source reviews complete: **5 / 5**
 - T1 complete: **5 / 5**
@@ -219,6 +221,16 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - terminology/cultural complete: **5 / 5**
 - comparator checks complete: **5 / 5**
 - approved: **5 / 5**
+
+## Batch 001 closure
+
+Batch 001 is **CLOSED / 5 of 5 chapters APPROVED**.
+
+All chapter source-review, T1, T2, T3, thought-structure, terminology/cultural, controlled-comparator and approval gates are complete. Batch-wide unresolved source holds and outstanding chapter review items are **0**.
+
+The Batch 001 source pin remains `5c6b5ef8901044660e607d4649238d7c66cb648d`. At closure, all five pinned source chapter blobs were re-read and matched their recorded archive provenance. Latest observed source `main` is `d6621b71256ae99b1c89b4f2091513dcc5f96626`.
+
+No active batch is currently open. `v1-ch08` has **not** been started.
 
 ## Infrastructure note
 
@@ -230,4 +242,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Close **Batch 001 (`v1-ch03`–`v1-ch07`) as a management unit**. Verify the five approved chapter records and batch counters, synchronize any batch-level handover/progress state required by the repository, and do **not** begin `v1-ch08` until Batch 001 is durably closed.
+Open **Batch 002 beginning with `v1-ch08`**. Fetch live source `main`, establish the new batch source pin, inspect the next chapter set to determine the appropriate batch span under the normal five-chapter policy, create the Batch 002 control, and synchronize manifest/progress/handover. Stop with **`v1-ch08` P0 source review next**; do not start T1 during batch opening.

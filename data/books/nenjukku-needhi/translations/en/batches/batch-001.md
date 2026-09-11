@@ -1,12 +1,12 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch07` APPROVED / BATCH CLOSURE NEXT**
+Status: **CLOSED / ALL 5 CHAPTERS APPROVED**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
 Pinned source ref for batch opening: `5c6b5ef8901044660e607d4649238d7c66cb648d`
 
-Latest source-main drift check during `v1-ch06` source review: `d6621b71256ae99b1c89b4f2091513dcc5f96626`; `v1-ch06` blob remains byte-identical at `8f93218b297262319d82f89274dbee3d1de803f5`, so Batch 001 authority remains the opening pin.
+Batch-closure provenance check re-read all five source chapter files at the opening pin and confirmed the recorded blobs for `v1-ch03`–`v1-ch07`. Latest observed source `main` remains `d6621b71256ae99b1c89b4f2091513dcc5f96626`; Batch 001 authority remains the opening pin.
 
 Write repository: `pugazg/nenjukku-needhi-archive`
 
@@ -14,7 +14,7 @@ Working branch: `main`
 
 ## Batch rule
 
-This five-chapter batch is a management envelope. Process one chapter at a time through its gates; do not bulk-translate all five in one iteration and do not start `v1-ch08` until Batch 001 is closed.
+This five-chapter batch was processed as a management envelope, one chapter at a time through its gates. The rule barring `v1-ch08` before Batch 001 closure has now been satisfied.
 
 ## Chapters
 
@@ -210,26 +210,42 @@ Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms **24 
 
 PR #1 merged the former working branch `translation/english-memoir` into `main`. `main` is the sole active translation work surface. Future chapter commits and control updates go directly to `main`.
 
-## Opening observations for remaining batch chapters
+## Batch closure
 
-### `v1-ch06`
+Batch 001 is **CLOSED**.
 
-The opening source repeats the heading. The chapter is strongly oratorical, with descriptions of Pattukkottai Alagirisami, the Tamil volunteer march, repeated rhetorical images and quoted public speech. Source review must preserve speech cadence rather than flattening the passage into historical summary.
+Closure checks:
 
-### `v1-ch07`
+- batch opened: **YES**;
+- batch closed: **YES**;
+- source files pinned: **5 / 5**;
+- full source reviews complete: **5 / 5**;
+- T1 complete: **5 / 5**;
+- T2 complete: **5 / 5**;
+- T3 complete: **5 / 5**;
+- thought-structure complete: **5 / 5**;
+- terminology/cultural complete: **5 / 5**;
+- comparator checks complete: **5 / 5**;
+- approved chapters: **5 / 5**;
+- unresolved source holds across the batch: **0**;
+- outstanding chapter review items across the batch: **0**;
+- source repository modifications: **0**;
+- formal JSON-Schema validation: **NOT CLAIMED** because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
-The opening contains the spacing/extraction form `ஜி ன்னாவிற்கும்` for Jinnah. The chapter begins in all-India political history and later moves into Kalaignar's student activity; source review must track the historical-to-personal pivot and inspect further spacing/name anomalies before T1.
+Pinned source blobs confirmed at closure:
 
-## Current batch gate
+- `v1-ch03`: `e7c0d550d68f8b30d9c48a22019e017f7034ff93`;
+- `v1-ch04`: `1b55b986176d330fab4ce16eb70565ddd895ba48`;
+- `v1-ch05`: `220fb5271eac48c6988057d0d464d5950fd822a3`;
+- `v1-ch06`: `8f93218b297262319d82f89274dbee3d1de803f5`;
+- `v1-ch07`: `13b1f1d06abeb762ed5f016818fa282b78ba7593`.
 
-- Batch opened: **YES**
-- source files pinned: **5 / 5**
-- full source reviews complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- T1 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- T2 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- T3 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- thought-structure complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- terminology/cultural complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- comparator checks complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- approved chapters: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- next chapter activity: **close Batch 001 as a management unit before beginning `v1-ch08`**
+No active production batch remains after this closure.
+
+## Next production activity
+
+**Open Batch 002 beginning with `v1-ch08`.**
+
+At Batch 002 opening, fetch the live source `main`, choose and record the new batch source pin, inspect chapter size/difficulty to determine the batch span under the normal five-chapter policy, create the Batch 002 control, and update manifest/progress/handover.
+
+Do **not** begin `v1-ch08` T1 until Batch 002 is durably opened and `v1-ch08` completes its P0 source review.

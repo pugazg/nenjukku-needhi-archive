@@ -78,8 +78,8 @@
   },
   "production": {
     "status": "open",
-    "active_batch": "batch-001",
-    "batch_control": "batches/batch-001.md",
+    "active_batch": null,
+    "batch_control": null,
     "batch_chapters": [
       {
         "id": "v1-ch03",
@@ -413,7 +413,26 @@
     "terminology_cultural_complete": 5,
     "comparator_checks_complete": 5,
     "approved_chapters": 5,
-    "next_activity": "close-batch-001"
+    "next_activity": "open-batch-002",
+    "batch_status": "closed",
+    "last_closed_batch": {
+      "id": "batch-001",
+      "control": "batches/batch-001.md",
+      "chapters": [
+        "v1-ch03",
+        "v1-ch04",
+        "v1-ch05",
+        "v1-ch06",
+        "v1-ch07"
+      ],
+      "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+      "status": "closed",
+      "approved_chapters": 5,
+      "unresolved_source_holds": 0,
+      "outstanding_review_items": 0
+    },
+    "next_batch": "batch-002",
+    "next_batch_start": "v1-ch08"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
