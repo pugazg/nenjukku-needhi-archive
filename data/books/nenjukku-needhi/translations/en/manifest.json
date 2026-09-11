@@ -6,7 +6,8 @@
     "authority": "read-only",
     "batch_001_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
     "latest_observed_main": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-    "batch_002_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626"
+    "batch_002_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "batch_003_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626"
   },
   "destination": {
     "repository": "pugazg/nenjukku-needhi-archive",
@@ -82,382 +83,95 @@
   },
   "production": {
     "status": "open",
-    "active_batch": null,
-    "batch_control": null,
+    "active_batch": "batch-003",
+    "batch_control": "batches/batch-003.md",
     "batch_chapters": [
       {
-        "id": "v1-ch08",
-        "tamil_title": "தமிழ் மாணவர் மன்றம்",
+        "id": "v1-ch13",
+        "tamil_title": "மாமனார் தந்த வரவேற்பு",
         "pages": {
-          "start": 56,
-          "end": 59
+          "start": 76,
+          "end": 80
         },
-        "source_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
+        "source_blob_sha": "80fc03e2092ab69b22879e65ab6887acc4284a55",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch08.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch13.json",
+        "status": "source-review-next",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "source_notes": "source-notes/v1-ch08.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision",
-          "approval": "pass"
-        },
-        "source_review_result": {
-          "extraction_units": 4,
-          "unresolved_source_holds": 0,
-          "non_authorial_exclusions": 0,
-          "review_items": 0,
-          "previous_batch_pin_blob_match": "byte-identical"
-        },
-        "source_interventions": [
-          "exclude repeated chapter heading from body prose and retain it as title metadata",
-          "join page-56/57 'சம்மேளனத்தை மீண்டும் / தோற்றுவிக்க' across the extraction boundary",
-          "join page-57/58 'போட்டுக் / கொண்டிருந்தேன்' across the extraction boundary",
-          "preserve exact quoted slogan 'தமிழ் வாழ்க! இந்தி வளர்க' despite mixed extraction quotation marks",
-          "read anomalous 'எழுபுத்து ஐந்து' as seventy-five by explicit 100 minus 25 arithmetic without rewriting the Tamil source",
-          "preserve distinction between தமிழ் மாணவர் மன்றம் and தமிழ்நாடு தமிழ் மாணவர் மன்றம்",
-          "preserve authored 1941 inaugural / 1942 annual-festival chronology",
-          "recover Bharathidasan festival verse lineation from page witness while documenting source form 'பாதிதாசன்'",
-          "reconstruct mixed quotation punctuation in the internal theft debate without altering source meaning",
-          "preserve historical-present staging, financial escalation, gold-chain/Chettiar Bank material detail, maternal dialect/humour and linked mother/wife theft narratives",
-          "complete T2 source-and-Kalaignar-voice review with 18 grouped source-checked revisions; preserve exact slogan, 1941/1942 chronology, Bharathidasan verse, historical present, wrist-chain materiality, guilty humour and mother/wife theft parallel",
-          "complete T3 English-only literary review with 19 grouped source-checked minor revisions; protected political, chronological, verse, historical-present, material and two-theft structural content unchanged",
-          "terminology/cultural audit corrected `சந்தனக் கிண்ணம்` from material-misleading `sandalwood bowl` to `sandal-paste bowl`, supported by v1-ch09 identifying the same vessel as silver; all other terminology controls retained",
-          "retire recurring comparator gate: Batch 002 source pin public/data/text-en/ contains only v1-ch01.json; proceed directly from terminology/cultural freeze to final approval"
-        ],
-        "next_gate": "closed",
-        "translation": "chapters/v1-ch08.json",
-        "reviews": {
-          "t2": "reviews/v1-ch08-t2.md",
-          "t3": "reviews/v1-ch08-t3.md",
-          "thought_structure": "reviews/v1-ch08-structure.md",
-          "terminology": "reviews/v1-ch08-terminology.md",
-          "approval": "reviews/v1-ch08-approval.md"
-        },
-        "t2_result": {
-          "accepted_revisions": 18,
-          "unresolved_source_holds": 0,
-          "blocking_t2_issues": 0,
-          "comparator_consulted": false
-        },
-        "t3_result": {
-          "accepted_revisions": 19,
-          "unresolved_source_holds": 0,
-          "comparator_consulted": false
-        },
-        "structure_result": {
-          "represented": "18/18",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 1,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "comparator_policy": "not-applicable-after-v1-ch01",
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "18/18",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch09",
-        "tamil_title": "கலகக்கார நாரதர் புகுந்தார்.",
+        "id": "v1-ch14",
+        "tamil_title": "வாழ்வதற்கு வழி? நடிகனானேன் நான்!",
         "pages": {
-          "start": 60,
-          "end": 64
+          "start": 81,
+          "end": 84
         },
-        "source_blob_sha": "e3104c0f74478f25d0b15c4bb1ed12afd6420d21",
+        "source_blob_sha": "1fa0f359d8da9cbeb2d9b03fa6244badbece89f6",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch09.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch14.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "translation": "chapters/v1-ch09.json",
-        "source_notes": "source-notes/v1-ch09.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision",
-          "approval": "pass"
-        },
-        "next_gate": "closed",
-        "reviews": {
-          "t2": "reviews/v1-ch09-t2.md",
-          "t3": "reviews/v1-ch09-t3.md",
-          "thought_structure": "reviews/v1-ch09-structure.md",
-          "terminology": "reviews/v1-ch09-terminology.md",
-          "approval": "reviews/v1-ch09-approval.md"
-        },
-        "t2_result": {
-          "accepted_revisions": 12,
-          "unresolved_source_holds": 0,
-          "blocking_t2_issues": 0,
-          "comparator_consulted": false
-        },
-        "t3_result": {
-          "accepted_revisions": 11,
-          "unresolved_source_holds": 0,
-          "comparator_consulted": false
-        },
-        "structure_result": {
-          "represented": "20/20",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 1,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "comparator_policy": "not-applicable-after-v1-ch01",
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "20/20",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch10",
-        "tamil_title": "நண்பன் நடித்த நாடகம்",
+        "id": "v1-ch15",
+        "tamil_title": "நண்பர்கள் முகம் வாடலாமா?",
         "pages": {
-          "start": 65,
-          "end": 67
+          "start": 85,
+          "end": 89
         },
-        "source_blob_sha": "38f3e3efcd8c48a7c3df70c3b5e36b02d813261f",
+        "source_blob_sha": "ceb2759588dfec6646a4ba53369fce02c0bd9c92",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch10.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch15.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "translation": "chapters/v1-ch10.json",
-        "source_notes": "source-notes/v1-ch10.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision",
-          "approval": "pass"
-        },
-        "next_gate": "closed",
-        "reviews": {
-          "t2": "reviews/v1-ch10-t2.md",
-          "t3": "reviews/v1-ch10-t3.md",
-          "thought_structure": "reviews/v1-ch10-structure.md",
-          "terminology": "reviews/v1-ch10-terminology.md",
-          "approval": "reviews/v1-ch10-approval.md"
-        },
-        "t2_result": {
-          "accepted_revisions": 7,
-          "unresolved_source_holds": 0,
-          "blocking_t2_issues": 0,
-          "comparator_consulted": false
-        },
-        "t3_result": {
-          "accepted_revisions": 10,
-          "unresolved_source_holds": 0,
-          "comparator_consulted": false
-        },
-        "structure_result": {
-          "represented": "12/12",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 1,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "comparator_policy": "not-applicable-after-v1-ch01",
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "12/12",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch11",
-        "tamil_title": "இளம் எழுத்தாளர்",
+        "id": "v1-ch16",
+        "tamil_title": "கம்புகள்! குண்டாந்தடிகள்!",
         "pages": {
-          "start": 68,
-          "end": 70
+          "start": 90,
+          "end": 93
         },
-        "source_blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
+        "source_blob_sha": "fd6793f228db38098aff1eddcfb7fefce3fff3d2",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch11.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch16.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "translation": "chapters/v1-ch11.json",
-        "source_notes": "source-notes/v1-ch11.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-without-revision",
-          "approval": "pass"
-        },
-        "next_gate": "closed",
-        "reviews": {
-          "t2": "reviews/v1-ch11-t2.md",
-          "t3": "reviews/v1-ch11-t3.md",
-          "thought_structure": "reviews/v1-ch11-structure.md",
-          "terminology": "reviews/v1-ch11-terminology.md",
-          "approval": "reviews/v1-ch11-approval.md"
-        },
-        "t2_result": {
-          "accepted_revisions": 7,
-          "unresolved_source_holds": 0,
-          "blocking_t2_issues": 0,
-          "comparator_consulted": false
-        },
-        "t3_result": {
-          "accepted_revisions": 7,
-          "unresolved_source_holds": 0,
-          "comparator_consulted": false
-        },
-        "structure_result": {
-          "represented": "12/12",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 0,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "comparator_policy": "not-applicable-after-v1-ch01",
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "12/12",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch12",
-        "tamil_title": "\"எடுக்கவோ, கோக்கவோ?\"",
+        "id": "v1-ch17",
+        "tamil_title": "குளிப்பது ஒரு குற்றமா?",
         "pages": {
-          "start": 71,
-          "end": 75
+          "start": 94,
+          "end": 98
         },
-        "source_blob_sha": "df9bfe3fb369783e68c5166b7068323909d6f4f9",
+        "source_blob_sha": "eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch12.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch17.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "translation": "chapters/v1-ch12.json",
-        "source_notes": "source-notes/v1-ch12.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-without-revision",
-          "approval": "pass"
-        },
-        "next_gate": "closed",
-        "reviews": {
-          "t2": "reviews/v1-ch12-t2.md",
-          "t3": "reviews/v1-ch12-t3.md",
-          "thought_structure": "reviews/v1-ch12-structure.md",
-          "terminology": "reviews/v1-ch12-terminology.md",
-          "approval": "reviews/v1-ch12-approval.md"
-        },
-        "t2_result": {
-          "accepted_revisions": 13,
-          "unresolved_source_holds": 0,
-          "blocking_t2_issues": 0,
-          "comparator_consulted": false
-        },
-        "t3_result": {
-          "accepted_revisions": 12,
-          "unresolved_source_holds": 0,
-          "comparator_consulted": false
-        },
-        "structure_result": {
-          "represented": "22/22",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 0,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "comparator_policy": "not-applicable-after-v1-ch01",
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "22/22",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       }
     ],
-    "source_reviews_complete": 5,
-    "translations_started": 5,
-    "t1_complete": 5,
-    "t2_complete": 5,
-    "t3_complete": 5,
-    "thought_structure_complete": 5,
-    "terminology_cultural_complete": 5,
-    "approved_chapters": 5,
-    "next_activity": "open-batch-003",
-    "batch_status": "closed",
+    "source_reviews_complete": 0,
+    "translations_started": 0,
+    "t1_complete": 0,
+    "t2_complete": 0,
+    "t3_complete": 0,
+    "thought_structure_complete": 0,
+    "terminology_cultural_complete": 0,
+    "approved_chapters": 0,
+    "next_activity": "source-review-v1-ch13",
+    "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-002",
       "control": "batches/batch-002.md",
@@ -475,22 +189,22 @@
       "unresolved_terminology_holds": 0,
       "outstanding_review_items": 0
     },
-    "next_batch": "batch-003",
-    "next_batch_start": "v1-ch13",
+    "next_batch": null,
+    "next_batch_start": null,
     "source_files_pinned": 5,
     "batch_opening": {
       "span": [
-        "v1-ch08",
-        "v1-ch09",
-        "v1-ch10",
-        "v1-ch11",
-        "v1-ch12"
+        "v1-ch13",
+        "v1-ch14",
+        "v1-ch15",
+        "v1-ch16",
+        "v1-ch17"
       ],
       "size": 5,
       "size_decision": "standard-five-chapter-batch",
       "reduction_reason": null,
-      "previous_source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-      "selected_blobs_unchanged_from_previous_pin": true
+      "previous_source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+      "source_main_unchanged_from_previous_batch": true
     }
   },
   "infrastructure_notes": [
