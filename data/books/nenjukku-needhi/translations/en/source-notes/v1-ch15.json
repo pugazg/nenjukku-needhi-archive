@@ -81,10 +81,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "terminology-complete",
+  "status": "approved",
   "gate_result": "pass",
   "unresolved_source_holds": 0,
-  "next_gate": "final-approval-review",
+  "next_gate": "closed",
   "t2_review": "../reviews/v1-ch15-t2.md",
   "t2_resolutions": {
     "accepted_revisions": 7,
@@ -113,5 +113,15 @@
     "unresolved_holds": 0,
     "independent_english_frozen": true,
     "comparator_consulted": false
+  },
+  "approval_review": "../reviews/v1-ch15-approval.md",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
   }
 }
