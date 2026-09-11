@@ -8,7 +8,7 @@
     "start": 76,
     "end": 80
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -24,11 +24,12 @@
     "The stable but lexically unresolved period medical term `ஜன்னி` is handled conservatively as grave illness; exact lexical resolution remains for T2/terminology review.",
     "T2 source-and-Kalaignar-voice review passed with 9 grouped source-checked revisions. The pass strengthens movement/political fervour, article-title cadence, family-economic idiom and the father-in-law portrait while preserving all source chronology, financial detail and direct speech. The `ஜன்னி` review item is closed through a deliberately conservative functional rendering ('gravely ill patient') without claiming a modern diagnosis.",
     "T3 English-only literary review passed with 6 grouped minor source-checked revisions. The pass improves autobiographical immediacy, the Anna retrospective, crisis-scene idiom and writing cadence without changing chronology, politics, financial detail, titles or source uncertainty.",
-    "Thought-structure audit passed 20/20 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 20/20 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed with one consistency revision: `Reform Association` → `Children's Reform Association`, restoring the established v1-ch12 rendering of `சிறுவர் சீர்திருத்தச் சங்கம்`. Tamil Brigade, Tamil Nadu Tamil Students' Association, Dravida Nadu, Dravidar Kazhagam, Self-Respecter, Nabi Nayagam, Palaniyappan/Santa/Natchuk Koppai, Mahamayi and source-led personal names were retained. Independent English is frozen for final approval."
   ],
   "paragraphs": [
-    "The election contest between my Reform Association and my friend Thyagarasan's Youth Association was in full swing. Three days before the election, the Youth Association staged a play. At Thyagarasan's house, the man who was to play the hero quarrelled and walked away. Tickets had already been sold at a quarter anna each. Thyagarasan came running to me in distress.",
-    "I immediately laid down a condition. \"I will take a role in the play. In return, you must withdraw from the election contest.\" He agreed. The election ended then and there. The play began. I acted as Dushyanta and won applause. With that, the Youth Association was dissolved; everything became the Reform Association—and before long that too disappeared!",
+    "The election contest between my Children's Reform Association and my friend Thyagarasan's Youth Association was in full swing. Three days before the election, the Youth Association staged a play. At Thyagarasan's house, the man who was to play the hero quarrelled and walked away. Tickets had already been sold at a quarter anna each. Thyagarasan came running to me in distress.",
+    "I immediately laid down a condition. \"I will take a role in the play. In return, you must withdraw from the election contest.\" He agreed. The election ended then and there. The play began. I acted as Dushyanta and won applause. With that, the Youth Association was dissolved; everything became the Children's Reform Association—and before long that too disappeared!",
     "The reason for that disappearance was my political involvement. Organizations formed for the welfare of the South drew me powerfully. The force of the anti-Hindi movement that began in 1938 urged me to stand in the ranks of the Tamil Brigade. Though I did not get the chance to plunge into it with all my strength, I began carrying a flag among those who marched shouting, \"Long live Tamil!\" and \"Down with Hindi!\"",
     "There was one meeting addressed by the late warrior Anjanenjan Alagirisami. I proudly say that it was that meeting which made me \"Karunanidhi\". The speech Alagiri delivered, sounding the war-drum for the soldiers defending Tamil, still echoes in my ears. For more than an hour a storm blew across the stage. The sound of revolution reached the sky. It was a roar as though a thousand lions had gathered and thundered at once. \"Will Hindi dominate Tamil Nadu? Come, all of you—come, Tamils!\" he cried and raged.",
     "When the meeting ended, he vomited blood. He fainted and collapsed. He writhed, unable to bear the pain in his lower abdomen and ribs. I asked what was wrong. They said he was ill. I asked why, if he was ill, he had to shout like that. My question reached Alagiri's ears. He embraced me affectionately and said, even while enduring the pain, \"Brother, this country is sicker than I am! If a doctor has a cold, can he neglect a gravely ill patient? That is how I work.\"",
@@ -55,9 +56,11 @@
     "source_review": "../source-notes/v1-ch13.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch13-t2.md",
     "t3_review": "../reviews/v1-ch13-t3.md",
-    "thought_structure_review": "../reviews/v1-ch13-structure.md"
+    "thought_structure_review": "../reviews/v1-ch13-structure.md",
+    "terminology_review": "../reviews/v1-ch13-terminology.md",
+    "independent_english_frozen": true
   }
 }
