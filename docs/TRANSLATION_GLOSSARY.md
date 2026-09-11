@@ -64,6 +64,10 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `பொங்கல் மலர்` | **Pongal special issue** contextually | Publication sense of `மலர்`; do not literalize as flower when referring to a commemorative/festival issue. |
 | `பாசறை` | **camp / organizing camp / base** contextually | `v1-ch07`: retain the movement-organizing metaphor; avoid flattening to generic `organization`. |
 | `புரட்சி ஜனநாயகக் கட்சி` (M. N. Roy context) | **Radical Democratic Party** | `v1-ch07`: normalize the historical entity name while preserving Kalaignar's authored **1939** chronology rather than silently changing it. |
+| `முரசொலி` | **Murasoli** | `v1-ch07`: retain the publication title rather than supplying a semantic English title; in this chapter its origin as a practical response to hand-copying burden is narratively central. |
+| `துண்டு வெளியீடுகள்` (early `Murasoli` context) | **leaflet issues** | `v1-ch07`: preserve both the physical leaflet form and the serial/publication sense, especially in contrast with weekly/monthly publication. |
+| `மாணவர் சம்மேளனம்` | **Students' Federation** unless the source itself securely identifies a specific body | `v1-ch07`: keep generic; do not expand to AISF or another named organization merely from external historical inference. |
+| `சுதந்திரம் - சமாதானம் - சமத்துவம்` | **Freedom – Peace – Equality** | `v1-ch07`: preserve order and slogan-like rhythm; do not collapse to a generic political program. |
 
 ## Terms awaiting evidence from wider corpus
 
@@ -86,3 +90,4 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch06` T2 added historical-event `தமிழர் படை` → `Tamil Brigade` for the 1938 march and `அறப்போர்` → `non-violent struggle / satyagraha` contextually.
 - `v1-ch06` terminology/cultural audit resolved chapter-specific `இன உணர்ச்சி` → `racial consciousness` and `தமிழ்க் காளையர்` → `young Tamil warriors`, while explicitly keeping broader `இனம்` usages context-dependent.
 - `v1-ch07` T2 added working `மாணவ நேசன்` → `Maanava Nesan`, distinguished handwritten journal from physical copy, documented `பொங்கல் மலர்` as Pongal special issue, retained `பாசறை` as an organizing-camp metaphor, and normalized M. N. Roy's `புரட்சி ஜனநாயகக் கட்சி` to `Radical Democratic Party` while preserving the memoir's authored 1939 date.
+- `v1-ch07` terminology/cultural audit confirmed the existing chapter wording without revision and added durable chapter-level policies for `முரசொலி` → `Murasoli`, `துண்டு வெளியீடுகள்` → `leaflet issues`, generic `மாணவர் சம்மேளனம்` → `Students' Federation`, and `சுதந்திரம் - சமாதானம் - சமத்துவம்` → `Freedom – Peace – Equality`.

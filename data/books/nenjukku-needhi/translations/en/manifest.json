@@ -315,7 +315,7 @@
           "end": 55
         },
         "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "structure-complete",
+        "status": "terminology-complete",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -328,7 +328,8 @@
           "t1": "pass",
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
-          "thought_structure": "pass"
+          "thought_structure": "pass",
+          "terminology_cultural": "pass"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -350,16 +351,18 @@
           "keep Students' Federation generic and Communist identity delayed; preserve Freedom–Peace–Equality",
           "restore final Federation current / unknown-depth linked water imagery",
           "apply 19 source-checked T3 fluency revisions without changing direct quotations, authored chronology tensions, political framing, handwritten-journal production economics, Murasoli's leaflet origin, delayed Communist reveal, Freedom–Peace–Equality or the current/depth ending",
-          "pass thought-structure audit with 24/24 major movements preserved and no reordering, omission or invention; no chapter wording changed at this gate"
+          "pass thought-structure audit with 24/24 major movements preserved and no reordering, omission or invention; no chapter wording changed at this gate",
+          "pass terminology/cultural audit with 0 chapter-text revisions and 0 unresolved terminology holds; freeze independent English for the controlled comparator stage"
         ],
-        "next_gate": "terminology-cultural-audit",
+        "next_gate": "post-freeze-comparator-check",
         "translation": "chapters/v1-ch07.json",
         "english_title": "Are You the One Who Runs 'Maanava Nesan'?",
         "existing_english_comparator": "not-consulted",
         "reviews": {
           "t2": "reviews/v1-ch07-t2.md",
           "t3": "reviews/v1-ch07-t3.md",
-          "thought_structure": "reviews/v1-ch07-structure.md"
+          "thought_structure": "reviews/v1-ch07-structure.md",
+          "terminology_cultural": "reviews/v1-ch07-terminology.md"
         },
         "structure_result": {
           "major_movements": 24,
@@ -368,7 +371,13 @@
           "omitted": 0,
           "invented": 0,
           "chapter_text_changes": 0
-        }
+        },
+        "terminology_result": {
+          "accepted_revisions": 0,
+          "unresolved_holds": 0,
+          "independent_english_frozen": true
+        },
+        "independent_english_frozen": true
       }
     ],
     "source_reviews_complete": 5,
@@ -377,10 +386,10 @@
     "t2_complete": 5,
     "t3_complete": 5,
     "thought_structure_complete": 5,
-    "terminology_cultural_complete": 4,
+    "terminology_cultural_complete": 5,
     "comparator_checks_complete": 4,
     "approved_chapters": 4,
-    "next_activity": "terminology-cultural-audit-v1-ch07"
+    "next_activity": "post-freeze-comparator-check-v1-ch07"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."

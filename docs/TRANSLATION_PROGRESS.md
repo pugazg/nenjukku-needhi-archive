@@ -27,7 +27,7 @@
 - Translation plan: **COMPLETE FOR PRODUCTION**
 - Two-pilot method review: **COMPLETE**
 - Kalaignar Voice Guide: **LIVING / UPDATED THROUGH `v1-ch07` T2**
-- Translation glossary: **LIVING / UPDATED THROUGH `v1-ch07` T2**
+- Translation glossary: **LIVING / UPDATED THROUGH `v1-ch07` TERMINOLOGY AUDIT**
 - Source-note convention: **DEFINED AND IN USE**
 - Pilot `v1-ch01`: **APPROVED / CLOSED**
 - Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
@@ -49,7 +49,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **THOUGHT STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | **TERMINOLOGY COMPLETE / COMPARATOR NEXT** |
 
 ## `v1-ch03`
 
@@ -157,7 +157,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 
 Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms 20 / 20 structural movements, 0 unresolved source holds, 0 unresolved terminology/comparator issues, and 0 outstanding review items. Formal JSON-Schema validation remains unavailable because `schemas/chapter.json` is the empty one-byte legacy placeholder.
 
-## `v1-ch07` — thought structure complete
+## `v1-ch07` — terminology complete
 
 Durable files:
 
@@ -166,6 +166,7 @@ Durable files:
 - T2 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-t2.md`
 - T3 review: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-t3.md`
 - thought-structure audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-structure.md`
+- terminology/cultural audit: `data/books/nenjukku-needhi/translations/en/reviews/v1-ch07-terminology.md`
 
 P0 result:
 
@@ -182,19 +183,22 @@ P0 result:
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 19 source-checked revisions**;
 - thought-structure audit: **PASS / COMPLETE — 24 / 24 major movements preserved**;
+- terminology/cultural consistency: **PASS / COMPLETE — 0 chapter-text revisions**;
 - English title: **Are You the One Who Runs 'Maanava Nesan'?**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
 - blocking T2 issues: **0**;
 - outstanding T3 issues: **0**;
 - outstanding structure items: **0**;
-- next gate: **terminology/cultural-consistency audit**.
+- unresolved terminology holds: **0**;
+- independent English: **FROZEN**;
+- next gate: **post-freeze controlled existing-English comparator availability check**.
 
 Source review records the page-51 Jinnah word join, the contextual Muslim League reading, valid archaic `முடங்கல்` = letter, Alagiri/Chittarasu punctuation, page-53/54 hyphenated join, quoted-newspaper extraction artifact, macro-history → schoolboy pivot, `மாணவ நேசன்` production details, Bharathidasan's spinning-wheel sarcasm, `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper costs, Murasoli's leaflet origin, communist recruiter's delayed reveal, Freedom–Peace–Equality triad and the closing current/depth metaphor.
 
 Authored chronology tensions are retained, not corrected: the memoir's 1939 M. N. Roy party date and the fifteen-year-old / four-months-before-Murasoli timeline.
 
-Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch07.json`. T2 normalises **Indian National Congress** and **Radical Democratic Party** while preserving Kalaignar's authored dates; retains `Maanava Nesan`; distinguishes handwritten journals from physical copies; rebalances Bharathidasan's spinning-wheel sarcasm; preserves `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper/free-labour economics and Murasoli's leaflet origin; keeps the Students' Federation generic and Communist reveal delayed; and restores the linked current/depth imagery at the close. T3 then accepted **19 source-checked minor revisions** for English syntax and cadence without changing quotations, chronology tensions, political framing, material publishing detail, the delayed Communist reveal, **Freedom – Peace – Equality**, or the closing water images. Thought structure then passed **24 / 24** major movements with **0 reordered, 0 omitted, 0 invented**; no chapter wording changed at the structure gate. No existing English was consulted.
+Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch07.json`. T2 normalises **Indian National Congress** and **Radical Democratic Party** while preserving Kalaignar's authored dates; retains `Maanava Nesan`; distinguishes handwritten journals from physical copies; rebalances Bharathidasan's spinning-wheel sarcasm; preserves `சிறுதுளி பெருவெள்ளம்`, Pongal special-issue usage, demy-paper/free-labour economics and Murasoli's leaflet origin; keeps the Students' Federation generic and Communist reveal delayed; and restores the linked current/depth imagery at the close. T3 then accepted **19 source-checked minor revisions** for English syntax and cadence without changing quotations, chronology tensions, political framing, material publishing detail, the delayed Communist reveal, **Freedom – Peace – Equality**, or the closing water images. Thought structure then passed **24 / 24** major movements with **0 reordered, 0 omitted, 0 invented**; no chapter wording changed at the structure gate. Terminology/cultural review then passed with **0 chapter-text revisions** and **0 unresolved terminology holds**, freezing the independent English for comparator review. No existing English was consulted.
 
 ## Batch 001 counters
 
@@ -204,7 +208,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - T2 complete: **5 / 5**
 - T3 complete: **5 / 5**
 - thought-structure complete: **5 / 5**
-- terminology/cultural complete: **4 / 5**
+- terminology/cultural complete: **5 / 5**
 - comparator checks complete: **4 / 5**
 - approved: **4 / 5**
 
@@ -218,4 +222,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **terminology/cultural-consistency audit for `v1-ch07`**. Review publication titles and forms, political proper names and honorific variation, `Maanava Nesan`, `Murasoli`, **handwritten journal / copy**, **Pongal special issue**, **demy paper**, **leaflet issues**, **organizing camp** for `பாசறை`, the generic **Students' Federation**, **Freedom – Peace – Equality**, and chapter-level romanisation/cultural consistency. Do not consult any existing-English comparator yet.
+Perform the **post-freeze controlled existing-English comparator availability check for `v1-ch07`** at `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch07.json` under the Batch 001 source pin. If the controlled comparator is absent, record the absence and do not broaden the search to unofficial English versions. If present, compare only now that the independent English is frozen.
