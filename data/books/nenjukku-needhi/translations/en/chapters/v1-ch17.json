@@ -8,7 +8,7 @@
     "start": 94,
     "end": 98
   },
-  "status": "t2-complete",
+  "status": "t3-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -20,7 +20,8 @@
   "translation_notes": [
     "Fresh T1 translation made directly from the Batch 003 pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
     "The two documented page joins, assault/rescue sequence, disguise, Periyar/Kudi Arasu employment transition, salary arithmetic and bathing humour are preserved.",
-    "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass clarifies Kanchi Kalyanasundaram's affectionate elder-brother relation, source-era disguise clothing, salary/meal arithmetic, bathing humour, and the Thyaga Brahma article context without altering the assault/rescue or Periyar/Kudi Arasu transition. No existing-English comparator was consulted."
+    "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass clarifies Kanchi Kalyanasundaram's affectionate elder-brother relation, source-era disguise clothing, salary/meal arithmetic, bathing humour, and the Thyaga Brahma article context without altering the assault/rescue or Periyar/Kudi Arasu transition. No existing-English comparator was consulted.",
+    "T3 English-only literary review passed with 5 grouped minor source-checked revisions. The pass improves the rescue mother's line, gratitude, Karunanandam continuity, bathing exchange and nominal-editor legal-risk joke while preserving the assault/disguise, salary arithmetic, Kudi Arasu routine, Tamil-language grievance and cinema transition."
   ],
   "paragraphs": [
     "Caught in the hands of the rioting crowd, Kanchi Kalyanasundaram—an elder-brother figure to me—and I were separated in different directions. I did not know where he had gone. The crowd kept beating and chasing me. I was struggling, unable either to take the blows or to run.",
@@ -30,18 +31,18 @@
     "On that long street only one house had its door open. Two women were standing near the entrance. I went inside. They did not stop me. From the verandah they watched the events without any sign of movement.",
     "Once inside, I shut the door so that the pursuing crowd could not catch me. Before I could do more, they pushed the door open and entered. Standing behind the door, I looked around the house once. Liquor bottles were scattered across the passage and central hall—empty bottles and unopened bottles in abundance. Only later did I understand that this was the very house where the rioters had hatched their conspiracy.",
     "Those who entered caught me by the hair from behind the door and dragged me into the street. The rioters stood as though in a queue, each taking a turn to strike me. I lost consciousness. I collapsed in a heap. Thinking I was dead, they lifted me and threw me beside a drain before leaving.",
-    "Only about two hours later did I open my eyes. I had been laid on the verandah of some house. An elderly mother, a young girl and a young man were beside me. When I opened my eyes, the mother's words engraved themselves on my heart: \"Alas! Whose child is this? To be lying here as though dying like this!\" Such was the tenderness that came from her mouth.",
-    "For a long time I searched for those good people who gave me back my life in Puducherry. Later I met them once or twice. All I knew was that they were a family from Thanjavur district.",
+    "Only about two hours later did I open my eyes. I had been laid on the verandah of some house. An elderly mother, a young girl and a young man were beside me. When I opened my eyes, the mother's words engraved themselves on my heart: \"Alas! Whose child is this? To be lying here, near death, like this!\" Such was the tenderness that came from her mouth.",
+    "For a long time I searched for those good people who saved my life in Puducherry. Later I met them once or twice. All I knew was that they were a family from Thanjavur district.",
     "Meanwhile, the movement conference that had been broken up in the morning was convened again in the evening, and Alagirisami attended and spoke. The sentence he uttered there was: \"I hear that some distressing events took place this morning. Let what has happened be what has happened. Let what happens from now on be good.\"",
     "Not knowing what had become of me, the leaders had sent people all over the town to search. Periyar and Anna were beside themselves because I could not be found. At four in the morning, after learning where the leaders were staying, I set out to reach them.",
     "The family who had helped me feared that if the rioters saw me again in the street they might take my life. They insisted that I go in disguise. They themselves made the arrangements and planned to send me dressed as a Muslim: a kaili waist-cloth, a long jippa and a kullai cap. Dressed that way, I took a rickshaw to the place where the leaders were staying.",
     "Periyar was sitting awake, worried about me. The moment he saw me, he embraced me tightly and asked in a trembling voice, \"Are you all right?\" Then he himself applied medicine to all my wounds. \"Come with me. Let us go,\" he ordered. I prepared to leave with him.",
-    "It was only after this incident that I got the opportunity to work as an assistant editor in Periyar's Kudi Arasu office at Erode. My dear friends Karunanandam, Janarthanam and Thavamani Rajan were working there at the time. I went to Tiruvarur, took leave of my family, brought Karunanandam along as a companion for the journey, and left for Erode. The man who travelled with me for the first time that day went on travelling with me for many years.",
+    "It was only after this incident that I got the opportunity to work as an assistant editor in Periyar's Kudi Arasu office at Erode. My dear friends Karunanandam, Janarthanam and Thavamani Rajan were working there at the time. I went to Tiruvarur, took leave of my family, brought Karunanandam along as a companion for the journey, and left for Erode. The friend who travelled with me for the first time that day went on travelling with me for many years.",
     "Periyar not only ordered, \"Be an assistant editor at Kudi Arasu,\" but allowed me to write articles for the journal and read them with pleasure. My salary was forty rupees a month. Twenty rupees was deducted for lunch and dinner at Periyar's house. Breakfast and evening tiffin cost another ten rupees a month. Other expenses took another five. I sent the remaining five rupees every month by money order to the beloved wife who had come to depend on me—Padma—in Tiruvarur. My mother, father and sisters were delighted that, somehow, their boy was earning.",
     "Karunanandam, Thavamani and Janarthanam had adapted closely to Periyar's habits. I could not. Every morning I bathed. I wore clean clothes. Those friends considered this almost a great crime. They would often frighten me by saying such things were acts against Periyar himself.",
-    "One day Periyar finally asked me directly: \"What, you take a bath? Then how are you going to work?\" I told him, \"Bathing too is work. I finish that as the first job in the morning, Ayya, and then attend to the rest of my work.\" Because of the personal affection he already had for me, he tolerated my answer.",
+    "One day Periyar finally asked me directly: \"What, you take a bath? Then how are you going to work?\" I told him, \"Bathing too is work. I finish that as the first job in the morning, Ayya, and then attend to the rest of my work.\" Because of the personal affection he already had for me, he let the answer pass.",
     "By eight every morning we had to sit before Periyar at his house. He would look through that day's mail, explain what each letter required, and we would begin working out how to act on it. Then came office work. Periyar would come to the office in the evening. Until that moment our friend Janarthanam would remain awake and working—only then would he fall asleep. Periyar's irritated question would be, \"Does this fellow sleep all the time?\"",
-    "Periyar would write the editorial for Kudi Arasu, read it aloud to us, and then leave the office. A man named Karivaradasamy was the editor of Kudi Arasu in name. Only after reading each week's editorial and letting out a deep sigh could he feel at ease—because if Periyar had written anything unlawful in the editorial, would it not be his own head that was in danger?",
+    "Periyar would write the editorial for Kudi Arasu, read it aloud to us, and then leave the office. A man named Karivaradasamy was the editor of Kudi Arasu in name. Only after reading each week's editorial and letting out a deep sigh could he feel at ease—because if Periyar had written anything unlawful in the editorial, would it not be his own head on the line?",
     "Periyar greatly praised an article I wrote in Kudi Arasu titled \"Arohara for Annamalai!\" It was about the Tiruvannamalai Deepam. Another piece that later pleased him was a sub-editorial titled \"It Has Become Polluted!\" It arose from a report about the Thyaga Brahma festival at Tiruvaiyaru: a Tamil singer had sung a Tamil song; the singer who came next declared that the stage had been polluted, performed a ritual purification, and only then sang. That incident shows the pitiable position Tamil held in Tamil Nadu twenty years earlier.",
     "Every night after dinner at Periyar's house, he would seat us upstairs in an airy place and spend a long time explaining social reforms, political changes and much else. Only after he realized we were sleepy would he go to bed. For one year I worked in the Kudi Arasu office, living as a student learning from Periyar.",
     "After that an invitation came to me from Coimbatore—to write dialogue for a film. It came from A. S. A. Sami. With the help of my friend Muthukrishnan, I went to Coimbatore and learned the details from Mr. Sami. I was to write dialogue for Rajakumari, a film being produced by the Jupiter company. I told Periyar. He too said, \"Go and come back,\" and gave me leave."
@@ -54,7 +55,8 @@
     "source_review": "../source-notes/v1-ch17.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "t3",
-    "t2_review": "../reviews/v1-ch17-t2.md"
+    "next_gate": "thought-structure-audit",
+    "t2_review": "../reviews/v1-ch17-t2.md",
+    "t3_review": "../reviews/v1-ch17-t3.md"
   }
 }
