@@ -8,7 +8,7 @@
     "start": 68,
     "end": 70
   },
-  "status": "structure-complete",
+  "status": "terminology-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -24,7 +24,8 @@
     "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The review restores the source's waxing-crescent image for young writers, removes stiff literal English around Anna's advice, preserves the hawker-style 'Stories!' satire and deliberate malformed story titles, and clarifies Murasoli's early leaflet-production history. No existing-English comparator was consulted.",
     "T3 English-only literary review passed with 7 grouped minor source-checked revisions. The pass removes stiff English in the opening, young-writer qualification, prosperity argument and closing craft sentence while preserving the waxing-crescent imagery, Mother-Tamil language-murder satire, deliberate malformed titles and Murasoli publication history. No existing-English comparator was consulted.",
     "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
-    "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
+    "Thought-structure audit passed 12/12 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate.",
+    "Terminology/cultural audit passed without chapter-text revision. Perarignar Anna, Murasoli, generic Dravidian movement, Thennan, T. S. Gopal and Cheran were retained; the malformed story titles remain deliberately malformed and are not silently normalized because the errors are the substance of Kalaignar's satire. Independent English is frozen for final approval."
   ],
   "paragraphs": [
     "I remember the advice given to me by Perarignar Anna. All over the world, people insist that encouraging young writers is the duty of great writers. Most of those who insist on this, of course, are young writers themselves!",
@@ -48,9 +49,11 @@
     "source_review": "../source-notes/v1-ch11.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch11-t2.md",
     "t3_review": "../reviews/v1-ch11-t3.md",
-    "thought_structure_review": "../reviews/v1-ch11-structure.md"
+    "thought_structure_review": "../reviews/v1-ch11-structure.md",
+    "terminology_review": "../reviews/v1-ch11-terminology.md",
+    "independent_english_frozen": true
   }
 }
