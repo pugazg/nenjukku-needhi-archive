@@ -103,15 +103,66 @@ Batch 002 final state:
 - comparator gate for v1-ch02+: **NOT APPLICABLE**
 - formal JSON-Schema validation: **NOT CLAIMED**
 
-No active production batch remains after Batch 002 closure.
+## Batch 003 — OPEN
+
+Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
+
+Span: **`v1-ch13`–`v1-ch17`**
+
+Batch-size decision: **standard five chapters retained**. Intake inspection found all five to be modest 4–5-page chapters (about 6.7k–9.6k Tamil characters), so no reduction was warranted.
+
+Current counters:
+
+- source files pinned: **5 / 5**
+- source reviews: **0 / 5**
+- T1: **0 / 5**
+- T2: **0 / 5**
+- T3: **0 / 5**
+- thought structure: **0 / 5**
+- terminology/cultural: **0 / 5**
+- approved: **0 / 5**
+- translations started: **0**
+- unresolved source holds: **0**
+
+Queue:
+
+- `v1-ch13` — **P0 SOURCE REVIEW NEXT**
+- `v1-ch14` — **PINNED / QUEUED**
+- `v1-ch15` — **PINNED / QUEUED**
+- `v1-ch16` — **PINNED / QUEUED**
+- `v1-ch17` — **PINNED / QUEUED**
+
+Source identities:
+
+- `v1-ch13` — pages 76–80 — blob `80fc03e2092ab69b22879e65ab6887acc4284a55`
+- `v1-ch14` — pages 81–84 — blob `1fa0f359d8da9cbeb2d9b03fa6244badbece89f6`
+- `v1-ch15` — pages 85–89 — blob `ceb2759588dfec6646a4ba53369fce02c0bd9c92`
+- `v1-ch16` — pages 90–93 — blob `fd6793f228db38098aff1eddcfb7fefce3fff3d2`
+- `v1-ch17` — pages 94–98 — blob `eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66`
+
+The live source `main` did not advance between Batch 002 and Batch 003, but Batch 003 independently records the freshly fetched live SHA as its authority pin.
 
 ## Comparator policy
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — open Batch 003
+## Immediate next activity — v1-ch13 P0 source review
 
-Open **Batch 003 beginning with `v1-ch13`**. Fetch live source `main`, choose and record the new batch source pin, inspect chapter size/difficulty to determine the Batch 003 span under the normal five-chapter policy, create the Batch 003 control, and synchronize manifest/progress/handover. Do not begin `v1-ch13` T1 until Batch 003 is durably opened and `v1-ch13` completes P0 source review.
+Run **P0 source review for `v1-ch13` only**.
+
+- title: `மாமனார் தந்த வரவேற்பு`
+- pages: **76–80**
+- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
+- source path: `public/data/text/v1-ch13.json`
+- source blob: `80fc03e2092ab69b22879e65ab6887acc4284a55`
+- extraction units: **5**
+- extraction strategy: `wordjoiner`
+
+Read the full pinned Tamil. Record title repeats, source-unit/page joins, OCR/spacing anomalies, quotations, verse/song, chronology-sensitive claims, non-authorial material, duplicate source content, textual/semantic holds, paragraph reconstruction and any culturally significant material that could affect later translation.
+
+Create `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch13.json`, synchronize Batch 003/progress/manifest/handover, and stop with **T1 fresh translation next**.
+
+Do **not** translate during this P0 activity.
 
 ## Mandatory controls
 
@@ -124,7 +175,7 @@ Read before P0:
 5. `docs/TRANSLATION_GLOSSARY.md`
 6. `docs/TRANSLATION_PROGRESS.md`
 7. `data/books/nenjukku-needhi/translations/en/manifest.json`
-8. `data/books/nenjukku-needhi/translations/en/batches/batch-002.md`
+8. `data/books/nenjukku-needhi/translations/en/batches/batch-003.md`
 
 ## Infrastructure limitation
 
