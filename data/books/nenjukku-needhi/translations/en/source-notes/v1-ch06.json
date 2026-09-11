@@ -182,9 +182,19 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t1-complete",
-  "gate_result": "pass",
+  "status": "t2-complete",
+  "gate_result": "pass-with-revision",
   "unresolved_source_holds": 0,
-  "next_gate": "t2-kalaignar-voice-review",
-  "t1_translation": "../chapters/v1-ch06.json"
+  "next_gate": "t3-english-review",
+  "t1_translation": "../chapters/v1-ch06.json",
+  "t2_review": "../reviews/v1-ch06-t2.md",
+  "t2_resolutions": [
+    "use Tamil Brigade for the identifiable 1938 தமிழர் படை march",
+    "render வீரங்கொப்பளிக்கும் as brimming with valour and preserve the tiger/lion/summer-thunder crescendo with distinct verbs",
+    "make the brigade's two-hundred-mile walking action explicit and retain வீர நடை as heroic stride",
+    "render classroom பலகை contextually as bench rather than blackboard/plank",
+    "render மறியல் அறப்போர் as daily picketing carried on as a non-violent struggle in this context",
+    "retain Jagadeesan ring anecdote as hearsay, the வெறி/பற்று argument, relative thirty-six-year vantage, and final political widening",
+    "retain இன உணர்ச்சி provisionally as sense of race pending dedicated terminology/cultural audit"
+  ]
 }
