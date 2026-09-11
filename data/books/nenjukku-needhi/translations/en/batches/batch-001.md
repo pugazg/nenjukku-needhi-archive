@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` COMPARATOR ABSENT / FINAL APPROVAL NEXT**
+Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` SOURCE REVIEW NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -23,7 +23,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **COMPARATOR CHECK COMPLETE / FINAL APPROVAL NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **APPROVED / CLOSED** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
 ## `v1-ch03` closure
@@ -96,11 +96,18 @@ Final controls retain the witnessed **In 1932** opening, Kalaignar's authored **
 
 The final approval review confirms 22/22 structural movements, zero unresolved source holds and zero outstanding review items. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder.
 
-## `v1-ch06` — comparator check complete
+## `v1-ch06` — approved / closed
 
 Durable file:
 
 - source notes: `../source-notes/v1-ch06.json`
+- translation: `../chapters/v1-ch06.json`
+- T2 review: `../reviews/v1-ch06-t2.md`
+- T3 review: `../reviews/v1-ch06-t3.md`
+- thought-structure audit: `../reviews/v1-ch06-structure.md`
+- terminology/cultural audit: `../reviews/v1-ch06-terminology.md`
+- comparator check: `../reviews/v1-ch06-existing-comparison.md`
+- final approval review: `../reviews/v1-ch06-approval.md`
 
 Gate state:
 
@@ -123,7 +130,8 @@ Gate state:
 - translation changes from comparator gate: **0**;
 - unresolved source holds: **0**;
 - unresolved terminology/comparator holds: **0**;
-- next gate: **final approval review**.
+- final approval: **PASS / APPROVED / CLOSED**;
+- next gate: **closed**.
 
 P0 records the repeated heading; page-47/48 and page-48/49 source-unit joins; the two-line student song on page 48; the page-47 Alagirisami oratory sequence; historical distance `கல்` as mile; the anomalous `முழககங்கள்` and `நிறுத்தாதற்கு முன்பே` forms; the final Tamil-flag/green-crescent punctuation split; the Jagadeesan hearsay anecdote; the `வெறி / பற்று` wordplay; the classroom dialogue and titular self-judgment; the thirty-six-year retrospective; and the final pivot to Bose, Jinnah, Gandhi and Muslim League politics.
 
@@ -136,6 +144,8 @@ Thought-structure audit passes **20 / 20** major movements: the English preserve
 Terminology/cultural audit resolves `இன உணர்ச்சி` as **racial consciousness** for this chapter's historical register and `தமிழ்க் காளையர்` as **young Tamil warriors**, while retaining Tamil Brigade, Fearless Heart, Summer-Thunder Alagiri, Ammaiyar, Self-Respect Movement, frenzy/devotion, non-violent picketing struggle, Gandhiji and the final Tamil/green-crescent flag image.
 
 Controlled post-freeze comparator path `public/data/text-en/v1-ch06.json` is absent at the Batch 001 pin. The pinned `text-en` tree contains only `v1-ch01.json`, so no comparator text was consulted and no translation wording changed.
+
+Final approval confirms **0 unresolved source holds**, **0 unresolved terminology/comparator issues**, **0 outstanding review items**, and **20 / 20 structural movements preserved**. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
 ## Branch consolidation
 
@@ -162,5 +172,5 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - thought-structure complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - terminology/cultural complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - comparator checks complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- approved chapters: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- next chapter activity: **final approval review for `v1-ch06`**
+- approved chapters: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
+- next chapter activity: **complete source review for `v1-ch07` before T1**
