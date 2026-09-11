@@ -1,4 +1,4 @@
-# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch09 T2
+# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch09 T3
 
 Continue directly in `pugazg/nenjukku-needhi-archive`, branch `main`.
 
@@ -22,55 +22,66 @@ The source repository's `public/data/text-en/` directory contains only `v1-ch01.
 
 - source reviews: **5 / 5**
 - T1: **5 / 5**
-- T2: **1 / 5**
+- T2: **5 / 5**
 - T3: **1 / 5**
 - thought structure: **1 / 5**
 - terminology/cultural: **1 / 5**
 - approved: **1 / 5**
+- unresolved source holds: **0**
+- blocking T2 issues: **0**
 
-`v1-ch08` is **APPROVED / CLOSED**.
+T2 results:
+
+- `v1-ch08` — PASS WITH REVISION — 18 grouped revisions — APPROVED / CLOSED
+- `v1-ch09` — PASS WITH REVISION — 12 grouped revisions
+- `v1-ch10` — PASS WITH REVISION — 7 grouped revisions
+- `v1-ch11` — PASS WITH REVISION — 7 grouped revisions
+- `v1-ch12` — PASS WITH REVISION — 13 grouped revisions
 
 ## Active chapter
 
-`v1-ch09` — `கலகக்கார நாரதர் புகுந்தார்.`
+`v1-ch09` — **Troublemaker Narada Entered**
 
 - pages: **60–64**
 - source blob: `e3104c0f74478f25d0b15c4bb1ed12afd6420d21`
 - source review: **PASS / COMPLETE**
 - T1: **PASS / COMPLETE**
+- T2: **PASS WITH REVISION / COMPLETE — 12 grouped revisions**
 - unresolved source holds: **0**
-- next gate: **T2**
+- next gate: **T3**
 
 Durable files:
 
 - `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch09.json`
 - `data/books/nenjukku-needhi/translations/en/chapters/v1-ch09.json`
+- `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t2.md`
 
-## Immediate activity — T2 only
+## Immediate activity — T3 only
 
-Run the complete Tamil-English source-and-Kalaignar-voice review for `v1-ch09`.
+Run the English-only literary review.
 
-Protect:
-
-1. the opening continuation from the sandal-paste/silver-bowl episode and Padma remembrance;
-2. the narrator's three school-final failures and self-critical humour;
-3. the Kudi Arasu reading/examination contrast;
-4. the Nagapattinam trip during the half-yearly examination;
-5. the Dhruvan school-play reveal;
-6. Indra's Kudi Arasu-flavoured comic dialogue;
-7. young Murasoli Maran's child-speech flavour;
-8. the third failure result and night departure from home;
-9. the emotional sequence around family shame and thoughts of not remaining alive;
-10. the later argument about student suicides and examination reform;
-11. source-led names, chronology and rhetorical questions.
-
-Do not consult existing English.
-
-Create:
-
-`data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t2.md`
-
-Apply only source-supported revisions, synchronize chapter/source notes/Batch 002/progress/manifest/handover, and stop with **T3 next**.
+1. Read the revised English first without using Tamil.
+2. Identify only genuine English-language cadence, repetition, syntax, paragraph-flow or awkwardness issues.
+3. Recheck every proposed change against the pinned Tamil before accepting it.
+4. Preserve:
+   - the opening Padma / sandal-paste / silver-bowl grief;
+   - three School Final failures and self-critical humour;
+   - Kudi Arasu reading vs family expectations;
+   - Nagapattinam / Periyar half-yearly-exam episode;
+   - the Indirani → Indra → Narada theatrical misdirection;
+   - the Dhruvan play reveal;
+   - Kudi Arasu-flavoured Indra satire;
+   - Murasoli Maran's child speech;
+   - the third failure, sleepless night and departure;
+   - the direct despair questions;
+   - temple-tank / sea-sound imagery;
+   - election-deposit analogy;
+   - student-suicide reflection;
+   - examination-system critique and college-barrier conclusion.
+5. Do not consult existing English.
+6. Create `data/books/nenjukku-needhi/translations/en/reviews/v1-ch09-t3.md`.
+7. Synchronize chapter/source notes/Batch 002/progress/manifest/handover.
+8. Stop with **thought-structure audit next**.
 
 ## Infrastructure limitation
 
