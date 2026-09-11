@@ -222,7 +222,7 @@
           "end": 50
         },
         "source_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
-        "status": "thought-structure-complete",
+        "status": "terminology-cultural-complete",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -235,7 +235,8 @@
           "t1": "pass",
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
-          "thought_structure": "pass"
+          "thought_structure": "pass",
+          "terminology_cultural": "pass-with-minor-revision"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -257,16 +258,19 @@
           "retain காந்தியார் as Gandhiji and preserve relative thirty-six-year autobiographical vantage",
           "carry இன உணர்ச்சி forward as semantically secure but reserved for terminology/cultural audit",
           "apply 18 source-checked T3 fluency revisions without smoothing away source-driven epithets, song, wordplay, classroom drama, flare/sprout imagery, blunt prison wording or the final Tamil/green-crescent flag image",
-          "pass thought-structure audit with 20/20 major movements preserved and no reordering, omission or invention"
+          "pass thought-structure audit with 20/20 major movements preserved and no reordering, omission or invention",
+          "resolve chapter-specific இன உணர்ச்சி as racial consciousness in the historical political register without globalising broader இனம் vocabulary",
+          "resolve தமிழ்க் காளையர் as young Tamil warriors using the established human senses of காளை rather than an automatic literal bull image"
         ],
-        "next_gate": "terminology-cultural-audit",
+        "next_gate": "post-freeze-comparator-check",
         "translation": "chapters/v1-ch06.json",
         "english_title": "The Battlefront to Save Tamil",
         "existing_english_comparator": "not-consulted",
         "reviews": {
           "t2": "reviews/v1-ch06-t2.md",
           "t3": "reviews/v1-ch06-t3.md",
-          "thought_structure": "reviews/v1-ch06-structure.md"
+          "thought_structure": "reviews/v1-ch06-structure.md",
+          "terminology_cultural": "reviews/v1-ch06-terminology.md"
         },
         "independent_english_frozen": true,
         "structure_result": {
@@ -275,6 +279,10 @@
           "reordered": 0,
           "omitted": 0,
           "invented": 0
+        },
+        "terminology_result": {
+          "accepted_revisions": 2,
+          "unresolved_holds": 0
         }
       },
       {
@@ -294,10 +302,10 @@
     "t2_complete": 4,
     "t3_complete": 4,
     "thought_structure_complete": 4,
-    "terminology_cultural_complete": 3,
+    "terminology_cultural_complete": 4,
     "comparator_checks_complete": 3,
     "approved_chapters": 3,
-    "next_activity": "terminology-cultural-audit-v1-ch06"
+    "next_activity": "post-freeze-comparator-check-v1-ch06"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
