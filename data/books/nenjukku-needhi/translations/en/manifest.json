@@ -222,7 +222,7 @@
           "end": 50
         },
         "source_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
-        "status": "comparator-check-complete",
+        "status": "approved",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -237,7 +237,8 @@
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
           "terminology_cultural": "pass-with-minor-revision",
-          "post_freeze_comparator": "not-applicable-absent"
+          "post_freeze_comparator": "not-applicable-absent",
+          "approval": "pass"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -262,9 +263,10 @@
           "pass thought-structure audit with 20/20 major movements preserved and no reordering, omission or invention",
           "resolve chapter-specific இன உணர்ச்சி as racial consciousness in the historical political register without globalising broader இனம் vocabulary",
           "resolve தமிழ்க் காளையர் as young Tamil warriors using the established human senses of காளை rather than an automatic literal bull image",
-          "record controlled post-freeze comparator path public/data/text-en/v1-ch06.json as absent at the pinned source ref; pinned text-en tree contains only v1-ch01.json; no prior English wording consulted or adopted"
+          "record controlled post-freeze comparator path public/data/text-en/v1-ch06.json as absent at the pinned source ref; pinned text-en tree contains only v1-ch01.json; no prior English wording consulted or adopted",
+          "complete final approval with zero unresolved source, terminology or comparator issues and zero outstanding review items; formal JSON-Schema validation not claimed because schemas/chapter.json is a one-byte newline-only legacy placeholder"
         ],
-        "next_gate": "final-approval-review",
+        "next_gate": "closed",
         "translation": "chapters/v1-ch06.json",
         "english_title": "The Battlefront to Save Tamil",
         "existing_english_comparator": null,
@@ -273,7 +275,8 @@
           "t3": "reviews/v1-ch06-t3.md",
           "thought_structure": "reviews/v1-ch06-structure.md",
           "terminology_cultural": "reviews/v1-ch06-terminology.md",
-          "existing_english_comparison": "reviews/v1-ch06-existing-comparison.md"
+          "existing_english_comparison": "reviews/v1-ch06-existing-comparison.md",
+          "approval": "reviews/v1-ch06-approval.md"
         },
         "independent_english_frozen": true,
         "structure_result": {
@@ -293,6 +296,15 @@
           "available": false,
           "consulted": false,
           "translation_changes": 0
+        },
+        "approval_result": {
+          "status": "approved",
+          "structure_movements": "20/20",
+          "unresolved_source_holds": 0,
+          "unresolved_terminology_holds": 0,
+          "unresolved_comparator_issues": 0,
+          "outstanding_review_items": 0,
+          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
         }
       },
       {
@@ -303,7 +315,7 @@
           "end": 55
         },
         "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "not-started"
+        "status": "source-review-next"
       }
     ],
     "source_reviews_complete": 4,
@@ -314,8 +326,8 @@
     "thought_structure_complete": 4,
     "terminology_cultural_complete": 4,
     "comparator_checks_complete": 4,
-    "approved_chapters": 3,
-    "next_activity": "final-approval-review-v1-ch06"
+    "approved_chapters": 4,
+    "next_activity": "source-review-v1-ch07"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."
