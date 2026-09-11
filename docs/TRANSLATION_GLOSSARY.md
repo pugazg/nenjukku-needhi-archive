@@ -97,6 +97,21 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `பீடி` | **beedi** | `v1-ch12`: preserve the period/cultural tobacco term rather than generic cigarette. |
 | `சிறுவர் சீர்திருத்தச் சங்கம்` | **Children's Reform Association** (working transparent rendering) | `v1-ch12`: retain as the memoir's child-run association; do not imply a formally attested English corporate name. |
 
+| `சுயமரியாதைக்காரன்` / `சுயமரியாதை முறையில் மணவிழா` | **Self-Respecter / Self-Respect marriage** | `v1-ch13`–`v1-ch14`: preserve the political/ideological identity; do not reduce to generic self-respect. |
+| `சீர்திருத்தத் திருமணம்` | **reform marriage** where the source uses the generic reform phrase | `v1-ch14`: keep distinct from the explicitly named Self-Respect ceremony later in the same chapter. |
+| `மகமாயி` | **Mahamayi** in direct cultural invocation | `v1-ch13`–`v1-ch14`: retain the father's shouted invocation rather than flattening it to generic “Mother Goddess”. |
+| `கிந்தனார்` | **Kinthanar** | `v1-ch14`: retain N. S. Krishnan's performance title/name; do not replace it with a semantic title. |
+| `கதா காலட்சேபம்` | **kathakalakshepam** with contextual explanation where needed | `v1-ch14`: culturally specific storytelling/performance form; the revolutionary reworking of the form is part of the argument. |
+| `சேரி` | **cheri**, minimally glossed as **cheri settlement** at first use where needed | `v1-ch14`: retain the caste/social geography while giving enough context for English readers. |
+| `திராவிட நடிகர் கழகம்` / `திராவிட நடிகர்க் கழகம்` | **Dravidian Actors' Association** (working transparent rendering) | `v1-ch13`–`v1-ch16`: do not claim a formally attested English corporate name without stronger evidence. |
+| attributed derogatory caste speech in `v1-ch15` | **preserve as clearly attributed historical discriminatory speech; never generalize into narrator vocabulary** | The prejudice itself explains the boycott and therefore cannot be sanitized away; framing must make attribution and non-endorsement clear. |
+| `கெப்ளே` (Puducherry theatre) | **Keple Theatre** (source-led working form) | `v1-ch16`: internal evidence is insufficient for a stronger historical English normalization; keep the source-led form reviewable. |
+| `அவுக்கா` | **avukka**, with source's own gloss **lawyer** | `v1-ch16`: retain the local lexical form because Kalaignar himself explains it. |
+| `தொழிலாளர் மித்திரன்` | **Thozhilalar Mithiran** | `v1-ch16`: retain the weekly's publication title rather than inventing a semantic official English title. |
+| `கைலி` / `ஜிப்பா` / `குல்லாய்` | **kaili / jippa / kullai**, with minimal clothing glosses where first needed | `v1-ch17`: preserve concrete disguise clothing without adding stereotyped behaviour or identity claims. |
+| `அய்யா` | **Ayya** in intimate/respectful direct address where voice matters | `v1-ch17`: retain Kalaignar's respectful address to Periyar when a generic “sir” would flatten the relationship. |
+| `தியாகப் பிரம்ம உற்சவம்` | **Thyaga Brahma festival** (source-led working form) | `v1-ch17`: preserve source wording; do not import a different modern event title without evidence. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
@@ -125,3 +140,5 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch10` terminology/cultural audit clarified `ராமர் பாதம்` as **Rama's Footprint**, retained **Fourth Form**, source-led place/personal names, pre-decimal annas and movement-address **comrade**.
 - `v1-ch11` terminology/cultural audit froze the deliberate malformed-title policy, generic **Dravidian movement**, **Murasoli**, and **Cheran** without chapter-text revision.
 - `v1-ch12` terminology/cultural audit retained **Dravidar Kazhagam**, **Dravida Munnetra Kazhagam**, **Varnashrama**, **Thillai/Chidambaram**, **dakshina**, **parani**, **Margazhi**, **beedi**, **sundal**, and **Children's Reform Association** without chapter-text revision.
+
+- `v1-ch13`–`v1-ch17` terminology/cultural audits added durable policies for Self-Respect/reform marriage language, Mahamayi, Kinthanar/kathakalakshepam, cheri, Dravidian Actors' Association, attributed caste-abuse dialogue, Keple/avukka, Thozhilalar Mithiran, disguise clothing, Ayya and Thyaga Brahma festival. Batch 003 accepted three chapter-level terminology revision groups and ended with zero terminology holds.
