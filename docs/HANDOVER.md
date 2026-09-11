@@ -53,7 +53,7 @@ Current counters:
 - T2: **5 / 5**
 - T3: **5 / 5**
 - thought structure: **5 / 5**
-- terminology/cultural: **1 / 5**
+- terminology/cultural: **5 / 5**
 - approved: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
@@ -79,22 +79,22 @@ Current counters:
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
-The remaining Batch 002 chapters have now completed T2, T3 and thought structure:
+The remaining Batch 002 chapters have now completed T2, T3, thought structure and terminology/cultural review:
 
-- `v1-ch09` — **T2 PASS — 12 revisions / T3 PASS — 11 revisions / STRUCTURE PASS — 20 / 20 / TERMINOLOGY NEXT**
-- `v1-ch10` — **T2 PASS — 7 / T3 PASS — 10 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY QUEUED**
-- `v1-ch11` — **T2 PASS — 7 / T3 PASS — 7 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY QUEUED**
-- `v1-ch12` — **T2 PASS — 13 / T3 PASS — 12 / STRUCTURE PASS — 22 / 22 / TERMINOLOGY QUEUED**
+- `v1-ch09` — **T2 PASS — 12 / T3 PASS — 11 / STRUCTURE PASS — 20 / 20 / TERMINOLOGY PASS WITH ONE REVISION — FINAL APPROVAL NEXT**
+- `v1-ch10` — **T2 PASS — 7 / T3 PASS — 10 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY PASS WITH ONE REVISION — FINAL APPROVAL QUEUED**
+- `v1-ch11` — **T2 PASS — 7 / T3 PASS — 7 / STRUCTURE PASS — 12 / 12 / TERMINOLOGY PASS WITHOUT REVISION — FINAL APPROVAL QUEUED**
+- `v1-ch12` — **T2 PASS — 13 / T3 PASS — 12 / STRUCTURE PASS — 22 / 22 / TERMINOLOGY PASS WITHOUT REVISION — FINAL APPROVAL QUEUED**
 
-Batch 002 T2, T3 and thought structure are all **5 / 5 COMPLETE**. Across the new structure audits: **0 reordered, 0 omitted, 0 invented, 0 chapter-text changes**. Unresolved source holds remain **0**.
+Batch 002 T2, T3, thought structure and terminology/cultural are all **5 / 5 COMPLETE**. Across the new terminology audits: **2 source-supported chapter revisions total**, **0 unresolved terminology holds**, **0 unresolved source holds**, and independent English is **frozen 5 / 5**.
 
 ## Comparator policy
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch09 terminology/cultural audit
+## Immediate next activity — v1-ch09 final approval
 
-Run the **terminology/cultural-consistency audit** for `v1-ch09` only. Review names, school/examination terms, Kudi Arasu references, theatrical/mythological names, place names, child-speech handling, cultural imagery and source-era institutional forms against the living glossary and prior approved chapters. Do not consult existing English. Stop with **final approval next** if the terminology gate passes.
+Run the **final approval review** for `v1-ch09` only. Verify P0, T1, T2, T3, thought structure, terminology/cultural consistency, frozen independent English, zero unresolved holds and syntactic JSON parseability. If all pass, approve and close `v1-ch09`. Stop before beginning `v1-ch10` final approval.
 
 ## Mandatory controls
 
