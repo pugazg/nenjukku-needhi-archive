@@ -40,7 +40,9 @@ Both pilots showed that Kalaignar's sequence itself carries meaning. The structu
 
 ### 5. Existing English is never drafting authority
 
-Where earlier English exists, it is consulted only after the fresh translation has passed the structural gate. A better phrase may be adopted only with an explicit comparison note.
+The historical `v1-ch01` pilot had a source-repository English comparator and its comparison record remains valid provenance. At the Batch 002 source pin, `public/data/text-en/` contains no other chapter English files.
+
+Therefore comparator work is **not a recurring production gate** for `v1-ch02` onward. Do not create absence reviews or search unofficial English versions simply to complete a gate.
 
 ### 6. Concrete imagery survives even when unfamiliar
 
@@ -73,7 +75,7 @@ Wikisource maintenance notices, duplicated interface text, or other editorial ar
 
 For each chapter:
 
-`source review → source notes → T1 → T2 → T3 → thought-structure audit → terminology/cultural audit → post-freeze comparator if one exists → approval`
+`source review → source notes → T1 → T2 → T3 → thought-structure audit → terminology/cultural audit → approval`
 
 A source-dependent hold interrupts approval but does not necessarily prevent non-source-dependent review gates if the uncertain area is isolated and clearly marked.
 
