@@ -41,11 +41,11 @@
 
 Normal production batch size is 5 chapters, but the batch is a management envelope. Process one chapter at a time through:
 
-`source review → source notes → T1 → T2 → T3 → thought structure → terminology/cultural audit → post-freeze comparator if applicable → approval`
+`source review → source notes → T1 → T2 → T3 → thought structure → terminology/cultural audit → approval`
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / `v1-ch08` TERMINOLOGY COMPLETE / COMPARATOR NEXT**
+Status: **OPEN / `v1-ch08` TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT**
 
 Batch control:
 
@@ -59,7 +59,7 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **TERMINOLOGY COMPLETE / COMPARATOR NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **TERMINOLOGY COMPLETE / FINAL APPROVAL NEXT** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **T1 COMPLETE / T2 QUEUED** |
@@ -74,7 +74,6 @@ Opening counters:
 - T3 complete: **1 / 5**
 - thought-structure complete: **1 / 5**
 - terminology/cultural complete: **1 / 5**
-- comparator checks complete: **0 / 5**
 - approved: **0 / 5**
 
 The selected five chapter blobs are byte-identical to the older Batch 001 pin, while the batch authority itself is the live source `main` at Batch 002 opening.
@@ -107,7 +106,7 @@ P0: **PASS / COMPLETE**
 - unresolved source holds: **0**;
 - independent English: **FROZEN**;
 - existing-English comparator consulted: **NO**;
-- next gate: **post-freeze comparator availability check**.
+- next gate: **final approval review**.
 
 The source review protects the two page joins, exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, the secure seventy-five-rupee arithmetic behind anomalous `எழுபுத்து ஐந்து`, organization-name sequence, 1941/1942 chronology, Bharathidasan verse/lineation, dramatic historical present, mixed quote punctuation in the theft scene, concrete gold-chain/Chettiar Bank details, maternal colloquial humour and the later parallel sandalwood-bowl theft affecting his wife.
 
@@ -309,6 +308,10 @@ Batch 002 source reviews and fresh T1 translations are now **5 / 5 COMPLETE** un
 
 The former working branch `translation/english-memoir` was merged into `main` via PR #1. All further translation work is performed directly on `main`; the old branch is not an active work surface.
 
+## Comparator policy
+
+At the Batch 002 source pin, `public/data/text-en/` contains only `v1-ch01.json`. Comparator checks are therefore not part of the production activity list for `v1-ch02` onward. The historical `v1-ch01` comparison remains preserved as provenance.
+
 ## Next activity
 
-Perform the **post-freeze controlled existing-English comparator availability check for `v1-ch08`** at `pugazg/kalaignar-autobiography/public/data/text-en/v1-ch08.json` under Batch 002 source pin `d6621b71256ae99b1c89b4f2091513dcc5f96626`. If absent, record the absence and do not broaden the search to unofficial English versions.
+Run the **final approval review for `v1-ch08`**. Verify all required production gates through terminology/cultural consistency, ensure unresolved source/terminology holds and review items are zero, confirm syntactic JSON parseability, and stop after approving/closing `v1-ch08`.
