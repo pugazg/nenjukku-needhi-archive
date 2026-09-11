@@ -45,7 +45,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 
 ## Active Batch 002 — `v1-ch08`–`v1-ch12`
 
-Status: **OPEN / BATCH T3 COMPLETE 5/5 / `v1-ch09` STRUCTURE NEXT**
+Status: **OPEN / BATCH STRUCTURE COMPLETE 5/5 / `v1-ch09` TERMINOLOGY NEXT**
 
 Batch control:
 
@@ -60,10 +60,10 @@ Batch-size decision: **standard five chapters retained**. Intake inspection foun
 | Chapter | Tamil title | Pages | Source blob | Current status |
 |---|---|---:|---|---|
 | `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **APPROVED / CLOSED** |
-| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **T3 COMPLETE / STRUCTURE NEXT** |
-| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **T3 COMPLETE / STRUCTURE QUEUED** |
-| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **T3 COMPLETE / STRUCTURE QUEUED** |
-| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **T3 COMPLETE / STRUCTURE QUEUED** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **STRUCTURE COMPLETE / TERMINOLOGY NEXT** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **STRUCTURE COMPLETE / TERMINOLOGY QUEUED** |
 
 Opening counters:
 
@@ -72,7 +72,7 @@ Opening counters:
 - T1 complete: **5 / 5**
 - T2 complete: **5 / 5**
 - T3 complete: **5 / 5**
-- thought-structure complete: **1 / 5**
+- thought-structure complete: **5 / 5**
 - terminology/cultural complete: **1 / 5**
 - approved: **1 / 5**
 
@@ -340,6 +340,20 @@ T3 is now **5 / 5 COMPLETE**.
 - outstanding T3 issues: **0**
 - existing-English comparator consulted: **NO**
 
+## Batch 002 thought-structure checkpoint
+
+Thought structure is now **5 / 5 COMPLETE**.
+
+- `v1-ch08`: PASS — 18 / 18 — APPROVED / CLOSED
+- `v1-ch09`: PASS — 20 / 20
+- `v1-ch10`: PASS — 12 / 12
+- `v1-ch11`: PASS — 12 / 12
+- `v1-ch12`: PASS — 22 / 22
+- reordered / omitted / invented across the new audits: **0 / 0 / 0**
+- chapter-text changes at structure gate: **0**
+- unresolved source holds: **0**
+- existing-English comparator consulted: **NO**
+
 ## Next activity
 
-Run the **thought-structure audit for `v1-ch09`**. Verify every major movement in the pinned Tamil survives in the revised English, with no omission, invention or reordering. Do not consult existing English.
+Run the **terminology/cultural-consistency audit for `v1-ch09`**. Review names, institutional labels, political/cultural vocabulary, ritual/material terms and source-era forms against the living glossary and prior approved chapters. Do not consult existing English.
