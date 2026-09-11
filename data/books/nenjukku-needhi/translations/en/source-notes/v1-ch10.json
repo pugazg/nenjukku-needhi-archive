@@ -1,0 +1,64 @@
+{
+  "id": "v1-ch10",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch10.json",
+    "blob_sha": "38f3e3efcd8c48a7c3df70c3b5e36b02d813261f",
+    "authority": "read-only"
+  },
+  "tamil_title": "நண்பன் நடித்த நாடகம்",
+  "pages": {
+    "start": 65,
+    "end": 67
+  },
+  "extraction_unit_count": 3,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins with the title.",
+      "translation_action": "Use title metadata only."
+    },
+    {
+      "type": "ocr_spacing",
+      "severity": "meaning-sensitive",
+      "observation": "Opening 'நா னாவது' securely functions as 'நானாவது'.",
+      "translation_action": "Translate secure function without rewriting source."
+    },
+    {
+      "type": "duplicate_extraction",
+      "severity": "informational",
+      "observation": "The idli/coffee sentence repeats 'கூறிவிட்டுப்'.",
+      "translation_action": "Do not reproduce accidental duplication in English."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 66→67 continues the army recruiter's camp sentence.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "religious_humour",
+      "severity": "voice-critical",
+      "observation": "Kodikkarai passage jokes about Rama's lotus-red feet in black stone and a shrine struck by lightning.",
+      "translation_action": "Preserve skeptical humour."
+    },
+    {
+      "type": "fabricated_story",
+      "severity": "voice-critical",
+      "observation": "Thennan deliberately acts out an invented military-enlistment story for the family.",
+      "translation_action": "Keep invented status explicit and preserve comic framing."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-review-complete",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}

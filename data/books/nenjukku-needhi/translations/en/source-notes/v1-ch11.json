@@ -1,0 +1,58 @@
+{
+  "id": "v1-ch11",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch11.json",
+    "blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
+    "authority": "read-only"
+  },
+  "tamil_title": "இளம் எழுத்தாளர்",
+  "pages": {
+    "start": 68,
+    "end": 70
+  },
+  "extraction_unit_count": 3,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The first extraction unit begins with the title.",
+      "translation_action": "Use title metadata only."
+    },
+    {
+      "type": "ocr_spacing",
+      "severity": "meaning-sensitive",
+      "observation": "Opening 'பே ரறிஞர் அண்ணா' securely represents 'பேரறிஞர் அண்ணா'.",
+      "translation_action": "Translate source-led epithet/name without rewriting Tamil."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 68→69 continues 'படிப்பைக் கெடுத்துக் / கொள்கிற அளவுக்கு'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "mock_misspellings",
+      "severity": "voice-critical",
+      "observation": "Quoted story titles are deliberately malformed to mock writers who do not know basic Tamil.",
+      "translation_action": "Preserve the malformed-title joke rather than silently correcting all forms."
+    },
+    {
+      "type": "publication_history",
+      "severity": "meaning-sensitive",
+      "observation": "Murasoli is described as a monthly Tiruvarur leaflet sent in thousands to Dravidian movement branches; the narrator writes as 'Cheran'.",
+      "translation_action": "Preserve memoir's publication-history sequence."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-review-complete",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}

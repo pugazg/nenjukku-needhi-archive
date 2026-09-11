@@ -1,0 +1,76 @@
+{
+  "id": "v1-ch12",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch12.json",
+    "blob_sha": "df9bfe3fb369783e68c5166b7068323909d6f4f9",
+    "authority": "read-only"
+  },
+  "tamil_title": "\"எடுக்கவோ, கோக்கவோ?\"",
+  "pages": {
+    "start": 71,
+    "end": 75
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "The quoted title appears at the opening and later recurs in the Karna–Duryodhana anecdote.",
+      "translation_action": "Use first occurrence as metadata; retain later in-scene quote."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 71→72 continues the sentence after 'தீண்டாமை ஒழிக'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 72→73 joins 'மக்களிடம் / காசு பறிக்கும்'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Page 73→74 joins 'சொன்மாரி / பொழிந்ததாக'.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "embedded_document",
+      "severity": "voice-critical",
+      "observation": "Pages 71–73 reproduce a dated 5-10-1944 Murasoli leaflet against a Varnashrama conference.",
+      "translation_action": "Translate as an embedded polemical document, preserving headings, dates, caste terms and rhetorical build."
+    },
+    {
+      "type": "epic_anecdote",
+      "severity": "voice-critical",
+      "observation": "The title comes from the Karna–Duryodhana friendship anecdote in Villiputhurar's Bharatham.",
+      "translation_action": "Preserve story logic and quoted title line."
+    },
+    {
+      "type": "kural_quotation",
+      "severity": "voice-critical",
+      "observation": "Two Tirukkural friendship formulations are quoted.",
+      "translation_action": "Keep them visibly quoted."
+    },
+    {
+      "type": "historical_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The narrator places his Children's Reform Association leadership in 1939.",
+      "translation_action": "Preserve authored date."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "source-review-complete",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "t1"
+}
