@@ -47,7 +47,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **SOURCE REVIEW PASS / T1 NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **T1 COMPLETE / T2 NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -109,7 +109,7 @@ Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932
 
 Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
-## `v1-ch06` — source review complete
+## `v1-ch06` — T1 complete
 
 Durable file:
 
@@ -126,15 +126,20 @@ P0 result:
 - extraction units: **5**;
 - unresolved source holds: **0**;
 - non-authorial exclusions: **0**;
-- next gate: **fresh T1 translation**.
+- fresh T1 translation: **PASS / COMPLETE**;
+- English title: **The Battlefront to Save Tamil**;
+- existing-English comparator consulted: **NO**;
+- next gate: **T2 Tamil–English Kalaignar-voice review**.
 
-Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics. T1 must preserve the chapter's strongly oral and autobiographical movement rather than flattening it into political summary.
+Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics.
+
+Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-ch06.json`. It preserves the Tamil force's 200-mile march, shoe-festoon confrontation, student associations and two-line song, Jagadeesan anecdote, Hindi-teacher confrontation, the heart-rendering-justice motif, the thirty-six-year retrospective, Anna's quotation, and the final Bose–Jinnah–Muslim League widening. No existing English was consulted.
 
 ## Batch 001 counters
 
 - source files pinned: **5 / 5**
 - full source reviews complete: **4 / 5**
-- T1 complete: **3 / 5**
+- T1 complete: **4 / 5**
 - T2 complete: **3 / 5**
 - T3 complete: **3 / 5**
 - thought-structure complete: **3 / 5**
@@ -152,4 +157,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Begin the **fresh T1 translation for `v1-ch06`** (`தமிழ் காக்கும் போர் முனை`, pp. 46–50) directly from the pinned Tamil and completed source notes. Preserve its strongly oratorical texture, the two cross-page joins, the two-line student song, Pattukkottai Alagirisami descriptions, classroom dialogue, retrospective time shifts and final political widening. Do not consult an existing English comparator.
+Run the **T2 Tamil–English Kalaignar-voice review for `v1-ch06`**. Check the English title, Pattukkottai Alagirisami/Alagiri forms, `தமிழர் படை`, `அஞ்சா நெஞ்சன்`, `கோடையிடி`, `நறுக்குத் தறித்தாற்போல்`, `மறியல் அறப்போர்`, `இன உணர்ச்சி`, the classroom `பலகை`, Anna's quotation, and all rhetorical images against the pinned Tamil. Do not consult any existing-English comparator.
