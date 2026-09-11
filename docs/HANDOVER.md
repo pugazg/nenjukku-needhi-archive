@@ -50,7 +50,7 @@ Current counters:
 
 - source reviews: **5 / 5**
 - T1: **5 / 5**
-- T2: **1 / 5**
+- T2: **5 / 5**
 - T3: **1 / 5**
 - thought structure: **1 / 5**
 - terminology/cultural: **1 / 5**
@@ -79,15 +79,22 @@ Current counters:
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
-The remaining Batch 002 chapters `v1-ch09`–`v1-ch12` remain **T1 COMPLETE / T2 QUEUED**.
+The remaining Batch 002 chapters have now also completed T2:
+
+- `v1-ch09` — **T2 PASS WITH REVISION — 12 grouped revisions / T3 NEXT**
+- `v1-ch10` — **T2 PASS WITH REVISION — 7 grouped revisions / T3 QUEUED**
+- `v1-ch11` — **T2 PASS WITH REVISION — 7 grouped revisions / T3 QUEUED**
+- `v1-ch12` — **T2 PASS WITH REVISION — 13 grouped revisions / T3 QUEUED**
+
+Batch 002 T2 is **5 / 5 COMPLETE** with **0 unresolved source holds** and **0 blocking T2 issues**.
 
 ## Comparator policy
 
 At the Batch 002 source pin, `pugazg/kalaignar-autobiography/public/data/text-en/` contains only `v1-ch01.json`. The historical `v1-ch01` comparison remains archived, but comparator availability/absence is no longer a production gate for later chapters.
 
-## Immediate next activity — v1-ch09 T2
+## Immediate next activity — v1-ch09 T3
 
-Run the **T2 source-and-Kalaignar-voice review** for `v1-ch09` only. Preserve the school-play frame, Kudi Arasu satire, Murasoli Maran child speech, third school-final failure, night departure, emotional self-questioning and the later examination-system argument. Do not consult existing English. Stop with **T3 next**.
+Run the **T3 English-only literary review** for `v1-ch09` only. Read the revised English first without Tamil; identify only genuine cadence, repetition, syntax or flow issues; source-check every proposed revision against the pinned Tamil; do not consult existing English; stop with **thought-structure audit next**.
 
 ## Mandatory controls
 
