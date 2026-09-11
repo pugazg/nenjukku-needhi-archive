@@ -8,7 +8,7 @@
     "start": 60,
     "end": 64
   },
-  "status": "t3-complete",
+  "status": "structure-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -22,7 +22,8 @@
     "T1 preserves documented source joins, quoted material, authored chronology, humour, imagery and organizational distinctions without silent historical correction.",
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
     "T2 source-and-Kalaignar-voice review passed with 12 grouped source-checked revisions. The review restores the sandal-paste/silver-bowl continuity from v1-ch08, strengthens the theatrical Indra/Narada reveal and child-speech texture, preserves the night-flight despair without sensationalizing it, and clarifies the later examination-system argument. No existing-English comparator was consulted.",
-    "T3 English-only literary review passed with 11 grouped minor source-checked revisions. The pass removes stiff or Indian-English constructions, improves crisis-scene cadence and the examination-system prose, and preserves all protected theatrical, emotional, political and autobiographical content. No existing-English comparator was consulted."
+    "T3 English-only literary review passed with 11 grouped minor source-checked revisions. The pass removes stiff or Indian-English constructions, improves crisis-scene cadence and the examination-system prose, and preserves all protected theatrical, emotional, political and autobiographical content. No existing-English comparator was consulted.",
+    "Thought-structure audit passed 20/20 major movements with 0 reordered, 0 omitted and 0 invented; no chapter wording changed at this gate."
   ],
   "paragraphs": [
     "Shame, shame! How cruel I must have been. Otherwise, I could at least have told my wife the truth before she died. She had gone on believing that the beautiful sandal-paste bowl had disappeared through her own fault.",
@@ -65,8 +66,9 @@
     "source_review": "../source-notes/v1-ch09.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "thought-structure-audit",
+    "next_gate": "terminology-cultural-audit",
     "t2_review": "../reviews/v1-ch09-t2.md",
-    "t3_review": "../reviews/v1-ch09-t3.md"
+    "t3_review": "../reviews/v1-ch09-t3.md",
+    "thought_structure_review": "../reviews/v1-ch09-structure.md"
   }
 }
