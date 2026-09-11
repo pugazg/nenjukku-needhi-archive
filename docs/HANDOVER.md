@@ -51,7 +51,7 @@ Current counters:
 - source reviews: **5 / 5**
 - T1: **5 / 5**
 - T2: **1 / 5**
-- T3: **0 / 5**
+- T3: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
@@ -60,17 +60,19 @@ Current counters:
 - T1: **PASS / COMPLETE**
 - T2: **PASS WITH REVISION / COMPLETE**
 - accepted grouped T2 revisions: **18**
+- T3: **PASS WITH MINOR REVISION / COMPLETE**
+- accepted grouped T3 revisions: **19**
 - unresolved source holds: **0**
-- blocking T2 issues: **0**
-- next gate: **T3**
+- blocking T2/T3 issues: **0**
+- next gate: **thought-structure audit**
 
 T2 preserves the exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse and historical present, while strengthening Kalaignar's Congress-Communist dominance metaphor, fee arithmetic, wrist-chain materiality, theft-scene internal questions, Chettiar Bank wording, maternal colloquial affection and guilty humour. The mother/wife two-theft parallel remains intact.
 
 The remaining Batch 002 chapters `v1-ch09`–`v1-ch12` remain **T1 COMPLETE / T2 QUEUED**.
 
-## Immediate next activity — v1-ch08 T3
+## Immediate next activity — v1-ch08 thought structure
 
-Run the **T3 English-only literary review** of `v1-ch08`. Read the revised English first without consulting Tamil; then recheck every proposed fluency change against the pinned Tamil before accepting it. Do not consult existing English.
+Run the **thought-structure audit** for `v1-ch08`. Verify that every major movement in the pinned Tamil is represented in the revised English with no omission, invention or reordering. Do not consult existing English.
 
 ## Mandatory controls
 

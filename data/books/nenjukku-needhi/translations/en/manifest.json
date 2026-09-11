@@ -92,14 +92,15 @@
         "source_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
         "source_path": "public/data/text/v1-ch08.json",
-        "status": "t2-complete",
+        "status": "t3-complete",
         "unresolved_source_holds": 0,
         "review_items": [],
         "source_notes": "source-notes/v1-ch08.json",
         "gates": {
           "source_review": "pass",
           "t1": "pass",
-          "t2": "pass-with-revision"
+          "t2": "pass-with-revision",
+          "t3": "pass-with-minor-revision"
         },
         "source_review_result": {
           "extraction_units": 4,
@@ -119,17 +120,24 @@
           "recover Bharathidasan festival verse lineation from page witness while documenting source form 'பாதிதாசன்'",
           "reconstruct mixed quotation punctuation in the internal theft debate without altering source meaning",
           "preserve historical-present staging, financial escalation, gold-chain/Chettiar Bank material detail, maternal dialect/humour and linked mother/wife theft narratives",
-          "complete T2 source-and-Kalaignar-voice review with 18 grouped source-checked revisions; preserve exact slogan, 1941/1942 chronology, Bharathidasan verse, historical present, wrist-chain materiality, guilty humour and mother/wife theft parallel"
+          "complete T2 source-and-Kalaignar-voice review with 18 grouped source-checked revisions; preserve exact slogan, 1941/1942 chronology, Bharathidasan verse, historical present, wrist-chain materiality, guilty humour and mother/wife theft parallel",
+          "complete T3 English-only literary review with 19 grouped source-checked minor revisions; protected political, chronological, verse, historical-present, material and two-theft structural content unchanged"
         ],
-        "next_gate": "t3",
+        "next_gate": "thought-structure-audit",
         "translation": "chapters/v1-ch08.json",
         "reviews": {
-          "t2": "reviews/v1-ch08-t2.md"
+          "t2": "reviews/v1-ch08-t2.md",
+          "t3": "reviews/v1-ch08-t3.md"
         },
         "t2_result": {
           "accepted_revisions": 18,
           "unresolved_source_holds": 0,
           "blocking_t2_issues": 0,
+          "comparator_consulted": false
+        },
+        "t3_result": {
+          "accepted_revisions": 19,
+          "unresolved_source_holds": 0,
           "comparator_consulted": false
         }
       },
@@ -222,12 +230,12 @@
     "translations_started": 5,
     "t1_complete": 5,
     "t2_complete": 1,
-    "t3_complete": 0,
+    "t3_complete": 1,
     "thought_structure_complete": 0,
     "terminology_cultural_complete": 0,
     "comparator_checks_complete": 0,
     "approved_chapters": 0,
-    "next_activity": "t3-v1-ch08",
+    "next_activity": "thought-structure-v1-ch08",
     "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",

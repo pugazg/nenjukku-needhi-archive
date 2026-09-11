@@ -1,6 +1,6 @@
 # Batch 002 — Volume 1 Chapters 8–12
 
-Status: **OPEN / `v1-ch08` T2 COMPLETE / T3 NEXT**
+Status: **OPEN / `v1-ch08` T3 COMPLETE / STRUCTURE NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -40,7 +40,7 @@ This intake inspection is **not** a P0 source review. It does not authorize tran
 
 | ID | Tamil title | Pages | Current status |
 |---|---|---:|---|
-| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **T2 COMPLETE / T3 NEXT** |
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | **T3 COMPLETE / STRUCTURE NEXT** |
 | `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | **T1 COMPLETE / T2 QUEUED** |
 | `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | **T1 COMPLETE / T2 QUEUED** |
@@ -101,6 +101,7 @@ At the user's explicit instruction, T1 was completed for the entire Batch 002 af
 - source reviews: **5 / 5 COMPLETE**
 - T1 fresh translations: **5 / 5 COMPLETE**
 - T2: **1 / 5**
+- T3: **1 / 5**
 - unresolved source holds: **0**
 - existing-English comparator consulted: **NO**
 
@@ -131,9 +132,28 @@ T2 result:
 
 T2 restores or sharpens the Congress-Communist dominance/advance metaphor, membership-fee arithmetic, wrist-chain materiality, internal theft dialogue, Chettiar Bank wording, maternal colloquial affection, mounting-interest detail and the sarcastic description of organizers who disappear after taking the stage. The exact `தமிழ் வாழ்க! இந்தி வளர்க` slogan, authored 1941/1942 chronology, Bharathidasan verse, historical present, guilty humour and the mother/wife two-theft parallel remain protected.
 
+## `v1-ch08` — T3 complete
+
+Durable files:
+
+- chapter: `../chapters/v1-ch08.json`
+- source notes: `../source-notes/v1-ch08.json`
+- T2 review: `../reviews/v1-ch08-t2.md`
+- T3 review: `../reviews/v1-ch08-t3.md`
+
+T3 result:
+
+- **PASS WITH MINOR REVISION / COMPLETE**;
+- accepted grouped revisions: **19**;
+- unresolved source holds: **0**;
+- existing-English comparator consulted: **NO**;
+- next gate: **thought-structure audit**.
+
+T3 restored short narrative beats such as **Dawn came**, removed repetitive or mechanical English, clarified the open-box and baby-snake images, tightened the wrist-chain/family passages, and improved the Sanarthanam return-fare and closing inward-grief sentences. Protected political content, 1941/1942 chronology, Bharathidasan verse, historical present, guilty humour and the mother/wife two-theft structure were unchanged.
+
 ## Immediate next activity
 
-Run the **T3 English-only literary review for `v1-ch08`**. Read the revised English first without Tamil; then recheck each proposed fluency revision against the pinned Tamil before accepting it. Do not consult existing English.
+Run the **thought-structure audit for `v1-ch08`**. Verify all major source movements are represented in the revised English with no omission, invention or reordering. Do not consult existing English.
 
 ## Infrastructure limitation
 
