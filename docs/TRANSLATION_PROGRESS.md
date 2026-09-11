@@ -33,8 +33,8 @@
 - Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
 - Pilot phase: **COMPLETE**
 - Production translation: **OPEN**
-- Active production batch: **NONE — between batches**
-- Active Batch 002 source pin: **`d6621b71256ae99b1c89b4f2091513dcc5f96626`**
+- Active production batch: **Batch 003 — `v1-ch13`–`v1-ch17`**
+- Active Batch 003 source pin: **`d6621b71256ae99b1c89b4f2091513dcc5f96626`**
 - Last closed production batch: **Batch 002 — `v1-ch08`–`v1-ch12`**
 
 ## Production method
@@ -42,6 +42,42 @@
 Normal production batch size is 5 chapters, but the batch is a management envelope. Process one chapter at a time through:
 
 `source review → source notes → T1 → T2 → T3 → thought structure → terminology/cultural audit → approval`
+
+## Active Batch 003 — `v1-ch13`–`v1-ch17`
+
+Status: **OPEN / `v1-ch13` P0 SOURCE REVIEW NEXT**
+
+Batch control:
+
+`data/books/nenjukku-needhi/translations/en/batches/batch-003.md`
+
+Source pin:
+
+`d6621b71256ae99b1c89b4f2091513dcc5f96626`
+
+The live source `main` has not advanced since Batch 002; Batch 003 records the freshly fetched live SHA independently.
+
+Batch-size decision: **standard five chapters retained**. Intake inspection found all selected chapters to be modest 4–5-page units, approximately 6.7k–9.6k Tamil characters, with no length/difficulty signal requiring a reduced span.
+
+| Chapter | Tamil title | Pages | Source blob | Current status |
+|---|---|---:|---|---|
+| `v1-ch13` | `மாமனார் தந்த வரவேற்பு` | 76–80 | `80fc03e2092ab69b22879e65ab6887acc4284a55` | **P0 SOURCE REVIEW NEXT** |
+| `v1-ch14` | `வாழ்வதற்கு வழி? நடிகனானேன் நான்!` | 81–84 | `1fa0f359d8da9cbeb2d9b03fa6244badbece89f6` | **PINNED / QUEUED** |
+| `v1-ch15` | `நண்பர்கள் முகம் வாடலாமா?` | 85–89 | `ceb2759588dfec6646a4ba53369fce02c0bd9c92` | **PINNED / QUEUED** |
+| `v1-ch16` | `கம்புகள்! குண்டாந்தடிகள்!` | 90–93 | `fd6793f228db38098aff1eddcfb7fefce3fff3d2` | **PINNED / QUEUED** |
+| `v1-ch17` | `குளிப்பது ஒரு குற்றமா?` | 94–98 | `eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66` | **PINNED / QUEUED** |
+
+Opening counters:
+
+- source files pinned: **5 / 5**
+- full source reviews complete: **0 / 5**
+- T1 complete: **0 / 5**
+- T2 complete: **0 / 5**
+- T3 complete: **0 / 5**
+- thought-structure complete: **0 / 5**
+- terminology/cultural complete: **0 / 5**
+- approved: **0 / 5**
+- translations started: **0**
 
 ## Batch 002 — `v1-ch08`–`v1-ch12` — CLOSED
 
@@ -386,4 +422,14 @@ Batch 002 is **CLOSED** with **5 / 5 APPROVED**.
 
 ## Next activity
 
-**Open Batch 003 beginning with `v1-ch13`.** Fetch live source `main`, choose and record the new source pin, inspect the candidate chapter span under the normal five-chapter policy, create the Batch 003 control, and synchronize project controls. Do not start T1 before `v1-ch13` P0 completes.
+Run **P0 source review for `v1-ch13` only**.
+
+- title: `மாமனார் தந்த வரவேற்பு`
+- pages: **76–80**
+- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
+- source path: `public/data/text/v1-ch13.json`
+- source blob: `80fc03e2092ab69b22879e65ab6887acc4284a55`
+- extraction units: **5**
+- extraction strategy: `wordjoiner`
+
+Read the full pinned Tamil, document all source interventions/uncertainties, create the source-note sidecar, synchronize controls, and stop with **T1 next**. Do not translate during P0.
