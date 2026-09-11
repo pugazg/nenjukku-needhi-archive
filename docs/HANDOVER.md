@@ -14,111 +14,96 @@ The source repository is strictly **READ ONLY**:
 - `pugazg/kalaignar-autobiography`
 - source path: `public/data/text/*.json`
 
-Never create commits, branches, PRs, issues, metadata changes or generated files in the source repository.
+Never modify the source repository.
 
 ## Translation philosophy
-
-Core rule:
 
 > We are not translating an autobiography about Kalaignar. We are translating Kalaignar telling his own story.
 
 Preserve factual fidelity, intellectual/reasoning fidelity, rhetorical fidelity and voice before optimizing for natural English.
 
-Existing English is **never drafting authority**. It may only be checked after independent English is frozen.
+Existing English is **never drafting authority**.
 
 ## Production workflow
 
 `P0 source review → T1 fresh translation → T2 Tamil-English/Kalaignar voice → T3 English-only literary review → thought-structure audit → terminology/cultural audit → post-freeze comparator check → final approval → closed`
 
-A normal production batch contains five chapters and is a management envelope. Chapters are processed sequentially. Do not begin a chapter outside a batch before the preceding batch is closed.
+Process chapters sequentially within the active batch.
 
 ## Batch 001 — CLOSED
 
-Batch control:
+`v1-ch03`–`v1-ch07` are all **APPROVED / CLOSED**.
 
-`data/books/nenjukku-needhi/translations/en/batches/batch-001.md`
-
-Source pin:
+Batch 001 source pin:
 
 `5c6b5ef8901044660e607d4649238d7c66cb648d`
 
-Latest observed source `main` at closure:
+Final counters: all chapter gates **5 / 5**, unresolved source holds **0**, outstanding review items **0**.
+
+## Batch 002 — OPEN
+
+Batch control:
+
+`data/books/nenjukku-needhi/translations/en/batches/batch-002.md`
+
+Source pin:
 
 `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
+The source repository `main` advanced since Batch 001, but the selected `v1-ch08`–`v1-ch12` blobs are unchanged from the older pin. The current source `main` is nevertheless the Batch 002 authority pin.
+
+Batch span: **`v1-ch08`–`v1-ch12`**.
+
+The standard five-chapter size is retained because all five intake units are modest 3–5-page chapters; no reduction is justified.
+
 Chapters:
 
-- `v1-ch03` — APPROVED / CLOSED
-- `v1-ch04` — APPROVED / CLOSED
-- `v1-ch05` — APPROVED / CLOSED
-- `v1-ch06` — APPROVED / CLOSED
-- `v1-ch07` — APPROVED / CLOSED
+- `v1-ch08` — `தமிழ் மாணவர் மன்றம்` — pp. 56–59 — blob `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` — **P0 NEXT**
+- `v1-ch09` — `கலகக்கார நாரதர் புகுந்தார்.` — pp. 60–64 — blob `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` — QUEUED
+- `v1-ch10` — `நண்பன் நடித்த நாடகம்` — pp. 65–67 — blob `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` — QUEUED
+- `v1-ch11` — `இளம் எழுத்தாளர்` — pp. 68–70 — blob `31e7fcb1770db1a19caaa9725b9b5709f7250454` — QUEUED
+- `v1-ch12` — `"எடுக்கவோ, கோக்கவோ?"` — pp. 71–75 — blob `df9bfe3fb369783e68c5166b7068323909d6f4f9` — QUEUED
 
-Closure counters:
+Opening counters:
 
-- source reviews: **5 / 5**
-- T1: **5 / 5**
-- T2: **5 / 5**
-- T3: **5 / 5**
-- thought structure: **5 / 5**
-- terminology/cultural: **5 / 5**
-- comparator checks: **5 / 5**
-- approvals: **5 / 5**
-- unresolved source holds: **0**
-- outstanding chapter review items: **0**
+- source files pinned: **5 / 5**
+- source reviews: **0 / 5**
+- T1: **0 / 5**
+- T2: **0 / 5**
+- T3: **0 / 5**
+- thought structure: **0 / 5**
+- terminology/cultural: **0 / 5**
+- comparator checks: **0 / 5**
+- approvals: **0 / 5**
 
-Pinned source blobs were re-read at closure and match the recorded archive provenance for all five chapters.
+## Immediate next activity — v1-ch08 P0
 
-There is currently **no active production batch**.
+Perform the complete P0 source review for:
 
-## Last completed chapter
+- ID: `v1-ch08`
+- Tamil title: `தமிழ் மாணவர் மன்றம்`
+- pages: **56–59**
+- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
+- source path: `public/data/text/v1-ch08.json`
+- source blob: `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`
+- extraction units: **4**
+- extraction strategy: `wordjoiner`
 
-`v1-ch07` — **APPROVED / CLOSED**
+The intake inspection shows that the first extraction unit begins with the chapter title. Treat that only as an intake flag; decide and document the actual title-repeat handling during P0.
 
-Tamil title:
+P0 must:
 
-`"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"`
+1. read the full pinned Tamil chapter;
+2. identify title repeats, page/source-unit joins, OCR/spacing anomalies, quotations, verse/song, chronology-sensitive assertions, non-authorial material and any meaning-affecting uncertainty;
+3. create `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch08.json`;
+4. update Batch 002, progress and manifest;
+5. stop with **T1 next**.
 
-English title:
+Do **not** translate during P0.
 
-**Are You the One Who Runs 'Maanava Nesan'?**
+## Mandatory controls
 
-Pages: **51–55**
-
-Final controls:
-
-- source review: PASS
-- T1: PASS
-- T2: PASS WITH REVISION
-- T3: PASS WITH MINOR REVISION — 19 source-checked revisions
-- thought structure: PASS — 24 / 24 movements
-- terminology/cultural: PASS — 0 chapter-text revisions
-- controlled comparator: absent at pinned path; no prior English consulted
-- final approval: PASS
-- unresolved source / terminology / comparator issues: 0
-- outstanding review items: 0
-
-The authored 1939 M. N. Roy chronology and the fifteen-year-old / four-months-before-Murasoli tension remain preserved exactly as memoir claims, not silently corrected.
-
-## Immediate next activity — open Batch 002
-
-Do **not** begin `v1-ch08` translation yet.
-
-Open Batch 002 as a separate durable activity:
-
-1. fetch live writable `main`;
-2. fetch live source `main` read-only and record it as the candidate Batch 002 source pin;
-3. inspect `v1-ch08` onward sufficiently to determine the batch span under the normal five-chapter policy; reduce to 1–3 only if length/difficulty justifies it;
-4. create `data/books/nenjukku-needhi/translations/en/batches/batch-002.md`;
-5. pin the selected source chapter blobs;
-6. update manifest, progress, handover and next-chat controls;
-7. stop with **`v1-ch08` P0 source review next**.
-
-Do not run T1 during Batch 002 opening.
-
-## Mandatory controls before Batch 002 work
-
-Read:
+Read before P0:
 
 1. `docs/HANDOVER.md`
 2. `docs/TRANSLATION_PLAN.md`
@@ -127,10 +112,10 @@ Read:
 5. `docs/TRANSLATION_GLOSSARY.md`
 6. `docs/TRANSLATION_PROGRESS.md`
 7. `data/books/nenjukku-needhi/translations/en/manifest.json`
-8. closed `data/books/nenjukku-needhi/translations/en/batches/batch-001.md`
+8. `data/books/nenjukku-needhi/translations/en/batches/batch-002.md`
 
 ## Infrastructure limitation
 
 `schemas/chapter.json` is a one-byte newline-only legacy placeholder.
 
-Do not claim formal JSON-Schema validation. Claim only syntactic JSON parseability and structural consistency under implemented repository controls.
+Do not claim formal JSON-Schema validation.

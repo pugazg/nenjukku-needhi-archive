@@ -5,7 +5,8 @@
     "path": "public/data/text",
     "authority": "read-only",
     "batch_001_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-    "latest_observed_main": "d6621b71256ae99b1c89b4f2091513dcc5f96626"
+    "latest_observed_main": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "batch_002_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626"
   },
   "destination": {
     "repository": "pugazg/nenjukku-needhi-archive",
@@ -78,343 +79,91 @@
   },
   "production": {
     "status": "open",
-    "active_batch": null,
-    "batch_control": null,
+    "active_batch": "batch-002",
+    "batch_control": "batches/batch-002.md",
     "batch_chapters": [
       {
-        "id": "v1-ch03",
-        "tamil_title": "\"சிவாய நம! ஓம் நமசிவாய\"",
+        "id": "v1-ch08",
+        "tamil_title": "தமிழ் மாணவர் மன்றம்",
         "pages": {
-          "start": 30,
-          "end": 36
+          "start": 56,
+          "end": 59
         },
-        "source_blob_sha": "e7c0d550d68f8b30d9c48a22019e017f7034ff93",
-        "status": "approved",
-        "translation": "chapters/v1-ch03.json",
-        "source_notes": "source-notes/v1-ch03.json",
-        "reviews": {
-          "t2": "reviews/v1-ch03-t2.md",
-          "t3": "reviews/v1-ch03-t3.md",
-          "thought_structure": "reviews/v1-ch03-structure.md",
-          "approval": "reviews/v1-ch03-approval.md"
-        },
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass",
-          "approval": "pass"
-        },
+        "source_blob_sha": "e041c90234656a6b9fbd4650d607c3ba0b53e5e8",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch08.json",
+        "status": "source-review-next",
         "unresolved_source_holds": 0,
-        "review_items": [],
-        "existing_english_comparator": null
+        "review_items": []
       },
       {
-        "id": "v1-ch04",
-        "tamil_title": "என்னுடைய அரசியல் அரிச்சுவடி",
+        "id": "v1-ch09",
+        "tamil_title": "கலகக்கார நாரதர் புகுந்தார்.",
         "pages": {
-          "start": 37,
-          "end": 41
+          "start": 60,
+          "end": 64
         },
-        "source_blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
-        "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-        "live_source_check": {
-          "ref": "bb0beaa0a18f97336b52319c1e7b15e62d81d1ed",
-          "blob_sha": "1b55b986176d330fab4ce16eb70565ddd895ba48",
-          "result": "byte-identical"
-        },
-        "status": "approved",
-        "translation": "chapters/v1-ch04.json",
-        "source_notes": "source-notes/v1-ch04.json",
-        "reviews": {
-          "t2": "reviews/v1-ch04-t2.md",
-          "t3": "reviews/v1-ch04-t3.md",
-          "thought_structure": "reviews/v1-ch04-structure.md",
-          "approval": "reviews/v1-ch04-approval.md"
-        },
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass",
-          "approval": "pass"
-        },
+        "source_blob_sha": "e3104c0f74478f25d0b15c4bb1ed12afd6420d21",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch09.json",
+        "status": "queued",
         "unresolved_source_holds": 0,
-        "review_items": [],
-        "source_interventions": [
-          "reconstruct damaged opening year as 1936 with explicit note",
-          "normalise headmaster personal name to Kasthuri Iyengar in English with source spelling preserved in notes",
-          "restore missing opening quotation for the boy's plea",
-          "contextually interpret விழுத்து, சுட்சியின், சட்டசயைத் and interrupting punctuation without modifying source",
-          "normalise இந்தியா மந்திரி for Edwin Montagu to the official English office title Secretary of State for India",
-          "remove translator-added hedge in the Home Rule comparison and restore neutral plans for திட்டங்கள்"
-        ],
-        "existing_english_comparator": null,
-        "next_gate": "closed"
+        "review_items": []
       },
       {
-        "id": "v1-ch05",
-        "tamil_title": "நீதிக் கட்சியில் பல மாற்றங்கள்",
+        "id": "v1-ch10",
+        "tamil_title": "நண்பன் நடித்த நாடகம்",
         "pages": {
-          "start": 42,
-          "end": 45
+          "start": 65,
+          "end": 67
         },
-        "source_blob_sha": "220fb5271eac48c6988057d0d464d5950fd822a3",
-        "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-        "live_source_check": {
-          "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-          "blob_sha": "220fb5271eac48c6988057d0d464d5950fd822a3",
-          "result": "byte-identical"
-        },
-        "status": "approved",
-        "translation": "chapters/v1-ch05.json",
-        "source_notes": "source-notes/v1-ch05.json",
-        "reviews": {
-          "t2": "reviews/v1-ch05-t2.md",
-          "t3": "reviews/v1-ch05-t3.md",
-          "thought_structure": "reviews/v1-ch05-structure.md",
-          "terminology_cultural": "reviews/v1-ch05-terminology.md",
-          "existing_english_comparison": "reviews/v1-ch05-existing-comparison.md",
-          "approval": "reviews/v1-ch05-approval.md"
-        },
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-minor-revision",
-          "post_freeze_comparator": "not-applicable-absent",
-          "approval": "pass"
-        },
+        "source_blob_sha": "38f3e3efcd8c48a7c3df70c3b5e36b02d813261f",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch10.json",
+        "status": "queued",
         "unresolved_source_holds": 0,
-        "review_items": [],
-        "source_interventions": [
-          "restore dropped opening numerals as 1932 from the direct Wikisource page-42 witness, with disclosure",
-          "join page-42/43 anti-Hindi agitation phrase across the extraction boundary",
-          "join the Voltaire quotation across pages 44/45",
-          "preserve the source's explicit 1936 election statement as authored chronology rather than silently fact-correcting it",
-          "record page-45 நீட்டினார் as an anomalous source/transcription reading and translate only its secure contextual function",
-          "normalise period office English by constitutional context: First Minister for dyarchy-era offices and Premier for Rajaji in 1937",
-          "normalise secure historical English forms including Panneerselvam, Khalifullah, Natarajan and Indian National Congress",
-          "resolve வடமொழி as Sanskrit and இறும்பூது as wonder in context",
-          "preserve தமிழர் தலைவர் consistently as Leader of the Tamils in epithet and translated book title",
-          "remove the translator-invented nail image from ஆணித்தரமான வாதங்கள்",
-          "apply 15 source-checked T3 fluency revisions without smoothing away source-driven rhetoric",
-          "pass thought-structure audit with 22/22 major movements preserved and no reordering, omission or invention",
-          "normalise முனுசாமி நாயுடு to Munuswamy Naidu and keep Gandhiji locally consistent in the linked Bose comparison",
-          "retain context-sensitive cultural forms including The Tamil, the pride of race and Tamil chindu",
-          "record controlled post-freeze comparator path public/data/text-en/v1-ch05.json as absent at the pinned source ref; no prior English wording consulted or adopted",
-          "complete final approval with zero unresolved source holds and zero outstanding review items; formal JSON-Schema validation not claimed because schemas/chapter.json is empty"
-        ],
-        "existing_english_comparator": null,
-        "next_gate": "closed"
+        "review_items": []
       },
       {
-        "id": "v1-ch06",
-        "tamil_title": "தமிழ் காக்கும் போர் முனை",
+        "id": "v1-ch11",
+        "tamil_title": "இளம் எழுத்தாளர்",
         "pages": {
-          "start": 46,
-          "end": 50
+          "start": 68,
+          "end": 70
         },
-        "source_blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
-        "status": "approved",
-        "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-        "live_source_check": {
-          "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-          "blob_sha": "8f93218b297262319d82f89274dbee3d1de803f5",
-          "result": "byte-identical"
-        },
-        "source_notes": "source-notes/v1-ch06.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-minor-revision",
-          "post_freeze_comparator": "not-applicable-absent",
-          "approval": "pass"
-        },
+        "source_blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch11.json",
+        "status": "queued",
         "unresolved_source_holds": 0,
-        "review_items": [],
-        "source_interventions": [
-          "exclude repeated chapter heading from body prose and retain it as title metadata",
-          "join page-47/48 sentence split after எனக்குத் and page-48/49 personal-name split திரு என். / வி. நடராசன்",
-          "restore page-48 student song as a two-line refrain from the page witness",
-          "preserve page-47 Alagirisami tiger/lion/summer-thunder oratory and direct shoe-garland speech",
-          "treat historical distance unit கல் contextually as mile, corroborated by lexicon and the chapter's later இருநூறு மைல் wording",
-          "translate anomalous முழககங்கள் and நிறுத்தாதற்கு முன்பே only by their secure contextual functions without silently rewriting the Tamil source",
-          "preserve Jagadeesan green-stone-ring anecdote as reported/hearsay rather than independently verified fact",
-          "preserve வெறி / பற்று wordplay, classroom dialogue, the titular heart-rendering-justice motif, and the thirty-six-year retrospective",
-          "preserve the final Tamil-flag/green-crescent pairing and the pivot to Bose, Jinnah, Gandhi and Muslim League politics",
-          "normalise the identifiable 1938 தமிழர் படை as Tamil Brigade",
-          "render வீரங்கொப்பளிக்கும் as brimming with valour and preserve tiger/lion/summer-thunder crescendo with distinct verbs",
-          "make the two-hundred-mile walking action explicit and retain வீர நடை as heroic stride",
-          "resolve classroom பலகை contextually as bench",
-          "render மறியல் அறப்போர் as daily picketing carried on as a non-violent struggle in this context",
-          "retain காந்தியார் as Gandhiji and preserve relative thirty-six-year autobiographical vantage",
-          "carry இன உணர்ச்சி forward as semantically secure but reserved for terminology/cultural audit",
-          "apply 18 source-checked T3 fluency revisions without smoothing away source-driven epithets, song, wordplay, classroom drama, flare/sprout imagery, blunt prison wording or the final Tamil/green-crescent flag image",
-          "pass thought-structure audit with 20/20 major movements preserved and no reordering, omission or invention",
-          "resolve chapter-specific இன உணர்ச்சி as racial consciousness in the historical political register without globalising broader இனம் vocabulary",
-          "resolve தமிழ்க் காளையர் as young Tamil warriors using the established human senses of காளை rather than an automatic literal bull image",
-          "record controlled post-freeze comparator path public/data/text-en/v1-ch06.json as absent at the pinned source ref; pinned text-en tree contains only v1-ch01.json; no prior English wording consulted or adopted",
-          "complete final approval with zero unresolved source, terminology or comparator issues and zero outstanding review items; formal JSON-Schema validation not claimed because schemas/chapter.json is a one-byte newline-only legacy placeholder"
-        ],
-        "next_gate": "closed",
-        "translation": "chapters/v1-ch06.json",
-        "english_title": "The Battlefront to Save Tamil",
-        "existing_english_comparator": null,
-        "reviews": {
-          "t2": "reviews/v1-ch06-t2.md",
-          "t3": "reviews/v1-ch06-t3.md",
-          "thought_structure": "reviews/v1-ch06-structure.md",
-          "terminology_cultural": "reviews/v1-ch06-terminology.md",
-          "existing_english_comparison": "reviews/v1-ch06-existing-comparison.md",
-          "approval": "reviews/v1-ch06-approval.md"
-        },
-        "independent_english_frozen": true,
-        "structure_result": {
-          "major_movements": 20,
-          "represented": 20,
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 2,
-          "unresolved_holds": 0
-        },
-        "comparator_result": {
-          "controlled_path": "public/data/text-en/v1-ch06.json",
-          "text_en_tree_sha": "b99f25ead115fad25226ac619ff9c8bd3e4e60cb",
-          "available": false,
-          "consulted": false,
-          "translation_changes": 0
-        },
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "20/20",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "unresolved_comparator_issues": 0,
-          "outstanding_review_items": 0,
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "review_items": []
       },
       {
-        "id": "v1-ch07",
-        "tamil_title": "\"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?\"",
+        "id": "v1-ch12",
+        "tamil_title": "\"எடுக்கவோ, கோக்கவோ?\"",
         "pages": {
-          "start": 51,
-          "end": 55
+          "start": 71,
+          "end": 75
         },
-        "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "approved",
-        "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-        "live_source_check": {
-          "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-          "blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-          "result": "byte-identical"
-        },
-        "source_notes": "source-notes/v1-ch07.json",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass",
-          "post_freeze_comparator": "not-applicable-absent",
-          "approval": "pass"
-        },
+        "source_blob_sha": "df9bfe3fb369783e68c5166b7068323909d6f4f9",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch12.json",
+        "status": "queued",
         "unresolved_source_holds": 0,
-        "review_items": [],
-        "source_interventions": [
-          "exclude repeated chapter heading from body prose and retain it as title metadata",
-          "join page-51 visual/extraction split ஜி / ன்னா as Jinnah",
-          "translate anomalous முஸ்லீம் வீக்கிற்கும் by its secure contextual function as Muslim League without silently rewriting the Tamil",
-          "retain முடங்கல் as a valid archaic letter sense rather than treating it as OCR damage",
-          "treat அழகிரி சிற்றரசு contextually as separate Alagiri and Chittarasu names, with source punctuation anomaly documented",
-          "join page-53/54 செய்துகொண்- / டிருந்தது across the page boundary and ignore the stray extraction backtick inside the newspaper quotation",
-          "translate பள்ளிக்கூடத்திலிருத்த only by its secure schoolboy-meeting function without asserting corrected Tamil wording",
-          "preserve authored 1939 M. N. Roy party chronology and the fifteen-year-old / four-months-before-Murasoli timeline tension without silent historical correction",
-          "preserve மாணவ நேசன் production details, Bharathidasan spinning-wheel sarcasm, சிறுதுளி பெருவெள்ளம், Pongal special-issue reference, demy-paper economics and Murasoli's leaflet origin",
-          "preserve the unnamed communist recruiter's delayed reveal, Freedom–Peace–Equality triad and closing current/depth metaphor",
-          "normalize secure historical entity names to Indian National Congress and Radical Democratic Party while preserving Kalaignar's authored chronology",
-          "retain Maanava Nesan as the working romanized publication title and distinguish the title question from the visitor's embedded question",
-          "distinguish handwritten journal publication form from physical copies; retain Pongal special issue, demy paper and free labour/articles economics",
-          "rebalance Bharathidasan's spinning-wheel sarcasm without explanatory expansion",
-          "keep Students' Federation generic and Communist identity delayed; preserve Freedom–Peace–Equality",
-          "restore final Federation current / unknown-depth linked water imagery",
-          "apply 19 source-checked T3 fluency revisions without changing direct quotations, authored chronology tensions, political framing, handwritten-journal production economics, Murasoli's leaflet origin, delayed Communist reveal, Freedom–Peace–Equality or the current/depth ending",
-          "pass thought-structure audit with 24/24 major movements preserved and no reordering, omission or invention; no chapter wording changed at this gate",
-          "pass terminology/cultural audit with 0 chapter-text revisions and 0 unresolved terminology holds; freeze independent English for the controlled comparator stage",
-          "record controlled post-freeze comparator path public/data/text-en/v1-ch07.json as absent (404) at the Batch 001 pin; no prior English text consulted or adopted and no broader search performed",
-          "complete final approval with 24/24 structural movements preserved, zero unresolved source/terminology/comparator issues, zero outstanding review items and no formal JSON-Schema claim because schemas/chapter.json is a one-byte legacy placeholder"
-        ],
-        "next_gate": "closed",
-        "translation": "chapters/v1-ch07.json",
-        "english_title": "Are You the One Who Runs 'Maanava Nesan'?",
-        "existing_english_comparator": null,
-        "reviews": {
-          "t2": "reviews/v1-ch07-t2.md",
-          "t3": "reviews/v1-ch07-t3.md",
-          "thought_structure": "reviews/v1-ch07-structure.md",
-          "terminology_cultural": "reviews/v1-ch07-terminology.md",
-          "existing_english_comparison": "reviews/v1-ch07-existing-comparison.md",
-          "approval": "reviews/v1-ch07-approval.md"
-        },
-        "structure_result": {
-          "major_movements": 24,
-          "represented": 24,
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 0,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true
-        },
-        "independent_english_frozen": true,
-        "comparator_result": {
-          "controlled_path": "public/data/text-en/v1-ch07.json",
-          "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
-          "available": false,
-          "consulted": false,
-          "translation_changes": 0,
-          "unresolved_issues": 0
-        },
-        "approval_result": {
-          "status": "approved",
-          "structure_movements": "24/24",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "unresolved_comparator_issues": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "review_items": []
       }
     ],
-    "source_reviews_complete": 5,
-    "translations_started": 5,
-    "t1_complete": 5,
-    "t2_complete": 5,
-    "t3_complete": 5,
-    "thought_structure_complete": 5,
-    "terminology_cultural_complete": 5,
-    "comparator_checks_complete": 5,
-    "approved_chapters": 5,
-    "next_activity": "open-batch-002",
-    "batch_status": "closed",
+    "source_reviews_complete": 0,
+    "translations_started": 0,
+    "t1_complete": 0,
+    "t2_complete": 0,
+    "t3_complete": 0,
+    "thought_structure_complete": 0,
+    "terminology_cultural_complete": 0,
+    "comparator_checks_complete": 0,
+    "approved_chapters": 0,
+    "next_activity": "source-review-v1-ch08",
+    "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-001",
       "control": "batches/batch-001.md",
@@ -431,8 +180,23 @@
       "unresolved_source_holds": 0,
       "outstanding_review_items": 0
     },
-    "next_batch": "batch-002",
-    "next_batch_start": "v1-ch08"
+    "next_batch": null,
+    "next_batch_start": null,
+    "source_files_pinned": 5,
+    "batch_opening": {
+      "span": [
+        "v1-ch08",
+        "v1-ch09",
+        "v1-ch10",
+        "v1-ch11",
+        "v1-ch12"
+      ],
+      "size": 5,
+      "size_decision": "standard-five-chapter-batch",
+      "reduction_reason": null,
+      "previous_source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+      "selected_blobs_unchanged_from_previous_pin": true
+    }
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."

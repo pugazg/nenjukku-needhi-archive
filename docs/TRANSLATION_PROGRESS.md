@@ -33,7 +33,8 @@
 - Pilot `v1-ch02`: **APPROVED / CLOSED WITH 2 DOCUMENTED ACCEPTED SCHOLARLY UNCERTAINTIES**
 - Pilot phase: **COMPLETE**
 - Production translation: **OPEN**
-- Active production batch: **NONE — Batch 001 CLOSED**
+- Active production batch: **Batch 002 — `v1-ch08`–`v1-ch12`**
+- Active Batch 002 source pin: **`d6621b71256ae99b1c89b4f2091513dcc5f96626`**
 - Last closed production batch: **Batch 001 — `v1-ch03`–`v1-ch07`**
 
 ## Production method
@@ -41,6 +42,42 @@
 Normal production batch size is 5 chapters, but the batch is a management envelope. Process one chapter at a time through:
 
 `source review → source notes → T1 → T2 → T3 → thought structure → terminology/cultural audit → post-freeze comparator if applicable → approval`
+
+## Active Batch 002 — `v1-ch08`–`v1-ch12`
+
+Status: **OPEN / `v1-ch08` P0 SOURCE REVIEW NEXT**
+
+Batch control:
+
+`data/books/nenjukku-needhi/translations/en/batches/batch-002.md`
+
+Source pin:
+
+`d6621b71256ae99b1c89b4f2091513dcc5f96626`
+
+Batch-size decision: **standard five chapters retained**. Intake inspection found all selected chapters to be modest 3–5-page units; no length/difficulty reduction was warranted.
+
+| Chapter | Tamil title | Pages | Source blob | Current status |
+|---|---|---:|---|---|
+| `v1-ch08` | `தமிழ் மாணவர் மன்றம்` | 56–59 | `e041c90234656a6b9fbd4650d607c3ba0b53e5e8` | **P0 SOURCE REVIEW NEXT** |
+| `v1-ch09` | `கலகக்கார நாரதர் புகுந்தார்.` | 60–64 | `e3104c0f74478f25d0b15c4bb1ed12afd6420d21` | **PINNED / QUEUED** |
+| `v1-ch10` | `நண்பன் நடித்த நாடகம்` | 65–67 | `38f3e3efcd8c48a7c3df70c3b5e36b02d813261f` | **PINNED / QUEUED** |
+| `v1-ch11` | `இளம் எழுத்தாளர்` | 68–70 | `31e7fcb1770db1a19caaa9725b9b5709f7250454` | **PINNED / QUEUED** |
+| `v1-ch12` | `"எடுக்கவோ, கோக்கவோ?"` | 71–75 | `df9bfe3fb369783e68c5166b7068323909d6f4f9` | **PINNED / QUEUED** |
+
+Opening counters:
+
+- source files pinned: **5 / 5**
+- full source reviews complete: **0 / 5**
+- T1 complete: **0 / 5**
+- T2 complete: **0 / 5**
+- T3 complete: **0 / 5**
+- thought-structure complete: **0 / 5**
+- terminology/cultural complete: **0 / 5**
+- comparator checks complete: **0 / 5**
+- approved: **0 / 5**
+
+The selected five chapter blobs are byte-identical to the older Batch 001 pin, while the batch authority itself is the live source `main` at Batch 002 opening.
 
 ## Batch 001 — CLOSED
 
@@ -230,7 +267,7 @@ All chapter source-review, T1, T2, T3, thought-structure, terminology/cultural, 
 
 The Batch 001 source pin remains `5c6b5ef8901044660e607d4649238d7c66cb648d`. At closure, all five pinned source chapter blobs were re-read and matched their recorded archive provenance. Latest observed source `main` is `d6621b71256ae99b1c89b4f2091513dcc5f96626`.
 
-No active batch is currently open. `v1-ch08` has **not** been started.
+Batch 002 is now open. `v1-ch08` translation has **not** started; its P0 source review is next.
 
 ## Infrastructure note
 
@@ -242,4 +279,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Open **Batch 002 beginning with `v1-ch08`**. Fetch live source `main`, establish the new batch source pin, inspect the next chapter set to determine the appropriate batch span under the normal five-chapter policy, create the Batch 002 control, and synchronize manifest/progress/handover. Stop with **`v1-ch08` P0 source review next**; do not start T1 during batch opening.
+Run the complete **P0 source review for `v1-ch08` (`தமிழ் மாணவர் மன்றம்`, pages 56–59)** from Batch 002 pin `d6621b71256ae99b1c89b4f2091513dcc5f96626`, source path `public/data/text/v1-ch08.json`, blob `e041c90234656a6b9fbd4650d607c3ba0b53e5e8`. Create the source-note sidecar, document all source/extraction interventions, and stop with **T1 next**. Do not translate during P0.
