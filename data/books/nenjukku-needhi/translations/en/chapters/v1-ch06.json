@@ -8,7 +8,7 @@
     "start": 46,
     "end": 50
   },
-  "status": "thought-structure-complete",
+  "status": "terminology-cultural-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -34,7 +34,9 @@
     "T2 retains இன உணர்ச்சி provisionally as 'sense of race' for this chapter; its final corpus-sensitive English remains a dedicated terminology/cultural-audit decision.",
     "T3 completed an English-only literary read and accepted 18 minor fluency revisions only after every candidate was checked back against the pinned Tamil.",
     "T3 deliberately retained source-driven formulations including Fearless Heart, Summer-Thunder Alagiri, the tiger/lion/summer-thunder crescendo, Hindi demon, the frenzy/devotion turn, 'my heart rendered justice to me', the flare/sprout image, the two Tamil bulls becoming corpses in prison, provisional 'sense of race', and the Tamil/green-crescent flags.",
-    "Thought-structure audit passes 20/20 major movements with no reordering, omission or invention; the independent English is frozen at this gate before any existing-English comparison."
+    "Thought-structure audit passes 20/20 major movements with no reordering, omission or invention; the independent English is frozen at this gate before any existing-English comparison.",
+    "Terminology/cultural audit resolves இன உணர்ச்சி as 'racial consciousness' for this chapter's historical political register; this is not a global one-to-one rule for இனம்.",
+    "Terminology/cultural audit resolves தமிழ்க் காளையர் as 'young Tamil warriors', using the established human senses of காளை (young man/warrior) and avoiding an over-literal animal image while retaining the source's heroic force."
   ],
   "paragraphs": [
     "Pattukkottai Alagirisami, whom Tamils called the \"Fearless Heart,\" marshalled a Tamil Brigade in Tiruchirappalli and led it toward Madras. Among the prominent figures in that march were the venerable Moovalur Ramamirtham Ammaiyar and Manavai Thirumalaisami.",
@@ -68,8 +70,8 @@
     "Thirty-six years have passed since that Hindi teacher struck me. About five years ago, that same Hindi teacher was waiting outside to take me to a homeopathy conference held in Mylapore, Madras.",
     "Now he is no Hindi teacher! He is the head of a large institution that has trained many homeopathic doctors in Tamil Nadu.",
     "When I think that I am one who sprouted from the language struggle that flared up in Tamil Nadu thirty-six years ago, a majestic stride and a proud gaze come over me from somewhere, without my even knowing it!",
-    "It was in that very battlefront to save Tamil that the two Tamil bulls Thalamuthu and Natarajan became corpses in prison.",
-    "Speaking of compulsory Hindi, Anna said: \"Compulsory Hindi became a good opportunity for our sense of race to well up, our sacrifice to become known, truth to emerge, and our labour to bear fruit. Our struggle has shown how many mothers are ready to go to prison for Tamil. It helped reveal the radiance of gems like Thalamuthu and Natarajan, who would give even their lives.\"",
+    "It was in that very battlefront to save Tamil that the two young Tamil warriors Thalamuthu and Natarajan became corpses in prison.",
+    "Speaking of compulsory Hindi, Anna said: \"Compulsory Hindi became a good opportunity for our racial consciousness to well up, our sacrifice to become known, truth to emerge, and our labour to bear fruit. Our struggle has shown how many mothers are ready to go to prison for Tamil. It helped reveal the radiance of gems like Thalamuthu and Natarajan, who would give even their lives.\"",
     "While the language war was going on in Tamil Nadu, Hindu-Muslim riots began to spread in the northern regions. During a tour of East Bengal, Subhas Chandra Bose had to face opposition from Muslims. Muhammad Ali Jinnah, on behalf of the Muslim League, threw down a challenge to the Congress Party. Gandhiji described it as a \"declaration of war.\"",
     "The Muslim League pointed to the injustices inflicted on Muslims and the hardships they suffered in Congress-ruled provinces. The All-India Muslim League raised its voice condemning the compulsory Hindi imposed in Tamil Nadu's schools. In that connection, Muslim League leaders in Tamil Nadu too marched in the anti-Hindi ranks. Anti-Hindi conferences were held with the Tamil flag and the green crescent flag flying together."
   ],
@@ -81,10 +83,11 @@
     "source_review": "../source-notes/v1-ch06.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "terminology-cultural-audit",
+    "next_gate": "post-freeze-comparator-check",
     "t2_review": "../reviews/v1-ch06-t2.md",
     "t3_review": "../reviews/v1-ch06-t3.md",
     "thought_structure_review": "../reviews/v1-ch06-structure.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "terminology_cultural_review": "../reviews/v1-ch06-terminology.md"
   }
 }
