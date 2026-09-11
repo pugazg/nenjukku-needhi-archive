@@ -1,4 +1,4 @@
-# NEXT CHAT PROMPT — Nenjukku Needhi / v1-ch13 T1
+# NEXT CHAT PROMPT — Nenjukku Needhi / Open Batch 004
 
 Continue directly in `pugazg/nenjukku-needhi-archive`, branch `main`.
 
@@ -10,84 +10,90 @@ The source repository remains strictly **READ ONLY**:
 
 `pugazg/kalaignar-autobiography`
 
+Never modify the source repository.
+
+## Durable production state
+
+Batch 001: **CLOSED / 5 OF 5 APPROVED**
+
+Batch 002: **CLOSED / 5 OF 5 APPROVED**
+
+Batch 003: **CLOSED / 5 OF 5 APPROVED**
+
 Batch 003 source pin:
 
 `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
-## Batch 003 state
+Batch 003 chapters:
 
-Span: `v1-ch13`–`v1-ch17`
+- `v1-ch13` — APPROVED / CLOSED
+- `v1-ch14` — APPROVED / CLOSED
+- `v1-ch15` — APPROVED / CLOSED
+- `v1-ch16` — APPROVED / CLOSED
+- `v1-ch17` — APPROVED / CLOSED
 
-- source files pinned: **5 / 5**
-- source reviews: **1 / 5**
-- T1: **0 / 5**
-- T2: **0 / 5**
-- T3: **0 / 5**
-- thought structure: **0 / 5**
-- terminology/cultural: **0 / 5**
-- approved: **0 / 5**
+Final Batch 003 counters:
 
-## Active chapter
-
-`v1-ch13` — `மாமனார் தந்த வரவேற்பு`
-
-- pages: **76–80**
-- source path: `public/data/text/v1-ch13.json`
-- source blob: `80fc03e2092ab69b22879e65ab6887acc4284a55`
-- extraction units: **5**
-- P0: **PASS / COMPLETE**
+- source reviews: **5 / 5**
+- T1: **5 / 5**
+- T2: **5 / 5**
+- T3: **5 / 5**
+- thought structure: **5 / 5**
+- terminology/cultural: **5 / 5**
+- approved: **5 / 5**
+- independent English frozen: **5 / 5**
 - unresolved source holds: **0**
-- open review items: **1 non-blocking lexical item — `ஜன்னி`**
-- next gate: **T1**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
 
-Durable source note:
+No active production batch currently exists.
 
-`data/books/nenjukku-needhi/translations/en/source-notes/v1-ch13.json`
+## Batch 003 durable review highlights
 
-## T1 controls
+- `v1-ch13`: T2 **9**, T3 **6**, structure **20/20**, terminology **PASS WITH ONE REVISION**
+- `v1-ch14`: T2 **8**, T3 **5**, structure **16/16**, terminology **PASS WITH ONE REVISION**
+- `v1-ch15`: T2 **7**, T3 **6**, structure **18/18**, terminology **PASS WITH ONE REVISION**
+- `v1-ch16`: T2 **5**, T3 **5**, structure **16/16**, terminology **PASS WITHOUT REVISION**
+- `v1-ch17`: T2 **7**, T3 **5**, structure **19/19**, terminology **PASS WITHOUT REVISION**
 
-Translate directly from the pinned Tamil. Do **not** consult existing English.
+Terminology revisions:
 
-Preserve:
+- `v1-ch13`: **Children's Reform Association** continuity restored;
+- `v1-ch14`: first-use **cheri settlement**;
+- `v1-ch15`: **depressed communities** per period glossary policy;
+- `v1-ch16`–`v1-ch17`: no terminology-stage chapter-text changes.
 
-1. continuation from the v1-ch12 child-association election;
-2. Thyagarasan's play crisis and Kalaignar's bargain to withdraw from the election;
-3. Dushyanta performance and collapse of the youth/reform associations;
-4. 1938 anti-Hindi movement / Tamil Brigade continuity;
-5. slogans `தமிழ் வாழ்க!` / `இந்தி ஒழிக!`;
-6. Pattukkottai Alagirisami's storm / thousand-lions oratory and bodily collapse;
-7. page 76→77 join `குருதி / கக்கினார்`;
-8. Alagirisami's doctor/patient analogy, treating `ஜன்னி` conservatively without inventing a modern diagnosis;
-9. handwritten-journal → print aspiration;
-10. Arignar Anna's `திராவிடநாடு`;
-11. authored uncertainty: article in the **third or fourth issue**;
-12. article titles `இளமைப் பலி!` and `பகுத்தறிவு பரமசிவம்`;
-13. Nabi Nayagam festival / first Anna meeting / direct dialogue;
-14. relative **more than 27 years** Anna relationship;
-15. quoted `எதையும் தாங்கும் இதயம் வேண்டும்`;
-16. Palaniyappan fundraiser: ₹200 cost / ₹80 collection / >₹100 debt;
-17. silver cup worth ₹20 for the actress;
-18. Nagapattinam / R. V. Gopal / ₹100 sale to Nagai Dravidian Actors' Association;
-19. Palaniyappan → Santa → Natchuk Koppai title history;
-20. family pressure to seek salaried work;
-21. failed love because he was a Self-Respecter / priestly marriage rites;
-22. arranged marriage sequence involving Chidambaram Jayaraman's sister;
-23. telegram, train, horse cart and father-in-law entrance;
-24. closing `மகமாயி, தாயே!` exclamation and singer Sundaranar reveal.
-
-Reconstruct English paragraphing from rhetoric/page witnesses, not from the five extraction-unit boundaries.
-
-Create:
-
-`data/books/nenjukku-needhi/translations/en/chapters/v1-ch13.json`
-
-Synchronize source notes, Batch 003, progress, manifest, handover and next-chat controls.
-
-Stop with **T2 source-and-Kalaignar-voice review next**.
+The `ஜன்னி` item in `v1-ch13` is resolved conservatively without asserting a modern diagnosis.
 
 ## Comparator policy
 
-Existing English is not a production gate for `v1-ch02+`.
+The source repository's `public/data/text-en/` directory contains only `v1-ch01.json` in the production source state already examined.
+
+Comparator checking is **not a production gate for `v1-ch02` onward**. Do not search unofficial English translations.
+
+## Immediate activity — open Batch 004 only
+
+Start from `v1-ch18`.
+
+1. Fetch live source-repository `main`.
+2. Record that live source SHA as the Batch 004 source pin.
+3. Inspect `v1-ch18` onward for chapter length/difficulty.
+4. Under the normal policy, use a **five-chapter batch** unless one or more chapters are unusually long/difficult enough to justify reducing the span to 1–3.
+5. Create:
+   `data/books/nenjukku-needhi/translations/en/batches/batch-004.md`
+6. Update:
+   - `data/books/nenjukku-needhi/translations/en/manifest.json`
+   - `docs/TRANSLATION_PROGRESS.md`
+   - `docs/HANDOVER.md`
+   - `docs/NEXT_CHAT_PROMPT.md`
+7. Do **not** translate any chapter during Batch 004 opening.
+8. Stop with `v1-ch18` **P0 source review next**.
+
+## Mandatory method
+
+`P0 source review → T1 → T2 → T3 → thought-structure audit → terminology/cultural audit → final approval → closed`
+
+Existing English is never drafting authority.
 
 ## Infrastructure limitation
 
