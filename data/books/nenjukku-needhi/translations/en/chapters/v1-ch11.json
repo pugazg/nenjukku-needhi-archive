@@ -1,0 +1,49 @@
+{
+  "id": "v1-ch11",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "இளம் எழுத்தாளர்",
+  "title": "The Young Writer",
+  "pages": {
+    "start": 68,
+    "end": 70
+  },
+  "status": "t1-complete",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch11.json",
+    "blob_sha": "31e7fcb1770db1a19caaa9725b9b5709f7250454",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch11.json",
+  "translation_notes": [
+    "Fresh T1 translation made directly from the Batch 002 pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
+    "T1 preserves documented source joins, quoted material, authored chronology, humour, imagery and organizational distinctions without silent historical correction.",
+    "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs."
+  ],
+  "paragraphs": [
+    "I remember the advice given to me by Perarignar Anna. All over the world it is insisted that encouraging young writers is the duty of great writers. Most of those who insist on this, of course, are young writers themselves!",
+    "From some quarters there is also a loud accusation that established writers fear that a newcomer may grow too much and therefore nip new writers in the bud. And there have been more than a few thefts exposed in which certain famous writers keep growing young artists hidden in darkness and polish their own names to brilliance with the labour and intelligence of those younger writers. It cannot be said that there is no truth at all in these charges.",
+    "But when Anna ordered me, \"Do not write!\" it was not because he wanted young writers to be scorched in the bud. Was he not an abode of motherly affection? Was not his heart a garden of goodwill? He wanted me to study properly. He did not like students plunging full-breath into politics. That is why he advised me: \"Study well! Once you finish your studies, you can involve yourself intensely in the party.\"",
+    "This was not a conversation between a young writer and a great writer. It was the echo of affection between an elder brother and a younger brother. An unforgettable first meeting whose freshness never fades! Whenever I remember it, an indescribable spring of joy rises in my heart.",
+    "It is indispensable to encourage young writers. Those who throw a curtain over their talent and win fame from their labour deserve condemnation. But who are these young writers? Those who, like me, roam around in political inquiry to the point of ruining their school studies? Even such people may be forgiven.",
+    "But there is another crowd moving about under the name of young writers. Should that crowd be allowed to flourish? Seeing that the lives of a few writers are prosperous, they decide that writing is the easiest field in which to prosper, and go about crying, \"Stories for sale! Stories!\" How painful it is to see them.",
+    "On the very first page they seize Mother Tamil by the nose and make her gasp for breath; on the second they claw at her heart; before the third page they take away her breath altogether. Every day I meet many young writers who commit such murder of language as though it were the most ordinary thing.",
+    "If people who do not know even the alphabet of the language are all writing, how low must writing have been regarded! At the entrances to film studios, actors' houses, writers' homes and book farms, they stand with five or six stories in a bag, confident that someone will buy them and that a thousand or ten thousand rupees will come their way. How can one feel pity for such writers?",
+    "One day, thinking \"never mind\", you buy a bundle and turn the pages—oh mother! The sad story is not fit to be told. One story is titled \"Raththa Kulambu\"; another is \"Malairani\"; another wears the crown \"Yezhaiyin Thali\". When you ask what on earth that means, the author explains: \"Ezhaiyin Thaali.\" Everywhere you go, an invasion of young murderers of Tamil!",
+    "Whenever I get a chance to speak with some of them, I tell them first about the occasion on which I met Anna and the advice he gave me. I point out, with examples, how many years it took before my writing gained value, and how long it took for my writing to become refined and rich.",
+    "The Murasoli journal that is today eagerly supported by the people of the South first came out in Tiruvarur as a leaflet. Every month thousands of copies were printed and sent to branches of the Dravidian movement in town after town. With the donations collected and sent by those branch organizations, the Murasoli leaflet was issued and the organization grew.",
+    "I was its permanent writer. Thennan was the organization secretary; T. S. Gopal was the treasurer. \"Cheran\" was my pen name. Under that name I developed my art of writing. I have never failed to tell hurried young writers who come to see me about the hardships I underwent for it."
+  ],
+  "provenance": {
+    "method": "Fresh T1 translation directly from the pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch11.json",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "next_gate": "t2"
+  }
+}
