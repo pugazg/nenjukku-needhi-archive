@@ -53,6 +53,9 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `இனத்தின் பெருமை` | `v1-ch05`: **the pride of race** | Preserve the chapter's historical collective register in this 1938 values catalogue. Do not treat this as a global one-to-one rule for `இனம்`; later `இனம்`, `இன உணர்வு` and `தமிழினம்` remain context-dependent. |
 | `சிந்து` | **chindu** when the Tamil song/poetic form matters | `v1-ch05`: retain **Tamil chindu** in Anna's audience chorus rather than flattening the culturally specific form to generic `song`; contextual descriptive English may accompany it. |
 
+| `தமிழர் படை` | **Tamil Brigade** for the identifiable 1938 anti-Hindi march | `v1-ch06`: historical-event normalisation for the Tamilar Padai marching body. Do not use this automatically for every generic occurrence of `படை`. |
+| `அறப்போர்` | **non-violent struggle / satyagraha** contextually | `v1-ch06`: in `மறியல் அறப்போர்`, preserve both the picketing action and the non-violent/moral-struggle force; do not flatten to generic `protest`. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
@@ -72,3 +75,4 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch04` T3 added `இந்தியா மந்திரி` → `Secretary of State for India`, preserving Kalaignar's reference while using the attested official English office title.
 - `v1-ch05` T2 distinguished dyarchy-era `First Minister` from Rajaji's 1937 `Premier`, added `வடமொழி` → `Sanskrit`, `இறும்பூது` → `wonder/amazement`, `பேரறிஞர் அண்ணா` → `Perarignar Anna`, `தமிழர் தலைவர்` → `Leader of the Tamils`, and the rule against over-translating `ஆணித்தரமான` into an invented nail image.
 - `v1-ch05` terminology/cultural audit added `முனுசாமி நாயுடு` → `Munuswamy Naidu`, confirmed local `Gandhiji` consistency, retained chapter-specific `இனத்தின் பெருமை` → `the pride of race`, and documented `சிந்து` → `chindu` when the culturally specific poetic/song form matters.
+- `v1-ch06` T2 added historical-event `தமிழர் படை` → `Tamil Brigade` for the 1938 march and `அறப்போர்` → `non-violent struggle / satyagraha` contextually; `இன உணர்ச்சி` remains intentionally open for its dedicated terminology/cultural audit.
