@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` T1 COMPLETE / T2 NEXT**
+Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` T2 COMPLETE / T3 NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -24,7 +24,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **T1 COMPLETE / T2 NEXT** |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **T2 COMPLETE / T3 NEXT** |
 
 ## `v1-ch03` closure
 
@@ -139,7 +139,7 @@ Fresh T1 is durable at `../chapters/v1-ch06.json`. T2 normalises the identifiabl
 
 No non-authorial body material was found. No missing Tamil reconstruction is required.
 
-Fresh T1 is durable at `../chapters/v1-ch07.json`. It preserves the macro-political opening, Gandhi–Jinnah dialogue, Tripuri/Subhas sequence, Nehru's China visit, authored 1939 M. N. Roy chronology, the abrupt thin-fifteen-year-old Kalaignar reveal, `Maanava Nesan` as a handwritten journal, Bharathidasan's spinning-wheel sarcasm, the fifty-copy/demy-paper production economics, Murasoli's leaflet origin, the unnamed recruiter's delayed Communist identity, Freedom–Peace–Equality triad, and the closing current/depth image. No pre-existing English was consulted.
+Fresh T1 is durable at `../chapters/v1-ch07.json`. T2 normalises secure historical entity names to **Indian National Congress** and **Radical Democratic Party** while preserving Kalaignar's authored chronology; retains **Maanava Nesan** as a visible publication title; distinguishes handwritten journals from physical copies; rebalances Bharathidasan's spinning-wheel sarcasm; retains demy-paper economics and Murasoli's leaflet origin; keeps the Students' Federation generic and the Communist reveal delayed; and restores the closing Federation **current** so it links to the final unknown-depth image. No pre-existing English was consulted.
 
 Thought-structure audit passes **20 / 20** major movements: the English preserves the movement from Tamil Brigade public campaign through student awakening, street procession and song, Jagadeesan, the Hindi-teacher confrontation, the heart's self-judgment, the thirty-six-year retrospective, Thalamuthu/Natarajan and Anna, and the final Bose–Jinnah–Gandhiji–Muslim League widening. No major movement is reordered, omitted or invented.
 
@@ -149,7 +149,7 @@ Controlled post-freeze comparator path `public/data/text-en/v1-ch06.json` is abs
 
 Final approval confirms **0 unresolved source holds**, **0 unresolved terminology/comparator issues**, **0 outstanding review items**, and **20 / 20 structural movements preserved**. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
-## `v1-ch07` — T1 complete
+## `v1-ch07` — T2 complete
 
 Durable file:
 
@@ -163,9 +163,12 @@ Gate state:
 - unresolved source holds: **0**;
 - outstanding source-review items: **0**;
 - fresh T1 translation: **PASS / COMPLETE**;
+- T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - English title: **Are You the One Who Runs 'Maanava Nesan'?**;
 - existing-English comparator consulted: **NO**;
-- next gate: **T2 Tamil–English Kalaignar-voice review**.
+- unresolved source holds: **0**;
+- blocking T2 issues: **0**;
+- next gate: **T3 English-only literary review**.
 
 P0 records the opening `ஜி / ன்னா` word join; contextual `முஸ்லீம் வீக்கிற்கும்` → Muslim League function; valid archaic `முடங்கல்` = letter; Alagiri / Chittarasu name-list punctuation; Gandhi–Jinnah dialogue; authored political chronology; page-53/54 `கொண்- / டிருந்தது` join; the `பள்ளிக்கூடத்திலிருத்த` extraction anomaly; the macro-history → thin fifteen-year-old Kalaignar reveal; `மாணவ நேசன்` as a handwritten student periodical; Bharathidasan's spinning-wheel sarcasm; `சிறுதுளி பெருவெள்ளம்`; Pongal special-issue usage; demy-paper production economics; Murasoli's origin as leaflet issues; the Freedom–Peace–Equality triad; and the closing current/depth imagery.
 
@@ -193,10 +196,10 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - source files pinned: **5 / 5**
 - full source reviews complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - T1 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- T2 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
+- T2 complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - T3 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - thought-structure complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - terminology/cultural complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - comparator checks complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - approved chapters: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- next chapter activity: **T2 Tamil–English Kalaignar-voice review for `v1-ch07`**
+- next chapter activity: **T3 English-only literary review for `v1-ch07`**
