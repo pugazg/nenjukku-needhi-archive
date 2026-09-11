@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch06` APPROVED / `v1-ch07` COMPARATOR COMPLETE / FINAL APPROVAL NEXT**
+Status: **OPEN / `v1-ch07` APPROVED / BATCH CLOSURE NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -24,7 +24,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
 | `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **APPROVED / CLOSED** |
-| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **COMPARATOR COMPLETE / FINAL APPROVAL NEXT** |
+| `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | **APPROVED / CLOSED** |
 
 ## `v1-ch03` closure
 
@@ -149,7 +149,7 @@ Controlled post-freeze comparator path `public/data/text-en/v1-ch06.json` is abs
 
 Final approval confirms **0 unresolved source holds**, **0 unresolved terminology/comparator issues**, **0 outstanding review items**, and **20 / 20 structural movements preserved**. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
-## `v1-ch07` — comparator complete
+## `v1-ch07` — approved / closed
 
 Durable files:
 
@@ -160,6 +160,7 @@ Durable files:
 - thought-structure audit: `../reviews/v1-ch07-structure.md`
 - terminology/cultural audit: `../reviews/v1-ch07-terminology.md`
 - comparator check: `../reviews/v1-ch07-existing-comparison.md`
+- final approval review: `../reviews/v1-ch07-approval.md`
 
 Gate state:
 
@@ -185,7 +186,9 @@ Gate state:
 - comparator text consulted: **NO**;
 - translation changes from comparator gate: **0**;
 - unresolved comparator issues: **0**;
-- next gate: **final approval review**.
+- final approval: **PASS / APPROVED / CLOSED**;
+- outstanding review items: **0**;
+- next gate: **CLOSED**.
 
 P0 records the opening `ஜி / ன்னா` word join; contextual `முஸ்லீம் வீக்கிற்கும்` → Muslim League function; valid archaic `முடங்கல்` = letter; Alagiri / Chittarasu name-list punctuation; Gandhi–Jinnah dialogue; authored political chronology; page-53/54 `கொண்- / டிருந்தது` join; the `பள்ளிக்கூடத்திலிருத்த` extraction anomaly; the macro-history → thin fifteen-year-old Kalaignar reveal; `மாணவ நேசன்` as a handwritten student periodical; Bharathidasan's spinning-wheel sarcasm; `சிறுதுளி பெருவெள்ளம்`; Pongal special-issue usage; demy-paper production economics; Murasoli's origin as leaflet issues; the Freedom–Peace–Equality triad; and the closing current/depth imagery.
 
@@ -200,6 +203,8 @@ Thought-structure audit: **PASS — 24 / 24 major movements preserved; 0 reorder
 Terminology/cultural audit: **PASS / COMPLETE — 0 chapter-text revisions; 0 unresolved terminology holds**. It confirms `Maanava Nesan`, source-led Jinnah/Gandhi/Nehru honorific variation, Indian National Congress / Congress Party usage, Muslim League, Radical Democratic Party with authored **1939**, Forward Bloc, the handwritten-journal/copy distinction, **Little drops make a great flood**, Pongal special issue, demy paper, `Murasoli`, leaflet issues, organizing camp, generic Students' Federation and **Freedom – Peace – Equality**. The independent English is now frozen for the controlled comparator stage.
 
 Controlled post-freeze comparator path `public/data/text-en/v1-ch07.json` is **404 / NOT FOUND** at the Batch 001 pin. No comparator text was consulted, no prior-English wording was adopted, and the chapter text did not change. No unofficial or broader comparator search was performed.
+
+Final approval: **PASS / APPROVED / CLOSED**. The approval review confirms **24 / 24** structural movements, **0** unresolved source holds, **0** unresolved terminology holds, **0** unresolved comparator issues, **0** outstanding review items and **0** approval-stage chapter-text changes. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
 ## Branch consolidation
 
@@ -226,5 +231,5 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - thought-structure complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - terminology/cultural complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
 - comparator checks complete: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
-- approved chapters: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- next chapter activity: **final approval review for `v1-ch07`**
+- approved chapters: **5 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`, `v1-ch07`)
+- next chapter activity: **close Batch 001 as a management unit before beginning `v1-ch08`**
