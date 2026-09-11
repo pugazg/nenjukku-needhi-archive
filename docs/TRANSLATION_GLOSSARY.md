@@ -56,14 +56,16 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `தமிழர் படை` | **Tamil Brigade** for the identifiable 1938 anti-Hindi march | `v1-ch06`: historical-event normalisation for the Tamilar Padai marching body. Do not use this automatically for every generic occurrence of `படை`. |
 | `அறப்போர்` | **non-violent struggle / satyagraha** contextually | `v1-ch06`: in `மறியல் அறப்போர்`, preserve both the picketing action and the non-violent/moral-struggle force; do not flatten to generic `protest`. |
 
+| `இன உணர்ச்சி` | **racial consciousness** in `v1-ch06` historical political context | Chapter-specific decision for Anna's 1938 quotation. Do not globalise this to every `இனம்` / `இன உணர்வு` / `தமிழினம்`; later uses remain context-dependent. |
+| `காளை` / `காளையர்` (human reference) | **young man / warrior** contextually; avoid automatic literal `bull` | `v1-ch06`: `தமிழ்க் காளையர்` → **young Tamil warriors**. Tamil lexicons attest human senses such as young man in his prime and warrior; use literal bull imagery only when the source clearly activates it. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
 
 - `திராவிட இயக்கம்`
-- `இன உணர்வு`
 - `தமிழினம்`
-- broader uses of `இனம்` outside a clearly resolved chapter context
+- broader uses of `இனம்` outside clearly resolved chapter contexts
 - movement slogans and recurring political epithets
 - later-period institutional uses of `மாநிலம்`, `சட்டசபை`, `முதல்வர்`, and related office vocabulary outside the currently reviewed historical settings
 
@@ -75,4 +77,5 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch04` T3 added `இந்தியா மந்திரி` → `Secretary of State for India`, preserving Kalaignar's reference while using the attested official English office title.
 - `v1-ch05` T2 distinguished dyarchy-era `First Minister` from Rajaji's 1937 `Premier`, added `வடமொழி` → `Sanskrit`, `இறும்பூது` → `wonder/amazement`, `பேரறிஞர் அண்ணா` → `Perarignar Anna`, `தமிழர் தலைவர்` → `Leader of the Tamils`, and the rule against over-translating `ஆணித்தரமான` into an invented nail image.
 - `v1-ch05` terminology/cultural audit added `முனுசாமி நாயுடு` → `Munuswamy Naidu`, confirmed local `Gandhiji` consistency, retained chapter-specific `இனத்தின் பெருமை` → `the pride of race`, and documented `சிந்து` → `chindu` when the culturally specific poetic/song form matters.
-- `v1-ch06` T2 added historical-event `தமிழர் படை` → `Tamil Brigade` for the 1938 march and `அறப்போர்` → `non-violent struggle / satyagraha` contextually; `இன உணர்ச்சி` remains intentionally open for its dedicated terminology/cultural audit.
+- `v1-ch06` T2 added historical-event `தமிழர் படை` → `Tamil Brigade` for the 1938 march and `அறப்போர்` → `non-violent struggle / satyagraha` contextually.
+- `v1-ch06` terminology/cultural audit resolved chapter-specific `இன உணர்ச்சி` → `racial consciousness` and `தமிழ்க் காளையர்` → `young Tamil warriors`, while explicitly keeping broader `இனம்` usages context-dependent.
