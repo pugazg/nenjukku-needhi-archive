@@ -8,7 +8,7 @@
     "start": 65,
     "end": 67
   },
-  "status": "t2-complete",
+  "status": "t3-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -21,23 +21,24 @@
     "Fresh T1 translation made directly from the Batch 002 pinned Tamil after completed P0/source review. No pre-existing English translation was consulted.",
     "T1 preserves documented source joins, quoted material, authored chronology, humour, imagery and organizational distinctions without silent historical correction.",
     "Literary paragraphing is reconstructed from rhetoric and source flow rather than treating JSON extraction units as authorial paragraphs.",
-    "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass keeps the exhausted walk and Hasan Abdul Kader affection, sharpens the Kodikkarai deadpan religious humour, preserves the army-camp idea as an explicitly fabricated family story, and restores the closing mock-lament cadence. No existing-English comparator was consulted."
+    "T2 source-and-Kalaignar-voice review passed with 7 grouped source-checked revisions. The pass keeps the exhausted walk and Hasan Abdul Kader affection, sharpens the Kodikkarai deadpan religious humour, preserves the army-camp idea as an explicitly fabricated family story, and restores the closing mock-lament cadence. No existing-English comparator was consulted.",
+    "T3 English-only literary review passed with 10 grouped minor source-checked revisions. The pass improves overnight-travel cadence, money-counting English, Hasan Abdul Kader's remembered description, Kodikkarai narrative flow, deadpan shrine humour and the fabricated army-story idiom without changing the source's humour or structure. No existing-English comparator was consulted."
   ],
   "paragraphs": [
-    "At least I had not studied properly. I had entered politics and failed the examination. But how many students have come to a state like mine because they fell short by one mark or two? What became of them all? Those questions flashed and vanished in my heart like streaks of lightning that night.",
-    "I stopped after walking on, lost in all kinds of thoughts. I turned and looked back. I realized that I had crossed seven milestones. Looking ahead, I saw Tirunellikaval railway station. Day had almost broken. The weariness of walking joined hands with hunger and made my eyes swim.",
-    "There was a pond covered with moss. I went down into it, rubbed a small piece of red brick against a black stone there, took the powder and brushed my teeth. Nearby was a little eating shop. I entered. Only then did I remember to see how much money was in my pocket. I felt my pocket. I had only a few annas. So I had to calculate before eating. I asked the prices of idli and dosa, ate exactly two idlis, said I did not drink coffee, and went toward the railway station.",
+    "I, at least, had not studied properly. I had entered politics and failed the examination. But how many students have ended up in a position like mine because they fell short by one mark or two? What became of them all? Those questions flashed and vanished in my heart like streaks of lightning that night.",
+    "I walked on, lost in all kinds of thoughts, then stopped. I turned and looked back. I realized that I had crossed seven milestones. Looking ahead, I saw Tirunellikaval railway station. Day had almost broken. The weariness of walking joined hands with hunger and made my eyes swim.",
+    "There was a pond covered with moss. I went down into it, rubbed a small piece of red brick against a black stone there, took the powder and brushed my teeth. Nearby was a small eatery. I entered. Only then did I remember to check how much money I had. I felt my pocket. I had only a few annas. So I knew I would have to count carefully before eating. I asked the prices of idli and dosa, ate exactly two idlis, said I did not drink coffee, and went toward the railway station.",
     "Just as I arrived, the train for Tiruthuraipoondi came in. I bought a ticket to Thopputhurai and boarded.",
-    "A friend named Hasan Abdul Kader had studied with me in the Fourth Form. Even now, when I think of Hasan Abdul Kader, I see a thin figure that looked as though it might snap and fall, his large eyes pouring coolness, his smiling face bounding toward me to embrace me and shower affection.",
-    "When I suddenly stood at the entrance of his house in Thopputhurai, he cried out like a small child in his excitement: \"Karunanidhi!\" I did not tell him anything straight away. The next day he understood it himself. \"They have deliberately taken revenge on you, comrade!\" he consoled me.",
+    "A friend named Hasan Abdul Kader had studied with me in the Fourth Form. Even now, when I think of Hasan Abdul Kader, I see that frail figure, looking as though he might snap, his large eyes pouring out coolness, his smiling face bounding toward me to embrace me and shower affection.",
+    "When I suddenly stood at the entrance of his house in Thopputhurai, he cried out like a small child in his excitement: \"Karunanidhi!\" I did not tell him anything straight away. By the next day he understood on his own. \"They have deliberately taken revenge on you, comrade!\" he consoled me.",
     "The beautiful scenery of Thopputhurai and the feasts held in the homes of several comrades helped ease my distress a little. From there I wrote a letter to Thennan: \"I am here. Tell my family this and make them stop worrying.\"",
     "If I had not written that letter, the daily newspapers might have carried an advertisement: \"Beloved Karunanidhi! Do not worry about the examination result. We are not angry with you for that. Wherever you are, come home at once. —Your mother and father!\"",
     "Taking my letter, Thennan went to Tirukkuvalai. He saw my family, their eyes swollen from crying. \"Go and bring the boy back at once!\" they told him, gave him travel money and sent him to Thopputhurai.",
-    "Now we had money to go sightseeing as well. The news that my parents' anger had subsided gave my mind some relief. We all set out together for Vedaranyam, Kodikkarai and other places.",
-    "We entered the Kodikkarai forest and wandered as far as we could. On a rise in that forest, they showed us a pavilion called \"Rama's Foot\", saying that in those days Rama had stood there looking toward the sea, and that this was the footprint he had left. Two feet had been carved in black stone. \"They speak of Rama's red-lotus feet. Why are these made of black stone?\" I asked. I still remember asking it.",
-    "A little distance away, the sanctum of a small temple lay in ruins. When I asked why it had collapsed, they said lightning had struck it. \"Alas, O Lord!\" I expressed my profound sympathy.",
+    "Now we had money to go sightseeing as well. The news that my parents' anger had subsided gave me some relief. We all set out together for Vedaranyam, Kodikkarai and other places.",
+    "We entered the Kodikkarai forest and wandered as far as we could. On a rise in the forest they showed us a pavilion called \"Rama's Foot.\" They said Rama had once stood there looking toward the sea, and that this was where he had placed his foot. Two feet had been carved in black stone. \"They speak of Rama's red-lotus feet. Why are these made of black stone?\" I asked. I still remember asking it.",
+    "A little distance away, the sanctum of a small temple lay in ruins. When I asked why it had collapsed, they said lightning had struck it. I expressed my profound sympathy: \"Alas, O Lord!\"",
     "During our tour, an officer recruiting men for the army had set up camp in that region. The sight of that camp gave me an idea. I told Thennan my idea—and it worked.",
-    "I insisted that Thennan tell my family an imaginary story: \"I went to Thopputhurai looking for Karunanidhi. By then he had given his name to join the army camped there. I pleaded with him at length, but he would not listen. 'I will go and die on the battlefield. I will not return to see my mother and father,' he declared firmly. I asked him, 'Do you have the bodily strength to serve in the army?' He said, 'Look at this! There are people worse than I am,' and showed me fifteen scrawny clerks. I became frightened when I heard that the army was recruiting people for other kinds of work even if they were not sturdy. Then I gathered seven or eight friends, changed Karunanidhi's mind, and brought him back.\"",
+    "I insisted that Thennan tell my family an imaginary story: \"I went to Thopputhurai looking for Karunanidhi. By then he had given his name to join the army camped there. I pleaded with him at length, but he would not listen. 'I will go and die on the battlefield. I will not return to see my mother and father,' he declared firmly. I asked him, 'Do you have the bodily strength to serve in the army?' He said, 'Look at this! There are people in worse shape than I am,' and showed me fifteen scrawny clerks. I grew frightened when I heard that the army was taking people for other kinds of work even if they were not strong. Then, with seven or eight friends, I got Karunanidhi to change his mind and brought him back.\"",
     "Why say \"insisted\"? My dear friend, who possessed the talent to tell lies far grander than this with great skill, acted it out beautifully before my family.",
     "At once Mother, Father and my elder sisters all threw their arms around me and began to wail. The only thing missing was their singing, \"Don't go! Don't go, my son! Don't go to war, my son!\""
   ],
@@ -49,7 +50,8 @@
     "source_review": "../source-notes/v1-ch10.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "t3",
-    "t2_review": "../reviews/v1-ch10-t2.md"
+    "next_gate": "thought-structure-audit",
+    "t2_review": "../reviews/v1-ch10-t2.md",
+    "t3_review": "../reviews/v1-ch10-t3.md"
   }
 }
