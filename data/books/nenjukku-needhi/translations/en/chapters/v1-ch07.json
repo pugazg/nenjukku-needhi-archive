@@ -8,7 +8,7 @@
     "start": 51,
     "end": 55
   },
-  "status": "terminology-complete",
+  "status": "comparator-complete",
   "source": {
     "repository": "pugazg/kalaignar-autobiography",
     "ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
@@ -37,7 +37,8 @@
     "T2 keeps the Students' Federation generic and the visitor unnamed; no unsupported expansion to a specific national student body or identity is introduced.",
     "T3 English-only review accepted 19 source-checked fluency revisions, chiefly removing stiff literal syntax in the historical and handwritten-journal passages while preserving direct quotations, authored chronology tensions, publishing materiality, the delayed Communist reveal, Freedom – Peace – Equality, and the closing current/depth image. No existing-English comparator was consulted.",
     "Thought-structure audit passed 24/24 major movements with no reordering, omission or invention. The opening political history remains structurally connected to the Communist organizer's schoolboy encounter, Maanava Nesan, Murasoli's practical origin, student recruitment and the final current/depth apprehension. No chapter wording changed at this gate.",
-    "Terminology/cultural-consistency audit passed with 0 chapter-text revisions and 0 unresolved terminology holds. It confirms chapter-level Maanava Nesan, source-led honorific variation, historical entity naming, handwritten-journal/copy distinction, Pongal special issue, demy paper, Murasoli leaflet issues, organizing camp, generic Students' Federation, Freedom – Peace – Equality, and the final current/depth imagery. The independent English is frozen for the controlled comparator stage."
+    "Terminology/cultural-consistency audit passed with 0 chapter-text revisions and 0 unresolved terminology holds. It confirms chapter-level Maanava Nesan, source-led honorific variation, historical entity naming, handwritten-journal/copy distinction, Pongal special issue, demy paper, Murasoli leaflet issues, organizing camp, generic Students' Federation, Freedom – Peace – Equality, and the final current/depth imagery. The independent English is frozen for the controlled comparator stage.",
+    "Post-freeze controlled existing-English comparator check found `public/data/text-en/v1-ch07.json` absent (404) at the Batch 001 pin. No comparator text was consulted, no wording was adopted, and the independent translation was unchanged."
   ],
   "paragraphs": [
     "Jinnah and Jawaharlal Nehru continued to correspond. They were entirely about the Muslim community. In connection with the Muslims' demands, the Congress Party did not accept the conditions contained in a letter Jinnah wrote on 9 October 1938. Opposition between Jinnah and the Congress took deep root.",
@@ -80,11 +81,13 @@
     "source_review": "../source-notes/v1-ch07.json",
     "unresolved_source_holds": 0,
     "review_items": [],
-    "next_gate": "post-freeze-comparator-check",
+    "next_gate": "final-approval-review",
     "t2_review": "../reviews/v1-ch07-t2.md",
     "t3_review": "../reviews/v1-ch07-t3.md",
     "thought_structure_review": "../reviews/v1-ch07-structure.md",
     "terminology_review": "../reviews/v1-ch07-terminology.md",
-    "independent_english_frozen": true
+    "independent_english_frozen": true,
+    "existing_english_comparison": "../reviews/v1-ch07-existing-comparison.md",
+    "existing_english_comparator": "absent"
   }
 }

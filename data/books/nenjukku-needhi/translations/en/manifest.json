@@ -315,7 +315,7 @@
           "end": 55
         },
         "source_blob_sha": "13b1f1d06abeb762ed5f016818fa282b78ba7593",
-        "status": "terminology-complete",
+        "status": "comparator-complete",
         "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
         "live_source_check": {
           "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
@@ -329,7 +329,8 @@
           "t2": "pass-with-revision",
           "t3": "pass-with-minor-revision",
           "thought_structure": "pass",
-          "terminology_cultural": "pass"
+          "terminology_cultural": "pass",
+          "post_freeze_comparator": "not-applicable-absent"
         },
         "unresolved_source_holds": 0,
         "review_items": [],
@@ -352,17 +353,19 @@
           "restore final Federation current / unknown-depth linked water imagery",
           "apply 19 source-checked T3 fluency revisions without changing direct quotations, authored chronology tensions, political framing, handwritten-journal production economics, Murasoli's leaflet origin, delayed Communist reveal, Freedom–Peace–Equality or the current/depth ending",
           "pass thought-structure audit with 24/24 major movements preserved and no reordering, omission or invention; no chapter wording changed at this gate",
-          "pass terminology/cultural audit with 0 chapter-text revisions and 0 unresolved terminology holds; freeze independent English for the controlled comparator stage"
+          "pass terminology/cultural audit with 0 chapter-text revisions and 0 unresolved terminology holds; freeze independent English for the controlled comparator stage",
+          "record controlled post-freeze comparator path public/data/text-en/v1-ch07.json as absent (404) at the Batch 001 pin; no prior English text consulted or adopted and no broader search performed"
         ],
-        "next_gate": "post-freeze-comparator-check",
+        "next_gate": "final-approval-review",
         "translation": "chapters/v1-ch07.json",
         "english_title": "Are You the One Who Runs 'Maanava Nesan'?",
-        "existing_english_comparator": "not-consulted",
+        "existing_english_comparator": null,
         "reviews": {
           "t2": "reviews/v1-ch07-t2.md",
           "t3": "reviews/v1-ch07-t3.md",
           "thought_structure": "reviews/v1-ch07-structure.md",
-          "terminology_cultural": "reviews/v1-ch07-terminology.md"
+          "terminology_cultural": "reviews/v1-ch07-terminology.md",
+          "existing_english_comparison": "reviews/v1-ch07-existing-comparison.md"
         },
         "structure_result": {
           "major_movements": 24,
@@ -377,7 +380,15 @@
           "unresolved_holds": 0,
           "independent_english_frozen": true
         },
-        "independent_english_frozen": true
+        "independent_english_frozen": true,
+        "comparator_result": {
+          "controlled_path": "public/data/text-en/v1-ch07.json",
+          "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+          "available": false,
+          "consulted": false,
+          "translation_changes": 0,
+          "unresolved_issues": 0
+        }
       }
     ],
     "source_reviews_complete": 5,
@@ -387,9 +398,9 @@
     "t3_complete": 5,
     "thought_structure_complete": 5,
     "terminology_cultural_complete": 5,
-    "comparator_checks_complete": 4,
+    "comparator_checks_complete": 5,
     "approved_chapters": 4,
-    "next_activity": "post-freeze-comparator-check-v1-ch07"
+    "next_activity": "final-approval-v1-ch07"
   },
   "infrastructure_notes": [
     "schemas/chapter.json is currently an empty one-byte legacy placeholder; formal JSON-Schema execution is not available under current repository controls."

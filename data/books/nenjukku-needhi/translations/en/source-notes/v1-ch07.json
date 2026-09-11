@@ -240,10 +240,10 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "terminology-complete",
-  "gate_result": "pass",
+  "status": "comparator-complete",
+  "gate_result": "not-applicable-absent",
   "unresolved_source_holds": 0,
-  "next_gate": "post-freeze-comparator-check",
+  "next_gate": "final-approval-review",
   "t1_translation": "../chapters/v1-ch07.json",
   "t2_review": "../reviews/v1-ch07-t2.md",
   "t2_resolutions": [
@@ -277,5 +277,14 @@
     "accepted_chapter_revisions": 0,
     "unresolved_holds": 0,
     "independent_english_frozen": true
+  },
+  "existing_english_comparison": "../reviews/v1-ch07-existing-comparison.md",
+  "comparator_result": {
+    "controlled_path": "public/data/text-en/v1-ch07.json",
+    "source_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
+    "available": false,
+    "consulted": false,
+    "translation_changes": 0,
+    "unresolved_issues": 0
   }
 }
