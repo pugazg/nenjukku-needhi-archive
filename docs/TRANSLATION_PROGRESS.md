@@ -47,7 +47,7 @@ Normal production batch size is 5 chapters, but the batch is a management envelo
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **THOUGHT STRUCTURE PASS / TERMINOLOGY NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | **TERMINOLOGY/CULTURAL PASS / COMPARATOR CHECK NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | not started |
 
 ## `v1-ch03`
@@ -109,7 +109,7 @@ Final approval retains the witnessed `1932–ல்` reconstruction as **In 1932
 
 Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder; this is an infrastructure limitation, not a chapter-content failure.
 
-## `v1-ch06` — thought structure complete
+## `v1-ch06` — terminology/cultural complete
 
 Durable file:
 
@@ -130,12 +130,13 @@ P0 result:
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 18 source-checked revisions**;
 - thought-structure audit: **PASS / COMPLETE — 20 / 20 major movements preserved**;
+- terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
 - English title: **The Battlefront to Save Tamil**;
 - independent English: **FROZEN**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
-- outstanding structure issues: **0**;
-- next gate: **terminology/cultural-consistency audit**.
+- unresolved terminology holds: **0**;
+- next gate: **post-freeze comparator availability check**.
 
 Source review explicitly records the repeated heading, two page joins, verse lineation, direct oratory/dialogue, historical distance vocabulary, anomalous extracted forms, movement terminology, Jagadeesan hearsay marker, `வெறி / பற்று` wordplay, the classroom self-judgment, the narrator's thirty-six-year retrospective, and the final widening into all-India Hindu-Muslim/Congress-Muslim-League politics.
 
@@ -149,7 +150,7 @@ Fresh T1 is durable at `data/books/nenjukku-needhi/translations/en/chapters/v1-c
 - T2 complete: **4 / 5**
 - T3 complete: **4 / 5**
 - thought-structure complete: **4 / 5**
-- terminology/cultural complete: **3 / 5**
+- terminology/cultural complete: **4 / 5**
 - comparator checks complete: **3 / 5**
 - approved: **3 / 5**
 
@@ -163,4 +164,4 @@ The former working branch `translation/english-memoir` was merged into `main` vi
 
 ## Next activity
 
-Run the **terminology/cultural-consistency audit for `v1-ch06`**. Revisit `தமிழர் படை`, `அஞ்சா நெஞ்சன்`, `கோடையிடி`, `நகரதூதன்`, `பேனா நர்த்தனம்`, `வெறி / பற்று`, `தன்மான இயக்கம்`, `மறியல் அறப்போர்`, `இன உணர்ச்சி`, `தமிழ்க் காளையர்`, proper-name romanisation and the final Tamil/green-crescent political image. Do not consult an existing-English comparator yet.
+Perform the **post-freeze existing-English comparator availability check for `v1-ch06`** at the controlled source path `public/data/text-en/v1-ch06.json` using the Batch 001 pinned source ref. If absent, record the absence and do not search unofficial English versions.
