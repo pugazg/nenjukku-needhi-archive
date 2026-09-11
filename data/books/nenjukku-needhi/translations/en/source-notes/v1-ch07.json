@@ -240,9 +240,19 @@
   "non_authorial_exclusions": [],
   "unresolved": [],
   "review_items": [],
-  "status": "t1-complete",
-  "gate_result": "pass",
+  "status": "t2-complete",
+  "gate_result": "pass-with-revision",
   "unresolved_source_holds": 0,
-  "next_gate": "t2-kalaignar-voice-review",
-  "t1_translation": "../chapters/v1-ch07.json"
+  "next_gate": "t3-english-review",
+  "t1_translation": "../chapters/v1-ch07.json",
+  "t2_review": "../reviews/v1-ch07-t2.md",
+  "t2_resolutions": [
+    "retain working title Are You the One Who Runs 'Maanava Nesan'? and preserve Maanava Nesan as a visible publication title",
+    "normalize secure historical entity names to Indian National Congress and Radical Democratic Party while preserving Kalaignar's authored dates and chronology",
+    "retain Janab Jinnah, Gandhiji and source-led honorific variation; preserve Gandhi–Jinnah dialogue as direct speech",
+    "distinguish handwritten journal as publication form from the fifty physical copies; retain demy-paper costs and free labour/articles punchline",
+    "preserve Bharathidasan's spinning-wheel sarcasm, little-drops/great-flood proverb, Pongal special-issue reference and Murasoli leaflet origin",
+    "keep Students' Federation generic, preserve delayed Communist reveal and Freedom–Peace–Equality triad",
+    "restore the linked water imagery at the ending: Federation current sweeping them along and stepping in without knowing the depth"
+  ]
 }
