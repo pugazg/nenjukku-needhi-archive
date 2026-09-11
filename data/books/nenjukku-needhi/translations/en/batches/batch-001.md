@@ -1,6 +1,6 @@
 # Batch 001 — Volume 1 Chapters 3–7
 
-Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` THOUGHT STRUCTURE PASS / TERMINOLOGY NEXT**
+Status: **OPEN / `v1-ch05` APPROVED / `v1-ch06` TERMINOLOGY PASS / COMPARATOR CHECK NEXT**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -23,7 +23,7 @@ This five-chapter batch is a management envelope. Process one chapter at a time 
 | `v1-ch03` | `"சிவாய நம! ஓம் நமசிவாய"` | 30–36 | `e7c0d550d68f8b30d9c48a22019e017f7034ff93` | **APPROVED / CLOSED** |
 | `v1-ch04` | `என்னுடைய அரசியல் அரிச்சுவடி` | 37–41 | `1b55b986176d330fab4ce16eb70565ddd895ba48` | **APPROVED / CLOSED** |
 | `v1-ch05` | `நீதிக் கட்சியில் பல மாற்றங்கள்` | 42–45 | `220fb5271eac48c6988057d0d464d5950fd822a3` | **APPROVED / CLOSED** |
-| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **THOUGHT STRUCTURE PASS / TERMINOLOGY NEXT** |
+| `v1-ch06` | `தமிழ் காக்கும் போர் முனை` | 46–50 | `8f93218b297262319d82f89274dbee3d1de803f5` | **TERMINOLOGY/CULTURAL PASS / COMPARATOR CHECK NEXT** |
 | `v1-ch07` | `"நீங்களா 'மாணவ நேசன்' நடத்துகிறீர்கள்?"` | 51–55 | `13b1f1d06abeb762ed5f016818fa282b78ba7593` | queued for source review |
 
 ## `v1-ch03` closure
@@ -96,7 +96,7 @@ Final controls retain the witnessed **In 1932** opening, Kalaignar's authored **
 
 The final approval review confirms 22/22 structural movements, zero unresolved source holds and zero outstanding review items. Formal JSON-Schema validation is not claimed because `schemas/chapter.json` remains an empty one-byte legacy placeholder.
 
-## `v1-ch06` — thought structure complete
+## `v1-ch06` — terminology/cultural complete
 
 Durable file:
 
@@ -113,12 +113,13 @@ Gate state:
 - T2 source-and-Kalaignar-voice review: **PASS WITH REVISION / COMPLETE**;
 - T3 English-only literary review: **PASS WITH MINOR REVISION / COMPLETE — 18 source-checked revisions**;
 - thought-structure audit: **PASS / COMPLETE — 20 / 20 major movements preserved**;
+- terminology/cultural consistency: **PASS WITH MINOR REVISION / COMPLETE — 2 revisions**;
 - English title: **The Battlefront to Save Tamil**;
 - independent English: **FROZEN**;
 - existing-English comparator consulted: **NO**;
 - unresolved source holds: **0**;
-- outstanding structure issues: **0**;
-- next gate: **terminology/cultural-consistency audit**.
+- unresolved terminology holds: **0**;
+- next gate: **post-freeze comparator availability check**.
 
 P0 records the repeated heading; page-47/48 and page-48/49 source-unit joins; the two-line student song on page 48; the page-47 Alagirisami oratory sequence; historical distance `கல்` as mile; the anomalous `முழககங்கள்` and `நிறுத்தாதற்கு முன்பே` forms; the final Tamil-flag/green-crescent punctuation split; the Jagadeesan hearsay anecdote; the `வெறி / பற்று` wordplay; the classroom dialogue and titular self-judgment; the thirty-six-year retrospective; and the final pivot to Bose, Jinnah, Gandhi and Muslim League politics.
 
@@ -127,6 +128,8 @@ Fresh T1 is durable at `../chapters/v1-ch06.json`. T2 normalises the identifiabl
 No non-authorial body material was found. No missing Tamil reconstruction is required.
 
 Thought-structure audit passes **20 / 20** major movements: the English preserves the movement from Tamil Brigade public campaign through student awakening, street procession and song, Jagadeesan, the Hindi-teacher confrontation, the heart's self-judgment, the thirty-six-year retrospective, Thalamuthu/Natarajan and Anna, and the final Bose–Jinnah–Gandhiji–Muslim League widening. No major movement is reordered, omitted or invented.
+
+Terminology/cultural audit resolves `இன உணர்ச்சி` as **racial consciousness** for this chapter's historical register and `தமிழ்க் காளையர்` as **young Tamil warriors**, while retaining Tamil Brigade, Fearless Heart, Summer-Thunder Alagiri, Ammaiyar, Self-Respect Movement, frenzy/devotion, non-violent picketing struggle, Gandhiji and the final Tamil/green-crescent flag image.
 
 ## Branch consolidation
 
@@ -151,7 +154,7 @@ The opening contains the spacing/extraction form `ஜி ன்னாவிற�
 - T2 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - T3 complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - thought-structure complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
-- terminology/cultural complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
+- terminology/cultural complete: **4 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`, `v1-ch06`)
 - comparator checks complete: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
 - approved chapters: **3 / 5** (`v1-ch03`, `v1-ch04`, `v1-ch05`)
-- next chapter activity: **terminology/cultural-consistency audit for `v1-ch06`**
+- next chapter activity: **post-freeze comparator availability check for `v1-ch06`**
