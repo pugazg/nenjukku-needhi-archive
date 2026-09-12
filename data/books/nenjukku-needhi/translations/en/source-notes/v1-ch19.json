@@ -1,0 +1,79 @@
+{
+  "id": "v1-ch19",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch19.json",
+    "blob_sha": "e81d4c253e861bff6b72ac8cbddf7097ae50dd05",
+    "authority": "read-only"
+  },
+  "tamil_title": "சங்கிலியை விற்றுக் கடனை அடைத்தேன்",
+  "pages": {
+    "start": 104,
+    "end": 107
+  },
+  "extraction_unit_count": 4,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Use title metadata only."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Three joins: after `கவலையோ,`; after `அதில்`; and after `ஆகஸ்ட் 15-ம்`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "film_credit_and_return",
+      "severity": "voice-critical",
+      "observation": "Missing Abhimanyu credit and producer response lead to deliberate return to Tiruvarur.",
+      "translation_action": "Preserve pride, hurt and lack of fear about alienating a large film company."
+    },
+    {
+      "type": "theatre_and_murasoli",
+      "severity": "voice-critical",
+      "observation": "Manthiri Kumari success and betel-lime mishap lead into founding Murasoli as a weekly by pawning family jewellery.",
+      "translation_action": "Preserve comic detail and worsening publication economy."
+    },
+    {
+      "type": "thali_chain",
+      "severity": "culture-sensitive",
+      "observation": "Padma's thali chain is replaced by a cord and the chain sold to pay press debt.",
+      "translation_action": "Keep the marital object concrete."
+    },
+    {
+      "type": "political_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "1947 independence, Periyar's mourning-day position, Anna's August 15 rebuttal, Tuticorin conference and Murasoli 'Last Days' intervention are in authored sequence.",
+      "translation_action": "Preserve chronology and argument."
+    },
+    {
+      "type": "padma_transition",
+      "severity": "voice-critical",
+      "observation": "Political/newspaper struggles converge with Padma's fever, childbirth journey, family-deity ritual and tears.",
+      "translation_action": "Preserve foreboding without anticipating v1-ch20."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
