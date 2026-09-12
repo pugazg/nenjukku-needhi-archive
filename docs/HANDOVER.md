@@ -149,81 +149,85 @@ The living glossary and voice guide are updated through Batch 003.
 
 Formal JSON-Schema validation remains **NOT CLAIMED** because `schemas/chapter.json` is a one-byte legacy placeholder.
 
-## Batch 004 — OPEN
+## Batch 004 — CLOSED
 
-Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
+Source pin:
+
+`d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
 Span: **`v1-ch18`–`v1-ch27`**
 
-Batch-size decision: **user-authorized 10-chapter batch**.
+Batch-size decision: **user-authorized 10-chapter exception**.
 
-This is an explicit exception to the normal five-chapter management envelope for Batch 004 only. The production gates remain unchanged and must still be completed chapter by chapter unless the user separately authorizes a batch-wide gate.
-
-Intake inspection:
-
-- 10 chapters;
-- each chapter is **3–5 pages**;
-- approximate Tamil text size ranges from **4.7k to 9.2k characters**;
-- no intake-level size anomaly prevents the requested 10-chapter batch.
-
-Current counters:
+Final state:
 
 - source files pinned: **10 / 10**
-- source reviews: **0 / 10**
-- T1: **0 / 10**
-- T2: **0 / 10**
-- T3: **0 / 10**
-- thought structure: **0 / 10**
-- terminology/cultural: **0 / 10**
-- approved: **0 / 10**
-- translations started: **0**
+- source reviews: **10 / 10**
+- T1: **10 / 10**
+- T2: **10 / 10**
+- T3: **10 / 10**
+- thought structure: **10 / 10**
+- terminology/cultural: **10 / 10**
+- approved: **10 / 10**
+- independent English frozen: **10 / 10**
 - unresolved source holds: **0**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
+- approval-stage chapter-text changes: **0**
+- comparator consulted: **NO**
+- comparator gate for `v1-ch02+`: **NOT APPLICABLE**
 
-Queue:
+Chapter summary:
 
-- `v1-ch18` — **P0 SOURCE REVIEW NEXT**
-- `v1-ch19` — **PINNED / QUEUED**
-- `v1-ch20` — **PINNED / QUEUED**
-- `v1-ch21` — **PINNED / QUEUED**
-- `v1-ch22` — **PINNED / QUEUED**
-- `v1-ch23` — **PINNED / QUEUED**
-- `v1-ch24` — **PINNED / QUEUED**
-- `v1-ch25` — **PINNED / QUEUED**
-- `v1-ch26` — **PINNED / QUEUED**
-- `v1-ch27` — **PINNED / QUEUED**
+- `v1-ch18` — APPROVED / CLOSED — T2 9 / T3 6 / structure 17/17 / terminology PASS WITH ONE REVISION
+- `v1-ch19` — APPROVED / CLOSED — T2 8 / T3 5 / structure 15/15 / terminology PASS WITH ONE REVISION
+- `v1-ch20` — APPROVED / CLOSED — T2 8 / T3 5 / structure 14/14 / terminology PASS WITH ONE REVISION
+- `v1-ch21` — APPROVED / CLOSED — T2 8 / T3 5 / structure 15/15 / terminology PASS WITHOUT REVISION
+- `v1-ch22` — APPROVED / CLOSED — T2 8 / T3 5 / structure 16/16 / terminology PASS WITH ONE REVISION
+- `v1-ch23` — APPROVED / CLOSED — T2 8 / T3 5 / structure 14/14 / terminology PASS WITHOUT REVISION
+- `v1-ch24` — APPROVED / CLOSED — T2 9 / T3 6 / structure 16/16 / terminology PASS WITH ONE REVISION
+- `v1-ch25` — APPROVED / CLOSED — T2 7 / T3 4 / structure 12/12 / terminology PASS WITH ONE REVISION
+- `v1-ch26` — APPROVED / CLOSED — T2 7 / T3 4 / structure 15/15 / terminology PASS WITHOUT REVISION
+- `v1-ch27` — APPROVED / CLOSED — T2 7 / T3 4 / structure 12/12 / terminology PASS WITHOUT REVISION
 
-Source identities:
+Total thought-structure accounting:
 
-- `v1-ch18` — pages 99–103 — blob `76fd482d8faffedacc4ae6b8f7c5522295b15273`
-- `v1-ch19` — pages 104–107 — blob `e81d4c253e861bff6b72ac8cbddf7097ae50dd05`
-- `v1-ch20` — pages 108–111 — blob `305290adedfe68a59b689ccf2fbc99fbefde312b`
-- `v1-ch21` — pages 112–116 — blob `e2f87d58de12d0f0d78f2105d8cbf7eb6c9cf259`
-- `v1-ch22` — pages 117–121 — blob `1f1c771f031c0054e793d20d55e4aec2953e927e`
-- `v1-ch23` — pages 122–126 — blob `707a4613ae0491040d0f2b892e405dbd8f97f901`
-- `v1-ch24` — pages 127–130 — blob `67a05b5dc950ab39399ce69cfa2ca720b12f16b1`
-- `v1-ch25` — pages 131–133 — blob `84044fde594a96051d4896c725c269569e4aca94`
-- `v1-ch26` — pages 134–136 — blob `0550ba6012e6a9506552120458a7792a637d1656`
-- `v1-ch27` — pages 137–139 — blob `1079ad18a3d6958353c01004a5d9ba00df8e14cb`
+- represented: **146 / 146**
+- reordered: **0**
+- omitted: **0**
+- invented: **0**
 
-The live source `main` is unchanged from Batch 003, but Batch 004 independently pins the freshly fetched live SHA above.
+Batch 004 durable terminology additions include:
 
-## Immediate next activity — v1-ch18 P0 source review
+- `கதர்` → **khadi**
+- `தாலிச் சங்கிலி / தாலிக் கயிறு` → **thali chain / thali cord**
+- historical disease wording preserved without retro-diagnosis
+- `அடையாள மறியல்` → **token picket / token picketing**
+- `மாமியார் வீடு` prison joke minimally explained
+- `கண்ணீர்த் துளிகள்` → **Tear Drops**
+- press-case `ஜாமீன்` → **security / security deposit**
+- `144 தடை உத்தரவு` → **Section 144 prohibitory order**
+- `விபூதி` / `குங்குமப் பொட்டு` → **vibhuti / kumkum dot** contextually
 
-Run **P0 source review for `v1-ch18` only**.
+The living glossary and voice guide are updated through Batch 004.
 
-- title: `அசல் நரிகளிடமிருந்து தப்பினேன்!`
-- pages: **99–103**
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source path: `public/data/text/v1-ch18.json`
-- source blob: `76fd482d8faffedacc4ae6b8f7c5522295b15273`
-- extraction units: **5**
-- extraction strategy: `wordjoiner`
+Formal JSON-Schema validation remains **NOT CLAIMED** because `schemas/chapter.json` is a one-byte legacy placeholder.
 
-Read the full pinned Tamil. Record title repetition, page/source-unit joins, OCR/spacing anomalies, quotations/dialogue, chronology-sensitive assertions, political/institutional names, non-authorial material, duplicate source content, textual/semantic holds, paragraph reconstruction and culturally significant material.
+No active production batch remains.
 
-Create `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch18.json`, synchronize Batch 004/progress/manifest/handover, and stop with **T1 fresh translation next**.
+## Immediate next activity — open Batch 005
 
-Do **not** translate during P0.
+Open **Batch 005 beginning with `v1-ch28`**.
+
+1. Fetch live writable `main`.
+2. Fetch live source-repository `main` read-only.
+3. Record the new Batch 005 source pin.
+4. Inspect `v1-ch28` onward for chapter length/difficulty.
+5. Use the normal **five-chapter batch** unless the user explicitly gives another size override.
+6. Create `data/books/nenjukku-needhi/translations/en/batches/batch-005.md`.
+7. Synchronize manifest/progress/handover/next-chat controls.
+8. Do **not** translate during batch opening.
+9. Stop with **`v1-ch28` P0 source review next**.
 
 ## Mandatory controls
 
