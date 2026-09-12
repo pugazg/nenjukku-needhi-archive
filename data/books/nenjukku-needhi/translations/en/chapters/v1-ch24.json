@@ -1,0 +1,64 @@
+{
+  "id": "v1-ch24",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "அண்ணா அசைந்து கொடுக்கவில்லை",
+  "title": "Anna Would Not Give Way",
+  "pages": {
+    "start": 127,
+    "end": 130
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch24.json",
+    "blob_sha": "67a05b5dc950ab39399ce69cfa2ca720b12f16b1",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch24.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from Batch 004 pinned Tamil after P0; no existing English consulted.",
+    "T2 completed with 9 grouped source-checked revisions.",
+    "T3 completed with 6 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 16/16 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed with one legal-vocabulary revision: ஜாமீன் in the Dravida Nadu press case is rendered as security/security deposit, not bail.",
+    "Final approval passed with no chapter-text changes. v1-ch24 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "At the Dravidar Kazhagam executive committee meeting in Tiruchirappalli, a resolution was passed asking Periyar to abandon the marriage arrangement. At almost the same moment, a telegram arrived saying that the Periyar–Maniammai marriage had already taken place. Tempers were boiling.",
+    "At that moment Anna issued a cautious statement. He asked comrades to decide what should be done next without haste or anger, and without becoming prey to people who incited, flattered, provoked, stirred up gossip or wanted to make the whole affair a public spectacle. Public meetings, denunciatory notices and counter-statements, he said, would not by themselves clarify the situation.",
+    "This was not a game driven by personal rivalry or hatred. People were wounded because a bond and affection built over many years had not been enough even to make Periyar heed this one request. The real problem, Anna said, was how those people could now work without betraying their principles. If even he was accused of acting hastily, comrades should understand how harmful sudden decisions could be.",
+    "Anna therefore refused to accept the angry demand that Periyar himself be expelled from the Dravidar Kazhagam. One after another, cadres hurt by Periyar's decision began announcing that they would stand aside from Kazhagam work.",
+    "Anna published the names of those people in Dravida Nadu under the heading \"Tear Drops.\" Periyar took up the same phrase mockingly and began referring to all who opposed his decision as \"Tear Drops.\"",
+    "Those who rejected Periyar's course increasingly argued that the proper response was to remove him from the Dravidar Kazhagam and take control of the organization. Anna announced that on 17 September 1949, a meeting of Kazhagam comrades would be held at Pavazhakkara Street in Madras under the leadership of K. K. Neelamegam of Kumbakonam to decide the future programme.",
+    "Meanwhile, a daily newspaper called Maalai Mani was started with Anna as editor and T. M. Parthasarathi in charge. At the Pavazhakkara Street meeting, Bharathidasan strongly urged that Periyar be removed and the Dravidar Kazhagam taken over.",
+    "Anna responded with a carefully reasoned statement. Taking over the Kazhagam and continuing under new leadership was certainly possible, he said. They had sufficient strength, resources and an undeniable moral case. Yet he feared that such a course might make destruction dance through the country and, without their realizing it, give room for reaction and the old order.",
+    "He compared it to climbing a tree to pluck fruit and finding a black cobra winding around one's leg. At the very moment they fought to recover the Kazhagam from Periyar, forces of fascism and social reaction might exploit the conflict. Periyar, as they knew him, would not submit to organizational procedures or accept the result. If both sides wandered about using the same Dravidar Kazhagam \"label,\" opportunists would have every chance to set them against one another.",
+    "The label was not what mattered, Anna argued. Principles and programme mattered. No single person could forever claim ownership of a label, but principles could not spread and an ideal could not take shape without collective effort. They had the people, opportunity and strength for that collective effort.",
+    "Therefore, he proposed that they stand separately, remove not only Periyar's leadership but the very label, and work under a new name: Dravida Munnetra Kazhagam. The meeting accepted the statement. A general council, organization committee, rules committee, finance committee and other bodies were formed.",
+    "That evening, at Robinson Park in Royapuram, a public meeting under Bethampalayam Palanisamy formally announced the new organization. Rain poured down as Anna explained why the Dravida Munnetra Kazhagam had to arise.",
+    "At the end he said that the first and most important task must be to stand in the front line against any government that suppressed freedom of writing or speech. He called everyone to take part, and turned even to Periyar in appeal: \"Periyar! We who received your training and discipline are calling, on this very first day, to follow your path—to oppose the government and go to prison.\"",
+    "Within two months of its birth, more than seven hundred branches had been created across Tamil Nadu and more than fifty thousand members had joined.",
+    "On 2 May 1950, Congress minister Madhava Menon issued an order making Hindi compulsory from the first through sixth forms. Tamil Nadu prepared for a major agitation. The Dravida Munnetra Kazhagam entered the non-violent struggle. The source presents this as another stage in the long effort, dating back to 1918, to plant Hindi in Tamil Nadu. Prisons opened; comrades bore lathi blows. Anna began mobilizing a broad anti-Hindi front.",
+    "Unable to withstand the force of the opposition, the education minister issued a new order only two months later: Hindi would not be compulsory but optional. The movement celebrated the withdrawal as the Dravida Munnetra Kazhagam's first-stage victory.",
+    "Meanwhile the government ordered the Dravida Nadu paper to furnish security of three thousand rupees, and a case followed. Anna first deposited the amount. Kazhagam comrades across the country collected funds and sent the money. The judges, Rajamannar and Chandra Reddy, later set aside the government's order and directed that the three-thousand-rupee security be returned to Anna. He in turn sent the refunded money back to those who had contributed it.",
+    "Soon after that came a circumstance Tamil Nadu had not expected: Anna and Periyar would once again have to stay in the same place."
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch24.json",
+    "t2_review": "../reviews/v1-ch24-t2.md",
+    "t3_review": "../reviews/v1-ch24-t3.md",
+    "thought_structure_review": "../reviews/v1-ch24-structure.md",
+    "terminology_review": "../reviews/v1-ch24-terminology.md",
+    "approval_review": "../reviews/v1-ch24-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
