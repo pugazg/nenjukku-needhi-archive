@@ -149,20 +149,81 @@ The living glossary and voice guide are updated through Batch 003.
 
 Formal JSON-Schema validation remains **NOT CLAIMED** because `schemas/chapter.json` is a one-byte legacy placeholder.
 
-No active production batch remains.
+## Batch 004 — OPEN
 
-## Immediate next activity — open Batch 004
+Source pin: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
-Open **Batch 004 beginning with `v1-ch18`**.
+Span: **`v1-ch18`–`v1-ch27`**
 
-1. Fetch live writable `main`.
-2. Fetch live source-repository `main` read-only.
-3. Record the new Batch 004 source pin.
-4. Inspect `v1-ch18` onward for chapter size/difficulty under the normal five-chapter policy.
-5. Create `data/books/nenjukku-needhi/translations/en/batches/batch-004.md`.
-6. Synchronize manifest/progress/handover/next-chat controls.
-7. Do **not** translate during batch opening.
-8. Stop with `v1-ch18` P0 source review next.
+Batch-size decision: **user-authorized 10-chapter batch**.
+
+This is an explicit exception to the normal five-chapter management envelope for Batch 004 only. The production gates remain unchanged and must still be completed chapter by chapter unless the user separately authorizes a batch-wide gate.
+
+Intake inspection:
+
+- 10 chapters;
+- each chapter is **3–5 pages**;
+- approximate Tamil text size ranges from **4.7k to 9.2k characters**;
+- no intake-level size anomaly prevents the requested 10-chapter batch.
+
+Current counters:
+
+- source files pinned: **10 / 10**
+- source reviews: **0 / 10**
+- T1: **0 / 10**
+- T2: **0 / 10**
+- T3: **0 / 10**
+- thought structure: **0 / 10**
+- terminology/cultural: **0 / 10**
+- approved: **0 / 10**
+- translations started: **0**
+- unresolved source holds: **0**
+
+Queue:
+
+- `v1-ch18` — **P0 SOURCE REVIEW NEXT**
+- `v1-ch19` — **PINNED / QUEUED**
+- `v1-ch20` — **PINNED / QUEUED**
+- `v1-ch21` — **PINNED / QUEUED**
+- `v1-ch22` — **PINNED / QUEUED**
+- `v1-ch23` — **PINNED / QUEUED**
+- `v1-ch24` — **PINNED / QUEUED**
+- `v1-ch25` — **PINNED / QUEUED**
+- `v1-ch26` — **PINNED / QUEUED**
+- `v1-ch27` — **PINNED / QUEUED**
+
+Source identities:
+
+- `v1-ch18` — pages 99–103 — blob `76fd482d8faffedacc4ae6b8f7c5522295b15273`
+- `v1-ch19` — pages 104–107 — blob `e81d4c253e861bff6b72ac8cbddf7097ae50dd05`
+- `v1-ch20` — pages 108–111 — blob `305290adedfe68a59b689ccf2fbc99fbefde312b`
+- `v1-ch21` — pages 112–116 — blob `e2f87d58de12d0f0d78f2105d8cbf7eb6c9cf259`
+- `v1-ch22` — pages 117–121 — blob `1f1c771f031c0054e793d20d55e4aec2953e927e`
+- `v1-ch23` — pages 122–126 — blob `707a4613ae0491040d0f2b892e405dbd8f97f901`
+- `v1-ch24` — pages 127–130 — blob `67a05b5dc950ab39399ce69cfa2ca720b12f16b1`
+- `v1-ch25` — pages 131–133 — blob `84044fde594a96051d4896c725c269569e4aca94`
+- `v1-ch26` — pages 134–136 — blob `0550ba6012e6a9506552120458a7792a637d1656`
+- `v1-ch27` — pages 137–139 — blob `1079ad18a3d6958353c01004a5d9ba00df8e14cb`
+
+The live source `main` is unchanged from Batch 003, but Batch 004 independently pins the freshly fetched live SHA above.
+
+## Immediate next activity — v1-ch18 P0 source review
+
+Run **P0 source review for `v1-ch18` only**.
+
+- title: `அசல் நரிகளிடமிருந்து தப்பினேன்!`
+- pages: **99–103**
+- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
+- source path: `public/data/text/v1-ch18.json`
+- source blob: `76fd482d8faffedacc4ae6b8f7c5522295b15273`
+- extraction units: **5**
+- extraction strategy: `wordjoiner`
+
+Read the full pinned Tamil. Record title repetition, page/source-unit joins, OCR/spacing anomalies, quotations/dialogue, chronology-sensitive assertions, political/institutional names, non-authorial material, duplicate source content, textual/semantic holds, paragraph reconstruction and culturally significant material.
+
+Create `data/books/nenjukku-needhi/translations/en/source-notes/v1-ch18.json`, synchronize Batch 004/progress/manifest/handover, and stop with **T1 fresh translation next**.
+
+Do **not** translate during P0.
 
 ## Mandatory controls
 
@@ -175,7 +236,7 @@ Read before P0:
 5. `docs/TRANSLATION_GLOSSARY.md`
 6. `docs/TRANSLATION_PROGRESS.md`
 7. `data/books/nenjukku-needhi/translations/en/manifest.json`
-8. `data/books/nenjukku-needhi/translations/en/batches/batch-003.md`
+8. `data/books/nenjukku-needhi/translations/en/batches/batch-004.md`
 
 ## Infrastructure limitation
 
