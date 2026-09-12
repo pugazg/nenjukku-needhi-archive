@@ -1,0 +1,64 @@
+{
+  "id": "v1-ch27",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "கனிவு வென்றது!",
+  "title": "Compassion Won!",
+  "pages": {
+    "start": 137,
+    "end": 139
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch27.json",
+    "blob_sha": "1079ad18a3d6958353c01004a5d9ba00df8e14cb",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch27.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from Batch 004 pinned Tamil after P0; no existing English consulted.",
+    "T2 completed with 7 grouped source-checked revisions.",
+    "T3 completed with 4 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 12/12 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed without chapter-text revision; Pavazhakkara Street, Robinson Park, kara boondi, pakoda, single tea and source-led lodge/committee vocabulary are retained contextually.",
+    "Final approval passed with no chapter-text changes. v1-ch27 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "In Chennai, at Pavazhakkara Street, I sat with the frontline comrades who had gathered in pain and took part in the deliberations. I saw with my own eyes how each friend, wounded by the great disaster that had struck the Dravidar Kazhagam, breathed fire. I too became a flame of emotion.",
+    "The meeting felt as though an earthquake, a cyclone and a volcano were challenging one another. In the middle of that eruption, the moving speech of Arignar Anna blew like a gentle young breeze and took hold of everyone. Harsh words, cries of condemnation, burning resistance, sentences hot as blows on red-hot iron—amid all of them, compassion and tears planted the flag of victory. My eyes widened at the wonder; my heart opened.",
+    "With words tender as dewdrops resting on a flower at dawn, Anna brought comfort to every heart that had been boiling. He won that debate. Yes—love, intelligence and strength won.",
+    "\"Karunanidhi, I have made you a member of the propaganda committee,\" Anna told me. Even now those words ring in my ears.",
+    "That evening, in the rain, the first public meeting of the Dravida Munnetra Kazhagam concluded at Robinson Park in Chennai. \"There are a few things we need to discuss. Come with me,\" Anna said.",
+    "Kannadasan, who was with me, said he was sleepy and would go to the lodge and sleep. The two of us were staying at the Virudhunagar Nadar Lodge in Chennai. I told him, \"You go and lie down there. I will talk with Anna and the others and come back to the lodge,\" and went with Anna.",
+    "The hall in the house of Devarasa Mudaliar, an old friend of Anna, was where Anna and the Kazhagam leaders sat and discussed matters. One torn sofa; two broken chairs; two mats with holes in them; four or five grimy pillows. That was where Anna's royalty held court.",
+    "Kara boondi, pakoda and a single tea—this was the feast served there every hour. The delight with which Anna ate it was a sight in itself. Discussion meetings there would continue until two in the morning, sometimes even until five at dawn, and they could happen day after day.",
+    "After the Robinson Park meeting, Anna, the other Kazhagam comrades and I talked there until two in the morning. Then I took leave and went to the Virudhunagar Lodge. I had to catch the seven o'clock train at Chennai Central and reach Salem that night.",
+    "I reached the lodge with that thought in mind and knocked on the door of the room Kannadasan and I shared. For a long time the door did not open. People in the next room opened theirs, looked at me and scolded, \"Don't disturb people when they're sleeping,\" before going back inside.",
+    "At last Kannadasan somehow woke up and opened the door. I entered. Before I knew it he had gone back to his bed, lain down and begun snoring.",
+    "I tried to lie down on the bed beside his. Two plates were lying on it—the plates on which we had eaten breakfast that morning and then left on the bed. I decided to move them. I lifted one. Something smooth and slippery wriggled against my hand.",
+    "Under the plate was a small black cobra. I had not noticed that it was coiled beneath it. \"Ayyo!\" I screamed and dropped the plate. The snake twisted across the bed.",
+    "Kannadasan woke at my shout. We opened the door and both yelled. The lodge watchmen came running with sticks and eventually killed the snake. They described it as extremely dangerous and said that if it had bitten me there would have been no escape from immediate death.",
+    "As if that were not enough, they added that it was a young snake and that there might be several more young snakes in the room. Then they carried away the dead snake.",
+    "After that I was afraid to remain inside the room. Kannadasan went back and lay down on his bed. I called to him softly: \"Ayya, now that I have seen a snake on my bed, I am afraid to sleep there. So I will sleep in your bed; you sleep in mine.\"",
+    "He replied at once: \"What is this, Ayya? Are you such a coward? Are you that frightened merely because you saw a snake? Just go and sleep in your own bed.\"",
+    "\"But you are the brave one. You sleep in this bed,\" I said. His only answer was the sound of his snoring. With no other choice, I left the light on and began to sleep sitting upright in a chair."
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch27.json",
+    "t2_review": "../reviews/v1-ch27-t2.md",
+    "t3_review": "../reviews/v1-ch27-t3.md",
+    "thought_structure_review": "../reviews/v1-ch27-structure.md",
+    "terminology_review": "../reviews/v1-ch27-terminology.md",
+    "approval_review": "../reviews/v1-ch27-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
