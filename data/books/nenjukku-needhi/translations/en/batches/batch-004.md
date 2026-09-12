@@ -1,6 +1,6 @@
 # Batch 004 — Volume 1 Chapters 18–27
 
-Status: **OPEN / USER-AUTHORIZED 10-CHAPTER BATCH / `v1-ch18` P0 SOURCE REVIEW NEXT**
+Status: **CLOSED / 10 OF 10 APPROVED**
 
 Source repository: `pugazg/kalaignar-autobiography` — **READ ONLY**
 
@@ -8,105 +8,122 @@ Pinned Batch 004 source ref:
 
 `d6621b71256ae99b1c89b4f2091513dcc5f96626`
 
-The live source `main` is unchanged from Batch 003. Batch 004 nevertheless records the freshly fetched live SHA above as its own authority pin.
-
 Write repository: `pugazg/nenjukku-needhi-archive`
 
 Working branch: `main`
 
 ## Batch-size decision
 
-Normal production management uses **five chapters per batch**, with smaller spans for unusually long/difficult chapters.
+Batch 004 used an explicit **user-authorized 10-chapter batch** (`v1-ch18`–`v1-ch27`), overriding the normal five-chapter management envelope for this batch only.
 
-For Batch 004 the user explicitly authorized a **10-chapter batch**. That directive overrides the normal management-envelope size for this batch only.
-
-Intake inspection shows all ten selected chapters are modest **3–5-page** units, approximately **4.7k–9.2k Tamil characters** each. No intake-level size anomaly prevents the requested ten-chapter envelope.
-
-The per-chapter production method does **not** change:
+The per-chapter production method remained unchanged:
 
 `P0 source review → T1 → T2 → T3 → thought-structure audit → terminology/cultural audit → final approval → closed`
 
-Do not treat the 10-chapter envelope as permission to skip gates or merge source-dependent judgments across chapters.
+## Final chapter state
 
-## Intake inventory
+| ID | Tamil title | Pages | T2 | T3 | Structure | Terminology | Final |
+|---|---|---:|---:|---:|---:|---|---|
+| `v1-ch18` | `அசல் நரிகளிடமிருந்து தப்பினேன்!` | 99–103 | 9 | 6 | 17/17 | PASS + 1 revision | **APPROVED / CLOSED** |
+| `v1-ch19` | `சங்கிலியை விற்றுக் கடனை அடைத்தேன்` | 104–107 | 8 | 5 | 15/15 | PASS + 1 revision | **APPROVED / CLOSED** |
+| `v1-ch20` | `போய் வருகிறேன் என்றாள் என் பத்மா` | 108–111 | 8 | 5 | 14/14 | PASS + 1 revision | **APPROVED / CLOSED** |
+| `v1-ch21` | `காந்தியார் கண்ட கனவை நனவாக்குகிறோம்` | 112–116 | 8 | 5 | 15/15 | PASS without revision | **APPROVED / CLOSED** |
+| `v1-ch22` | `என் திருமணத்துக்கு நானே தலைமை தாங்கினேன்!` | 117–121 | 8 | 5 | 16/16 | PASS + 1 revision | **APPROVED / CLOSED** |
+| `v1-ch23` | `பெரியார் - மணியம்மை திருமணம்` | 122–126 | 8 | 5 | 14/14 | PASS without revision | **APPROVED / CLOSED** |
+| `v1-ch24` | `அண்ணா அசைந்து கொடுக்கவில்லை` | 127–130 | 9 | 6 | 16/16 | PASS + 1 revision | **APPROVED / CLOSED** |
+| `v1-ch25` | `எழுத்துரிமை, பேச்சுரிமை` | 131–133 | 7 | 4 | 12/12 | PASS + 1 revision | **APPROVED / CLOSED** |
+| `v1-ch26` | `நண்பர் கண்ணதாசன்` | 134–136 | 7 | 4 | 15/15 | PASS without revision | **APPROVED / CLOSED** |
+| `v1-ch27` | `கனிவு வென்றது!` | 137–139 | 7 | 4 | 12/12 | PASS without revision | **APPROVED / CLOSED** |
 
-| ID | Tamil title | Pages | Extraction units | Approx. Tamil chars | Source blob SHA |
-|---|---|---:|---:|---:|---|
-| `v1-ch18` | `அசல் நரிகளிடமிருந்து தப்பினேன்!` | 99–103 | 5 | 9,162 | `76fd482d8faffedacc4ae6b8f7c5522295b15273` |
-| `v1-ch19` | `சங்கிலியை விற்றுக் கடனை அடைத்தேன்` | 104–107 | 4 | 7,859 | `e81d4c253e861bff6b72ac8cbddf7097ae50dd05` |
-| `v1-ch20` | `போய் வருகிறேன் என்றாள் என் பத்மா` | 108–111 | 4 | 6,752 | `305290adedfe68a59b689ccf2fbc99fbefde312b` |
-| `v1-ch21` | `காந்தியார் கண்ட கனவை நனவாக்குகிறோம்` | 112–116 | 5 | 8,590 | `e2f87d58de12d0f0d78f2105d8cbf7eb6c9cf259` |
-| `v1-ch22` | `என் திருமணத்துக்கு நானே தலைமை தாங்கினேன்!` | 117–121 | 5 | 8,711 | `1f1c771f031c0054e793d20d55e4aec2953e927e` |
-| `v1-ch23` | `பெரியார் - மணியம்மை திருமணம்` | 122–126 | 5 | 8,836 | `707a4613ae0491040d0f2b892e405dbd8f97f901` |
-| `v1-ch24` | `அண்ணா அசைந்து கொடுக்கவில்லை` | 127–130 | 4 | 7,563 | `67a05b5dc950ab39399ce69cfa2ca720b12f16b1` |
-| `v1-ch25` | `எழுத்துரிமை, பேச்சுரிமை` | 131–133 | 3 | 5,452 | `84044fde594a96051d4896c725c269569e4aca94` |
-| `v1-ch26` | `நண்பர் கண்ணதாசன்` | 134–136 | 3 | 5,212 | `0550ba6012e6a9506552120458a7792a637d1656` |
-| `v1-ch27` | `கனிவு வென்றது!` | 137–139 | 3 | 4,720 | `1079ad18a3d6958353c01004a5d9ba00df8e14cb` |
+## Final counters
 
-All source files use extraction strategy `wordjoiner`.
-
-## Chapter queue
-
-| ID | Tamil title | Pages | Current status |
-|---|---|---:|---|
-| `v1-ch18` | `அசல் நரிகளிடமிருந்து தப்பினேன்!` | 99–103 | **P0 SOURCE REVIEW NEXT** |
-| `v1-ch19` | `சங்கிலியை விற்றுக் கடனை அடைத்தேன்` | 104–107 | **PINNED / QUEUED** |
-| `v1-ch20` | `போய் வருகிறேன் என்றாள் என் பத்மா` | 108–111 | **PINNED / QUEUED** |
-| `v1-ch21` | `காந்தியார் கண்ட கனவை நனவாக்குகிறோம்` | 112–116 | **PINNED / QUEUED** |
-| `v1-ch22` | `என் திருமணத்துக்கு நானே தலைமை தாங்கினேன்!` | 117–121 | **PINNED / QUEUED** |
-| `v1-ch23` | `பெரியார் - மணியம்மை திருமணம்` | 122–126 | **PINNED / QUEUED** |
-| `v1-ch24` | `அண்ணா அசைந்து கொடுக்கவில்லை` | 127–130 | **PINNED / QUEUED** |
-| `v1-ch25` | `எழுத்துரிமை, பேச்சுரிமை` | 131–133 | **PINNED / QUEUED** |
-| `v1-ch26` | `நண்பர் கண்ணதாசன்` | 134–136 | **PINNED / QUEUED** |
-| `v1-ch27` | `கனிவு வென்றது!` | 137–139 | **PINNED / QUEUED** |
-
-## Opening counters
-
-- batch opened: **YES**
-- user-authorized batch size: **10**
 - source files pinned: **10 / 10**
-- source reviews: **0 / 10**
-- T1: **0 / 10**
-- T2: **0 / 10**
-- T3: **0 / 10**
-- thought structure: **0 / 10**
-- terminology/cultural: **0 / 10**
-- approved: **0 / 10**
-- translations started: **0**
+- source reviews: **10 / 10**
+- T1: **10 / 10**
+- T2: **10 / 10**
+- T3: **10 / 10**
+- thought structure: **10 / 10**
+- terminology/cultural: **10 / 10**
+- final approval: **10 / 10**
+- independent English frozen: **10 / 10**
 - unresolved source holds: **0**
+- unresolved terminology holds: **0**
+- outstanding review items: **0**
+- approval-stage chapter-text changes: **0**
+- comparator consulted: **NO**
+- comparator gate for `v1-ch02+`: **NOT APPLICABLE**
 
-## Batch controls
+## Thought-structure result
 
-- source repository remains read-only;
-- live writable `main` is authoritative for archive state;
-- preserve newer durable work if this control becomes stale;
-- source review must precede T1 for each chapter;
-- no silent Tamil normalization;
-- existing English is not a production gate for `v1-ch02+`;
-- no `v1-ch28` work before Batch 004 closes unless separately authorized;
-- the 10-chapter user override applies to Batch 004 only and does not permanently replace the normal batch-size policy.
+Across the ten chapters:
 
-## Immediate next activity
+- represented movements: **146 / 146**
+- reordered: **0**
+- omitted: **0**
+- invented: **0**
+- structure-stage chapter-text changes: **0**
 
-Run **P0 source review for `v1-ch18` only**.
+Per chapter:
 
-Source identity:
+- `v1-ch18` — 17/17
+- `v1-ch19` — 15/15
+- `v1-ch20` — 14/14
+- `v1-ch21` — 15/15
+- `v1-ch22` — 16/16
+- `v1-ch23` — 14/14
+- `v1-ch24` — 16/16
+- `v1-ch25` — 12/12
+- `v1-ch26` — 15/15
+- `v1-ch27` — 12/12
 
-- ID: `v1-ch18`
-- title: `அசல் நரிகளிடமிருந்து தப்பினேன்!`
-- pages: **99–103**
-- source path: `public/data/text/v1-ch18.json`
-- source ref: `d6621b71256ae99b1c89b4f2091513dcc5f96626`
-- source blob: `76fd482d8faffedacc4ae6b8f7c5522295b15273`
-- extraction units: **5**
-- extraction strategy: `wordjoiner`
+## Terminology/cultural results
 
-P0 must read the full pinned Tamil and document title repetition, page/source-unit joins, OCR/spacing anomalies, quotations/dialogue, chronology-sensitive assertions, political/institutional names, non-authorial material, duplicate material, textual/semantic holds, paragraph reconstruction and culture-specific material.
+Accepted revision groups:
 
-Do **not** translate during Batch 004 opening or this P0 activity.
+- `v1-ch18`: `கதர்` → **khadi**
+- `v1-ch19`: **thali chain / thali cord** made consistent
+- `v1-ch20`: historical diagnosis kept as **galloping consumptive fever** without asserting a modern diagnosis
+- `v1-ch22`: **token anti-Hindi picket** and the **mother-in-law's house—the jail** pun clarified
+- `v1-ch24`: press-case `ஜாமீன்` → **security / security deposit**
+- `v1-ch25`: `144 தடை உத்தரவு` → **Section 144 prohibitory order**
+
+No chapter-text terminology revision was needed for `v1-ch21`, `v1-ch23`, `v1-ch26` or `v1-ch27`.
+
+The living glossary and voice guide were updated through Batch 004.
+
+## Durable voice controls from this batch
+
+- embedded Kural/Gandhi passages are translated from the controlling Tamil rather than replaced with external canonical English;
+- self-incriminating autobiographical material is not softened;
+- domestic grief versus public duty is allowed to remain morally unresolved when Kalaignar leaves it unresolved;
+- historical medical wording is not retro-diagnosed;
+- money, jewellery, press debt, fares and other small material facts remain part of political causality;
+- affection may survive ideological separation;
+- authored political claims remain authored claims rather than silent fact-correction targets;
+- humour may interrupt political crisis without trivializing it.
 
 ## Infrastructure limitation
 
 `schemas/chapter.json` remains a one-byte newline-only legacy placeholder.
 
-Do not claim formal JSON-Schema validation.
+Formal JSON-Schema validation is **NOT CLAIMED**.
+
+## Batch closure
+
+Batch 004 is **CLOSED / 10 OF 10 APPROVED**.
+
+No active production batch remains.
+
+## Next production activity
+
+**Open Batch 005 beginning with `v1-ch28`.**
+
+At opening:
+
+1. fetch live writable `main`;
+2. fetch live read-only source `main`;
+3. record the new Batch 005 source pin;
+4. inspect `v1-ch28` onward for size/difficulty under the normal batch policy unless the user gives a new size override;
+5. create `batches/batch-005.md`;
+6. synchronize manifest/progress/handover/next-chat;
+7. do not translate until Batch 005 is durably opened and `v1-ch28` P0 is complete.
