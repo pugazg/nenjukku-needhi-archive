@@ -1,0 +1,85 @@
+{
+  "id": "v1-ch24",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch24.json",
+    "blob_sha": "67a05b5dc950ab39399ce69cfa2ca720b12f16b1",
+    "authority": "read-only"
+  },
+  "tamil_title": "அண்ணா அசைந்து கொடுக்கவில்லை",
+  "pages": {
+    "start": 127,
+    "end": 130
+  },
+  "extraction_unit_count": 4,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats title; extraction begins with split `தி ருச்சியில்`.",
+      "translation_action": "Use title metadata and read securely as Tiruchirappalli."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Three joins: `அப்படிப் / பட்டவர்களுடைய`; unit 2→3 after `இந்தச் சூழ்நிலையை`; unit 3→4 after `திராவிட / முன்னேற்றக் கழகம்`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "anna_caution",
+      "severity": "voice-critical",
+      "observation": "After telegram confirms marriage, Anna warns cadres against haste, anger and personal hostility.",
+      "translation_action": "Preserve long cautionary reasoning rather than summarize as tactical delay."
+    },
+    {
+      "type": "tear_drops",
+      "severity": "translation-sensitive",
+      "observation": "Anna publishes names of those withdrawing from DK work under heading `கண்ணீர்த் துளிகள்`; Periyar then uses the phrase mockingly.",
+      "translation_action": "Retain same English form in both uses to preserve rhetorical reversal."
+    },
+    {
+      "type": "formation_argument",
+      "severity": "voice-critical",
+      "observation": "At Pavazhakkara Street Anna argues against seizing DK/label, warns reactionaries could exploit conflict, and proposes Dravida Munnetra Kazhagam.",
+      "translation_action": "Preserve label/policy/program distinction and collective-action logic."
+    },
+    {
+      "type": "founding_meeting",
+      "severity": "authorial-fact-sensitive",
+      "observation": "17 Sept 1949 organizational meeting and Robinson Park public launch are linked; rain, committees and Anna's writing/speech freedom call are central.",
+      "translation_action": "Preserve date, setting and quoted call."
+    },
+    {
+      "type": "first_hindi_campaign",
+      "severity": "authorial-fact-sensitive",
+      "observation": "2 May 1950 Madhava Menon order makes Hindi compulsory forms 1–6; source says DMK resistance leads to optional status after two months.",
+      "translation_action": "Preserve as authored claim."
+    },
+    {
+      "type": "security_case",
+      "severity": "legal-terminology-sensitive",
+      "observation": "Dravida Nadu is ordered to furnish ₹3000 `ஜாமீன்`; judges Rajamannar and Chandra Reddy quash order and refund; Anna returns donations.",
+      "translation_action": "Use security/security deposit, not criminal bail."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
