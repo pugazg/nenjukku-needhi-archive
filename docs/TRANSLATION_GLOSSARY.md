@@ -112,6 +112,17 @@ This is a living glossary. Entries are added only after reading the Tamil in con
 | `அய்யா` | **Ayya** in intimate/respectful direct address where voice matters | `v1-ch17`: retain Kalaignar's respectful address to Periyar when a generic “sir” would flatten the relationship. |
 | `தியாகப் பிரம்ம உற்சவம்` | **Thyaga Brahma festival** (source-led working form) | `v1-ch17`: preserve source wording; do not import a different modern event title without evidence. |
 
+| `கதர்` | **khadi** | `v1-ch18`: use the established English cultural/political textile term; do not leave a misleading phonetic form. |
+| `தாலிச் சங்கிலி` / `தாலிக் கயிறு` | **thali chain / thali cord** | `v1-ch19`: preserve the concrete marital object and the sacrifice involved in replacing the gold chain with a cord. |
+| historical disease labels such as `குதிரை வேக க்ஷயரோகக் காய்ச்சல்` | **source-led historical wording; do not silently convert to a modern diagnosis** | `v1-ch20`: the working phrase **galloping consumptive fever** records the report's historical language without claiming a present-day medical equivalence. |
+| `அடையாள மறியல்` | **token picket / token picketing** | `v1-ch22`: preserve the limited symbolic-action sense; do not inflate it into an indefinite blockade. |
+| `மாமியார் வீடு` as prison joke | **mother-in-law's house—the jail** when the pun must be carried | `v1-ch22`: the colloquial euphemistic joke depends on the bridegroom/wedding context and needs minimal explanation in English. |
+| `கண்ணீர்த் துளிகள்` | **Tear Drops** | `v1-ch24`: retain the same phrase when Anna uses it sympathetically and Periyar reuses it mockingly, so the rhetorical reversal remains visible. |
+| press-case `ஜாமீன்` | **security / security deposit** | `v1-ch24`: where a publication is ordered to furnish money as a legal condition, do not translate as criminal bail. |
+| `144 தடை உத்தரவு` | **Section 144 prohibitory order** | `v1-ch25`: use the legal-context form; do not reduce it to a generic ban. |
+| `விபூதி` | **vibhuti / sacred ash** contextually | `v1-ch26`: retain the culturally specific mark where its presence/absence carries narrative meaning; use a minimal gloss only when needed. |
+| `குங்குமப் பொட்டு` | **kumkum dot** | `v1-ch26`: preserve the visible forehead mark and its sequence with vibhuti; do not flatten to generic “religious mark”. |
+
 ## Terms awaiting evidence from wider corpus
 
 The following should not be permanently fixed until more chapters are read:
@@ -142,3 +153,5 @@ The following should not be permanently fixed until more chapters are read:
 - `v1-ch12` terminology/cultural audit retained **Dravidar Kazhagam**, **Dravida Munnetra Kazhagam**, **Varnashrama**, **Thillai/Chidambaram**, **dakshina**, **parani**, **Margazhi**, **beedi**, **sundal**, and **Children's Reform Association** without chapter-text revision.
 
 - `v1-ch13`–`v1-ch17` terminology/cultural audits added durable policies for Self-Respect/reform marriage language, Mahamayi, Kinthanar/kathakalakshepam, cheri, Dravidian Actors' Association, attributed caste-abuse dialogue, Keple/avukka, Thozhilalar Mithiran, disguise clothing, Ayya and Thyaga Brahma festival. Batch 003 accepted three chapter-level terminology revision groups and ended with zero terminology holds.
+
+- `v1-ch18`–`v1-ch27` terminology/cultural audits added durable policies for khadi, thali chain/thali cord, non-retroactive historical medical wording, token picketing, the prison “mother-in-law's house” joke, Tear Drops, press-case security, Section 144, vibhuti and kumkum. Batch 004 ended with zero terminology holds.
