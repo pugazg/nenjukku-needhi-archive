@@ -1,0 +1,85 @@
+{
+  "id": "v1-ch26",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch26.json",
+    "blob_sha": "0550ba6012e6a9506552120458a7792a637d1656",
+    "authority": "read-only"
+  },
+  "tamil_title": "நண்பர் கண்ணதாசன்",
+  "pages": {
+    "start": 134,
+    "end": 136
+  },
+  "extraction_unit_count": 3,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title and begins with split `தி ருவாரூரில்`.",
+      "translation_action": "Use title as metadata; read the split securely as Tiruvarur."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Unit 1 ends `கூறி-` and unit 2 begins `னார்கள்`; unit 2 ends `பொள்ளாச்சி-` and unit 3 begins `யில்`.",
+      "translation_action": "Join as `கூறினார்கள்` and `பொள்ளாச்சியில்`; page boundaries are not authorial breaks."
+    },
+    {
+      "type": "modern_theatres_entry",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Ka. Mu. Sheriff brings T. R. Sundaram's invitation; Kalaignar joins Modern Theatres in 1949 at ₹500 per month with an explicit condition that party work and meetings not be obstructed.",
+      "translation_action": "Preserve date, salary and political-work condition exactly."
+    },
+    {
+      "type": "kannadasan_first_meeting",
+      "severity": "voice-critical",
+      "observation": "M. C. Chakrapani and Sheriff introduce the tall, vibhuti-covered poet who becomes Kannadasan; Kalaignar immediately reads him as carefree and able to quarrel then reconcile quickly.",
+      "translation_action": "Keep affectionate teasing and later retrospective identification."
+    },
+    {
+      "type": "friendship_and_ideology",
+      "severity": "voice-critical",
+      "observation": "Narrator explicitly says friendship with him attracted Kannadasan more than Kazhagam principles and speculates that this may explain weaker ideological steadfastness.",
+      "translation_action": "Preserve this as Kalaignar's personal judgment, not an objective diagnosis."
+    },
+    {
+      "type": "religious_marks_and_rationalism",
+      "severity": "culture-sensitive",
+      "observation": "Full vibhuti gives way to kumkum plus one finger of vibhuti, then to a bare forehead during the Coimbatore–Pollachi trip; narrator notes Kannadasan later sometimes resumed them.",
+      "translation_action": "Keep vibhuti/kumkum concrete and the temporal progression intact; do not caricature belief."
+    },
+    {
+      "type": "first_kazhagam_speech",
+      "severity": "voice-critical",
+      "observation": "Kannadasan insists on speaking at Pollachi; opening line says he was born in the Chettiar land where interest is charged on interest; he speaks about five minutes and feels the Kazhagam stamp fixed on him.",
+      "translation_action": "Preserve joke, brevity and self-initiation."
+    },
+    {
+      "type": "dmk_transition",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Before Kannadasan fully joined, circumstances for founding the Dravida Munnetra Kazhagam arose; both men went to Madras on the founding day, while Kalaignar planned to return immediately to Salem to receive his mother and wife.",
+      "translation_action": "Preserve sequence into v1-ch27 and domestic move."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
