@@ -1,0 +1,62 @@
+{
+  "id": "v1-ch20",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "போய் வருகிறேன் என்றாள் என் பத்மா",
+  "title": "My Padma Said, “I'll Be Back”",
+  "pages": {
+    "start": 108,
+    "end": 111
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch20.json",
+    "blob_sha": "305290adedfe68a59b689ccf2fbc99fbefde312b",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch20.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from the Batch 004 pinned Tamil after P0; no pre-existing English consulted.",
+    "T2 completed with 8 grouped source-checked revisions.",
+    "T3 completed with 5 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 14/14 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed with one conservative revision: the historical diagnostic phrase is rendered as the report's wording, `galloping consumptive fever`, without claiming a modern diagnosis.",
+    "Final approval passed with no chapter-text changes. v1-ch20 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "My wife Padma's troubled eyes found mine. Exhausted by fever, labour pain and some sorrow whose nature I could not understand, she looked at me and said in a trembling voice, \"I'll be back.\" Was she taking leave of me merely to go to the hospital? No! No! She had not wept like that to bid me farewell before going to a restless hospital filled with the cries of patients, the shouts of \"Amma! Ayyo!\" and the movement of doctors and nurses. It was as though she had taken leave of me for some place of peace.",
+    "My mother's face too was not right. Though she herself was not brave, she was one who encouraged others whenever illness struck. Padma was admitted to hospital, and the very next day a child was born. Muthu, who today is a good deal bigger than I am, lay then as a tiny infant beside her. Padma looked alternately at the child in her arms and at me and smiled. I did not know then that it would be her last smile.",
+    "After attending meetings for two days in succession I returned home and was told that Padma's fever would not leave her. I ran to the hospital. She could barely speak. The doctors said they had drawn her blood and sent it to Guindy for testing, and that only when the result came could they know the cause of the fever. What means did we have to go at once to Guindy and bring back the result?",
+    "Meanwhile Padma's condition became much worse. I stayed in the hospital corridor day and night. At last the doctors said, \"There is no further use keeping her here. Carry her home.\" We had neither means nor opportunity to take her to Madras or Tiruchirappalli and try until the very end. So we brought her home.",
+    "Once home, she called my mother close and asked distinctly, \"Why, Athai, have you brought me home? Am I not going to survive?\" My mother told her, \"Nothing like that, my dear! There is nothing wrong with you!\" Then she went out of sight and began sobbing. Lying on her deathbed, Padma gave an instruction: \"Give my child his uncle's name.\" With eyes full of tears she held me with her weakened hands and repeatedly comforted me: \"Don't worry. Nothing is wrong with me. I'll be all right in ten days.\"",
+    "The life Padma and I had lived in Singanallur began to spin before my mind's eye. One evening, after getting angry with her, I had gone to the bus stand to leave for Coimbatore. It was past six. No bus came, and I stood in the queue with many others. Suddenly I heard a voice: \"Please come here for a moment.\" I turned in surprise. Padma stood there with her head covered and a cup of coffee in her hand. The bus stand was two furlongs from the house. She could not bear that I had left in anger without drinking coffee.",
+    "The moment I saw her, all my anger vanished. I stepped out of the queue, took her with me and returned home. That day I learned how patient a woman's heart can be and how hard a man's heart can be. The incident changed me deeply. After that, I never again became angry with her.",
+    "That treasury of patience was now looking at me and sighing, moving closer to her last breath. In the Palai-kali, two deer are said to have wandered under the unbearable heat of summer—a male and a female. The male, though suffering himself, stood in the sun and let the female lie in his shade to rest. A poet sang of the creature that gave its own shade to its mate when there was no other shade.",
+    "Even a deer had become shade for its mate. But I had not been able to be shade for my wife in cruel poverty and severe illness.",
+    "She had treated my nephews as her own children, affectionately calling Maran the elder little brother, Amirtham the middle little brother and Selvam the tiny little brother. \"All of you come to my side,\" she said. My mother stood near her holding baby Muthu. The others gathered around. Her sisters and brothers had also arrived.",
+    "She began to speak: how the nephews should be educated, how her son should be raised with discipline, how the family should remain united—one stream of advice. At the end of it she lost consciousness. Only her breathing continued.",
+    "The result of the blood test sent to Guindy arrived twenty days later. The report called it a \"galloping consumptive fever.\" By then party comrade Arunachalam had come from Pudukottai to Tiruvarur. Why? I had agreed to speak at a meeting there, and he had come to take me.",
+    "I led him inside and showed him my wife's condition. Seeing Padma unconscious, with only a thread of breath remaining, he too broke down and cried aloud. Yet once we came outside, he pressed me: \"It would be good if you could somehow come to the Pudukottai meeting.\" A great struggle began within me. Should I not at least have remained as shade for my wife at that final hour? Was it a heart of stone—or a sense of duty? Which one won? Even I do not know.",
+    "Unable to refuse Arunachalam, I left for Pudukottai. The night meeting ended. They were anxious to send me home at once; I was desperate because I had left my wife in such a condition. A lorry was found. I climbed in and reached Tiruvarur the following night.",
+    "There was a crowd at the entrance to the house. As I came nearer, the sound of crying grew louder. Only then had my dear Padma closed her eyes for the last time. She would never open them again. Did she search for me then? Or did she murmur that the merciless man could go wherever he pleased? I do not know.",
+    "I went close. She lay in peace, having ended life's battle while still young. Three years of married life—perhaps even that had become bitter to her within so short a time. My tears fell and rolled over her motionless face. I bent gently toward her. Many women were sitting around us. I did not care. I kissed my beloved on the forehead. That was the only thing I had left to give her. At the age of twenty she had finished her chapter in the book of my life and gone."
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch20.json",
+    "t2_review": "../reviews/v1-ch20-t2.md",
+    "t3_review": "../reviews/v1-ch20-t3.md",
+    "thought_structure_review": "../reviews/v1-ch20-structure.md",
+    "terminology_review": "../reviews/v1-ch20-terminology.md",
+    "approval_review": "../reviews/v1-ch20-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
