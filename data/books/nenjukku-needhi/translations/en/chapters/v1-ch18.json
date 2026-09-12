@@ -1,0 +1,63 @@
+{
+  "id": "v1-ch18",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "அசல் நரிகளிடமிருந்து தப்பினேன்!",
+  "title": "I Escaped from the Real Jackals!",
+  "pages": {
+    "start": 99,
+    "end": 103
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch18.json",
+    "blob_sha": "76fd482d8faffedacc4ae6b8f7c5522295b15273",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch18.json",
+  "translation_notes": [
+    "T1 fresh translation was made directly from the Batch 004 pinned Tamil after P0. No pre-existing English translation was consulted.",
+    "T2 source-and-Kalaignar-voice review completed with 9 grouped source-checked revisions.",
+    "T3 English-only literary review completed with 6 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 17/17 major movements with 0 reordered, 0 omitted and 0 invented.",
+    "Terminology/cultural audit passed with one source-led consistency revision: khadi is used for கதர்; tulsi-bead necklace, thali, Kural, Rajakumari, Abhimanyu and source-led names are retained.",
+    "Final approval passed with no chapter-text changes. v1-ch18 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "I began writing the dialogue for Rajakumari only after telling A. S. A. Sami that I would agree to the work provided it did not interfere with my party activities, and after he accepted that condition. It was in that film that M. G. R. first appeared as a hero. He was then a devotee of Gandhi, dressed in khadi and wearing a tulsi-bead necklace. That was when our acquaintance and friendship began. I would give him Anna's books; he would give me Gandhi's. We often argued. The eventual outcome of those arguments was that he later stood in the Kazhagam camp!",
+    "My wife and I had rented a house at Singanallur near Coimbatore for ten rupees. News came that my father in Tiruvarur was dangerously ill, and Padma and I hurried there. He was fighting death. Our family did not have the means for major medical treatment; local treatment was all that was possible. For more than fifteen days he endured the agony of dying. My mother and I sat beside him. How many memories came crowding back! Tears stood in the eyes of the man who had taken an interest in every second of my growth.",
+    "He could hardly speak. In a faint voice he asked, \"Have you finished writing the next story?\" I said, \"A little is still left.\" He replied, \"I am going to finish my story.\" Even in death's grip, his natural literary richness had not deserted him.",
+    "Only a month earlier he had wanted to see Rajakumari, which I had written and which had just been released. His eyesight was poor, but he said that even if he could not see the picture he would at least come and hear the dialogue. He went to the Tiruvarur theatre and came back after watching it—no, no, after listening to it. Such was his desire that I should become a writer.",
+    "Then his condition suddenly became critical. I ran to fetch Dr. Vadivelu, who happened to be presiding over a medical conference. I went to the hall. The moment he saw me, Vadivelu asked me to speak. For one instant I forgot my father. I began speaking without telling the doctor why I had come. I went on and on. My friend Thennan came rushing in and whispered something to the chairman. Vadivelu wrote a note and handed it to me. It said that my father had died.",
+    "I finished the speech and ran home. The father who had embraced me, rejoiced in me, spoken to me with overflowing affection, scolded me, shown me tenderness and raised me had fallen into a long sleep. Why he had to part the thali from the neck of my mother, who had placed her very life in her husband, I do not know. The banyan tree of our family had fallen; we were like sugarcane crushed in the mill.",
+    "Valluvar sang: \"The good a father does his son is to make him stand foremost in an assembly.\" That, he says, is a father's duty—to strive to make his son foremost among others. My father truly undertook that effort. He did not live to see its result, its fruit of victory. But whenever I remember that his first efforts made me a human being, my eyes become waterfalls.",
+    "Valluvar did not stop with the father's duty. He also defined the son's duty to the father. Is it merely to keep an aged father with oneself and support him from one's wages? No! No! Is it to seat him in a luxurious mansion and take delight in it? No! No! There is another duty. A son must live with such distinction that people, instead of praising the son directly, marvel: \"What penance did his father perform to beget him?\" That is the Kural's measure. Have I fulfilled its whole meaning? If not, completing it is the only repayment I can make to the father who worried about me all his life.",
+    "After completing the funeral rites, Padma and I returned to Singanallur. Our house was more than two miles from the railway station. We arrived at midnight. Two horse carts were standing there, but others reached them first and took them away. There was no other vehicle. So we decided to carry our boxes and bedding and walk.",
+    "The road between the station and Singanallur was dangerous. Robberies were frequent, and political enmities had more than once ended in murder there. On that road at midnight, my wife and I walked as each other's support. She carried a box on her head and bags and a water pot in her hands. I carried the bedding on my head and the bundles in my hands. That scene remains green in my memory.",
+    "Through all the days when I suffered poverty and a life without comforts, Padma shared them with a smiling face. Born into a well-to-do family in Chidambaram and raised in a large house, she cheerfully made a life with me in a little room like a sparrow's nest. How could I forget it? That sparrow's-nest life was so sweet. Sharing sorrow brought the heart even more comfort than sharing happiness.",
+    "It was a time of severe food scarcity. We had to take a bag to the ration shop and accept worm-eaten rice. For slightly better rice we had to go to Coimbatore. My party friend S. A. Rasamanickam took on the daily responsibility of buying rice and bringing it to us. If he brought rice, we ate at home; if not, we depended on takeaway food from an eating house. Buses ran from Singanallur to Coimbatore, but getting a seat was difficult, so we often travelled by shared horse cart.",
+    "One day Padma developed a high fever. Do you know why? I had seen her carry a sack of rice on her head for two furlongs to the mill to have it ground. \"Couldn't you have sent it with someone?\" I asked angrily. She calculated the cost such help would have required. Even so, I could not bear that she had done it. I struck her. The fever was the consequence of that blow.",
+    "That day a story discussion at the studio lasted until after one in the morning. A. S. A. Sami tried to send me home by car, but no driver was available. He told me to sleep at the studio and leave in the morning. How could I sleep there while my wife lay at home with a fever? I set off. It was very dark and drizzling. I decided to walk the couple of miles home.",
+    "Only the previous day there had been a terrible political murder on that road. After I had walked about a mile, five or six jackals came out of the scrub on both sides and sat in the middle of the road. I could neither turn and run nor step forward. I had heard that jackals surrounded a person, kicked up earth to bring him down, and then did what jackals do. For a moment I stood outside myself.",
+    "Suddenly a military lorry approached. Terrified by its roar and headlights, the jackals fled into the bushes. I began running and did not stop until I reached our house in Singanallur. The wife whom I had struck that evening was sitting in the pitch-dark doorway, the door left open, waiting for me. Her whole body was burning with fever. With the help of our landlord and friend Annasamy, I obtained medical care and saved her life then.",
+    "Inside that sparrow's nest I wrote page after page. I also got the opportunity to write new dialogue for the mythological film Abhimanyu. When it was released, I took my wife and friends to the theatre. But the screen did not advertise at all that I had worked on the writing!"
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch18.json",
+    "t2_review": "../reviews/v1-ch18-t2.md",
+    "t3_review": "../reviews/v1-ch18-t3.md",
+    "thought_structure_review": "../reviews/v1-ch18-structure.md",
+    "terminology_review": "../reviews/v1-ch18-terminology.md",
+    "approval_review": "../reviews/v1-ch18-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
