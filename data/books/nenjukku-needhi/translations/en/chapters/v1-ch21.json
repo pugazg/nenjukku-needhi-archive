@@ -1,0 +1,61 @@
+{
+  "id": "v1-ch21",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "காந்தியார் கண்ட கனவை நனவாக்குகிறோம்",
+  "title": "We Are Making Gandhi's Dream Come True",
+  "pages": {
+    "start": 112,
+    "end": 116
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch21.json",
+    "blob_sha": "e2f87d58de12d0f0d78f2105d8cbf7eb6c9cf259",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch21.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from the Batch 004 pinned Tamil after P0; no pre-existing English consulted.",
+    "T2 completed with 8 grouped source-checked revisions.",
+    "T3 completed with 5 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 15/15 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed without chapter-text revision; Gandhi-era social and rail vocabulary is translated contextually without importing external published translations.",
+    "Final approval passed with no chapter-text changes. v1-ch21 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "It was in that same year, 1948, when my family and I were weeping over the loss of Padma, that the whole world was made to weep: the noble Gandhi was shot and killed by the cruel Godse. Gandhiji, who had laboured so hard for India's freedom, lost the chance to guide the newly free people directly on how that freedom should be lived.",
+    "As usual he had gone to a prayer meeting. The assassin aimed and fired. Three bullets entered the heart he had set aside for the people of India. He fell there, and before long his life passed quietly away. When the shocking news went out over the radio that evening, people across the world sobbed.",
+    "Gandhi had written in his autobiography that he had long ago learned in South Africa that genuine friendship between Hindus and Muslims did not come easily; that he never let pass an opportunity to remove barriers to unity; that it was against his nature to placate people by flattery or by conduct harmful to self-respect; and that his experience in South Africa had shown him clearly that his non-violence would face its severest test on the question of Hindu-Muslim unity. What he wrote became reality.",
+    "He had led struggle after struggle against foreign domination. He had fasted and returned from the threshold of death. He had stood before British guns and cannon and raised the flag of freedom without losing his life. Yet after foreign rule ended and the freedom he had desired was obtained, he was killed. By foreigners? No. Efforts he made after independence to build Hindu-Muslim unity angered religious fanatics. A man born on Indian soil took that sacred life.",
+    "No—wrong, wrong. No one could take that life away. It had already merged with the lives of millions in India. Every year Gandhiji's birthday is celebrated throughout the country. Older generations explain to younger ones his paths of love, morality and peace. People of every party encourage the celebration.",
+    "But apart from India's independence, have all Gandhi's principles and goals been fulfilled? The answer must be no. Are all his positions acceptable to everyone? Here too answers will differ. On matters such as basic education and contraception, if Gandhi were alive today he himself might perhaps have revised some views.",
+    "The abolition of untouchability is still too often polished talk in large forums rather than determined action. Mahatma Gandhi asked with anguish: should one human being carry another's excreta? Yet the cruelty continues. Gandhi himself, recalling the Calcutta Congress, wrote in pain that if untouchability existed even among Congress delegates, one could imagine how much worse it was among the people they claimed to represent.",
+    "That pain is slowly lessening, but we have not found a way to make it disappear entirely. People with Sanatani ideas and caste fanaticism are spread across all parties. If those old ideas are to be struck down, it is not enough to speak for an hour about Gandhi's teachings and collect applause. Those who speak must also act. Gandhi kept speech and action connected; those who sing his praise must follow that.",
+    "At least during his commemorations, let us not stop with ceremonies, decorations, fireworks, exhibitions, rituals, bhajans and prayers. Each person must take up the task of putting into practice the common principles of his life that the country needs.",
+    "For Gandhi's centenary, a great exhibition train was prepared, carrying the story of his life and the golden lines of sacrifice on every page of it, to travel from Rameswaram Island through many regions. I was given the task of inaugurating it. When I saw that exhibition train, I remembered what Gandhi had written and spoken about third-class railway travel.",
+    "He wrote that third-class compartments and lavatories were filthy then as well as later; that any improvement was slight; that the difference between the facilities given to first- and third-class passengers bore no relation to the difference in fares; and that third-class travellers were treated like sheep. He compared this with Europe and South Africa, where even third-class travel often provided better conditions and some protection from overcrowding.",
+    "He also blamed not only railway officials but thoughtless habits among passengers—smoking without regard for others, spitting betel and tobacco, shouting, and speaking obscenely. He said that his experiences of third-class travel in 1902 and again from 1915 to 1919 showed no real difference.",
+    "Even today, apart from a few symbolic changes, third-class compartments—now called second class—have seen no general transformation. And crores of people in India live in conditions no better than those railway compartments, sometimes worse. A train at least has a common lavatory; many villages do not. In many towns people still suffer by the roadside. Crores remain in huts without even the light and ventilated windows found in a railway carriage.",
+    "The man who worked to remove that suffering was killed in 1948 while still dreaming of many more years of service to ordinary people. In the effort to make that dream real, the present government of Tamil Nadu is, as I write, working to extend electricity to villages, drinking-water and drainage facilities, free education, road transport, increased food production and industrial opportunities.",
+    "That year 1948, when Gandhi died, also became a year that scattered many seeds of change in Tamil Nadu politics. In my own family, people began arranging a second marriage for me, saying that a motherless child needed a mother."
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch21.json",
+    "t2_review": "../reviews/v1-ch21-t2.md",
+    "t3_review": "../reviews/v1-ch21-t3.md",
+    "thought_structure_review": "../reviews/v1-ch21-structure.md",
+    "terminology_review": "../reviews/v1-ch21-terminology.md",
+    "approval_review": "../reviews/v1-ch21-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
