@@ -1,0 +1,63 @@
+{
+  "id": "v1-ch26",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "நண்பர் கண்ணதாசன்",
+  "title": "My Friend Kannadasan",
+  "pages": {
+    "start": 134,
+    "end": 136
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch26.json",
+    "blob_sha": "0550ba6012e6a9506552120458a7792a637d1656",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch26.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from Batch 004 pinned Tamil after P0; no existing English consulted.",
+    "T2 completed with 7 grouped source-checked revisions.",
+    "T3 completed with 4 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 15/15 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed without chapter-text revision; Modern Theatres, Kaviyarasu Kannadasan, vibhuti, kumkum, Kazhagam and Dravida Munnetra Kazhagam remain source-led/contextually stable.",
+    "Final approval passed with no chapter-text changes. v1-ch26 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "While I was running my household in Tiruvarur, there came a time when even passing the day was difficult. I could no longer keep the Murasoli weekly going regularly. Writing and going to meetings were the two things that gave me relief.",
+    "At that time my friend, the poet Ka. Mu. Sheriff, was working at Modern Theatres in Salem writing songs for films. One day he came to Tiruvarur to see me. He said that the owner of Modern Theatres, the late T. R. Sundaram, liked my writing and wanted me to write dialogue for films, and he asked whether I would agree. Before I had even thought it through, Sheriff himself pressed me, with a friend's right, to accept.",
+    "I left for Salem. In 1949 I joined Modern Theatres as a writer on a salary of five hundred rupees a month, on the condition that I must be free to continue my party work and that nothing should obstruct me from attending meetings.",
+    "Sheriff was there, and another friend, Maruthakasi, was also writing songs. The studio had a separate rehearsal hall where some story writers, lyricists, music people and actors stayed. I lived in a hotel. Story discussions, setting tunes and composing music all took place in that rehearsal hall.",
+    "M. C. Chakrapani was almost a permanent actor at Modern Theatres. One day he and Ka. Mu. Sheriff introduced me there to a friend. He was tall, with sacred ash spread across his whole forehead. \"He too writes songs here,\" they told me.",
+    "The moment I saw his face, I felt that the words \"Here is a man who worries about nothing\" were written across it in huge letters. Within a few seconds I also understood that, to him, attacking others and being attacked by others were both amusing affairs. That friend was the man who today shines with great poetic talent—Kaviyarasu Kannadasan.",
+    "There was hardly anyone in that rehearsal hall who did not tease him. Some of the teasing was sharp; some of it could be painfully harsh. He would flare up at someone. A little while later he would be strolling with his arm over that very person's shoulder.",
+    "Within a few weeks he had become entirely one of my party men. People who had met him during my first month in Salem would come back the next month and stare in surprise to find that he had changed all his positions and begun moving toward the Dravida Munnetra Kazhagam.",
+    "To tell the truth, I must say that the bond of friendship that formed between us attracted him more strongly than the Kazhagam's principles did. Perhaps that was why, later, his grip on those principles became weaker.",
+    "I had been invited from Salem to a meeting at Pollachi and was to travel through Coimbatore. Kannadasan wrote that he would meet me in Coimbatore and come with me to Pollachi. He did exactly that.",
+    "Until recently he had stopped covering his forehead with vibhuti. But when I met him in Coimbatore, there was a kumkum dot in the middle of his forehead and, beneath it, a finger's width of vibhuti. \"What's this?\" I asked jokingly. He gave me a foolish grin.",
+    "We boarded the bus for Pollachi. During the journey my rationalist propaganda began again, right there in the bus, and he argued with me all the way.",
+    "When we got down at Pollachi he had fallen a little behind. I turned and saw him coming toward me. I looked at his forehead. No vibhuti. No kumkum. Just a bare forehead! I have, of course, sometimes seen him wear them again in later years.",
+    "At the Pollachi meeting he said he too wanted to speak. I tried to hold him back, telling him to wait a little longer. But he was bursting to speak. I finally agreed. As the saying goes, his eagerness had sprung from affection, and I could not restrain it for long.",
+    "The very first sentence of his speech was: \"I was born in the land of Chettiars who charge interest upon interest.\" He spoke for about five minutes and stopped. He felt that the Kazhagam seal had now been stamped firmly upon him. I too was delighted.",
+    "After that, while both of us were in Salem, it became our custom to go together to Kazhagam meetings. In the meantime—before he had fully joined the Kazhagam—the circumstances arose that led to the formation of the Dravida Munnetra Kazhagam in Madras.",
+    "Kannadasan and I were both in Madras on the day the new Kazhagam was founded. The next day my mother and my wife were due to move from Tiruvarur to Salem. My plan was to finish the events in Madras, return to Salem the very next day, meet them there, and move into the house I had already rented."
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch26.json",
+    "t2_review": "../reviews/v1-ch26-t2.md",
+    "t3_review": "../reviews/v1-ch26-t3.md",
+    "thought_structure_review": "../reviews/v1-ch26-structure.md",
+    "terminology_review": "../reviews/v1-ch26-terminology.md",
+    "approval_review": "../reviews/v1-ch26-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
