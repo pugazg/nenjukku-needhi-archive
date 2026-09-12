@@ -7,7 +7,8 @@
     "batch_001_ref": "5c6b5ef8901044660e607d4649238d7c66cb648d",
     "latest_observed_main": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
     "batch_002_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-    "batch_003_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626"
+    "batch_003_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "batch_004_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626"
   },
   "destination": {
     "repository": "pugazg/nenjukku-needhi-archive",
@@ -83,326 +84,170 @@
   },
   "production": {
     "status": "open",
-    "active_batch": null,
-    "batch_control": null,
+    "active_batch": "batch-004",
+    "batch_control": "batches/batch-004.md",
     "batch_chapters": [
       {
-        "id": "v1-ch13",
-        "tamil_title": "மாமனார் தந்த வரவேற்பு",
+        "id": "v1-ch18",
+        "tamil_title": "அசல் நரிகளிடமிருந்து தப்பினேன்!",
         "pages": {
-          "start": 76,
-          "end": 80
+          "start": 99,
+          "end": 103
         },
-        "source_blob_sha": "80fc03e2092ab69b22879e65ab6887acc4284a55",
+        "source_blob_sha": "76fd482d8faffedacc4ae6b8f7c5522295b15273",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch13.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch18.json",
+        "status": "source-review-next",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "closed",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision",
-          "approval": "pass"
-        },
-        "source_notes": "source-notes/v1-ch13.json",
-        "source_review_result": {
-          "extraction_units": 5,
-          "unresolved_source_holds": 0,
-          "non_authorial_exclusions": 0,
-          "duplicate_source_exclusions": 0,
-          "review_items": 1,
-          "page_joins": 1,
-          "source_spacing_anomalies_documented": 3
-        },
-        "source_interventions": [
-          "exclude repeated chapter heading from body prose and retain it as title metadata",
-          "join page 76/77 'குருதி / கக்கினார்' continuously",
-          "reconstruct literary paragraphing from page-level witnesses rather than five extraction units",
-          "preserve slogans/direct speech, 1938 anti-Hindi movement reference, Tamil Brigade continuity and Alagirisami's oratorical imagery",
-          "preserve Dravida Nadu publication history, article-title sequence and authored third-or-fourth-issue uncertainty",
-          "document stable but lexically unresolved period medical term 'ஜன்னி' as a non-blocking review item for later lexical resolution",
-          "preserve Palaniyappan / Santa / Natchuk Koppai title history, theatrical finances and Dravidar Kazhagam organizational context",
-          "document secure extraction/spacing anomalies including 'உற்சாகததிலாழ்த்திய', 'ஆரம் பித்தேன்' and 'தொடங் கலாம்'",
-          "preserve Self-Respect identity versus priestly marriage rites and the Chidambaram arranged-marriage sequence"
-        ],
-        "reviews": {
-          "source_notes": "source-notes/v1-ch13.json",
-          "t2": "reviews/v1-ch13-t2.md",
-          "t3": "reviews/v1-ch13-t3.md",
-          "thought_structure": "reviews/v1-ch13-structure.md",
-          "terminology": "reviews/v1-ch13-terminology.md",
-          "approval": "reviews/v1-ch13-approval.md"
-        },
-        "structure_result": {
-          "represented": "20/20",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 1,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "approval_result": {
-          "status": "approved",
-          "t2_revisions": 9,
-          "t3_revisions": 6,
-          "structure_movements": "20/20",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch14",
-        "tamil_title": "வாழ்வதற்கு வழி? நடிகனானேன் நான்!",
+        "id": "v1-ch19",
+        "tamil_title": "சங்கிலியை விற்றுக் கடனை அடைத்தேன்",
         "pages": {
-          "start": 81,
-          "end": 84
+          "start": 104,
+          "end": 107
         },
-        "source_blob_sha": "1fa0f359d8da9cbeb2d9b03fa6244badbece89f6",
+        "source_blob_sha": "e81d4c253e861bff6b72ac8cbddf7097ae50dd05",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch14.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch19.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "closed",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision",
-          "approval": "pass"
-        },
-        "reviews": {
-          "source_notes": "source-notes/v1-ch14.json",
-          "t2": "reviews/v1-ch14-t2.md",
-          "t3": "reviews/v1-ch14-t3.md",
-          "thought_structure": "reviews/v1-ch14-structure.md",
-          "terminology": "reviews/v1-ch14-terminology.md",
-          "approval": "reviews/v1-ch14-approval.md"
-        },
-        "structure_result": {
-          "represented": "16/16",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 1,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "approval_result": {
-          "status": "approved",
-          "t2_revisions": 8,
-          "t3_revisions": 5,
-          "structure_movements": "16/16",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch15",
-        "tamil_title": "நண்பர்கள் முகம் வாடலாமா?",
+        "id": "v1-ch20",
+        "tamil_title": "போய் வருகிறேன் என்றாள் என் பத்மா",
         "pages": {
-          "start": 85,
-          "end": 89
+          "start": 108,
+          "end": 111
         },
-        "source_blob_sha": "ceb2759588dfec6646a4ba53369fce02c0bd9c92",
+        "source_blob_sha": "305290adedfe68a59b689ccf2fbc99fbefde312b",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch15.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch20.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "closed",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-with-one-revision",
-          "approval": "pass"
-        },
-        "reviews": {
-          "source_notes": "source-notes/v1-ch15.json",
-          "t2": "reviews/v1-ch15-t2.md",
-          "t3": "reviews/v1-ch15-t3.md",
-          "thought_structure": "reviews/v1-ch15-structure.md",
-          "terminology": "reviews/v1-ch15-terminology.md",
-          "approval": "reviews/v1-ch15-approval.md"
-        },
-        "structure_result": {
-          "represented": "18/18",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 1,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "approval_result": {
-          "status": "approved",
-          "t2_revisions": 7,
-          "t3_revisions": 6,
-          "structure_movements": "18/18",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch16",
-        "tamil_title": "கம்புகள்! குண்டாந்தடிகள்!",
+        "id": "v1-ch21",
+        "tamil_title": "காந்தியார் கண்ட கனவை நனவாக்குகிறோம்",
         "pages": {
-          "start": 90,
-          "end": 93
+          "start": 112,
+          "end": 116
         },
-        "source_blob_sha": "fd6793f228db38098aff1eddcfb7fefce3fff3d2",
+        "source_blob_sha": "e2f87d58de12d0f0d78f2105d8cbf7eb6c9cf259",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch16.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch21.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "closed",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-without-revision",
-          "approval": "pass"
-        },
-        "reviews": {
-          "source_notes": "source-notes/v1-ch16.json",
-          "t2": "reviews/v1-ch16-t2.md",
-          "t3": "reviews/v1-ch16-t3.md",
-          "thought_structure": "reviews/v1-ch16-structure.md",
-          "terminology": "reviews/v1-ch16-terminology.md",
-          "approval": "reviews/v1-ch16-approval.md"
-        },
-        "structure_result": {
-          "represented": "16/16",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
-        },
-        "terminology_result": {
-          "accepted_revisions": 0,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
-        },
-        "approval_result": {
-          "status": "approved",
-          "t2_revisions": 5,
-          "t3_revisions": 5,
-          "structure_movements": "16/16",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "next_gate": "source-review"
       },
       {
-        "id": "v1-ch17",
-        "tamil_title": "குளிப்பது ஒரு குற்றமா?",
+        "id": "v1-ch22",
+        "tamil_title": "என் திருமணத்துக்கு நானே தலைமை தாங்கினேன்!",
         "pages": {
-          "start": 94,
-          "end": 98
+          "start": 117,
+          "end": 121
         },
-        "source_blob_sha": "eac5cc2193a40fc7c59c88f8d7a8eec65f0e8f66",
+        "source_blob_sha": "1f1c771f031c0054e793d20d55e4aec2953e927e",
         "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
-        "source_path": "public/data/text/v1-ch17.json",
-        "status": "approved",
+        "source_path": "public/data/text/v1-ch22.json",
+        "status": "pinned-queued",
         "unresolved_source_holds": 0,
         "review_items": [],
-        "next_gate": "closed",
-        "gates": {
-          "source_review": "pass",
-          "t1": "pass",
-          "t2": "pass-with-revision",
-          "t3": "pass-with-minor-revision",
-          "thought_structure": "pass",
-          "terminology_cultural": "pass-without-revision",
-          "approval": "pass"
+        "next_gate": "source-review"
+      },
+      {
+        "id": "v1-ch23",
+        "tamil_title": "பெரியார் - மணியம்மை திருமணம்",
+        "pages": {
+          "start": 122,
+          "end": 126
         },
-        "reviews": {
-          "source_notes": "source-notes/v1-ch17.json",
-          "t2": "reviews/v1-ch17-t2.md",
-          "t3": "reviews/v1-ch17-t3.md",
-          "thought_structure": "reviews/v1-ch17-structure.md",
-          "terminology": "reviews/v1-ch17-terminology.md",
-          "approval": "reviews/v1-ch17-approval.md"
+        "source_blob_sha": "707a4613ae0491040d0f2b892e405dbd8f97f901",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch23.json",
+        "status": "pinned-queued",
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "next_gate": "source-review"
+      },
+      {
+        "id": "v1-ch24",
+        "tamil_title": "அண்ணா அசைந்து கொடுக்கவில்லை",
+        "pages": {
+          "start": 127,
+          "end": 130
         },
-        "structure_result": {
-          "represented": "19/19",
-          "reordered": 0,
-          "omitted": 0,
-          "invented": 0,
-          "chapter_text_changes": 0
+        "source_blob_sha": "67a05b5dc950ab39399ce69cfa2ca720b12f16b1",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch24.json",
+        "status": "pinned-queued",
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "next_gate": "source-review"
+      },
+      {
+        "id": "v1-ch25",
+        "tamil_title": "எழுத்துரிமை, பேச்சுரிமை",
+        "pages": {
+          "start": 131,
+          "end": 133
         },
-        "terminology_result": {
-          "accepted_revisions": 0,
-          "unresolved_holds": 0,
-          "independent_english_frozen": true,
-          "comparator_consulted": false
+        "source_blob_sha": "84044fde594a96051d4896c725c269569e4aca94",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch25.json",
+        "status": "pinned-queued",
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "next_gate": "source-review"
+      },
+      {
+        "id": "v1-ch26",
+        "tamil_title": "நண்பர் கண்ணதாசன்",
+        "pages": {
+          "start": 134,
+          "end": 136
         },
-        "approval_result": {
-          "status": "approved",
-          "t2_revisions": 7,
-          "t3_revisions": 5,
-          "structure_movements": "19/19",
-          "unresolved_source_holds": 0,
-          "unresolved_terminology_holds": 0,
-          "outstanding_review_items": 0,
-          "chapter_text_changes": 0,
-          "comparator_gate": "not-applicable-after-v1-ch01",
-          "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
-        }
+        "source_blob_sha": "0550ba6012e6a9506552120458a7792a637d1656",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch26.json",
+        "status": "pinned-queued",
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "next_gate": "source-review"
+      },
+      {
+        "id": "v1-ch27",
+        "tamil_title": "கனிவு வென்றது!",
+        "pages": {
+          "start": 137,
+          "end": 139
+        },
+        "source_blob_sha": "1079ad18a3d6958353c01004a5d9ba00df8e14cb",
+        "source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+        "source_path": "public/data/text/v1-ch27.json",
+        "status": "pinned-queued",
+        "unresolved_source_holds": 0,
+        "review_items": [],
+        "next_gate": "source-review"
       }
     ],
-    "source_reviews_complete": 5,
-    "translations_started": 5,
-    "t1_complete": 5,
-    "t2_complete": 5,
-    "t3_complete": 5,
-    "thought_structure_complete": 5,
-    "terminology_cultural_complete": 5,
-    "approved_chapters": 5,
-    "next_activity": "open-batch-004",
-    "batch_status": "closed",
+    "source_reviews_complete": 0,
+    "translations_started": 0,
+    "t1_complete": 0,
+    "t2_complete": 0,
+    "t3_complete": 0,
+    "thought_structure_complete": 0,
+    "terminology_cultural_complete": 0,
+    "approved_chapters": 0,
+    "next_activity": "source-review-v1-ch18",
+    "batch_status": "open",
     "last_closed_batch": {
       "id": "batch-003",
       "control": "batches/batch-003.md",
@@ -420,19 +265,26 @@
       "unresolved_terminology_holds": 0,
       "outstanding_review_items": 0
     },
-    "next_batch": "batch-004",
-    "next_batch_start": "v1-ch18",
-    "source_files_pinned": 5,
+    "next_batch": null,
+    "next_batch_start": null,
+    "source_files_pinned": 10,
     "batch_opening": {
       "span": [
-        "v1-ch13",
-        "v1-ch14",
-        "v1-ch15",
-        "v1-ch16",
-        "v1-ch17"
+        "v1-ch18",
+        "v1-ch19",
+        "v1-ch20",
+        "v1-ch21",
+        "v1-ch22",
+        "v1-ch23",
+        "v1-ch24",
+        "v1-ch25",
+        "v1-ch26",
+        "v1-ch27"
       ],
-      "size": 5,
-      "size_decision": "standard-five-chapter-batch",
+      "size": 10,
+      "size_decision": "user-authorized-ten-chapter-batch",
+      "normal_policy_size": 5,
+      "user_override": true,
       "reduction_reason": null,
       "previous_source_ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
       "source_main_unchanged_from_previous_batch": true
