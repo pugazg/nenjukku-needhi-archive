@@ -1,0 +1,85 @@
+{
+  "id": "v1-ch21",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch21.json",
+    "blob_sha": "e2f87d58de12d0f0d78f2105d8cbf7eb6c9cf259",
+    "authority": "read-only"
+  },
+  "tamil_title": "காந்தியார் கண்ட கனவை நனவாக்குகிறோம்",
+  "pages": {
+    "start": 112,
+    "end": 116
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Use title metadata only."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Three joins: unit 2→3 after `எவ்வளவு`; unit 3→4 after `வசதி-`; unit 4→5 after `குறை-`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "gandhi_assassination",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Padma's loss is juxtaposed with Gandhi's assassination in 1948.",
+      "translation_action": "Preserve chronology and emotional juxtaposition."
+    },
+    {
+      "type": "embedded_gandhi_quotes",
+      "severity": "quotation-sensitive",
+      "observation": "Long quoted passages from Gandhi's autobiography concern Hindu-Muslim unity, untouchability at Congress, and third-class rail travel.",
+      "translation_action": "Translate the substance fully; do not replace with external published English quotations."
+    },
+    {
+      "type": "social_critique",
+      "severity": "voice-critical",
+      "observation": "Narrator distinguishes respect for Gandhi from disagreement on some policies and criticizes continued untouchability/manual scavenging.",
+      "translation_action": "Preserve critical independence rather than making the passage hagiographic."
+    },
+    {
+      "type": "historical_language",
+      "severity": "culture-sensitive",
+      "observation": "The historical rail quotation refers to Black third-class passengers in South Africa using period language in Tamil translation.",
+      "translation_action": "Render referent clearly without adopting unnecessary derogatory wording."
+    },
+    {
+      "type": "retrospective_governance_claim",
+      "severity": "authorial-fact-sensitive",
+      "observation": "The narrator claims the then Tamil Nadu government is realizing Gandhi's dream through electrification, water/drainage, free education, roads, food production and industry.",
+      "translation_action": "Preserve as authored retrospective claim; do not externally fact-correct in translation."
+    },
+    {
+      "type": "transition",
+      "severity": "voice-critical",
+      "observation": "Chapter ends by linking 1948 political change to arrangements for narrator's second marriage.",
+      "translation_action": "Preserve transition into v1-ch22."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
