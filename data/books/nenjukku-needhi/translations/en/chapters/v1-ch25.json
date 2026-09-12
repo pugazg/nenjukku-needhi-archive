@@ -1,0 +1,59 @@
+{
+  "id": "v1-ch25",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "எழுத்துரிமை, பேச்சுரிமை",
+  "title": "Freedom to Write, Freedom to Speak",
+  "pages": {
+    "start": 131,
+    "end": 133
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch25.json",
+    "blob_sha": "84044fde594a96051d4896c725c269569e4aca94",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch25.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from Batch 004 pinned Tamil after P0; no existing English consulted.",
+    "T2 completed with 7 grouped source-checked revisions.",
+    "T3 completed with 4 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 12/12 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed with one legal-context revision: the `144` order is rendered as a Section 144 prohibitory order.",
+    "Final approval passed with no chapter-text changes. v1-ch25 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "In 1950 the government banned Arignar Anna's book Arya Mayai. Written in 1943, issued in several editions and read by many people, it was banned only seven years later—an astonishing turn. The government placed both Anna and the owner of the Tiruchirappalli Dravida Pannai publishing house in the dock. Anna was sentenced to six months in prison.",
+    "On that same day Periyar too received a prison sentence for publishing a book called Periyar Ponmozhigal. Anna and Periyar were lodged in Tiruchirappalli prison. Tamil Nadu marvelled that, after Anna had separated from Periyar and founded a new organization, the two men had now been placed in the same jail.",
+    "Anna later wrote of the experience in words that can still bring tears. He said: \"I was imprisoned for writing Arya Mayai; Periyar for Ponmozhigal. Perhaps the Tiruchirappalli court wanted to see such a sight! They were separate cases, tried separately, yet judgment was delivered at the same time. The court made me, who had travelled so far away from him, stand once again beside Periyar.\"",
+    "\"The police then put us in the same van. At the central prison, an officer even assigned me the task of checking the things Periyar had brought and confirming the count. I can never forget it. I was inwardly afraid: if, after the arrows of questions, he were also to shoot arrows of affection, how would I bear it?\"",
+    "\"Our rooms were side by side and open all day. Many people came and went, some staying here a while and there a while, others watching closely to see whether we spoke to each other. When he was inside his room I would sit under a tree outside. The moment I sensed he was about to come out, I would go inside mine. Ten days passed like this.\"",
+    "\"The day before we were released, a delicious little incident occurred. The prisoner who did errands for Periyar entered my room and said, 'Ayya asked me to give you these,' and placed six biscuits in my hand. The instant I received them, my mind went back to scenes from the many years I had spent with him.\"",
+    "\"Our release the next day came suddenly. News had reached people outside before it reached us inside. Our DMK comrades became so busy making arrangements to welcome us that they lost track of the time. When the prison gate opened and we came out, the only car waiting at the entrance was the one brought for Periyar. They took me in that car too. A photographer ran up and said, 'Stand close together,' and took a picture; it was never published. Periyar got down at Vedachalam's house. I continued in the same car to Sambu's house.\"",
+    "\"Did you notice, brother, what sort of experience this was? A friend said those ten days were a great danger to the Dravida Munnetra Kazhagam. True. I am a man whose heart can melt easily. Though the chance to speak with him for ten days and recover our old friendship kept knocking and calling, I did not give room to that thought. Not because he was a cruel man, but because I had been made responsible for an organization and honestly believed that nothing I did should shatter it.\"",
+    "Anna emerged from prison having thus given himself to the growth of the organization, and Madras welcomed him with great celebration.",
+    "On 23 October 1950 the DMK executive committee, meeting in Madras, resolved to resist government repression in order to establish freedom of writing and speech. The next day, 24 October, when Rajaji arrived in Madras from Delhi, the DMK showed black flags. Scholars such as the multilingual Appathuraiar, who went to display black flags along Rajaji's route, were subjected to lathi blows.",
+    "At Kunrathur, N. V. Natarajan defied a Section 144 prohibitory order and addressed a Kazhagam meeting. Police arrested him. Fierce firing followed at the meeting, and a comrade from Mangadu named Kutti fell with a bullet in his chest. The country condemned the violence at Kunrathur. At Naranamangalam in Tiruchirappalli district and in Madras, comrades likewise defied prohibitory orders in defence of freedom of speech and many were arrested.",
+    "Thus the Dravida Munnetra Kazhagam, begun in Madras on Periyar's birthday, 17 September, began within a year to secure a lasting place in the hearts of the people through the non-violent struggles it undertook.",
+    "I too had taken part in the very first day's founding event in Madras. At the time I was working in the film industry at Salem. My coming from Salem to Madras for the founding and then returning to Salem were themselves incidents with some flavour. Yes—how had I come to Salem in the first place?"
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch25.json",
+    "t2_review": "../reviews/v1-ch25-t2.md",
+    "t3_review": "../reviews/v1-ch25-t3.md",
+    "thought_structure_review": "../reviews/v1-ch25-structure.md",
+    "terminology_review": "../reviews/v1-ch25-terminology.md",
+    "approval_review": "../reviews/v1-ch25-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
