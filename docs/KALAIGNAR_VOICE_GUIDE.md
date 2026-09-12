@@ -438,6 +438,21 @@ Batch 003 adds several durable voice controls:
 - **Cultural clothing and local lexical forms need restraint.** Terms such as `avukka`, `kaili`, `jippa` and `kullai` should receive only enough gloss for comprehension, without exoticizing the speaker or scene.
 - **Source-led uncertainty is preferable to false historical polish.** A form such as `Keple` should remain transparently source-led when internal evidence does not justify a stronger normalization.
 
+### `v1-ch18`–`v1-ch27` — Batch 004 production observations
+
+Batch 004 adds several durable voice controls:
+
+- **Do not replace Tamil-mediated quotations with famous external English wording.** This applies to the Kural passages in `v1-ch18`, Gandhi-autobiography material in `v1-ch21`, and similar embedded texts. Translate the controlling Tamil independently unless the project explicitly adopts an attested source edition.
+- **Self-incrimination must remain self-incrimination.** When Kalaignar admits that he struck Padma in `v1-ch18`, do not soften the action into vague anger or omit the causal remorse that follows.
+- **Domestic grief and public duty may remain unresolved against each other.** In `v1-ch20`, the question “stone heart or sense of duty?” is not for the translator to settle. Preserve the narrator's uncertainty.
+- **Historical medical language should not be retro-diagnosed.** If the source gives a period diagnosis or report wording, preserve its historical function without pretending to know a precise modern equivalent.
+- **Material political history lives in small sums and objects.** Murasoli press debt, Padma's thali chain, travel money, marriage-fund surplus, publication security and similar details are structural, not decorative.
+- **Affection can survive ideological separation.** The Anna–Periyar prison episode in `v1-ch25` depends on restraint: emotional warmth is present, but Anna's organizational responsibility prevents reconciliation from becoming action.
+- **Political memoir claims remain authored claims.** DMK formation, anti-Hindi victories, government programmes and institutional motives should be translated faithfully rather than silently reconciled with outside historiography.
+- **Humour can interrupt high political drama without trivializing it.** The wedding/protest collision in `v1-ch22`, Kannadasan's forehead sequence in `v1-ch26`, and the lodge-snake episode in `v1-ch27` all need their comic timing preserved.
+- **Friendship judgments belong to the narrator.** When Kalaignar says friendship drew Kannadasan more strongly than ideology, keep the statement clearly as retrospective personal judgment rather than objective psychological fact.
+- **Tenderness can defeat fury as an argument.** The title logic of `v1-ch27` depends on the contrast between volcanic anger and Anna's dew-like words; do not flatten the scene into a procedural meeting summary.
+
 ## Review question
 
 At T2, ask repeatedly:
