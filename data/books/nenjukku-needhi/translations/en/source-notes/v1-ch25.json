@@ -1,0 +1,73 @@
+{
+  "id": "v1-ch25",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch25.json",
+    "blob_sha": "84044fde594a96051d4896c725c269569e4aca94",
+    "authority": "read-only"
+  },
+  "tamil_title": "எழுத்துரிமை, பேச்சுரிமை",
+  "pages": {
+    "start": 131,
+    "end": 133
+  },
+  "extraction_unit_count": 3,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Use title as metadata only."
+    },
+    {
+      "type": "anna_prison_quote",
+      "severity": "quotation-sensitive",
+      "observation": "Most of units 1–3 contain Anna's retrospective account of being imprisoned alongside Periyar.",
+      "translation_action": "Keep quoted voice distinct from Kalaignar narrator; translate independently from Tamil source."
+    },
+    {
+      "type": "book_bans",
+      "severity": "authorial-fact-sensitive",
+      "observation": "1950 ban/prosecution of Arya Mayai and imprisonment for Periyar Ponmozhigal are presented as same-day events.",
+      "translation_action": "Preserve dates, titles and legal sequence."
+    },
+    {
+      "type": "emotional_distance",
+      "severity": "voice-critical",
+      "observation": "Anna describes adjacent cells, deliberate avoidance, six biscuits sent by Periyar and unexpected shared release transport.",
+      "translation_action": "Preserve restraint, tenderness and organizational self-control."
+    },
+    {
+      "type": "speech_writing_freedom",
+      "severity": "authorial-fact-sensitive",
+      "observation": "23 Oct executive decision followed by 24 Oct black-flag protest against Rajaji, Kunrathur Section 144 violation, police firing and arrests elsewhere.",
+      "translation_action": "Preserve source sequence and names without external correction."
+    },
+    {
+      "type": "transition_to_salem",
+      "severity": "voice-critical",
+      "observation": "Chapter ends by reminding reader Kalaignar attended DMK founding while working in Salem and asks how he came there.",
+      "translation_action": "Preserve forward hook into v1-ch26."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
