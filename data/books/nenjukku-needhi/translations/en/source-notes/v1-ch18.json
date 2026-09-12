@@ -1,0 +1,73 @@
+{
+  "id": "v1-ch18",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch18.json",
+    "blob_sha": "76fd482d8faffedacc4ae6b8f7c5522295b15273",
+    "authority": "read-only"
+  },
+  "tamil_title": "அசல் நரிகளிடமிருந்து தப்பினேன்!",
+  "pages": {
+    "start": 99,
+    "end": 103
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Keep title as metadata only."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Three joins: unit 2→3 `அவர் / கண்டிடவில்லை`; unit 3→4 `கையில் / பைகளையும்`; unit 4→5 `இரவு / ஒரு மணிக்கு`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "father_death_and_kural",
+      "severity": "voice-critical",
+      "observation": "Father's death is interwoven with two Kural quotations and a lifelong filial-debt reflection.",
+      "translation_action": "Preserve quotations and rhetorical repetition without importing external canonical English."
+    },
+    {
+      "type": "domestic_poverty",
+      "severity": "voice-critical",
+      "observation": "Padma shares luggage, ration scarcity and mill labour; narrator candidly admits striking her and links the blow to her fever.",
+      "translation_action": "Do not sanitize the admission."
+    },
+    {
+      "type": "jackal_episode",
+      "severity": "voice-critical",
+      "observation": "Dark rainy walk, recent political murder, jackals, military lorry rescue and feverish Padma waiting at the door form the title episode.",
+      "translation_action": "Preserve suspense and domestic return."
+    },
+    {
+      "type": "film_credit",
+      "severity": "translation-sensitive",
+      "observation": "Rajakumari/M.G.R. opening and Abhimanyu closing concern early cinema authorship and credit.",
+      "translation_action": "Preserve source-led names/titles and the missing credit fact."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
