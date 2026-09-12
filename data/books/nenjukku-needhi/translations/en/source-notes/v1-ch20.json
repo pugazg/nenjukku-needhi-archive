@@ -1,0 +1,85 @@
+{
+  "id": "v1-ch20",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch20.json",
+    "blob_sha": "305290adedfe68a59b689ccf2fbc99fbefde312b",
+    "authority": "read-only"
+  },
+  "tamil_title": "போய் வருகிறேன் என்றாள் என் பத்மா",
+  "pages": {
+    "start": 108,
+    "end": 111
+  },
+  "extraction_unit_count": 4,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Use title as metadata only."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Unit 2 ends `மாற்றத்தை ஏற்படுத்தி` and unit 3 begins `விட்டது`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "farewell_foreshadowing",
+      "severity": "voice-critical",
+      "observation": "Padma's `போய் வருகிறேன்` is retrospectively read as a farewell not to hospital but to a peaceful final place.",
+      "translation_action": "Preserve retrospective foreshadowing without making her consciously predict death."
+    },
+    {
+      "type": "medical_uncertainty",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Blood is sent to Guindy; result arrives only after twenty days with historical diagnostic wording `குதிரை வேக க்ஷயரோகக் காய்ச்சல்`.",
+      "translation_action": "Preserve delay and historical wording conservatively; do not modernize diagnosis beyond evidence."
+    },
+    {
+      "type": "domestic_memory",
+      "severity": "voice-critical",
+      "observation": "Coffee-at-bus-stand memory marks narrator's recognition of Padma's patience and his own hardness.",
+      "translation_action": "Preserve self-critique and change in behaviour."
+    },
+    {
+      "type": "literary_allusion",
+      "severity": "voice-critical",
+      "observation": "Palai-kali deer image becomes a self-accusation: even a deer gave shade to its mate, while he could not protect Padma.",
+      "translation_action": "Translate the embedded line functionally without importing an external canonical translation."
+    },
+    {
+      "type": "public_duty_conflict",
+      "severity": "voice-critical",
+      "observation": "Friend Arunachalam still urges the Pudukottai meeting after seeing Padma; narrator frames decision as `stone heart or sense of duty?` and says he himself does not know which won.",
+      "translation_action": "Preserve ambiguity and self-judgment."
+    },
+    {
+      "type": "death_scene",
+      "severity": "voice-critical",
+      "observation": "Return finds Padma dead at age twenty after three years of marriage; narrator kisses her forehead before assembled women.",
+      "translation_action": "Keep restraint, guilt and intimacy without embellishment."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
