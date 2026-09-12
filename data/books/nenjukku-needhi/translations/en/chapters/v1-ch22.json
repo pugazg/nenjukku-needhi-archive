@@ -1,0 +1,63 @@
+{
+  "id": "v1-ch22",
+  "lang": "en",
+  "volume": 1,
+  "tamil_title": "என் திருமணத்துக்கு நானே தலைமை தாங்கினேன்!",
+  "title": "I Presided Over My Own Wedding!",
+  "pages": {
+    "start": 117,
+    "end": 121
+  },
+  "status": "approved",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch22.json",
+    "blob_sha": "1f1c771f031c0054e793d20d55e4aec2953e927e",
+    "authority": "read-only"
+  },
+  "source_notes": "../source-notes/v1-ch22.json",
+  "translation_notes": [
+    "T1 fresh translation made directly from the Batch 004 pinned Tamil after P0; no existing English consulted.",
+    "T2 completed with 8 grouped source-checked revisions.",
+    "T3 completed with 5 grouped minor source-checked revisions.",
+    "Thought-structure audit passed 16/16 with 0 reordered, omitted or invented.",
+    "Terminology/cultural audit passed with one reader-clarity revision: the `mother-in-law's house` joke is explicitly identified as the colloquial jail pun; Thooku Medai, token picketing, Sangam hero/heroine, Ayya and source-led political names remain intact.",
+    "Final approval passed with no chapter-text changes. v1-ch22 is APPROVED / CLOSED."
+  ],
+  "paragraphs": [
+    "For my second marriage, my family searched in many places. After looking at girls from families with property, jewellery, comforts and opportunities, they finally selected a couple of possibilities and asked for my decision. I told them I did not want a bride from a wealthy household, and explained why.",
+    "A woman entering our house should not feel that she has fallen from a higher place into an ordinary one. She should not unconsciously grow arrogant that her husband must live on the prestige of her family. She should never have to wonder whether he married her or her family's money. Even if wealth made her slight her husband, she should not come to treat her mother-in-law or sisters-in-law like dust. Nor should she live forever in her natal home, treating her husband's house like a place to visit on holiday. And she should not come to resent a husband who, apart from party work, had no regular job and did not shoulder family responsibility—or feel that a motherless child had been tied to her head as a burden.",
+    "After thinking through all this, I said firmly that a girl from a middle-class family would be enough for me. My family chose Dayalu, daughter of Govindasamy of Thirumagalam, a small village near Poonthottam in Thanjavur district. Her elder brother Dakshinamurthi was deeply attached to Kazhagam principles and had gone to prison in movement struggles.",
+    "I said there was no need for me to see the girl in person; if there was a photograph, they could bring it. Apparently no photograph of her had ever been taken. My sisters returned after seeing her and pointed to four or five calendar pictures hanging in our house: \"Her height is like this picture; her forehead is like that one; her nose is like this one.\" That was how they described her.",
+    "The wedding date was fixed: 15 September 1948. At the time, no one knew that the date was Anna's birthday. It was also the day for which Periyar later called a one-day token anti-Hindi picket in front of schools across the country. His announcement came only after our invitations had been printed.",
+    "To meet the wedding expenses, I staged my play Thooku Medai in Tiruchirappalli under Anna's leadership and acted in it myself. I did not go around collecting donations. The amount left after the performance was eight hundred rupees. My family, expecting me to bring more, was disappointed. They borrowed a little besides and began making the wedding arrangements. The bride's family reached Tiruvarur the previous night.",
+    "A wedding pavilion was erected right at the entrance to my house. In the morning, music and drums went to bring the bride to the pavilion. Relatives and local friends gathered. To my surprise, a few local grandees also attended. I stood at the entrance welcoming people.",
+    "Then an anti-Hindi procession on its way to the high school for the token picket passed directly by my house. Emotion-filled slogans rose. Something surged within me. I joined the procession and marched away: \"Long live Periyar! Long live Tamil! Down with Hindi!\" The wedding music could not compete with those cries.",
+    "The high school was about four furlongs from my house, and I went all the way. Back at the wedding house came the cry: \"Where is the bridegroom?\" The bride waited for me in the bridal room for more than an hour. Fortunately, having learned patience on that first day itself, she has since grown used to tolerating however many hours—or days—I take to come home.",
+    "Unable to bear the murmuring from the bride's family, my friends and relatives searched the whole town for me and finally reached the picketing site. By then the protest had ended and we were returning. In many towns comrades had been arrested; in some, no one was. Tiruvarur was among the latter. Had I been arrested, the bridegroom would have gone to the so-called \"mother-in-law's house\"—the jail—instead of the bridal chamber! Amid the growling of relatives and friends, I reached the wedding platform.",
+    "Then arose the question: who would preside over the wedding? Two controversial names were proposed, with ten men arguing on each side. Suddenly I began speaking into the microphone: \"Elders! Friends! Because of the anti-Hindi token picket, Anna has been unable to come and preside over this wedding. Now the question is who should preside. In Sangam literature we meet the love-hero and the love-heroine. Therefore, for this wedding, my wife and I ourselves shall be the hero and heroine! We shall now exchange garlands.\" With that, we completed the marriage.",
+    "I then delivered the presidential address myself and invited T. K. Srinivasan, poet Ka. Mu. Sheriff and the other friends present to offer their greetings. Thus, in one fashion or another, my wedding was completed.",
+    "After the wedding my attention returned continuously to anti-Hindi propaganda. That year a stirring meeting against compulsory Hindi was held at St Mary's Hall in Madras. Thiru. Vi. Ka., Periyar, Arignar Anna, Silambu Selvar M. Po. Si., Bharathidasan and Maraimalai Adigal spoke in a way that called Tamil Nadu to rise. The bitterness that had grown between Anna and Periyar after Anna opposed Periyar's call to observe 15 August 1947 as a day of mourning began to soften as both worked together in the anti-Hindi struggle.",
+    "At Kumbakonam repression was unleashed against anti-Hindi volunteers. Blood flowed in the streets. Prison and torture once again became the reward received by Kazhagam members for opposing Hindi.",
+    "On 23 and 24 October 1948, a special Dravidar Kazhagam state conference against Hindi was held at Erode, with Anna presiding. Periyar and Anna were on the same platform—Anna as conference president, Ayya as the organizer. It was then that Periyar said, \"I have handed the key to the box to Anna.\" More than fifty thousand delegates gathered. The speeches of Periyar, Anna and Thiru. Vi. Ka. were memorable.",
+    "Thiru. Vi. Kalyanasundaranar roared that he and Periyar had once laboured to build the Congress, but that it had become a fortress of selfish interests; he said he did not wish to destroy the Congress of Gandhi or the Congress that had served the freedom struggle, but the Congress racing along a fascist path.",
+    "At that Erode conference I also heard a speech that wrung the heart: the final speech of Anjanenjan Alagirisami. He said he had read that after the conference people might have to go to prison and that some were calling it their last conference; but looking at his own health, he feared it might truly be his last. He had come, he said, to offer his final salute to his leader. He had been bedridden and could not return to movement work until his body recovered, a condition that caused him great pain. Yes. For Alagiri, it was indeed his last conference. He fell ill afterward and never rose again."
+  ],
+  "provenance": {
+    "method": "Fresh Tamil-to-English translation through P0/T1/T2/T3/structure/terminology/final approval; no existing-English drafting authority.",
+    "translation_plan": "docs/TRANSLATION_PLAN.md",
+    "pilot_method_review": "docs/PILOT_METHOD_REVIEW.md",
+    "voice_guide": "docs/KALAIGNAR_VOICE_GUIDE.md",
+    "source_review": "../source-notes/v1-ch22.json",
+    "t2_review": "../reviews/v1-ch22-t2.md",
+    "t3_review": "../reviews/v1-ch22-t3.md",
+    "thought_structure_review": "../reviews/v1-ch22-structure.md",
+    "terminology_review": "../reviews/v1-ch22-terminology.md",
+    "approval_review": "../reviews/v1-ch22-approval.md",
+    "unresolved_source_holds": 0,
+    "review_items": [],
+    "independent_english_frozen": true,
+    "next_gate": "closed"
+  }
+}
