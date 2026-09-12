@@ -1,0 +1,91 @@
+{
+  "id": "v1-ch22",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch22.json",
+    "blob_sha": "1f1c771f031c0054e793d20d55e4aec2953e927e",
+    "authority": "read-only"
+  },
+  "tamil_title": "என் திருமணத்துக்கு நானே தலைமை தாங்கினேன்!",
+  "pages": {
+    "start": 117,
+    "end": 121
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Keep title as metadata only."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "informational",
+      "observation": "No sentence requires a mandatory cross-unit join; paragraph reconstruction follows rhetoric rather than extraction units.",
+      "translation_action": "No artificial joins."
+    },
+    {
+      "type": "second_marriage",
+      "severity": "voice-critical",
+      "observation": "Narrator rejects a wealthy bride, chooses a middle-class family, and marries Dayalu without seeing her directly.",
+      "translation_action": "Preserve his stated reasons and family/social assumptions as authored."
+    },
+    {
+      "type": "date_and_picket",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Wedding fixed for 15 September 1948; only after invitations are printed does Periyar call a statewide anti-Hindi token picket for the same day.",
+      "translation_action": "Preserve chronology and coincidence."
+    },
+    {
+      "type": "wedding_funding",
+      "severity": "translation-sensitive",
+      "observation": "Thooku Medai is staged in Tiruchirappalli under Anna to raise wedding funds; surplus is ₹800.",
+      "translation_action": "Keep play title/source-led form and exact amount."
+    },
+    {
+      "type": "wedding_procession_collision",
+      "severity": "voice-critical",
+      "observation": "Anti-Hindi procession passes wedding house; groom joins it, bride waits over an hour, relatives search; narrator jokes about arrest and `மாமியார் வீடு`.",
+      "translation_action": "Preserve humour and clarify the jail pun without overexplaining."
+    },
+    {
+      "type": "self_presided_wedding",
+      "severity": "voice-critical",
+      "observation": "Dispute over who should preside leads narrator to invoke Sangam love hero/heroine and preside over his own wedding.",
+      "translation_action": "Preserve oral joke and self-respect style."
+    },
+    {
+      "type": "anti_hindi_chronology",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Post-wedding narrative moves to St Mary's Hall anti-Hindi meeting, Kumbakonam repression and Erode conference of 23–24 Oct 1948.",
+      "translation_action": "Preserve dates/leaders/source claims without external correction."
+    },
+    {
+      "type": "box_key_and_final_speech",
+      "severity": "voice-critical",
+      "observation": "Periyar says he has handed the `box key` to Anna; Thiru. Vi. Ka. attacks Congress; Alagirisami delivers what becomes his final conference speech.",
+      "translation_action": "Keep metaphor, quotations and retrospective finality."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
