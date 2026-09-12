@@ -1,0 +1,91 @@
+{
+  "id": "v1-ch23",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch23.json",
+    "blob_sha": "707a4613ae0491040d0f2b892e405dbd8f97f901",
+    "authority": "read-only"
+  },
+  "tamil_title": "பெரியார் - மணியம்மை திருமணம்",
+  "pages": {
+    "start": 122,
+    "end": 126
+  },
+  "extraction_unit_count": 5,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title.",
+      "translation_action": "Use title as metadata only."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Two joins: `புகை / வண்டி நிலையம்` and unit 4→5 after `ஏற்காடு சென்றது`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "periyar_thrift",
+      "severity": "voice-critical",
+      "observation": "Erode-conference travel-money anecdote presents Periyar's personal thrift humorously.",
+      "translation_action": "Preserve exact ₹80 + ₹50 sequence and comic avoidance."
+    },
+    {
+      "type": "alagiri_final_days",
+      "severity": "voice-critical",
+      "observation": "Anna raises treatment/family funds, gives ₹1000, Alagiri recognizes Anna's generosity, dies 28 March 1949; funeral/memorial/student conference follow.",
+      "translation_action": "Preserve affection, regret and source dates."
+    },
+    {
+      "type": "internal_conflict",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Periyar reacts to Karandai speeches by ordering Anbazhagan/Karunanidhi not invited and attributing their criticism to Anna.",
+      "translation_action": "Preserve as memoir claim."
+    },
+    {
+      "type": "family_fund",
+      "severity": "translation-sensitive",
+      "observation": "N. S. Krishnan event yields total ₹6000 for Alagiri family.",
+      "translation_action": "Keep exact amount and contributor role."
+    },
+    {
+      "type": "rajaji_meeting",
+      "severity": "authorial-fact-sensitive",
+      "observation": "14 May meeting between Periyar and then Governor-General Rajaji at Tiruvannamalai is presented as politically sensational and initially unexplained.",
+      "translation_action": "Preserve suspense and source framing."
+    },
+    {
+      "type": "successor_trust_marriage",
+      "severity": "translation-sensitive",
+      "observation": "Periyar's public statements discuss making Maniammai legal successor and creating a trust; memoir interprets `legal validity` wording as indicating marriage.",
+      "translation_action": "Distinguish quoted statement from narrator interpretation."
+    },
+    {
+      "type": "delegations_and_date",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Multiple delegations fail; marriage occurs 9 July 1949; DK executive meets 10 July, 32 of 46 attending.",
+      "translation_action": "Preserve dates/counts exactly."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
