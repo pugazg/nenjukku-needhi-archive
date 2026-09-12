@@ -1,0 +1,85 @@
+{
+  "id": "v1-ch27",
+  "source": {
+    "repository": "pugazg/kalaignar-autobiography",
+    "ref": "d6621b71256ae99b1c89b4f2091513dcc5f96626",
+    "path": "public/data/text/v1-ch27.json",
+    "blob_sha": "1079ad18a3d6958353c01004a5d9ba00df8e14cb",
+    "authority": "read-only"
+  },
+  "tamil_title": "கனிவு வென்றது!",
+  "pages": {
+    "start": 137,
+    "end": 139
+  },
+  "extraction_unit_count": 3,
+  "extraction_strategy": "wordjoiner",
+  "notes": [
+    {
+      "type": "title_repeat",
+      "severity": "informational",
+      "observation": "Unit 1 repeats the chapter title and begins with split `செ ன்னை`.",
+      "translation_action": "Use title as metadata; read securely as Chennai."
+    },
+    {
+      "type": "source_unit_join",
+      "severity": "meaning-sensitive",
+      "observation": "Unit 2 ends `தன்னுடைய கட்டிலில்` and unit 3 continues `போய்ப் படுத்துக் கொண்டு`.",
+      "translation_action": "Join continuously."
+    },
+    {
+      "type": "compassion_wins",
+      "severity": "voice-critical",
+      "observation": "Pavazhakkara Street meeting is framed as fire/earthquake/cyclone/volcano emotion overcome by Anna's tender speech, tears and compassion.",
+      "translation_action": "Preserve the contrast and the title's claim that tenderness/compassion won."
+    },
+    {
+      "type": "propaganda_committee",
+      "severity": "authorial-fact-sensitive",
+      "observation": "Anna tells Kalaignar he has been made a member of the propaganda committee.",
+      "translation_action": "Preserve as direct quoted appointment."
+    },
+    {
+      "type": "robinson_park_transition",
+      "severity": "authorial-fact-sensitive",
+      "observation": "First DMK meeting concludes in rain at Robinson Park, followed by Anna's late-night strategy discussion.",
+      "translation_action": "Preserve sequence from public founding meeting to intimate organizational work."
+    },
+    {
+      "type": "anna_working_conditions",
+      "severity": "voice-critical",
+      "observation": "Devarasa Mudaliar's hall has torn sofa, broken chairs, holey mats, dirty pillows; kara boondi, pakoda and single tea form the hourly feast.",
+      "translation_action": "Keep material modesty and affectionate irony of `Anna's royalty`."
+    },
+    {
+      "type": "lodge_snake",
+      "severity": "voice-critical",
+      "observation": "Kannadasan sleeps through repeated knocking; a small black cobra is found beneath a breakfast plate on Kalaignar's bed; guards kill it and warn there may be more young snakes.",
+      "translation_action": "Preserve comic suspense and concrete sequence without exaggerating zoological certainty."
+    },
+    {
+      "type": "bed_swap_comedy",
+      "severity": "voice-critical",
+      "observation": "Kalaignar asks Kannadasan to swap beds; Kannadasan calls him a coward and snores, leaving Kalaignar to sleep sitting in a chair with the light on.",
+      "translation_action": "Preserve dialogue, teasing friendship and punchline."
+    }
+  ],
+  "secondary_witnesses": [],
+  "external_contextual_evidence": [],
+  "non_authorial_exclusions": [],
+  "unresolved": [],
+  "review_items": [],
+  "status": "approved",
+  "gate_result": "pass",
+  "unresolved_source_holds": 0,
+  "next_gate": "closed",
+  "approval": {
+    "result": "approved",
+    "unresolved_source_holds": 0,
+    "unresolved_terminology_holds": 0,
+    "outstanding_review_items": 0,
+    "chapter_text_changes": 0,
+    "comparator_gate": "not-applicable-after-v1-ch01",
+    "formal_json_schema_validation": "not-available-empty-legacy-placeholder"
+  }
+}
